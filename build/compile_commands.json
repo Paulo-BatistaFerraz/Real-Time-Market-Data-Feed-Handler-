@@ -1,0 +1,44 @@
+[
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\handler\\main.cpp.obj -c D:\\market-data-feed-handler\\src\\handler\\main.cpp",
+  "file": "D:/market-data-feed-handler/src/handler/main.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/handler/main.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE @CMakeFiles/exchange_simulator.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\exchange_simulator.dir\\src\\simulator\\main.cpp.obj -c D:\\market-data-feed-handler\\src\\simulator\\main.cpp",
+  "file": "D:/market-data-feed-handler/src/simulator/main.cpp",
+  "output": "CMakeFiles/exchange_simulator.dir/src/simulator/main.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe  @CMakeFiles/run_tests.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_stub.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_stub.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_stub.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_stub.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/googletest-build/googlemock",
+  "command": "C:\\mingw64\\bin\\c++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c D:\\market-data-feed-handler\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "file": "D:/market-data-feed-handler/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/googletest-build/googlemock",
+  "command": "C:\\mingw64\\bin\\c++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c D:\\market-data-feed-handler\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "file": "D:/market-data-feed-handler/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/googletest-build/googletest",
+  "command": "C:\\mingw64\\bin\\c++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c D:\\market-data-feed-handler\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "file": "D:/market-data-feed-handler/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/googletest-build/googletest",
+  "command": "C:\\mingw64\\bin\\c++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c D:\\market-data-feed-handler\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "file": "D:/market-data-feed-handler/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+}
+]

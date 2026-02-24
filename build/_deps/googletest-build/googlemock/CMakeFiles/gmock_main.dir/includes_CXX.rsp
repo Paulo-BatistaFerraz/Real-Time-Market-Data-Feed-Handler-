@@ -1,0 +1,1 @@
+-isystem "D:/market-data-feed-handler/build/_deps/googletest-src/googlemock/include" -isystem "D:/market-data-feed-handler/build/_deps/googletest-src/googlemock" -isystem "D:/market-data-feed-handler/build/_deps/googletest-src/googletest/include" -isystem "D:/market-data-feed-handler/build/_deps/googletest-src/googletest"

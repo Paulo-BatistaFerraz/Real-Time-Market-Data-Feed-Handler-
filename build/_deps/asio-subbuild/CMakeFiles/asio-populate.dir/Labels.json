@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/market-data-feed-handler/build/_deps/asio-subbuild/CMakeFiles/asio-populate"
+		},
+		{
+			"file" : "D:/market-data-feed-handler/build/_deps/asio-subbuild/CMakeFiles/asio-populate.rule"
+		},
+		{
+			"file" : "D:/market-data-feed-handler/build/_deps/asio-subbuild/CMakeFiles/asio-populate-complete.rule"
+		},
+		{
+			"file" : "D:/market-data-feed-handler/build/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/asio-populate-build.rule"
+		},
+		{
+			"file" : "D:/market-data-feed-handler/build/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/asio-populate-configure.rule"
+		},
+		{
+			"file" : "D:/market-data-feed-handler/build/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/asio-populate-download.rule"
+		},
+		{
+			"file" : "D:/market-data-feed-handler/build/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/asio-populate-install.rule"
+		},
+		{
+			"file" : "D:/market-data-feed-handler/build/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/asio-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/market-data-feed-handler/build/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/asio-populate-patch.rule"
+		},
+		{
+			"file" : "D:/market-data-feed-handler/build/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/asio-populate-test.rule"
+		},
+		{
+			"file" : "D:/market-data-feed-handler/build/_deps/asio-subbuild/asio-populate-prefix/src/asio-populate-stamp/asio-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"asio-populate"
+		],
+		"name" : "asio-populate"
+	}
+}

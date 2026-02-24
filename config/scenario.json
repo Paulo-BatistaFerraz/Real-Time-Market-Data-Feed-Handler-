@@ -1,0 +1,15 @@
+{
+    "multicast_address": "239.1.1.1",
+    "port": 12345,
+    "symbols": ["AAPL", "MSFT", "GOOGL", "TSLA", "AMZN"],
+    "messages_per_second": 100000,
+    "duration_seconds": 30,
+    "seed": 42,
+    "initial_prices": {
+        "AAPL": 1850000,
+        "MSFT": 4100000,
+        "GOOGL": 1780000,
+        "TSLA": 2500000,
+        "AMZN": 1920000
+    }
+}
