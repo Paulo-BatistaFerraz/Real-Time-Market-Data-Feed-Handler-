@@ -2,6 +2,7 @@
 
 #include <cstdint>
 #include <cstring>
+#include <functional>
 
 namespace mdfh {
 
