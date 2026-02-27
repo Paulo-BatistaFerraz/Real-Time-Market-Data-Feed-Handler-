@@ -128,4 +128,38 @@ void cancel(OrderId id, Quantity qty);
 
 ---
 
-*Última atualização: 2026-02-27 — Task 2 (Protocol Messages)*
+### `static constexpr` — Constantes dentro de structs
+
+- `static` = pertence ao **tipo**, não a uma instância. Você acessa com `AddOrder::TYPE`, não precisa criar um objeto.
+- `constexpr` = resolvido em **tempo de compilação**. O compilador substitui pelo valor direto, sem custo em runtime.
+
+### `sizeof` dentro vs fora do struct
+
+Não pode usar `sizeof(AddOrder)` **dentro** do próprio `AddOrder` — o struct ainda não terminou de ser definido (tipo incompleto). Solução: coloca o número na mão e usa `static_assert` **depois** do struct pra verificar:
+
+```cpp
+struct AddOrder {
+    static constexpr uint16_t WIRE_SIZE = 36;  // hardcoded
+    // ... campos ...
+};
+static_assert(sizeof(MessageHeader) + sizeof(AddOrder) == AddOrder::WIRE_SIZE,
+    "AddOrder WIRE_SIZE mismatch");  // compilador verifica pra você
+```
+
+### `std::variant` — ParsedMessage
+
+Uma "caixa" que pode conter **qualquer um** dos 5 tipos de mensagem, mas só um de cada vez. O parser thread usa isso pra passar mensagens pro próximo estágio sem saber antecipadamente qual tipo vai ser.
+
+```cpp
+using ParsedMessage = std::variant<AddOrder, CancelOrder, ExecuteOrder, ReplaceOrder, TradeMessage>;
+```
+
+### `enum class` vs `char` solto
+
+- `char type = 'Q'` → compila, mas 'Q' não é tipo válido. Bug silencioso.
+- `MessageType type = 'Q'` → **erro de compilação**. O compilador te protege.
+- `: char` no final do enum diz que por baixo ocupa 1 byte, igual a um char.
+
+---
+
+*Última atualização: 2026-02-27 — Task 2 + início Task 3*
