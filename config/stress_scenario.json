@@ -1,0 +1,17 @@
+{
+  "symbols": [
+    { "name": "AAPL",  "start_price": 185.05, "volatility": 0.05, "tick_size": 0.01 },
+    { "name": "MSFT",  "start_price": 420.23, "volatility": 0.04, "tick_size": 0.01 },
+    { "name": "GOOGL", "start_price": 141.78, "volatility": 0.045, "tick_size": 0.01 },
+    { "name": "AMZN",  "start_price": 178.92, "volatility": 0.05, "tick_size": 0.01 },
+    { "name": "TSLA",  "start_price": 248.50, "volatility": 0.06, "tick_size": 0.05 },
+    { "name": "NVDA",  "start_price": 875.40, "volatility": 0.04, "tick_size": 0.01 },
+    { "name": "META",  "start_price": 505.60, "volatility": 0.03, "tick_size": 0.01 },
+    { "name": "JPM",   "start_price": 198.30, "volatility": 0.015, "tick_size": 0.01 }
+  ],
+  "msg_rate": 500000,
+  "duration_sec": 60,
+  "seed": 12345,
+  "multicast_ip": "239.255.0.1",
+  "port": 30001
+}

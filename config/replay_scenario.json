@@ -1,0 +1,11 @@
+{
+  "symbols": [
+    { "name": "TEST1", "start_price": 100.00, "volatility": 0.01, "tick_size": 0.01 },
+    { "name": "TEST2", "start_price": 50.00,  "volatility": 0.01, "tick_size": 0.01 }
+  ],
+  "msg_rate": 1000,
+  "duration_sec": 10,
+  "seed": 42,
+  "multicast_ip": "239.255.0.1",
+  "port": 30001
+}

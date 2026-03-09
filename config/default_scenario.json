@@ -1,0 +1,14 @@
+{
+  "symbols": [
+    { "name": "AAPL",  "start_price": 185.05, "volatility": 0.02, "tick_size": 0.01 },
+    { "name": "MSFT",  "start_price": 420.23, "volatility": 0.015, "tick_size": 0.01 },
+    { "name": "GOOGL", "start_price": 141.78, "volatility": 0.018, "tick_size": 0.01 },
+    { "name": "AMZN",  "start_price": 178.92, "volatility": 0.022, "tick_size": 0.01 },
+    { "name": "TSLA",  "start_price": 248.50, "volatility": 0.035, "tick_size": 0.05 }
+  ],
+  "msg_rate": 10000,
+  "duration_sec": 30,
+  "seed": 42,
+  "multicast_ip": "239.255.0.1",
+  "port": 30001
+}
