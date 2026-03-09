@@ -24,7 +24,7 @@ namespace mdfh{  //
         uint64_t timestamp; // nanoseconds since midnight
     };
 
-    enum class MessageType: char{ // classe chamada MessageType que é um char, enum e usado
+    enum class MessageType: char{ // classe chamada MessageType que é um char, enum e usado para def
         AddOrder = 'A', // represents different char for the message type
         CancelOrder = 'X',
         ExecuteOrder = 'E',

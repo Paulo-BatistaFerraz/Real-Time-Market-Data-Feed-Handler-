@@ -162,4 +162,34 @@ using ParsedMessage = std::variant<AddOrder, CancelOrder, ExecuteOrder, ReplaceO
 
 ---
 
-*Última atualização: 2026-02-27 — Task 2 + início Task 3*
+### `memcpy` — Cópia burra de bytes
+
+`std::memcpy(destino, origem, tamanho)` — pega N bytes de um lugar e cola em outro. Não interpreta, não transforma.
+
+No `encode`, usamos **duas vezes**:
+1. `memcpy #1` → copia o **header** (envelope) pro início do buffer
+2. `memcpy #2` → copia o **payload** (carta) logo depois do header
+
+No `decode_payload`, usamos **uma vez**:
+- Copia bytes do buffer de volta pra um struct (inverso)
+
+### Encoder — Resumo das funções
+
+| Função | O que faz |
+|---|---|
+| `encode` | struct → bytes (header + payload no buffer) |
+| `decode_payload` | bytes → struct (inverso do encode) |
+| `decode_header` | lê só o header de um buffer |
+| `peek_message_type` | olha o tipo da mensagem sem decodificar tudo |
+| `parse` | decodifica mensagem completa, usa switch pra criar o struct certo |
+
+### Feynman — Resumos em uma frase
+
+- **O projeto:** Dois programas — um manda dados pela rede como cartas (header = envelope, payload = carta), o outro recebe e lê.
+- **`#pragma pack(push, 1)`:** Tira os espaços vazios da caixa pra que os dois lados montem a caixa exatamente igual.
+- **`memcpy`:** Pega bytes de um lugar e cola em outro. No encode: copia header, depois payload pro buffer.
+- **`enum class`:** Legibilidade (`MessageType::AddOrder` vs `'A'`) + proteção do compilador (valor inválido não compila).
+
+---
+
+*Última atualização: 2026-02-27 — Task 2 completa + Task 3 (encoder) em progresso*

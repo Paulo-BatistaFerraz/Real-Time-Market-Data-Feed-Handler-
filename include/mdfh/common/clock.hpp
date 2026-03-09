@@ -19,7 +19,8 @@ struct Clock {
     // Nanoseconds since midnight (for protocol timestamps)
     static uint64_t nanos_since_midnight() {
         auto now = std::chrono::system_clock::now();
-        auto today = std::chrono::floor<std::chrono::days>(now);
+        using days = std::chrono::duration<int, std::ratio<86400>>;
+        auto today = std::chrono::floor<days>(now);
         auto since_midnight = now - today;
         return static_cast<uint64_t>(
             std::chrono::duration_cast<std::chrono::nanoseconds>(since_midnight).count()
