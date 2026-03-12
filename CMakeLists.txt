@@ -100,10 +100,12 @@ add_executable(feed_handler
     src/consumer/stats_collector.cpp
     src/consumer/console_display.cpp
     src/consumer/csv_logger.cpp
+    src/network/tcp_server.cpp
+    src/network/tcp_client.cpp
     src/infra/config.cpp
     src/infra/logging.cpp
 )
-target_link_libraries(feed_handler PRIVATE asio_lib nlohmann_json::nlohmann_json yaml-cpp::yaml-cpp spdlog::spdlog ws2_32)
+target_link_libraries(feed_handler PRIVATE asio_lib nlohmann_json::nlohmann_json yaml-cpp::yaml-cpp spdlog::spdlog ws2_32 mswsock)
 
 # --- exchange_simulator executable ---
 add_executable(exchange_simulator
