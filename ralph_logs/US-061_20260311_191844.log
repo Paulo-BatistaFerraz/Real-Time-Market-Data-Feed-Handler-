@@ -1,0 +1,12 @@
+All 272 tests pass (including all 54 new ones).
+
+## Acceptance Criteria
+
+- **`StrategyEngine::on_signal(Signal)` feeds signal to all active strategies, collects Decisions** ΓÇö PASS (already implemented, tested in `EngineOnSignalFansToActiveStrategies`)
+- **`StrategyEngine::enable(name)` / `disable(name)` toggles strategies** ΓÇö PASS (added to header + impl, tested in `EngineEnableDisable`)
+- **`StrategyEngine::configure(name, Config)` updates strategy parameters** ΓÇö PASS (added to header + impl, tested in `EngineConfigureUpdatesStrategy`)
+- **Test PositionTracker correctly tracks buys/sells** ΓÇö PASS (11 tests covering buys, sells, net tracking, multiple symbols, reset)
+- **Test PnLCalculator computes realized PnL on round-trip trades** ΓÇö PASS (14 tests covering long/short round-trips, FIFO, partial closes, mark-to-market, reversals)
+- **Test OrderSizer respects max position limits** ΓÇö PASS (17 tests covering all 3 sizing methods, max position clamping, Kelly cap, zero-edge)
+- **All tests pass** ΓÇö PASS (272/272)
+- **Build passes** ΓÇö PASS

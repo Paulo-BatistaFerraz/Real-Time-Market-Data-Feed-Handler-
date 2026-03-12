@@ -1,0 +1,10 @@
+All 218 tests pass. Build and tests are clean.
+
+## Acceptance Criteria
+
+- **Configurable: signal_name, buy_threshold, sell_threshold, exit_threshold, max_position** ΓÇö PASS (all five parameters in `configure()` with config key defaults)
+- **Buys when signal > buy_threshold, sells when signal < sell_threshold** ΓÇö PASS (entry logic at lines 96-117 of signal_threshold.cpp)
+- **Exits when signal crosses back through exit_threshold** ΓÇö PASS (exit logic at lines 66-86: longs exit when strength <= exit_threshold, shorts exit when strength >= -exit_threshold)
+- **Works with any registered signal** ΓÇö PASS (`matches_signal()` filters by configured signal_name; unknown names accept all signal types as a generic fallback)
+- **Extends StrategyBase** ΓÇö PASS (`SignalThresholdStrategy : public StrategyBase`)
+- **Build passes** ΓÇö PASS (clean build, 218 tests pass)

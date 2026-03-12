@@ -83,19 +83,378 @@ CMakeFiles/feed_handler.dir/src/handler/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/handler/main.cpp.s"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\handler\main.cpp -o CMakeFiles\feed_handler.dir\src\handler\main.cpp.s
 
+CMakeFiles/feed_handler.dir/src/handler/network_stage.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/handler/network_stage.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/handler/network_stage.cpp.obj: D:/market-data-feed-handler/src/handler/network_stage.cpp
+CMakeFiles/feed_handler.dir/src/handler/network_stage.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/feed_handler.dir/src/handler/network_stage.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/handler/network_stage.cpp.obj -MF CMakeFiles\feed_handler.dir\src\handler\network_stage.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\handler\network_stage.cpp.obj -c D:\market-data-feed-handler\src\handler\network_stage.cpp
+
+CMakeFiles/feed_handler.dir/src/handler/network_stage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/handler/network_stage.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\handler\network_stage.cpp > CMakeFiles\feed_handler.dir\src\handler\network_stage.cpp.i
+
+CMakeFiles/feed_handler.dir/src/handler/network_stage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/handler/network_stage.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\handler\network_stage.cpp -o CMakeFiles\feed_handler.dir\src\handler\network_stage.cpp.s
+
+CMakeFiles/feed_handler.dir/src/handler/parser_stage.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/handler/parser_stage.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/handler/parser_stage.cpp.obj: D:/market-data-feed-handler/src/handler/parser_stage.cpp
+CMakeFiles/feed_handler.dir/src/handler/parser_stage.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/feed_handler.dir/src/handler/parser_stage.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/handler/parser_stage.cpp.obj -MF CMakeFiles\feed_handler.dir\src\handler\parser_stage.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\handler\parser_stage.cpp.obj -c D:\market-data-feed-handler\src\handler\parser_stage.cpp
+
+CMakeFiles/feed_handler.dir/src/handler/parser_stage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/handler/parser_stage.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\handler\parser_stage.cpp > CMakeFiles\feed_handler.dir\src\handler\parser_stage.cpp.i
+
+CMakeFiles/feed_handler.dir/src/handler/parser_stage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/handler/parser_stage.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\handler\parser_stage.cpp -o CMakeFiles\feed_handler.dir\src\handler\parser_stage.cpp.s
+
+CMakeFiles/feed_handler.dir/src/handler/book_stage.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/handler/book_stage.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/handler/book_stage.cpp.obj: D:/market-data-feed-handler/src/handler/book_stage.cpp
+CMakeFiles/feed_handler.dir/src/handler/book_stage.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/feed_handler.dir/src/handler/book_stage.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/handler/book_stage.cpp.obj -MF CMakeFiles\feed_handler.dir\src\handler\book_stage.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\handler\book_stage.cpp.obj -c D:\market-data-feed-handler\src\handler\book_stage.cpp
+
+CMakeFiles/feed_handler.dir/src/handler/book_stage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/handler/book_stage.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\handler\book_stage.cpp > CMakeFiles\feed_handler.dir\src\handler\book_stage.cpp.i
+
+CMakeFiles/feed_handler.dir/src/handler/book_stage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/handler/book_stage.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\handler\book_stage.cpp -o CMakeFiles\feed_handler.dir\src\handler\book_stage.cpp.s
+
+CMakeFiles/feed_handler.dir/src/handler/consumer_stage.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/handler/consumer_stage.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/handler/consumer_stage.cpp.obj: D:/market-data-feed-handler/src/handler/consumer_stage.cpp
+CMakeFiles/feed_handler.dir/src/handler/consumer_stage.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/feed_handler.dir/src/handler/consumer_stage.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/handler/consumer_stage.cpp.obj -MF CMakeFiles\feed_handler.dir\src\handler\consumer_stage.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\handler\consumer_stage.cpp.obj -c D:\market-data-feed-handler\src\handler\consumer_stage.cpp
+
+CMakeFiles/feed_handler.dir/src/handler/consumer_stage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/handler/consumer_stage.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\handler\consumer_stage.cpp > CMakeFiles\feed_handler.dir\src\handler\consumer_stage.cpp.i
+
+CMakeFiles/feed_handler.dir/src/handler/consumer_stage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/handler/consumer_stage.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\handler\consumer_stage.cpp -o CMakeFiles\feed_handler.dir\src\handler\consumer_stage.cpp.s
+
+CMakeFiles/feed_handler.dir/src/core/pipeline.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/core/pipeline.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/core/pipeline.cpp.obj: D:/market-data-feed-handler/src/core/pipeline.cpp
+CMakeFiles/feed_handler.dir/src/core/pipeline.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/feed_handler.dir/src/core/pipeline.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/core/pipeline.cpp.obj -MF CMakeFiles\feed_handler.dir\src\core\pipeline.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\core\pipeline.cpp.obj -c D:\market-data-feed-handler\src\core\pipeline.cpp
+
+CMakeFiles/feed_handler.dir/src/core/pipeline.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/core/pipeline.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\core\pipeline.cpp > CMakeFiles\feed_handler.dir\src\core\pipeline.cpp.i
+
+CMakeFiles/feed_handler.dir/src/core/pipeline.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/core/pipeline.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\core\pipeline.cpp -o CMakeFiles\feed_handler.dir\src\core\pipeline.cpp.s
+
+CMakeFiles/feed_handler.dir/src/network/multicast_sender.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/network/multicast_sender.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/network/multicast_sender.cpp.obj: D:/market-data-feed-handler/src/network/multicast_sender.cpp
+CMakeFiles/feed_handler.dir/src/network/multicast_sender.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/feed_handler.dir/src/network/multicast_sender.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/network/multicast_sender.cpp.obj -MF CMakeFiles\feed_handler.dir\src\network\multicast_sender.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\network\multicast_sender.cpp.obj -c D:\market-data-feed-handler\src\network\multicast_sender.cpp
+
+CMakeFiles/feed_handler.dir/src/network/multicast_sender.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/network/multicast_sender.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\network\multicast_sender.cpp > CMakeFiles\feed_handler.dir\src\network\multicast_sender.cpp.i
+
+CMakeFiles/feed_handler.dir/src/network/multicast_sender.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/network/multicast_sender.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\network\multicast_sender.cpp -o CMakeFiles\feed_handler.dir\src\network\multicast_sender.cpp.s
+
+CMakeFiles/feed_handler.dir/src/network/multicast_receiver.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/network/multicast_receiver.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/network/multicast_receiver.cpp.obj: D:/market-data-feed-handler/src/network/multicast_receiver.cpp
+CMakeFiles/feed_handler.dir/src/network/multicast_receiver.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/feed_handler.dir/src/network/multicast_receiver.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/network/multicast_receiver.cpp.obj -MF CMakeFiles\feed_handler.dir\src\network\multicast_receiver.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\network\multicast_receiver.cpp.obj -c D:\market-data-feed-handler\src\network\multicast_receiver.cpp
+
+CMakeFiles/feed_handler.dir/src/network/multicast_receiver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/network/multicast_receiver.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\network\multicast_receiver.cpp > CMakeFiles\feed_handler.dir\src\network\multicast_receiver.cpp.i
+
+CMakeFiles/feed_handler.dir/src/network/multicast_receiver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/network/multicast_receiver.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\network\multicast_receiver.cpp -o CMakeFiles\feed_handler.dir\src\network\multicast_receiver.cpp.s
+
+CMakeFiles/feed_handler.dir/src/protocol/frame_parser.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/protocol/frame_parser.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/protocol/frame_parser.cpp.obj: D:/market-data-feed-handler/src/protocol/frame_parser.cpp
+CMakeFiles/feed_handler.dir/src/protocol/frame_parser.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/feed_handler.dir/src/protocol/frame_parser.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/protocol/frame_parser.cpp.obj -MF CMakeFiles\feed_handler.dir\src\protocol\frame_parser.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\protocol\frame_parser.cpp.obj -c D:\market-data-feed-handler\src\protocol\frame_parser.cpp
+
+CMakeFiles/feed_handler.dir/src/protocol/frame_parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/protocol/frame_parser.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\protocol\frame_parser.cpp > CMakeFiles\feed_handler.dir\src\protocol\frame_parser.cpp.i
+
+CMakeFiles/feed_handler.dir/src/protocol/frame_parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/protocol/frame_parser.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\protocol\frame_parser.cpp -o CMakeFiles\feed_handler.dir\src\protocol\frame_parser.cpp.s
+
+CMakeFiles/feed_handler.dir/src/protocol/validator.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/protocol/validator.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/protocol/validator.cpp.obj: D:/market-data-feed-handler/src/protocol/validator.cpp
+CMakeFiles/feed_handler.dir/src/protocol/validator.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/feed_handler.dir/src/protocol/validator.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/protocol/validator.cpp.obj -MF CMakeFiles\feed_handler.dir\src\protocol\validator.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\protocol\validator.cpp.obj -c D:\market-data-feed-handler\src\protocol\validator.cpp
+
+CMakeFiles/feed_handler.dir/src/protocol/validator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/protocol/validator.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\protocol\validator.cpp > CMakeFiles\feed_handler.dir\src\protocol\validator.cpp.i
+
+CMakeFiles/feed_handler.dir/src/protocol/validator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/protocol/validator.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\protocol\validator.cpp -o CMakeFiles\feed_handler.dir\src\protocol\validator.cpp.s
+
+CMakeFiles/feed_handler.dir/src/protocol/sequence.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/protocol/sequence.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/protocol/sequence.cpp.obj: D:/market-data-feed-handler/src/protocol/sequence.cpp
+CMakeFiles/feed_handler.dir/src/protocol/sequence.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/feed_handler.dir/src/protocol/sequence.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/protocol/sequence.cpp.obj -MF CMakeFiles\feed_handler.dir\src\protocol\sequence.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\protocol\sequence.cpp.obj -c D:\market-data-feed-handler\src\protocol\sequence.cpp
+
+CMakeFiles/feed_handler.dir/src/protocol/sequence.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/protocol/sequence.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\protocol\sequence.cpp > CMakeFiles\feed_handler.dir\src\protocol\sequence.cpp.i
+
+CMakeFiles/feed_handler.dir/src/protocol/sequence.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/protocol/sequence.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\protocol\sequence.cpp -o CMakeFiles\feed_handler.dir\src\protocol\sequence.cpp.s
+
+CMakeFiles/feed_handler.dir/src/protocol/batcher.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/protocol/batcher.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/protocol/batcher.cpp.obj: D:/market-data-feed-handler/src/protocol/batcher.cpp
+CMakeFiles/feed_handler.dir/src/protocol/batcher.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/feed_handler.dir/src/protocol/batcher.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/protocol/batcher.cpp.obj -MF CMakeFiles\feed_handler.dir\src\protocol\batcher.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\protocol\batcher.cpp.obj -c D:\market-data-feed-handler\src\protocol\batcher.cpp
+
+CMakeFiles/feed_handler.dir/src/protocol/batcher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/protocol/batcher.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\protocol\batcher.cpp > CMakeFiles\feed_handler.dir\src\protocol\batcher.cpp.i
+
+CMakeFiles/feed_handler.dir/src/protocol/batcher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/protocol/batcher.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\protocol\batcher.cpp -o CMakeFiles\feed_handler.dir\src\protocol\batcher.cpp.s
+
+CMakeFiles/feed_handler.dir/src/core/order_store.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/core/order_store.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/core/order_store.cpp.obj: D:/market-data-feed-handler/src/core/order_store.cpp
+CMakeFiles/feed_handler.dir/src/core/order_store.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/feed_handler.dir/src/core/order_store.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/core/order_store.cpp.obj -MF CMakeFiles\feed_handler.dir\src\core\order_store.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\core\order_store.cpp.obj -c D:\market-data-feed-handler\src\core\order_store.cpp
+
+CMakeFiles/feed_handler.dir/src/core/order_store.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/core/order_store.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\core\order_store.cpp > CMakeFiles\feed_handler.dir\src\core\order_store.cpp.i
+
+CMakeFiles/feed_handler.dir/src/core/order_store.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/core/order_store.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\core\order_store.cpp -o CMakeFiles\feed_handler.dir\src\core\order_store.cpp.s
+
+CMakeFiles/feed_handler.dir/src/core/order_book.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/core/order_book.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/core/order_book.cpp.obj: D:/market-data-feed-handler/src/core/order_book.cpp
+CMakeFiles/feed_handler.dir/src/core/order_book.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/feed_handler.dir/src/core/order_book.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/core/order_book.cpp.obj -MF CMakeFiles\feed_handler.dir\src\core\order_book.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\core\order_book.cpp.obj -c D:\market-data-feed-handler\src\core\order_book.cpp
+
+CMakeFiles/feed_handler.dir/src/core/order_book.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/core/order_book.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\core\order_book.cpp > CMakeFiles\feed_handler.dir\src\core\order_book.cpp.i
+
+CMakeFiles/feed_handler.dir/src/core/order_book.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/core/order_book.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\core\order_book.cpp -o CMakeFiles\feed_handler.dir\src\core\order_book.cpp.s
+
+CMakeFiles/feed_handler.dir/src/core/book_manager.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/core/book_manager.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/core/book_manager.cpp.obj: D:/market-data-feed-handler/src/core/book_manager.cpp
+CMakeFiles/feed_handler.dir/src/core/book_manager.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/feed_handler.dir/src/core/book_manager.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/core/book_manager.cpp.obj -MF CMakeFiles\feed_handler.dir\src\core\book_manager.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\core\book_manager.cpp.obj -c D:\market-data-feed-handler\src\core\book_manager.cpp
+
+CMakeFiles/feed_handler.dir/src/core/book_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/core/book_manager.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\core\book_manager.cpp > CMakeFiles\feed_handler.dir\src\core\book_manager.cpp.i
+
+CMakeFiles/feed_handler.dir/src/core/book_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/core/book_manager.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\core\book_manager.cpp -o CMakeFiles\feed_handler.dir\src\core\book_manager.cpp.s
+
+CMakeFiles/feed_handler.dir/src/consumer/latency_histogram.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/consumer/latency_histogram.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/consumer/latency_histogram.cpp.obj: D:/market-data-feed-handler/src/consumer/latency_histogram.cpp
+CMakeFiles/feed_handler.dir/src/consumer/latency_histogram.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/feed_handler.dir/src/consumer/latency_histogram.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/consumer/latency_histogram.cpp.obj -MF CMakeFiles\feed_handler.dir\src\consumer\latency_histogram.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\consumer\latency_histogram.cpp.obj -c D:\market-data-feed-handler\src\consumer\latency_histogram.cpp
+
+CMakeFiles/feed_handler.dir/src/consumer/latency_histogram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/consumer/latency_histogram.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\consumer\latency_histogram.cpp > CMakeFiles\feed_handler.dir\src\consumer\latency_histogram.cpp.i
+
+CMakeFiles/feed_handler.dir/src/consumer/latency_histogram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/consumer/latency_histogram.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\consumer\latency_histogram.cpp -o CMakeFiles\feed_handler.dir\src\consumer\latency_histogram.cpp.s
+
+CMakeFiles/feed_handler.dir/src/consumer/throughput_tracker.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/consumer/throughput_tracker.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/consumer/throughput_tracker.cpp.obj: D:/market-data-feed-handler/src/consumer/throughput_tracker.cpp
+CMakeFiles/feed_handler.dir/src/consumer/throughput_tracker.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/feed_handler.dir/src/consumer/throughput_tracker.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/consumer/throughput_tracker.cpp.obj -MF CMakeFiles\feed_handler.dir\src\consumer\throughput_tracker.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\consumer\throughput_tracker.cpp.obj -c D:\market-data-feed-handler\src\consumer\throughput_tracker.cpp
+
+CMakeFiles/feed_handler.dir/src/consumer/throughput_tracker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/consumer/throughput_tracker.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\consumer\throughput_tracker.cpp > CMakeFiles\feed_handler.dir\src\consumer\throughput_tracker.cpp.i
+
+CMakeFiles/feed_handler.dir/src/consumer/throughput_tracker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/consumer/throughput_tracker.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\consumer\throughput_tracker.cpp -o CMakeFiles\feed_handler.dir\src\consumer\throughput_tracker.cpp.s
+
+CMakeFiles/feed_handler.dir/src/consumer/stats_collector.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/consumer/stats_collector.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/consumer/stats_collector.cpp.obj: D:/market-data-feed-handler/src/consumer/stats_collector.cpp
+CMakeFiles/feed_handler.dir/src/consumer/stats_collector.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/feed_handler.dir/src/consumer/stats_collector.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/consumer/stats_collector.cpp.obj -MF CMakeFiles\feed_handler.dir\src\consumer\stats_collector.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\consumer\stats_collector.cpp.obj -c D:\market-data-feed-handler\src\consumer\stats_collector.cpp
+
+CMakeFiles/feed_handler.dir/src/consumer/stats_collector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/consumer/stats_collector.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\consumer\stats_collector.cpp > CMakeFiles\feed_handler.dir\src\consumer\stats_collector.cpp.i
+
+CMakeFiles/feed_handler.dir/src/consumer/stats_collector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/consumer/stats_collector.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\consumer\stats_collector.cpp -o CMakeFiles\feed_handler.dir\src\consumer\stats_collector.cpp.s
+
+CMakeFiles/feed_handler.dir/src/consumer/console_display.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/consumer/console_display.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/consumer/console_display.cpp.obj: D:/market-data-feed-handler/src/consumer/console_display.cpp
+CMakeFiles/feed_handler.dir/src/consumer/console_display.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/feed_handler.dir/src/consumer/console_display.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/consumer/console_display.cpp.obj -MF CMakeFiles\feed_handler.dir\src\consumer\console_display.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\consumer\console_display.cpp.obj -c D:\market-data-feed-handler\src\consumer\console_display.cpp
+
+CMakeFiles/feed_handler.dir/src/consumer/console_display.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/consumer/console_display.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\consumer\console_display.cpp > CMakeFiles\feed_handler.dir\src\consumer\console_display.cpp.i
+
+CMakeFiles/feed_handler.dir/src/consumer/console_display.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/consumer/console_display.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\consumer\console_display.cpp -o CMakeFiles\feed_handler.dir\src\consumer\console_display.cpp.s
+
+CMakeFiles/feed_handler.dir/src/consumer/csv_logger.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/consumer/csv_logger.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/consumer/csv_logger.cpp.obj: D:/market-data-feed-handler/src/consumer/csv_logger.cpp
+CMakeFiles/feed_handler.dir/src/consumer/csv_logger.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/feed_handler.dir/src/consumer/csv_logger.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/consumer/csv_logger.cpp.obj -MF CMakeFiles\feed_handler.dir\src\consumer\csv_logger.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\consumer\csv_logger.cpp.obj -c D:\market-data-feed-handler\src\consumer\csv_logger.cpp
+
+CMakeFiles/feed_handler.dir/src/consumer/csv_logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/consumer/csv_logger.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\consumer\csv_logger.cpp > CMakeFiles\feed_handler.dir\src\consumer\csv_logger.cpp.i
+
+CMakeFiles/feed_handler.dir/src/consumer/csv_logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/consumer/csv_logger.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\consumer\csv_logger.cpp -o CMakeFiles\feed_handler.dir\src\consumer\csv_logger.cpp.s
+
+CMakeFiles/feed_handler.dir/src/infra/config.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/infra/config.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/infra/config.cpp.obj: D:/market-data-feed-handler/src/infra/config.cpp
+CMakeFiles/feed_handler.dir/src/infra/config.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/feed_handler.dir/src/infra/config.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/infra/config.cpp.obj -MF CMakeFiles\feed_handler.dir\src\infra\config.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\infra\config.cpp.obj -c D:\market-data-feed-handler\src\infra\config.cpp
+
+CMakeFiles/feed_handler.dir/src/infra/config.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/infra/config.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\infra\config.cpp > CMakeFiles\feed_handler.dir\src\infra\config.cpp.i
+
+CMakeFiles/feed_handler.dir/src/infra/config.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/infra/config.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\infra\config.cpp -o CMakeFiles\feed_handler.dir\src\infra\config.cpp.s
+
+CMakeFiles/feed_handler.dir/src/infra/logging.cpp.obj: CMakeFiles/feed_handler.dir/flags.make
+CMakeFiles/feed_handler.dir/src/infra/logging.cpp.obj: CMakeFiles/feed_handler.dir/includes_CXX.rsp
+CMakeFiles/feed_handler.dir/src/infra/logging.cpp.obj: D:/market-data-feed-handler/src/infra/logging.cpp
+CMakeFiles/feed_handler.dir/src/infra/logging.cpp.obj: CMakeFiles/feed_handler.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/feed_handler.dir/src/infra/logging.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/feed_handler.dir/src/infra/logging.cpp.obj -MF CMakeFiles\feed_handler.dir\src\infra\logging.cpp.obj.d -o CMakeFiles\feed_handler.dir\src\infra\logging.cpp.obj -c D:\market-data-feed-handler\src\infra\logging.cpp
+
+CMakeFiles/feed_handler.dir/src/infra/logging.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/feed_handler.dir/src/infra/logging.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\infra\logging.cpp > CMakeFiles\feed_handler.dir\src\infra\logging.cpp.i
+
+CMakeFiles/feed_handler.dir/src/infra/logging.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/feed_handler.dir/src/infra/logging.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\infra\logging.cpp -o CMakeFiles\feed_handler.dir\src\infra\logging.cpp.s
+
 # Object files for target feed_handler
 feed_handler_OBJECTS = \
-"CMakeFiles/feed_handler.dir/src/handler/main.cpp.obj"
+"CMakeFiles/feed_handler.dir/src/handler/main.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/handler/network_stage.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/handler/parser_stage.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/handler/book_stage.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/handler/consumer_stage.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/core/pipeline.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/network/multicast_sender.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/network/multicast_receiver.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/protocol/frame_parser.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/protocol/validator.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/protocol/sequence.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/protocol/batcher.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/core/order_store.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/core/order_book.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/core/book_manager.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/consumer/latency_histogram.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/consumer/throughput_tracker.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/consumer/stats_collector.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/consumer/console_display.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/consumer/csv_logger.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/infra/config.cpp.obj" \
+"CMakeFiles/feed_handler.dir/src/infra/logging.cpp.obj"
 
 # External object files for target feed_handler
 feed_handler_EXTERNAL_OBJECTS =
 
 feed_handler.exe: CMakeFiles/feed_handler.dir/src/handler/main.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/handler/network_stage.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/handler/parser_stage.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/handler/book_stage.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/handler/consumer_stage.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/core/pipeline.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/network/multicast_sender.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/network/multicast_receiver.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/protocol/frame_parser.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/protocol/validator.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/protocol/sequence.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/protocol/batcher.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/core/order_store.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/core/order_book.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/core/book_manager.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/consumer/latency_histogram.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/consumer/throughput_tracker.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/consumer/stats_collector.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/consumer/console_display.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/consumer/csv_logger.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/infra/config.cpp.obj
+feed_handler.exe: CMakeFiles/feed_handler.dir/src/infra/logging.cpp.obj
 feed_handler.exe: CMakeFiles/feed_handler.dir/build.make
+feed_handler.exe: _deps/yaml-cpp-build/libyaml-cpp.a
+feed_handler.exe: _deps/spdlog-build/libspdlog.a
 feed_handler.exe: CMakeFiles/feed_handler.dir/linkLibs.rsp
 feed_handler.exe: CMakeFiles/feed_handler.dir/objects1.rsp
 feed_handler.exe: CMakeFiles/feed_handler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable feed_handler.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable feed_handler.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\feed_handler.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

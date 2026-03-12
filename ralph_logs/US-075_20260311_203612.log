@@ -1,0 +1,15 @@
+Build is clean ΓÇö all targets built successfully with no errors.
+
+## Acceptance Criteria
+
+- **Parametric VaR: assumes normal returns, VaR = position * volatility * z_score * sqrt(holding_period)** ΓÇö **PASS**. Implemented in `compute()` at line 70 of `var_calculator.cpp`: `var = abs(position_value) * vol * z * sqrt_hp`.
+
+- **Configurable: confidence level (95%, 99%), holding period (1 day), lookback for volatility** ΓÇö **PASS**. `VaRConfig` struct has `confidence_level`, `holding_period_days`, and `lookback_periods` with defaults (0.95, 1, 20). Setters provided: `set_confidence()`, `set_holding_period()`, `set_lookback()`. Z-scores for 95% (1.645) and 99% (2.326) are provided with a general approximation fallback.
+
+- **Computes per-symbol and portfolio VaR** ΓÇö **PASS**. `compute()` returns `PortfolioVaRResult` containing `per_symbol` vector of `SymbolVaR` entries and a `portfolio_var` total.
+
+- **Portfolio VaR accounts for correlations (if correlation matrix provided) or assumes independence** ΓÇö **PASS**. When correlations are set via `set_correlation()`, portfolio VaR uses `sqrt(sum_i sum_j VaR_i * VaR_j * corr(i,j))`. Without correlations, uses independence: `sqrt(sum VaR_i^2)`.
+
+- **Returns VaR in dollar terms** ΓÇö **PASS**. All VaR values (`var_dollars`, `portfolio_var`, `undiversified_var`) are in dollar terms, computed from position quantity * price * vol * z * sqrt(hp).
+
+- **Build passes** ΓÇö **PASS**. All targets compile and link cleanly with no errors.

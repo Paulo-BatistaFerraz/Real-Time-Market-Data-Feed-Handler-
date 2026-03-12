@@ -1,0 +1,15 @@
+All 159 tests pass. Implementation is complete.
+
+## Acceptance Criteria
+
+- **`RegimeDetector` classifies market into: `Trending`, `Ranging`, `Volatile`** ΓÇö PASS. `MarketRegime` enum with three values; `detect()` selects the highest-scoring regime.
+
+- **Uses combination of: ADX-like directional strength, volatility level, autocorrelation of returns** ΓÇö PASS. `compute_trending_score()` uses `directional_strength` (70%) + `autocorrelation` (30%); `compute_volatile_score()` uses `volatility` + negative-autocorrelation whipsaw boost; `compute_ranging_score()` is the inverse of the other two.
+
+- **`detect(features)` returns current regime with confidence score** ΓÇö PASS. Returns `RegimeResult{regime, confidence}` where confidence is derived from the margin between top two scores, normalized to [0, 1].
+
+- **Strategies can query regime to enable/disable themselves** ΓÇö PASS. `is_regime(MarketRegime)` returns bool; `current_regime()` and `confidence()` also available.
+
+- **Hysteresis: regime doesn't flicker on borderline values** ΓÇö PASS. The current regime receives a configurable `hysteresis_` bonus (default 0.1) to its adjusted score, making it "sticky" and requiring a competing regime to clearly dominate before switching.
+
+- **Build passes** ΓÇö PASS. Clean build with no errors, all 159 existing tests pass.

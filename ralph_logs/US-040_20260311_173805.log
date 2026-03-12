@@ -1,0 +1,10 @@
+Build passes cleanly. Here's the acceptance criteria status:
+
+| Criterion | Status |
+|---|---|
+| Implements Parkinson estimator (high-low based): `vol = sqrt(1/(4*n*ln2) * sum((ln(high/low))^2))` | **PASS** ΓÇö `recompute()` at line 64-72 of `volatility_estimator.cpp`, with annualization factor |
+| Implements Yang-Zhang estimator (open-close-high-low) | **PASS** ΓÇö `recompute()` at lines 74-128, uses overnight variance, close-to-close variance, and Rogers-Satchell variance |
+| Configurable window size | **PASS** ΓÇö Constructor parameter `window_size`, default 20 |
+| Annualization factor configurable | **PASS** ΓÇö Constructor parameter `annualization_factor`, default 252.0 |
+| Returns 0 if insufficient data | **PASS** ΓÇö Returns 0 for Parkinson when `n < 2`, Yang-Zhang when `n < 3` |
+| Build passes | **PASS** ΓÇö Clean compile with no warnings |

@@ -1,0 +1,13 @@
+Build passes cleanly with zero errors and zero warnings.
+
+---
+
+## Acceptance Criteria Results
+
+- [x] **`FeatureStore` stores rolling window of FeatureVectors (configurable depth)** ΓÇö PASS: Constructor takes `max_depth`, stores in `std::deque<FeatureVector>`
+- [x] **`push(FeatureVector)` adds new observation, evicts oldest if full** ΓÇö PASS: `push()` calls `pop_front()` when `size >= max_depth_`
+- [x] **`get_window(n)` returns last n observations as matrix (for model input)** ΓÇö PASS: Returns `vector<FeatureVector>` of last n entries; also provides `get_matrix()` for numeric 2D representation with consistent column ordering
+- [x] **`FeatureNormalizer` uses Welford's online algorithm for running mean/variance** ΓÇö PASS: `update()` implements the exact Welford recurrence: `delta = value - mean; mean += delta/count; delta2 = value - mean; m2 += delta * delta2`
+- [x] **`normalize(raw_value)` returns `(value - mean) / std`** ΓÇö PASS: Returns `(raw_value - mean) / stddev`, with 0 for insufficient data or zero variance
+- [x] **`update(value)` updates running statistics** ΓÇö PASS: Both single-feature `update(name, value)` and bulk `update(FeatureVector)` forms
+- [x] **Build passes** ΓÇö PASS: Clean build, no errors or warnings

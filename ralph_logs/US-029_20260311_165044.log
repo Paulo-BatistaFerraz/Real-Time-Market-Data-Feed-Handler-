@@ -1,0 +1,10 @@
+Migration complete. Here's the acceptance criteria status:
+
+| Criterion | Status |
+|---|---|
+| Rename `include/mdfh/` directory to `include/qf/` | **PASS** |
+| Update all `#include "mdfh/..."` to `#include "qf/..."` across all files | **PASS** |
+| Update all `namespace mdfh` to `namespace qf` across all files | **PASS** |
+| Update CMakeLists.txt include paths | **PASS** (no change needed ΓÇö uses `${CMAKE_SOURCE_DIR}/include`) |
+| Build passes | **PASS** |
+| All existing tests pass | **PASS** (89/89) |

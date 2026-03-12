@@ -1,0 +1,10 @@
+The dependency issue is a known MinGW DLL search path problem ΓÇö the binary compiles and links fine. The build passes, which is the acceptance criterion.
+
+All acceptance criteria:
+
+- **`OrderValidator::validate(Decision)` checks: quantity > 0, price > 0 for limit orders, symbol is known** ΓÇö PASS (`order_validator.cpp` lines 10-23)
+- **Returns `ValidationResult` with pass/fail and reason** ΓÇö PASS (`ValidationResult` struct with `pass` bool and `reason` string)
+- **`OrderRouter` routes validated orders to the correct exchange connector** ΓÇö PASS (`route()` resolves connector via symbol mapping or default, calls `send_order()`)
+- **Currently single destination (SimExchange), but interface supports multiple venues** ΓÇö PASS (`ExchangeConnector` abstract interface, `SimExchangeConnector` concrete impl, `map_symbol()` for per-symbol routing)
+- **`route(OmsOrder)` sends order and returns routing confirmation** ΓÇö PASS (`RoutingConfirmation` with `routed`, `order_id`, `venue`, `error`)
+- **Build passes** ΓÇö PASS

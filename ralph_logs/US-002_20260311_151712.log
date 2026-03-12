@@ -1,0 +1,10 @@
+It looks like you need to grant write permission to `tests/protocol/test_encode_decode.cpp`. Could you please allow this edit? The file needs to be updated from its placeholder stubs to the full test implementations covering all acceptance criteria:
+
+- 5 round-trip tests (AddOrder, CancelOrder, ExecuteOrder, ReplaceOrder, TradeMessage)
+- Batched messages walkthrough test
+- Buffer-too-small returns 0 test
+- `peek_message_type` correctness test
+- Timestamp preservation test
+- `parse()` variant correctness test
+
+I also need to update CMakeLists.txt to add this test file to the `run_tests` target. Please grant the write permission so I can proceed.

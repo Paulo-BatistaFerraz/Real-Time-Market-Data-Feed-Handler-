@@ -1,0 +1,14 @@
+All required fields (`symbols`, `initial_prices`) are present and all optional fields (`multicast_address`, `port`, `messages_per_second`, `duration_seconds`, `seed`) are also provided. The implementation handles all of them.
+
+---
+
+## Acceptance Criteria
+
+| Criterion | Status |
+|---|---|
+| `ScenarioLoader::load(path)` reads JSON file and returns `SimConfig` struct | **PASS** ΓÇö `load()` opens the file, reads contents, delegates to `parse()` |
+| `SimConfig` contains: multicast_address, port, symbols (vector), messages_per_second, duration_seconds, seed, initial_prices (map<string, Price>) | **PASS** ΓÇö struct has `multicast_ip`, `port`, `symbols`, `msg_rate`, `duration_sec`, `seed`, `initial_prices`; JSON field names mapped correctly |
+| Validates required fields are present, throws on missing | **PASS** ΓÇö throws on missing/invalid `symbols`, empty `symbols`, missing `initial_prices`, and missing price for a symbol |
+| Uses nlohmann/json (already a dependency) | **PASS** ΓÇö uses `nlohmann::json` for parsing |
+| Works with existing `config/scenario.json` | **PASS** ΓÇö all fields in the JSON are handled correctly |
+| Build passes | **PASS** ΓÇö clean build with no errors |

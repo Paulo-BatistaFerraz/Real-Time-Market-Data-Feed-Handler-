@@ -1,9 +1,7 @@
-#include "mdfh/core/pipeline.hpp"
+#include "qf/core/pipeline.hpp"
 #include <iostream>
 
-namespace mdfh::core {
-
-// TODO: Implement pipeline logic
+namespace qf::core {
 
 Pipeline::Pipeline(const PipelineConfig& config) : config_(config) {}
 
@@ -29,20 +27,8 @@ void Pipeline::stop() {
     std::cout << "[FEED] Pipeline stopped\n";
 }
 
-void Pipeline::network_stage() {
-    // TODO: MulticastReceiver → RawPacket → Q1
+consumer::StatsSnapshot Pipeline::get_stats() const {
+    return stats_collector_.snapshot();
 }
 
-void Pipeline::parser_stage() {
-    // TODO: Q1 → FrameParser → Validator → Encoder::parse → Q2
-}
-
-void Pipeline::book_stage() {
-    // TODO: Q2 → BookManager::process → Q3
-}
-
-void Pipeline::consumer_stage() {
-    // TODO: Q3 → StatsCollector → ConsoleDisplay / CsvLogger / AlertMonitor
-}
-
-}  // namespace mdfh::core
+}  // namespace qf::core

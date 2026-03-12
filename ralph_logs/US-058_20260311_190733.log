@@ -1,0 +1,17 @@
+All 218 tests pass. Build and tests are green.
+
+---
+
+**Acceptance Criteria:**
+
+- [x] **Buys when momentum signal crosses above threshold, sells when crosses below negative threshold** ΓÇö PASS. `on_signal` enters long when `momentum > entry_threshold_` and enters short when `momentum < -entry_threshold_`. Exits long when `momentum < -exit_threshold_` and exits short when `momentum > exit_threshold_`.
+
+- [x] **Configurable: entry_threshold, exit_threshold, lookback_period, max_position** ΓÇö PASS. All four parameters are configurable via `Config` with sensible defaults in `configure()`.
+
+- [x] **Uses trailing stop-loss: exits if price retraces by configurable percentage** ΓÇö PASS. `trailing_stop_pct_` is configurable. `TrailingStopState` tracks peak/trough prices, and `trailing_stop_triggered()` exits when price retraces beyond the configured percentage.
+
+- [x] **Only trades when regime is `Trending` (from RegimeDetector)** ΓÇö PASS. `on_signal` returns empty decisions when `regime_detector_->is_regime(MarketRegime::Trending)` is false.
+
+- [x] **Extends StrategyBase** ΓÇö PASS. `MomentumFollowerStrategy` inherits from `StrategyBase` and implements all pure virtual methods.
+
+- [x] **Build passes** ΓÇö PASS. Clean build with 0 warnings, all 218 tests pass.

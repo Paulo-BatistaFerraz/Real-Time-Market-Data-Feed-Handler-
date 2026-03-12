@@ -1,8 +1,8 @@
 #include <gtest/gtest.h>
-#include "mdfh/core/book_manager.hpp"
+#include "qf/core/book_manager.hpp"
 
-using namespace mdfh;
-using namespace mdfh::core;
+using namespace qf;
+using namespace qf::core;
 
 // TODO: Book manager tests
 

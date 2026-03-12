@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include "mdfh/protocol/frame_parser.hpp"
+#include "qf/protocol/frame_parser.hpp"
 
-using namespace mdfh::protocol;
+using namespace qf::protocol;
 
 // TODO: Frame parser tests
 

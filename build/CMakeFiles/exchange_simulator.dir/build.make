@@ -83,19 +83,276 @@ CMakeFiles/exchange_simulator.dir/src/simulator/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exchange_simulator.dir/src/simulator/main.cpp.s"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\simulator\main.cpp -o CMakeFiles\exchange_simulator.dir\src\simulator\main.cpp.s
 
+CMakeFiles/exchange_simulator.dir/src/simulator/scenario_loader.cpp.obj: CMakeFiles/exchange_simulator.dir/flags.make
+CMakeFiles/exchange_simulator.dir/src/simulator/scenario_loader.cpp.obj: CMakeFiles/exchange_simulator.dir/includes_CXX.rsp
+CMakeFiles/exchange_simulator.dir/src/simulator/scenario_loader.cpp.obj: D:/market-data-feed-handler/src/simulator/scenario_loader.cpp
+CMakeFiles/exchange_simulator.dir/src/simulator/scenario_loader.cpp.obj: CMakeFiles/exchange_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exchange_simulator.dir/src/simulator/scenario_loader.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exchange_simulator.dir/src/simulator/scenario_loader.cpp.obj -MF CMakeFiles\exchange_simulator.dir\src\simulator\scenario_loader.cpp.obj.d -o CMakeFiles\exchange_simulator.dir\src\simulator\scenario_loader.cpp.obj -c D:\market-data-feed-handler\src\simulator\scenario_loader.cpp
+
+CMakeFiles/exchange_simulator.dir/src/simulator/scenario_loader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exchange_simulator.dir/src/simulator/scenario_loader.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\simulator\scenario_loader.cpp > CMakeFiles\exchange_simulator.dir\src\simulator\scenario_loader.cpp.i
+
+CMakeFiles/exchange_simulator.dir/src/simulator/scenario_loader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exchange_simulator.dir/src/simulator/scenario_loader.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\simulator\scenario_loader.cpp -o CMakeFiles\exchange_simulator.dir\src\simulator\scenario_loader.cpp.s
+
+CMakeFiles/exchange_simulator.dir/src/simulator/price_walk.cpp.obj: CMakeFiles/exchange_simulator.dir/flags.make
+CMakeFiles/exchange_simulator.dir/src/simulator/price_walk.cpp.obj: CMakeFiles/exchange_simulator.dir/includes_CXX.rsp
+CMakeFiles/exchange_simulator.dir/src/simulator/price_walk.cpp.obj: D:/market-data-feed-handler/src/simulator/price_walk.cpp
+CMakeFiles/exchange_simulator.dir/src/simulator/price_walk.cpp.obj: CMakeFiles/exchange_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exchange_simulator.dir/src/simulator/price_walk.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exchange_simulator.dir/src/simulator/price_walk.cpp.obj -MF CMakeFiles\exchange_simulator.dir\src\simulator\price_walk.cpp.obj.d -o CMakeFiles\exchange_simulator.dir\src\simulator\price_walk.cpp.obj -c D:\market-data-feed-handler\src\simulator\price_walk.cpp
+
+CMakeFiles/exchange_simulator.dir/src/simulator/price_walk.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exchange_simulator.dir/src/simulator/price_walk.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\simulator\price_walk.cpp > CMakeFiles\exchange_simulator.dir\src\simulator\price_walk.cpp.i
+
+CMakeFiles/exchange_simulator.dir/src/simulator/price_walk.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exchange_simulator.dir/src/simulator/price_walk.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\simulator\price_walk.cpp -o CMakeFiles\exchange_simulator.dir\src\simulator\price_walk.cpp.s
+
+CMakeFiles/exchange_simulator.dir/src/simulator/order_generator.cpp.obj: CMakeFiles/exchange_simulator.dir/flags.make
+CMakeFiles/exchange_simulator.dir/src/simulator/order_generator.cpp.obj: CMakeFiles/exchange_simulator.dir/includes_CXX.rsp
+CMakeFiles/exchange_simulator.dir/src/simulator/order_generator.cpp.obj: D:/market-data-feed-handler/src/simulator/order_generator.cpp
+CMakeFiles/exchange_simulator.dir/src/simulator/order_generator.cpp.obj: CMakeFiles/exchange_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exchange_simulator.dir/src/simulator/order_generator.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exchange_simulator.dir/src/simulator/order_generator.cpp.obj -MF CMakeFiles\exchange_simulator.dir\src\simulator\order_generator.cpp.obj.d -o CMakeFiles\exchange_simulator.dir\src\simulator\order_generator.cpp.obj -c D:\market-data-feed-handler\src\simulator\order_generator.cpp
+
+CMakeFiles/exchange_simulator.dir/src/simulator/order_generator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exchange_simulator.dir/src/simulator/order_generator.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\simulator\order_generator.cpp > CMakeFiles\exchange_simulator.dir\src\simulator\order_generator.cpp.i
+
+CMakeFiles/exchange_simulator.dir/src/simulator/order_generator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exchange_simulator.dir/src/simulator/order_generator.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\simulator\order_generator.cpp -o CMakeFiles\exchange_simulator.dir\src\simulator\order_generator.cpp.s
+
+CMakeFiles/exchange_simulator.dir/src/simulator/sim_order_book.cpp.obj: CMakeFiles/exchange_simulator.dir/flags.make
+CMakeFiles/exchange_simulator.dir/src/simulator/sim_order_book.cpp.obj: CMakeFiles/exchange_simulator.dir/includes_CXX.rsp
+CMakeFiles/exchange_simulator.dir/src/simulator/sim_order_book.cpp.obj: D:/market-data-feed-handler/src/simulator/sim_order_book.cpp
+CMakeFiles/exchange_simulator.dir/src/simulator/sim_order_book.cpp.obj: CMakeFiles/exchange_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exchange_simulator.dir/src/simulator/sim_order_book.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exchange_simulator.dir/src/simulator/sim_order_book.cpp.obj -MF CMakeFiles\exchange_simulator.dir\src\simulator\sim_order_book.cpp.obj.d -o CMakeFiles\exchange_simulator.dir\src\simulator\sim_order_book.cpp.obj -c D:\market-data-feed-handler\src\simulator\sim_order_book.cpp
+
+CMakeFiles/exchange_simulator.dir/src/simulator/sim_order_book.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exchange_simulator.dir/src/simulator/sim_order_book.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\simulator\sim_order_book.cpp > CMakeFiles\exchange_simulator.dir\src\simulator\sim_order_book.cpp.i
+
+CMakeFiles/exchange_simulator.dir/src/simulator/sim_order_book.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exchange_simulator.dir/src/simulator/sim_order_book.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\simulator\sim_order_book.cpp -o CMakeFiles\exchange_simulator.dir\src\simulator\sim_order_book.cpp.s
+
+CMakeFiles/exchange_simulator.dir/src/simulator/sim_matching_engine.cpp.obj: CMakeFiles/exchange_simulator.dir/flags.make
+CMakeFiles/exchange_simulator.dir/src/simulator/sim_matching_engine.cpp.obj: CMakeFiles/exchange_simulator.dir/includes_CXX.rsp
+CMakeFiles/exchange_simulator.dir/src/simulator/sim_matching_engine.cpp.obj: D:/market-data-feed-handler/src/simulator/sim_matching_engine.cpp
+CMakeFiles/exchange_simulator.dir/src/simulator/sim_matching_engine.cpp.obj: CMakeFiles/exchange_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exchange_simulator.dir/src/simulator/sim_matching_engine.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exchange_simulator.dir/src/simulator/sim_matching_engine.cpp.obj -MF CMakeFiles\exchange_simulator.dir\src\simulator\sim_matching_engine.cpp.obj.d -o CMakeFiles\exchange_simulator.dir\src\simulator\sim_matching_engine.cpp.obj -c D:\market-data-feed-handler\src\simulator\sim_matching_engine.cpp
+
+CMakeFiles/exchange_simulator.dir/src/simulator/sim_matching_engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exchange_simulator.dir/src/simulator/sim_matching_engine.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\simulator\sim_matching_engine.cpp > CMakeFiles\exchange_simulator.dir\src\simulator\sim_matching_engine.cpp.i
+
+CMakeFiles/exchange_simulator.dir/src/simulator/sim_matching_engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exchange_simulator.dir/src/simulator/sim_matching_engine.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\simulator\sim_matching_engine.cpp -o CMakeFiles\exchange_simulator.dir\src\simulator\sim_matching_engine.cpp.s
+
+CMakeFiles/exchange_simulator.dir/src/simulator/market_simulator.cpp.obj: CMakeFiles/exchange_simulator.dir/flags.make
+CMakeFiles/exchange_simulator.dir/src/simulator/market_simulator.cpp.obj: CMakeFiles/exchange_simulator.dir/includes_CXX.rsp
+CMakeFiles/exchange_simulator.dir/src/simulator/market_simulator.cpp.obj: D:/market-data-feed-handler/src/simulator/market_simulator.cpp
+CMakeFiles/exchange_simulator.dir/src/simulator/market_simulator.cpp.obj: CMakeFiles/exchange_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exchange_simulator.dir/src/simulator/market_simulator.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exchange_simulator.dir/src/simulator/market_simulator.cpp.obj -MF CMakeFiles\exchange_simulator.dir\src\simulator\market_simulator.cpp.obj.d -o CMakeFiles\exchange_simulator.dir\src\simulator\market_simulator.cpp.obj -c D:\market-data-feed-handler\src\simulator\market_simulator.cpp
+
+CMakeFiles/exchange_simulator.dir/src/simulator/market_simulator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exchange_simulator.dir/src/simulator/market_simulator.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\simulator\market_simulator.cpp > CMakeFiles\exchange_simulator.dir\src\simulator\market_simulator.cpp.i
+
+CMakeFiles/exchange_simulator.dir/src/simulator/market_simulator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exchange_simulator.dir/src/simulator/market_simulator.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\simulator\market_simulator.cpp -o CMakeFiles\exchange_simulator.dir\src\simulator\market_simulator.cpp.s
+
+CMakeFiles/exchange_simulator.dir/src/simulator/volatility_regime.cpp.obj: CMakeFiles/exchange_simulator.dir/flags.make
+CMakeFiles/exchange_simulator.dir/src/simulator/volatility_regime.cpp.obj: CMakeFiles/exchange_simulator.dir/includes_CXX.rsp
+CMakeFiles/exchange_simulator.dir/src/simulator/volatility_regime.cpp.obj: D:/market-data-feed-handler/src/simulator/volatility_regime.cpp
+CMakeFiles/exchange_simulator.dir/src/simulator/volatility_regime.cpp.obj: CMakeFiles/exchange_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/exchange_simulator.dir/src/simulator/volatility_regime.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exchange_simulator.dir/src/simulator/volatility_regime.cpp.obj -MF CMakeFiles\exchange_simulator.dir\src\simulator\volatility_regime.cpp.obj.d -o CMakeFiles\exchange_simulator.dir\src\simulator\volatility_regime.cpp.obj -c D:\market-data-feed-handler\src\simulator\volatility_regime.cpp
+
+CMakeFiles/exchange_simulator.dir/src/simulator/volatility_regime.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exchange_simulator.dir/src/simulator/volatility_regime.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\simulator\volatility_regime.cpp > CMakeFiles\exchange_simulator.dir\src\simulator\volatility_regime.cpp.i
+
+CMakeFiles/exchange_simulator.dir/src/simulator/volatility_regime.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exchange_simulator.dir/src/simulator/volatility_regime.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\simulator\volatility_regime.cpp -o CMakeFiles\exchange_simulator.dir\src\simulator\volatility_regime.cpp.s
+
+CMakeFiles/exchange_simulator.dir/src/simulator/news_event_generator.cpp.obj: CMakeFiles/exchange_simulator.dir/flags.make
+CMakeFiles/exchange_simulator.dir/src/simulator/news_event_generator.cpp.obj: CMakeFiles/exchange_simulator.dir/includes_CXX.rsp
+CMakeFiles/exchange_simulator.dir/src/simulator/news_event_generator.cpp.obj: D:/market-data-feed-handler/src/simulator/news_event_generator.cpp
+CMakeFiles/exchange_simulator.dir/src/simulator/news_event_generator.cpp.obj: CMakeFiles/exchange_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/exchange_simulator.dir/src/simulator/news_event_generator.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exchange_simulator.dir/src/simulator/news_event_generator.cpp.obj -MF CMakeFiles\exchange_simulator.dir\src\simulator\news_event_generator.cpp.obj.d -o CMakeFiles\exchange_simulator.dir\src\simulator\news_event_generator.cpp.obj -c D:\market-data-feed-handler\src\simulator\news_event_generator.cpp
+
+CMakeFiles/exchange_simulator.dir/src/simulator/news_event_generator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exchange_simulator.dir/src/simulator/news_event_generator.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\simulator\news_event_generator.cpp > CMakeFiles\exchange_simulator.dir\src\simulator\news_event_generator.cpp.i
+
+CMakeFiles/exchange_simulator.dir/src/simulator/news_event_generator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exchange_simulator.dir/src/simulator/news_event_generator.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\simulator\news_event_generator.cpp -o CMakeFiles\exchange_simulator.dir\src\simulator\news_event_generator.cpp.s
+
+CMakeFiles/exchange_simulator.dir/src/simulator/participant_model.cpp.obj: CMakeFiles/exchange_simulator.dir/flags.make
+CMakeFiles/exchange_simulator.dir/src/simulator/participant_model.cpp.obj: CMakeFiles/exchange_simulator.dir/includes_CXX.rsp
+CMakeFiles/exchange_simulator.dir/src/simulator/participant_model.cpp.obj: D:/market-data-feed-handler/src/simulator/participant_model.cpp
+CMakeFiles/exchange_simulator.dir/src/simulator/participant_model.cpp.obj: CMakeFiles/exchange_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/exchange_simulator.dir/src/simulator/participant_model.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exchange_simulator.dir/src/simulator/participant_model.cpp.obj -MF CMakeFiles\exchange_simulator.dir\src\simulator\participant_model.cpp.obj.d -o CMakeFiles\exchange_simulator.dir\src\simulator\participant_model.cpp.obj -c D:\market-data-feed-handler\src\simulator\participant_model.cpp
+
+CMakeFiles/exchange_simulator.dir/src/simulator/participant_model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exchange_simulator.dir/src/simulator/participant_model.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\simulator\participant_model.cpp > CMakeFiles\exchange_simulator.dir\src\simulator\participant_model.cpp.i
+
+CMakeFiles/exchange_simulator.dir/src/simulator/participant_model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exchange_simulator.dir/src/simulator/participant_model.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\simulator\participant_model.cpp -o CMakeFiles\exchange_simulator.dir\src\simulator\participant_model.cpp.s
+
+CMakeFiles/exchange_simulator.dir/src/simulator/multi_asset_sim.cpp.obj: CMakeFiles/exchange_simulator.dir/flags.make
+CMakeFiles/exchange_simulator.dir/src/simulator/multi_asset_sim.cpp.obj: CMakeFiles/exchange_simulator.dir/includes_CXX.rsp
+CMakeFiles/exchange_simulator.dir/src/simulator/multi_asset_sim.cpp.obj: D:/market-data-feed-handler/src/simulator/multi_asset_sim.cpp
+CMakeFiles/exchange_simulator.dir/src/simulator/multi_asset_sim.cpp.obj: CMakeFiles/exchange_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/exchange_simulator.dir/src/simulator/multi_asset_sim.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exchange_simulator.dir/src/simulator/multi_asset_sim.cpp.obj -MF CMakeFiles\exchange_simulator.dir\src\simulator\multi_asset_sim.cpp.obj.d -o CMakeFiles\exchange_simulator.dir\src\simulator\multi_asset_sim.cpp.obj -c D:\market-data-feed-handler\src\simulator\multi_asset_sim.cpp
+
+CMakeFiles/exchange_simulator.dir/src/simulator/multi_asset_sim.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exchange_simulator.dir/src/simulator/multi_asset_sim.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\simulator\multi_asset_sim.cpp > CMakeFiles\exchange_simulator.dir\src\simulator\multi_asset_sim.cpp.i
+
+CMakeFiles/exchange_simulator.dir/src/simulator/multi_asset_sim.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exchange_simulator.dir/src/simulator/multi_asset_sim.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\simulator\multi_asset_sim.cpp -o CMakeFiles\exchange_simulator.dir\src\simulator\multi_asset_sim.cpp.s
+
+CMakeFiles/exchange_simulator.dir/src/network/multicast_sender.cpp.obj: CMakeFiles/exchange_simulator.dir/flags.make
+CMakeFiles/exchange_simulator.dir/src/network/multicast_sender.cpp.obj: CMakeFiles/exchange_simulator.dir/includes_CXX.rsp
+CMakeFiles/exchange_simulator.dir/src/network/multicast_sender.cpp.obj: D:/market-data-feed-handler/src/network/multicast_sender.cpp
+CMakeFiles/exchange_simulator.dir/src/network/multicast_sender.cpp.obj: CMakeFiles/exchange_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/exchange_simulator.dir/src/network/multicast_sender.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exchange_simulator.dir/src/network/multicast_sender.cpp.obj -MF CMakeFiles\exchange_simulator.dir\src\network\multicast_sender.cpp.obj.d -o CMakeFiles\exchange_simulator.dir\src\network\multicast_sender.cpp.obj -c D:\market-data-feed-handler\src\network\multicast_sender.cpp
+
+CMakeFiles/exchange_simulator.dir/src/network/multicast_sender.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exchange_simulator.dir/src/network/multicast_sender.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\network\multicast_sender.cpp > CMakeFiles\exchange_simulator.dir\src\network\multicast_sender.cpp.i
+
+CMakeFiles/exchange_simulator.dir/src/network/multicast_sender.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exchange_simulator.dir/src/network/multicast_sender.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\network\multicast_sender.cpp -o CMakeFiles\exchange_simulator.dir\src\network\multicast_sender.cpp.s
+
+CMakeFiles/exchange_simulator.dir/src/network/multicast_receiver.cpp.obj: CMakeFiles/exchange_simulator.dir/flags.make
+CMakeFiles/exchange_simulator.dir/src/network/multicast_receiver.cpp.obj: CMakeFiles/exchange_simulator.dir/includes_CXX.rsp
+CMakeFiles/exchange_simulator.dir/src/network/multicast_receiver.cpp.obj: D:/market-data-feed-handler/src/network/multicast_receiver.cpp
+CMakeFiles/exchange_simulator.dir/src/network/multicast_receiver.cpp.obj: CMakeFiles/exchange_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/exchange_simulator.dir/src/network/multicast_receiver.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exchange_simulator.dir/src/network/multicast_receiver.cpp.obj -MF CMakeFiles\exchange_simulator.dir\src\network\multicast_receiver.cpp.obj.d -o CMakeFiles\exchange_simulator.dir\src\network\multicast_receiver.cpp.obj -c D:\market-data-feed-handler\src\network\multicast_receiver.cpp
+
+CMakeFiles/exchange_simulator.dir/src/network/multicast_receiver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exchange_simulator.dir/src/network/multicast_receiver.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\network\multicast_receiver.cpp > CMakeFiles\exchange_simulator.dir\src\network\multicast_receiver.cpp.i
+
+CMakeFiles/exchange_simulator.dir/src/network/multicast_receiver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exchange_simulator.dir/src/network/multicast_receiver.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\network\multicast_receiver.cpp -o CMakeFiles\exchange_simulator.dir\src\network\multicast_receiver.cpp.s
+
+CMakeFiles/exchange_simulator.dir/src/protocol/batcher.cpp.obj: CMakeFiles/exchange_simulator.dir/flags.make
+CMakeFiles/exchange_simulator.dir/src/protocol/batcher.cpp.obj: CMakeFiles/exchange_simulator.dir/includes_CXX.rsp
+CMakeFiles/exchange_simulator.dir/src/protocol/batcher.cpp.obj: D:/market-data-feed-handler/src/protocol/batcher.cpp
+CMakeFiles/exchange_simulator.dir/src/protocol/batcher.cpp.obj: CMakeFiles/exchange_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/exchange_simulator.dir/src/protocol/batcher.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exchange_simulator.dir/src/protocol/batcher.cpp.obj -MF CMakeFiles\exchange_simulator.dir\src\protocol\batcher.cpp.obj.d -o CMakeFiles\exchange_simulator.dir\src\protocol\batcher.cpp.obj -c D:\market-data-feed-handler\src\protocol\batcher.cpp
+
+CMakeFiles/exchange_simulator.dir/src/protocol/batcher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exchange_simulator.dir/src/protocol/batcher.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\protocol\batcher.cpp > CMakeFiles\exchange_simulator.dir\src\protocol\batcher.cpp.i
+
+CMakeFiles/exchange_simulator.dir/src/protocol/batcher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exchange_simulator.dir/src/protocol/batcher.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\protocol\batcher.cpp -o CMakeFiles\exchange_simulator.dir\src\protocol\batcher.cpp.s
+
+CMakeFiles/exchange_simulator.dir/src/infra/config.cpp.obj: CMakeFiles/exchange_simulator.dir/flags.make
+CMakeFiles/exchange_simulator.dir/src/infra/config.cpp.obj: CMakeFiles/exchange_simulator.dir/includes_CXX.rsp
+CMakeFiles/exchange_simulator.dir/src/infra/config.cpp.obj: D:/market-data-feed-handler/src/infra/config.cpp
+CMakeFiles/exchange_simulator.dir/src/infra/config.cpp.obj: CMakeFiles/exchange_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/exchange_simulator.dir/src/infra/config.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exchange_simulator.dir/src/infra/config.cpp.obj -MF CMakeFiles\exchange_simulator.dir\src\infra\config.cpp.obj.d -o CMakeFiles\exchange_simulator.dir\src\infra\config.cpp.obj -c D:\market-data-feed-handler\src\infra\config.cpp
+
+CMakeFiles/exchange_simulator.dir/src/infra/config.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exchange_simulator.dir/src/infra/config.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\infra\config.cpp > CMakeFiles\exchange_simulator.dir\src\infra\config.cpp.i
+
+CMakeFiles/exchange_simulator.dir/src/infra/config.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exchange_simulator.dir/src/infra/config.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\infra\config.cpp -o CMakeFiles\exchange_simulator.dir\src\infra\config.cpp.s
+
+CMakeFiles/exchange_simulator.dir/src/infra/logging.cpp.obj: CMakeFiles/exchange_simulator.dir/flags.make
+CMakeFiles/exchange_simulator.dir/src/infra/logging.cpp.obj: CMakeFiles/exchange_simulator.dir/includes_CXX.rsp
+CMakeFiles/exchange_simulator.dir/src/infra/logging.cpp.obj: D:/market-data-feed-handler/src/infra/logging.cpp
+CMakeFiles/exchange_simulator.dir/src/infra/logging.cpp.obj: CMakeFiles/exchange_simulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/exchange_simulator.dir/src/infra/logging.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exchange_simulator.dir/src/infra/logging.cpp.obj -MF CMakeFiles\exchange_simulator.dir\src\infra\logging.cpp.obj.d -o CMakeFiles\exchange_simulator.dir\src\infra\logging.cpp.obj -c D:\market-data-feed-handler\src\infra\logging.cpp
+
+CMakeFiles/exchange_simulator.dir/src/infra/logging.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exchange_simulator.dir/src/infra/logging.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\infra\logging.cpp > CMakeFiles\exchange_simulator.dir\src\infra\logging.cpp.i
+
+CMakeFiles/exchange_simulator.dir/src/infra/logging.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exchange_simulator.dir/src/infra/logging.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\infra\logging.cpp -o CMakeFiles\exchange_simulator.dir\src\infra\logging.cpp.s
+
 # Object files for target exchange_simulator
 exchange_simulator_OBJECTS = \
-"CMakeFiles/exchange_simulator.dir/src/simulator/main.cpp.obj"
+"CMakeFiles/exchange_simulator.dir/src/simulator/main.cpp.obj" \
+"CMakeFiles/exchange_simulator.dir/src/simulator/scenario_loader.cpp.obj" \
+"CMakeFiles/exchange_simulator.dir/src/simulator/price_walk.cpp.obj" \
+"CMakeFiles/exchange_simulator.dir/src/simulator/order_generator.cpp.obj" \
+"CMakeFiles/exchange_simulator.dir/src/simulator/sim_order_book.cpp.obj" \
+"CMakeFiles/exchange_simulator.dir/src/simulator/sim_matching_engine.cpp.obj" \
+"CMakeFiles/exchange_simulator.dir/src/simulator/market_simulator.cpp.obj" \
+"CMakeFiles/exchange_simulator.dir/src/simulator/volatility_regime.cpp.obj" \
+"CMakeFiles/exchange_simulator.dir/src/simulator/news_event_generator.cpp.obj" \
+"CMakeFiles/exchange_simulator.dir/src/simulator/participant_model.cpp.obj" \
+"CMakeFiles/exchange_simulator.dir/src/simulator/multi_asset_sim.cpp.obj" \
+"CMakeFiles/exchange_simulator.dir/src/network/multicast_sender.cpp.obj" \
+"CMakeFiles/exchange_simulator.dir/src/network/multicast_receiver.cpp.obj" \
+"CMakeFiles/exchange_simulator.dir/src/protocol/batcher.cpp.obj" \
+"CMakeFiles/exchange_simulator.dir/src/infra/config.cpp.obj" \
+"CMakeFiles/exchange_simulator.dir/src/infra/logging.cpp.obj"
 
 # External object files for target exchange_simulator
 exchange_simulator_EXTERNAL_OBJECTS =
 
 exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/src/simulator/main.cpp.obj
+exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/src/simulator/scenario_loader.cpp.obj
+exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/src/simulator/price_walk.cpp.obj
+exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/src/simulator/order_generator.cpp.obj
+exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/src/simulator/sim_order_book.cpp.obj
+exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/src/simulator/sim_matching_engine.cpp.obj
+exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/src/simulator/market_simulator.cpp.obj
+exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/src/simulator/volatility_regime.cpp.obj
+exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/src/simulator/news_event_generator.cpp.obj
+exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/src/simulator/participant_model.cpp.obj
+exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/src/simulator/multi_asset_sim.cpp.obj
+exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/src/network/multicast_sender.cpp.obj
+exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/src/network/multicast_receiver.cpp.obj
+exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/src/protocol/batcher.cpp.obj
+exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/src/infra/config.cpp.obj
+exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/src/infra/logging.cpp.obj
 exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/build.make
+exchange_simulator.exe: _deps/yaml-cpp-build/libyaml-cpp.a
+exchange_simulator.exe: _deps/spdlog-build/libspdlog.a
 exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/linkLibs.rsp
 exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/objects1.rsp
 exchange_simulator.exe: CMakeFiles/exchange_simulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable exchange_simulator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable exchange_simulator.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\exchange_simulator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

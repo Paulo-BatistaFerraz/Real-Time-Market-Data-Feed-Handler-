@@ -1,0 +1,13 @@
+No errors ΓÇö everything was already up-to-date. Build is clean.
+
+---
+
+## Acceptance Criteria
+
+- **`PositionTracker` tracks net position per symbol (positive = long, negative = short)** ΓÇö PASS. `positions_` map stores `int64_t`; Buy adds, Sell subtracts.
+- **`update(symbol, side, quantity)` adjusts position** ΓÇö PASS. Implemented in `position_tracker.cpp:6`.
+- **`get(symbol)` returns current position (0 if no position)** ΓÇö PASS. Returns 0 when symbol not found (`position_tracker.cpp:15`).
+- **`get_all()` returns map of all positions** ΓÇö PASS. Returns const ref to `positions_` map.
+- **`FillTracker` records every fill with: timestamp, symbol, side, price, quantity** ΓÇö PASS. `Fill` struct has all five fields; `record()` stores them.
+- **`average_price(symbol)` returns volume-weighted average fill price** ΓÇö PASS. Computes `sum(price * qty) / sum(qty)` across all fills for the symbol.
+- **Build passes** ΓÇö PASS. CMake configure and build completed with zero errors.

@@ -1,0 +1,11 @@
+Build passes. Let me verify acceptance criteria:
+
+- **`OrderGenerator` produces messages with weighted distribution: ~40% Add, ~25% Cancel, ~20% Execute, ~10% Replace, ~5% Trade** ΓÇö PASS. `type_dist_` initialized with those weights, `next()` dispatches accordingly.
+- **Uses `std::discrete_distribution` for message type selection** ΓÇö PASS. `type_dist_` is `std::discrete_distribution<int>` in the header, used in `next()`.
+- **Add orders: random side, symbol from config, price from PriceWalk, quantity from distribution** ΓÇö PASS. `generate_add()` picks random side via uniform dist, symbol via `symbol_dist_`, price from `price_walks_[sym_idx].next()`, quantity from `random_quantity()`.
+- **Cancel/Execute/Replace: picks a valid order_id from SimOrderBook** ΓÇö PASS. Each uses `book_.random_live_order()`, falls back to Add if book is empty.
+- **Monotonically increasing order_id counter** ΓÇö PASS. `next_order_id_` starts at 1, incremented with `next_order_id_++` only in `generate_add()`.
+- **Deterministic given seed** ΓÇö PASS. `rng_` seeded with `seed` parameter, all randomness flows through `rng_`.
+- **Build passes** ΓÇö PASS. Clean build confirmed.
+
+All acceptance criteria: **PASS**.

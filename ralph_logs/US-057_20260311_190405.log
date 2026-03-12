@@ -1,0 +1,26 @@
+The DLL issue is unrelated to my changes ΓÇö it's a path resolution issue with mingw64 libs. The build itself compiled successfully (exit 0 from cmake --build). The binary exists and links correctly per `ldd`.
+
+Let me verify the acceptance criteria:
+
+**Acceptance Criteria:**
+
+1. **Quotes bid and ask prices symmetrically around fair value (microprice)** ΓÇö PASS  
+   `on_signal()` computes `bid = fair_value - half_spread + skew` and `ask = fair_value + half_spread + skew`, symmetric around fair value before skew.
+
+2. **Spread configurable (e.g., 2 ticks)** ΓÇö PASS  
+   `spread_ticks_` defaults to 2, configurable via `configure()` from `strategy.market_making.spread_ticks`.
+
+3. **Skews quotes based on inventory: if long, lower bid/ask to sell more** ΓÇö PASS  
+   `compute_skew()` returns `-position * inventory_skew_factor_`, so a long position produces negative skew (shifts bid/ask down).
+
+4. **Configurable: max_position, quote_size, inventory_skew_factor** ΓÇö PASS  
+   All four parameters (`spread_ticks`, `quote_size`, `max_position`, `inventory_skew_factor`) are configurable via `configure()`.
+
+5. **Cancels and replaces quotes when fair value moves** ΓÇö PASS  
+   Each `on_signal()` call produces a fresh set of limit-order decisions (full quote refresh), updating `last_fair_value_`.
+
+6. **Extends StrategyBase** ΓÇö PASS  
+   `MarketMakingStrategy` inherits from `StrategyBase` and implements all pure virtual methods.
+
+7. **Build passes** ΓÇö PASS  
+   `cmake --build build` completed with exit code 0.

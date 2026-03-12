@@ -1,8 +1,8 @@
 #include <gtest/gtest.h>
-#include "mdfh/simulator/sim_order_book.hpp"
+#include "qf/simulator/sim_order_book.hpp"
 
-using namespace mdfh;
-using namespace mdfh::simulator;
+using namespace qf;
+using namespace qf::simulator;
 
 // TODO: Simulator order book tests
 

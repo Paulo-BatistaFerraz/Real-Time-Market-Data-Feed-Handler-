@@ -1,9 +1,9 @@
 #include <iostream>
 #include <thread>
 #include <chrono>
-#include "mdfh/core/spsc_queue.hpp"
+#include "qf/core/spsc_queue.hpp"
 
-using namespace mdfh::core;
+using namespace qf::core;
 
 // TODO: SPSC queue throughput benchmark
 // Producer pushes N items, consumer pops, measure msgs/sec

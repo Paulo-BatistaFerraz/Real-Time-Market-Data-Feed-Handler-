@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include "mdfh/protocol/batcher.hpp"
+#include "qf/protocol/batcher.hpp"
 
-using namespace mdfh::protocol;
+using namespace qf::protocol;
 
 // TODO: Batcher tests
 

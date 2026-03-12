@@ -1,0 +1,67 @@
+# QuantFlow Platform Configuration
+# All subsystems read from this single file.
+
+feed:
+  multicast_address: "239.255.0.1"
+  port: 30001
+  recv_buffer_size: 4194304
+  send_buffer_size: 4194304
+  multicast_ttl: 1
+  reuse_addr: true
+  loopback: true
+  interface: "0.0.0.0"
+  enable_display: true
+  enable_csv: false
+  csv_path: "feed_log.csv"
+
+simulator:
+  msg_rate: 10000
+  duration_sec: 30
+  seed: 42
+  symbols: "AAPL,MSFT,GOOGL,AMZN,TSLA"
+  volatility_base: 0.02
+  tick_size: 0.01
+  mean_reversion: 0.05
+  regime_switch_prob: 0.001
+  news_event_prob: 0.0005
+
+signals:
+  ema_fast_period: 12
+  ema_slow_period: 26
+  vwap_window_sec: 300
+  imbalance_threshold: 0.7
+  spread_z_lookback: 100
+
+strategy:
+  mode: "paper"
+  max_position: 1000
+  order_size: 100
+  entry_threshold: 0.002
+  exit_threshold: 0.001
+  cooldown_ms: 500
+  max_open_orders: 10
+
+risk:
+  max_drawdown_pct: 2.0
+  max_position_value: 500000.0
+  max_order_rate: 50
+  daily_loss_limit: 10000.0
+  circuit_breaker_pct: 5.0
+  kill_switch: false
+
+gateway:
+  protocol: "fix"
+  host: "127.0.0.1"
+  port: 9876
+  heartbeat_interval_ms: 1000
+  reconnect_delay_ms: 5000
+  max_reconnect_attempts: 10
+  send_buffer_size: 65536
+
+data:
+  storage_path: "./data"
+  snapshot_interval_sec: 60
+  max_depth_levels: 10
+  enable_trade_log: true
+  enable_book_snapshots: true
+  compression: "none"

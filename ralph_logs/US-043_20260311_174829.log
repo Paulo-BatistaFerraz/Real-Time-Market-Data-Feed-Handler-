@@ -1,0 +1,9 @@
+All 7 tests pass. Here's the acceptance criteria status:
+
+- **`EMA` extends `IndicatorBase`** ΓÇö PASS
+- **Constructor takes `span`, computes `alpha = 2/(span+1)`** ΓÇö PASS
+- **`update(value)` applies EMA formula: `ema = alpha * value + (1 - alpha) * prev_ema`** ΓÇö PASS
+- **First value initializes EMA directly (no warm-up bias)** ΓÇö PASS
+- **`value()` returns current EMA** ΓÇö PASS
+- **Test: known sequence matches hand-calculated EMA** ΓÇö PASS
+- **Build passes** ΓÇö PASS

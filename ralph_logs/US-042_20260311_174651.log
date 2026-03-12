@@ -1,0 +1,7 @@
+Build passes. Let me verify the acceptance criteria:
+
+- **`TickIntensity` measures message arrival rate relative to rolling baseline** ΓÇö PASS: Counts ticks per time window, maintains EWMA baseline via `flush_window()`
+- **`compute()` returns ratio of current rate to average rate (>1 = unusual activity)** ΓÇö PASS: Returns `current_rate_ / baseline_rate_`
+- **Uses exponentially weighted moving average for baseline** ΓÇö PASS: `baseline_rate_ += alpha_ * diff` in `flush_window()`
+- **Spike detection: returns magnitude of deviation from baseline** ΓÇö PASS: `spike_magnitude()` returns `(current_rate - baseline) / stddev` using EWMA variance
+- **Build passes** ΓÇö PASS

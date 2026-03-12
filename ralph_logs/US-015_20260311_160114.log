@@ -1,0 +1,17 @@
+All implementations are complete. Here's the acceptance criteria assessment:
+
+**Acceptance Criteria:**
+
+- **`StatsCollector` owns a LatencyHistogram and ThroughputTracker, aggregates BookUpdates** ΓÇö **PASS**. Header declares `histogram_` and `throughput_` members. `process()` records latency in histogram and increments `updates_this_tick_`.
+
+- **Produces a `StatsSnapshot` every 1 second: p50, p95, p99, p999 latency, msgs/sec, packets/sec, book updates/sec** ΓÇö **PASS**. `snapshot()` returns all percentiles + `msg_rate` (updates/sec averaged over window). `tick()` is called once/sec to advance the throughput window. The CsvLogger writes a snapshot row every 1 second.
+
+- **`ConsoleDisplay` prints a formatted table of top-of-book for all symbols plus latency stats** ΓÇö **PASS**. `render()` prints a latency table (p50/p95/p99/p999/min/max), throughput row, and top-of-book table from `BookManager::get_snapshot()`.
+
+- **Display refreshes every 100ms via `std::cout` clear + reprint (no ncurses)** ΓÇö **PASS**. `run()` loops with `sleep_for(DISPLAY_REFRESH_MS=100)`, calls `clear_screen()` (ANSI `\033[2J\033[H`) then reprints.
+
+- **`CsvLogger` writes StatsSnapshots to a CSV file for post-analysis** ΓÇö **PASS**. `write_header()` writes column names, `write_row()` writes timestamp + all stats in CSV format, flushed each row.
+
+- **Display is toggleable (can run headless with stats only)** ΓÇö **PASS**. `ConsoleDisplay` is a separate opt-in component; simply don't call `start()` for headless operation. `StatsCollector` and `CsvLogger` work independently.
+
+- **Build passes** ΓÇö **PASS**. Clean build with all consumer sources compiled, 56 tests pass.

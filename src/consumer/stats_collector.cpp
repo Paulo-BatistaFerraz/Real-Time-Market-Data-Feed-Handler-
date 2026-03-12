@@ -1,11 +1,11 @@
-#include "mdfh/consumer/stats_collector.hpp"
+#include "qf/consumer/stats_collector.hpp"
 
-namespace mdfh::consumer {
-
-// TODO: Implement stats collection logic
+namespace qf::consumer {
 
 void StatsCollector::process(const core::BookUpdate& update) {
-    (void)update;
+    uint64_t latency = update.book_timestamp - update.receive_timestamp;
+    histogram_.record(latency);
+    ++updates_this_tick_;
 }
 
 void StatsCollector::tick() {
@@ -35,4 +35,4 @@ void StatsCollector::reset() {
     gap_count_ = 0;
 }
 
-}  // namespace mdfh::consumer
+}  // namespace qf::consumer

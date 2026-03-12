@@ -1,0 +1,17 @@
+All 355 tests pass. Build succeeds. Let me verify the acceptance criteria:
+
+**Acceptance Criteria:**
+
+- **`TickStore` provides read/write access to tick data files** ΓÇö PASS. `TickStore` has `write()` for appending records (backed by `BinaryWriter`) and `read_range()` for reading.
+
+- **`read_range(symbol, start_time, end_time)` returns vector of TickRecords in time range** ΓÇö PASS. Implemented in `tick_store.cpp:21-68`, filters by symbol and time range.
+
+- **`TimeIndex` builds a binary-searchable index of timestamp ΓåÆ file offset** ΓÇö PASS. `TimeIndex::build()` scans a `.qfbt` file and builds a sorted vector of `IndexEntry{timestamp, offset}`.
+
+- **Index stored as sorted array of (timestamp, offset) pairs** ΓÇö PASS. `entries_` is a `std::vector<IndexEntry>` sorted by timestamp.
+
+- **`find(timestamp)` returns file offset via binary search ΓÇö O(log n)** ΓÇö PASS. Uses `std::lower_bound` which is O(log n) on a sorted array.
+
+- **Index can be built from scratch by scanning a tick file** ΓÇö PASS. `TimeIndex::build()` reads the file header, then scans all `TickRecord`s to build the index.
+
+- **Build passes** ΓÇö PASS. 355 tests pass, clean build.

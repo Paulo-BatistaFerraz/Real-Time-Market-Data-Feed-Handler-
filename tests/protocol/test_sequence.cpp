@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include "mdfh/protocol/sequence.hpp"
+#include "qf/protocol/sequence.hpp"
 
-using namespace mdfh::protocol;
+using namespace qf::protocol;
 
 // TODO: Sequence tracker tests
 

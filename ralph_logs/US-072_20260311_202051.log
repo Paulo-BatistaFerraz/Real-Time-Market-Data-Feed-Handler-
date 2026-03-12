@@ -1,0 +1,11 @@
+All 309 tests pass. Build and tests are green.
+
+**Acceptance Criteria:**
+
+- [x] **`LossLimit` checks: daily PnL > -max_daily_loss (configurable)** ΓÇö PASS. `LossLimit::check()` compares effective PnL against `-max_daily_loss_`, configurable via constructor.
+- [x] **Tracks running PnL, resets at configurable interval** ΓÇö PASS. `running_pnl_` is tracked via `record_pnl()`/`set_running_pnl()`, auto-resets via `maybe_reset()` when `reset_interval_ns_` elapses, plus manual `reset()`.
+- [x] **`OrderRateLimit` checks: orders in last second < max_orders_per_second** ΓÇö PASS. `check()` prunes expired timestamps then compares window count against limit.
+- [x] **Uses sliding window counter** ΓÇö PASS. `std::deque<Timestamp>` stores order timestamps; `prune()` removes entries older than 1 second from the front.
+- [x] **`ConcentrationLimit` checks: position in symbol < max_pct of total portfolio** ΓÇö PASS. `check()` computes symbol notional / total gross notional and compares against `max_pct_`.
+- [x] **All return RiskResult** ΓÇö PASS. All three `check()` methods return `RiskResult` with appropriate `check_type`, `passed`, `current_value`, `limit_value`, and `message`.
+- [x] **Build passes** ΓÇö PASS. 309 tests pass, all three targets build cleanly.

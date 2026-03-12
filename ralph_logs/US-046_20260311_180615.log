@@ -1,0 +1,11 @@
+Clean build, no errors. Here's the acceptance criteria assessment:
+
+**Acceptance Criteria:**
+
+- [x] **`AlphaCombiner` takes weighted combination of normalized feature values** ΓÇö PASS. `combine()` iterates weights and multiplies each by the corresponding feature value from the `FeatureVector`, summing them.
+- [x] **Weights are configurable per feature** ΓÇö PASS. `set_weight()`, `remove_weight()`, `set_weights()`, and `get_weight()` allow full per-feature weight configuration.
+- [x] **Output clamped to [-1, +1] range** ΓÇö PASS. `combine()` calls `clamp()` which bounds the result to [-1, +1].
+- [x] **`SignalDecay` applies exponential time-decay to signal strength** ΓÇö PASS. `decay()` computes `signal * exp(-lambda * elapsed)` where `lambda = ln(2) / half_life`.
+- [x] **Old signals fade to zero; only fresh signals drive decisions** ΓÇö PASS. The exponential decay ensures old signals approach zero asymptotically. `decay_ns()` supports nanosecond timestamps for integration with the existing pipeline.
+- [x] **Configurable half-life in seconds** ΓÇö PASS. Constructor takes `half_life_seconds`, and `set_half_life()` allows runtime reconfiguration.
+- [x] **Build passes** ΓÇö PASS. All targets compile cleanly with no warnings or errors.

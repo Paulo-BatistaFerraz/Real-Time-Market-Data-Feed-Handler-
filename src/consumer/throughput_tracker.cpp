@@ -1,20 +1,30 @@
-#include "mdfh/consumer/throughput_tracker.hpp"
+#include "qf/consumer/throughput_tracker.hpp"
 #include <numeric>
 #include <algorithm>
 
-namespace mdfh::consumer {
-
-// TODO: Implement throughput tracking logic
+namespace qf::consumer {
 
 ThroughputTracker::ThroughputTracker(size_t window_seconds)
     : window_(window_seconds, 0), window_size_(window_seconds) {}
 
 void ThroughputTracker::tick(uint64_t count) {
-    (void)count;
+    window_[write_pos_] = count;
+    write_pos_ = (write_pos_ + 1) % window_size_;
+    if (!filled_ && write_pos_ == 0) filled_ = true;
+    total_ += count;
+
+    double rate = current_rate();
+    if (rate > peak_rate_) peak_rate_ = rate;
 }
 
 double ThroughputTracker::current_rate() const {
-    return 0.0;
+    size_t slots = filled_ ? window_size_ : write_pos_;
+    if (slots == 0) return 0.0;
+
+    uint64_t sum = filled_
+        ? std::accumulate(window_.begin(), window_.end(), uint64_t(0))
+        : std::accumulate(window_.begin(), window_.begin() + write_pos_, uint64_t(0));
+    return static_cast<double>(sum) / static_cast<double>(slots);
 }
 
 void ThroughputTracker::reset() {
@@ -25,4 +35,4 @@ void ThroughputTracker::reset() {
     peak_rate_ = 0.0;
 }
 
-}  // namespace mdfh::consumer
+}  // namespace qf::consumer

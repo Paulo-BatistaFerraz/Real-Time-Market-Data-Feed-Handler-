@@ -1,0 +1,15 @@
+Implementation complete. Here's the acceptance criteria assessment:
+
+**US-071: Position Limit + Notional Limit**
+
+- [x] **`PositionLimit` checks: current_position + order_quantity <= max_shares_per_symbol** ΓÇö PASS. `position_limit.cpp:25-29` computes `proposed_pos = current_pos + delta` and checks `|proposed_pos| <= max_shares`.
+
+- [x] **Configurable per-symbol and global max** ΓÇö PASS. Both classes accept a global max in the constructor and expose `set_symbol_limit()` for per-symbol overrides. `limit_for()` returns the per-symbol value if set, otherwise the global default.
+
+- [x] **`NotionalLimit` checks: current_exposure + (order_qty * price) <= max_dollars** ΓÇö PASS. `notional_limit.cpp:33` computes `proposed_notional = |proposed_pos| * price` and checks against `max_dollars`.
+
+- [x] **Tracks net and gross exposure** ΓÇö PASS. `compute_exposure()` iterates all positions, computing `net_exposure` (signed sum) and `gross_exposure` (absolute sum), stored in the `Exposure` struct with per-symbol breakdown.
+
+- [x] **Both return RiskResult with current vs limit values** ΓÇö PASS. Both `check()` methods return `RiskResult{check_type, passed, current_value, limit_value, message}`.
+
+- [x] **Build passes** ΓÇö PASS. CMake configure and build succeeded with both new `.cpp` files compiled and linked.

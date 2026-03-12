@@ -1,15 +1,25 @@
-#include "mdfh/core/pipeline.hpp"
-#include "mdfh/common/clock.hpp"
+#include "qf/core/pipeline.hpp"
+#include "qf/common/clock.hpp"
 
-// Thread 3: Order Book Engine
-// Pops ParsedEvents from Q2, applies to BookManager, pushes BookUpdates to Q3
+namespace qf::core {
 
-namespace mdfh::core {
+void Pipeline::book_stage() {
+    ParsedEvent event;
 
-// TODO: Implement in Pipeline::book_stage()
-// - Loop while running_
-// - Q2.try_pop() → BookManager::process() → BookUpdate
-// - Set latency_ns = Clock::now_ns() - recv_timestamp
-// - Q3.try_push()
+    while (running_.load(std::memory_order_acquire)) {
+        if (!q2_.try_pop(event)) {
+            std::this_thread::yield();
+            continue;
+        }
 
-}  // namespace mdfh::core
+        BookUpdate update = book_manager_.process(event);
+
+        if (!q3_.try_push(std::move(update))) {
+            ++stats_.queue_drops;
+        } else {
+            ++stats_.book_updates;
+        }
+    }
+}
+
+}  // namespace qf::core

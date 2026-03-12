@@ -1,1 +1,1 @@
- -lws2_32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ "_deps/yaml-cpp-build/libyaml-cpp.a" "_deps/spdlog-build/libspdlog.a" -lws2_32 -lpthread -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

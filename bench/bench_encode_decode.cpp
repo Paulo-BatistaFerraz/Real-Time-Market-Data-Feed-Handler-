@@ -1,9 +1,9 @@
 #include <iostream>
 #include <chrono>
-#include "mdfh/protocol/encoder.hpp"
+#include "qf/protocol/encoder.hpp"
 
-using namespace mdfh;
-using namespace mdfh::protocol;
+using namespace qf;
+using namespace qf::protocol;
 
 // TODO: Codec throughput benchmark
 // Encode + decode N messages, measure millions of msgs/sec

@@ -1,0 +1,11 @@
+All tests pass. Here's the acceptance criteria status:
+
+| Criterion | Status |
+|---|---|
+| `Order` struct: `order_id`, `symbol` (as Symbol), `side`, `price`, `remaining_quantity` | **PASS** |
+| `PriceLevel` struct: `price`, `total_quantity`, `order_count` | **PASS** |
+| `PriceLevel::add(quantity)` increments total_quantity and order_count | **PASS** |
+| `PriceLevel::remove(quantity)` decrements; returns true if level is now empty (count == 0) | **PASS** |
+| `PriceLevel::modify(old_qty, new_qty)` adjusts total_quantity | **PASS** |
+| All arithmetic uses unsigned integers, no negative quantities | **PASS** ΓÇö `Price` is `uint32_t`, `Quantity` is `uint32_t`, `order_count` is `uint32_t` |
+| Build passes | **PASS** |

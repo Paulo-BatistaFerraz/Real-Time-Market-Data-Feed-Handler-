@@ -1,0 +1,9 @@
+All 56 tests pass, build is clean. Here's the acceptance criteria checklist:
+
+- **`BookManager` stores `std::unordered_map<uint64_t, OrderBook>` keyed by `Symbol::as_key()`** ΓÇö **PASS** (uses `std::unordered_map<uint64_t, std::unique_ptr<OrderBook>>` keyed by `as_key()`)
+- **`process(ParsedMessage)` dispatches to correct OrderBook by symbol, returns BookUpdate** ΓÇö **PASS** (`process(const ParsedEvent&)` visits the `ParsedMessage` variant, routes by symbol via `get_or_create` for Add/Trade and `order_to_symbol_` lookup for Cancel/Execute/Replace)
+- **Auto-creates OrderBook on first message for a new symbol** ΓÇö **PASS** (`get_or_create()` emplaces a new `OrderBook` if the symbol key is not found)
+- **`get_book(Symbol)` returns pointer to OrderBook or nullptr** ΓÇö **PASS** (both const and non-const overloads)
+- **`get_all_symbols()` returns list of active symbols** ΓÇö **PASS** (iterates `books_` map, collects symbols)
+- **`get_snapshot()` returns top-of-book for all symbols (for display)** ΓÇö **PASS** (returns `vector<BookUpdate>` with best bid/ask/qty for each symbol)
+- **Build passes** ΓÇö **PASS** (clean build, 56/56 tests pass)

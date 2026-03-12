@@ -1,0 +1,24 @@
+All 56 tests pass. Build is clean. Let me verify the acceptance criteria:
+
+## Acceptance Criteria
+
+- [x] **`MulticastSender` joins multicast group via Asio, provides `send(buffer, length)` method** ΓÇö PASS  
+  Constructor opens UDP socket with multicast options (TTL, loopback, outbound interface). `send()` method sends to multicast endpoint. Also provides `async_send()`.
+
+- [x] **`MulticastReceiver` joins multicast group, calls user callback on each received datagram with `(buffer, length, timestamp)`** ΓÇö PASS  
+  Constructor joins multicast group via `join_group`. `do_receive()` async loop invokes `ReceiveCallback(const uint8_t*, size_t, uint64_t)` on each datagram.
+
+- [x] **Receiver timestamps each packet immediately on arrival via `Clock::now_ns()`** ΓÇö PASS  
+  `mdfh::Clock::now_ns()` called immediately in the async receive handler before any processing.
+
+- [x] **Configurable multicast address, port, and network interface** ΓÇö PASS  
+  Address and port via constructor parameters. Network interface via `SocketOptions::interface_addr` (new field, defaults to `"0.0.0.0"`).
+
+- [x] **Uses standalone Asio (not Boost.Asio)** ΓÇö PASS  
+  Includes `<asio.hpp>`, project defines `ASIO_STANDALONE`. No Boost dependency.
+
+- [x] **Socket options: `SO_REUSEADDR`, receive buffer size configurable** ΓÇö PASS  
+  `reuse_addr` sets `SO_REUSEADDR`. `recv_buf_size`/`send_buf_size` configure socket buffer sizes. All configurable via `SocketOptions`.
+
+- [x] **Build passes** ΓÇö PASS  
+  Clean build with zero warnings. All 56 existing tests pass.

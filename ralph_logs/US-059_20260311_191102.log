@@ -1,0 +1,12 @@
+All targets build cleanly. Here's the acceptance criteria status:
+
+| Criterion | Status |
+|-----------|--------|
+| `MeanReversion`: buys when z-score < -2╧â, sells when > +2╧â, exits at mean | **PASS** ΓÇö `mean_reversion_strat.cpp:86-113` enters at `┬▒z_entry_` (default 2.0), exits when z-score crosses back through `z_exit_` (default 0.5) |
+| Configurable: z_entry, z_exit, lookback, max_position | **PASS** ΓÇö `configure()` reads all four from config with defaults |
+| Only trades when regime is `Ranging` | **PASS** ΓÇö `on_signal()` line 35 checks `is_regime(MarketRegime::Ranging)` |
+| `StatArb`: tracks price ratio of two correlated symbols | **PASS** ΓÇö `stat_arb.cpp` maintains `last_price_a_/b_` and computes `ratio_window_` |
+| Trades the spread: long cheap / short expensive when spread diverges | **PASS** ΓÇö Enters long A/short B when ratio z-score < -entry, reverse when > +entry |
+| Configurable: symbol_pair, entry_zscore, exit_zscore, lookback | **PASS** ΓÇö `configure()` reads `symbol_a`, `symbol_b`, `entry_zscore`, `exit_zscore`, `lookback`, `trade_size` |
+| Both extend StrategyBase | **PASS** ΓÇö Both classes inherit `public StrategyBase` and implement all virtual methods |
+| Build passes | **PASS** ΓÇö All targets compile and link cleanly |

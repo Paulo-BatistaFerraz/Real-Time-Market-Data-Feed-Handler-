@@ -1,0 +1,11 @@
+## Acceptance Criteria
+
+- [x] **`TickRecord` struct**: `timestamp`, `symbol`, `message_type`, `payload` (raw bytes) + `payload_length` ΓÇö `include/qf/data/data_types.hpp:14-22`
+- [x] **`Bar` struct**: `symbol`, `open`, `high`, `low`, `close`, `volume`, `tick_count`, `start_time`, `end_time` ΓÇö `include/qf/data/data_types.hpp:25-40`
+- [x] **`MarketSnapshot` struct**: `symbol`, `best_bid`, `best_ask`, `last_trade_price`, `timestamp` ΓÇö `include/qf/data/data_types.hpp:43-52`
+- [x] **`BinaryWriter` writes TickRecords to a binary file with a header** (magic `0x51464254`, version `1`, record count) ΓÇö `include/qf/data/recorder/binary_writer.hpp:17-28`, `src/data/recorder/binary_writer.cpp:11-30`
+- [x] **`write(TickRecord)` appends to file, returns offset** ΓÇö `src/data/recorder/binary_writer.cpp:72-85`
+- [x] **Buffered writes (flush every N records or on close)** ΓÇö buffer fills to `flush_count` then auto-flushes; `close()` flushes remaining ΓÇö `src/data/recorder/binary_writer.cpp:82-84`, `93-96`
+- [x] **Build passes** ΓÇö `cmake --build build` compiles and links cleanly with no errors
+
+All **7 criteria PASS**.

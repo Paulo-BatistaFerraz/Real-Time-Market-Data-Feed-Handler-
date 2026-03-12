@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include "mdfh/consumer/alert_monitor.hpp"
+#include "qf/consumer/alert_monitor.hpp"
 
-using namespace mdfh::consumer;
+using namespace qf::consumer;
 
 // TODO: Alert monitor tests
 

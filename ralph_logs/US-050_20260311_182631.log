@@ -1,0 +1,13 @@
+All 174 tests pass. The build compiles cleanly and all existing tests pass.
+
+---
+
+**Acceptance Criteria:**
+
+- **`SignalRegistry` allows registering features/indicators by name** ΓÇö PASS: `register_feature(name, unique_ptr<FeatureBase>)`, `register_indicator(key, unique_ptr<IndicatorBase>)`, `register_composite(name, unique_ptr<AlphaCombiner>)` all implemented with name-based lookup.
+- **`register_feature(name, unique_ptr<FeatureBase>)`** ΓÇö PASS: Exact signature implemented in `signal_registry.hpp:28` and `signal_registry.cpp:7`.
+- **`SignalEngine` owns registry, runs the pipeline: BookUpdate ΓåÆ features ΓåÆ indicators ΓåÆ composite ΓåÆ Signal** ΓÇö PASS: `SignalEngine` has a `SignalRegistry registry_` member. `process()` calls `compute_features()` ΓåÆ `apply_indicators()` ΓåÆ `evaluate_composites()`.
+- **`process(BookUpdate)` returns vector of Signals (one per active composite)** ΓÇö PASS: `process()` takes `BookUpdate` + `OrderBook` reference and returns `std::vector<Signal>`, one per active composite.
+- **Configurable: which features/indicators are active** ΓÇö PASS: `set_feature_active()`, `set_indicator_active()`, `set_composite_active()` allow toggling any component on/off. Only active components run during `process()`.
+- **Thread-safe: can be called from the pipeline's book stage thread** ΓÇö PASS: All `SignalRegistry` methods are mutex-guarded.
+- **Build passes** ΓÇö PASS: Clean build, 174 tests pass.

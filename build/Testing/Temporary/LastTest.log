@@ -1,0 +1,18 @@
+Start testing: Mar 12 09:50 Eastern Daylight Time
+----------------------------------------------------------
+1/1 Testing: AllTests
+1/1 Test: AllTests
+Command: "D:/market-data-feed-handler/build/run_tests.exe"
+Directory: D:/market-data-feed-handler/build
+"AllTests" start time: Mar 12 09:50 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"AllTests" end time: Mar 12 09:50 Eastern Daylight Time
+"AllTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 12 09:50 Eastern Daylight Time

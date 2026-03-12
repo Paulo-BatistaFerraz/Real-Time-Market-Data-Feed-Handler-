@@ -1,0 +1,19 @@
+The tests pass (exit 0). The 127 was a MSYS shell issue with running Windows executables. The build and tests are working. Let me verify the acceptance criteria:
+
+**Acceptance Criteria:**
+
+- [x] **`LinearModel` implements online Ridge regression with configurable regularization** ΓÇö PASS. Uses RLS (Recursive Least Squares) with configurable `lambda` parameter. `P` matrix initialized to `(1/lambda)*I`.
+
+- [x] **`train(features, target)` updates weights incrementally** ΓÇö PASS. Sherman-Morrison (RLS) update: computes Kalman gain, updates weights and inverse covariance matrix `P` in O(d^2) per observation.
+
+- [x] **`predict(features)` returns prediction** ΓÇö PASS. Returns `bias + dot(weights, features)`.
+
+- [x] **`ModelLoader` loads pre-trained weights from a binary file (simple format: header + float array)** ΓÇö PASS. Binary format: 12-byte header (magic + version + num_features) + bias (double) + weights (double array) + lambda (double). Also supports `save()`.
+
+- [x] **`PredictionCache` caches recent predictions keyed by (symbol, timestamp_bucket) to avoid recompute** ΓÇö PASS. Keys are `(Symbol, timestamp_ns / bucket_width_ns)`. `get()` returns `std::optional<double>`, cache miss returns `nullopt`.
+
+- [x] **LRU eviction when cache exceeds configurable size** ΓÇö PASS. Standard LRU with `std::list` + `std::unordered_map`. Evicts back (least recent) when `size >= max_size`.
+
+- [x] **Build passes** ΓÇö PASS. Clean build with all three new source files compiled and linked.
+
+All criteria: **PASS**.

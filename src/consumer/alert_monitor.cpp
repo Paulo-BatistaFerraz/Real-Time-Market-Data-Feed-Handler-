@@ -1,7 +1,7 @@
-#include "mdfh/consumer/alert_monitor.hpp"
-#include "mdfh/common/clock.hpp"
+#include "qf/consumer/alert_monitor.hpp"
+#include "qf/common/clock.hpp"
 
-namespace mdfh::consumer {
+namespace qf::consumer {
 
 // TODO: Implement alert monitoring logic
 
@@ -12,4 +12,4 @@ std::vector<Alert> AlertMonitor::check(const StatsSnapshot& snap) {
     return {};
 }
 
-}  // namespace mdfh::consumer
+}  // namespace qf::consumer

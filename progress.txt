@@ -1,0 +1,153 @@
+# Progress Log
+
+## Learnings
+(Patterns discovered during implementation)
+
+---
+2026-03-11 15:17:08 | US-001 | COMPLETED | Protocol Encoder — Binary Encode/Decode | 1.5m
+2026-03-11 15:22:38 | US-002 | COMPLETED | Protocol Encoder Tests | 5.4m
+2026-03-11 15:24:39 | US-003 | COMPLETED | Lock-Free SPSC Queue | 2m
+2026-03-11 15:26:28 | US-004 | COMPLETED | SPSC Queue Tests | 1.8m
+2026-03-11 15:33:21 | US-005 | COMPLETED | Frame Parser — Split Datagrams into Messages | 2.7m
+2026-03-11 15:34:42 | US-006 | COMPLETED | Message Batcher — Pack Messages into Datagrams | 1.3m
+2026-03-11 15:37:13 | US-007 | COMPLETED | Message Validator + Sequence Tracker | 2.5m
+2026-03-11 15:39:06 | US-008 | COMPLETED | Price Level + Order Struct | 1.8m
+2026-03-11 15:43:19 | US-009 | COMPLETED | Order Store — Hash Map of Live Orders | 4.2m
+2026-03-11 15:45:47 | US-010 | COMPLETED | Order Book — Bid/Ask Sides Per Symbol | 2.4m
+2026-03-11 15:49:53 | US-011 | COMPLETED | Order Book Tests | 4.1m
+2026-03-11 15:55:00 | US-012 | COMPLETED | Book Manager — Multi-Symbol Routing | 5.1m
+2026-03-11 15:57:45 | US-013 | COMPLETED | Multicast Sender + Receiver (Asio) | 2.7m
+2026-03-11 16:01:11 | US-014 | COMPLETED | Latency Histogram + Throughput Tracker | 3.4m
+2026-03-11 16:05:37 | US-015 | COMPLETED | Stats Collector + Console Display + CSV Logger | 4.4m
+2026-03-11 16:09:11 | US-016 | COMPLETED | Pipeline Types — RawPacket, ParsedEvent, BookUpdate | 3.5m
+2026-03-11 16:11:59 | US-017 | COMPLETED | Pipeline Stages — Network + Parser | 2.7m
+2026-03-11 16:17:11 | US-018 | COMPLETED | Pipeline Stages — Book + Consumer + Orchestrator | 5.1m
+2026-03-11 16:22:38 | US-019 | COMPLETED | Feed Handler Main — Wire Everything | 5.4m
+2026-03-11 16:25:11 | US-020 | COMPLETED | Scenario Loader — JSON Config | 2.5m
+2026-03-11 16:28:12 | US-021 | COMPLETED | Price Walk — Ornstein-Uhlenbeck Model | 3m
+2026-03-11 16:30:43 | US-022 | COMPLETED | Sim Order Book + Matching Engine | 2.5m
+2026-03-11 16:32:28 | US-023 | COMPLETED | Order Generator — Weighted Random Messages | 1.7m
+2026-03-11 16:35:28 | US-024 | COMPLETED | Market Simulator Orchestrator | 2.9m
+2026-03-11 16:38:38 | US-025 | COMPLETED | Volatility Regime + News Events | 3.1m
+2026-03-11 16:44:52 | US-026 | COMPLETED | Participant Model + Multi-Asset Sim | 6.2m
+2026-03-11 16:46:17 | US-027 | COMPLETED | Exchange Simulator Main — Wire Everything | 1.4m
+2026-03-11 16:50:41 | US-028 | COMPLETED | Simulator Tests | 4.3m
+2026-03-11 16:55:18 | US-029 | COMPLETED | Namespace Migration — mdfh → qf | 4.6m
+2026-03-11 17:02:36 | US-030 | COMPLETED | YAML Config Loader | 7.3m
+2026-03-11 17:10:24 | US-031 | COMPLETED | Structured Logging | 7.7m
+2026-03-11 17:14:20 | US-032 | COMPLETED | Thread Utilities | 3.9m
+2026-03-11 17:16:57 | US-033 | COMPLETED | MPSC Queue + Object Pool | 2.6m
+2026-03-11 17:19:23 | US-034 | COMPLETED | Event Bus — Pub/Sub | 2.4m
+2026-03-11 17:22:07 | US-035 | COMPLETED | Signal Types + Feature Base Interface | 2.7m
+2026-03-11 17:26:16 | US-036 | COMPLETED | VWAP Feature | 4.1m
+2026-03-11 17:31:18 | US-037 | COMPLETED | TWAP + Microprice Features | 5m
+2026-03-11 17:34:48 | US-038 | COMPLETED | Order Flow Imbalance + Book Depth Ratio | 3.5m
+2026-03-11 17:38:02 | US-039 | COMPLETED | Spread Tracker + Trade Flow | 3.2m
+2026-03-11 17:43:05 | US-040 | COMPLETED | Volatility Estimator | 5m
+2026-03-11 17:46:48 | US-041 | COMPLETED | Momentum + Mean Reversion Features | 3.7m
+2026-03-11 17:48:26 | US-042 | COMPLETED | Tick Intensity Feature | 1.6m
+2026-03-11 17:54:03 | US-043 | COMPLETED | EMA Indicator | 5.6m
+2026-03-11 17:59:15 | US-044 | COMPLETED | Bollinger Bands + RSI Indicators | 5.2m
+2026-03-11 18:06:12 | US-045 | COMPLETED | MACD + Z-Score Indicators | 6.9m
+2026-03-11 18:09:31 | US-046 | COMPLETED | Alpha Combiner + Signal Decay | 3.3m
+2026-03-11 18:14:38 | US-047 | COMPLETED | Regime Detector | 5.1m
+2026-03-11 18:22:12 | US-048 | COMPLETED | Feature Store + Feature Normalizer (ML Layer) | 7.5m
+2026-03-11 18:26:28 | US-049 | COMPLETED | Linear Model + Model Loader + Prediction Cache | 4.2m
+2026-03-11 18:31:40 | US-050 | COMPLETED | Signal Engine Orchestrator + Registry | 5.2m
+2026-03-11 18:39:48 | US-051 | COMPLETED | Signal Engine Tests | 8.1m
+2026-03-11 18:44:44 | US-052 | COMPLETED | Strategy Types + Base Interface + Registry | 4.9m
+2026-03-11 18:48:33 | US-053 | COMPLETED | Position Tracker + Fill Tracker | 3.8m
+2026-03-11 18:52:43 | US-054 | COMPLETED | PnL Calculator + Portfolio | 4.1m
+2026-03-11 18:58:34 | US-055 | COMPLETED | Order Sizer + Slippage Model | 5.8m
+2026-03-11 19:04:02 | US-056 | COMPLETED | Execution Algorithms (TWAP, VWAP, Iceberg) | 5.4m
+2026-03-11 19:07:30 | US-057 | COMPLETED | Market Making Strategy | 3.4m
+2026-03-11 19:10:59 | US-058 | COMPLETED | Momentum Follower Strategy | 3.4m
+2026-03-11 19:14:44 | US-059 | COMPLETED | Mean Reversion + Stat Arb Strategies | 3.7m
+2026-03-11 19:18:41 | US-060 | COMPLETED | Signal Threshold Strategy | 3.9m
+2026-03-11 19:26:20 | US-061 | COMPLETED | Strategy Engine Orchestrator + Tests | 7.6m
+2026-03-11 19:28:04 | US-062 | COMPLETED | OMS Types + Order States | 1.7m
+2026-03-11 19:32:27 | US-063 | COMPLETED | State Transitions + Guards | 4.3m
+2026-03-11 19:36:01 | US-064 | COMPLETED | Order Journal — Append-Only Log | 3.5m
+2026-03-11 19:40:27 | US-065 | COMPLETED | Order Manager — Lifecycle State Machine | 4.4m
+2026-03-11 19:43:53 | US-066 | COMPLETED | Order Validator + Order Router | 3.4m
+2026-03-11 19:49:57 | US-067 | COMPLETED | Fill Manager + Order ID Generator | 6m
+2026-03-11 19:55:41 | US-068 | COMPLETED | Simulated Exchange + Fill Model | 5.7m
+2026-03-11 20:14:56 | US-069 | COMPLETED | Sim Exchange Connector + OMS Integration | 19.2m
+2026-03-11 20:17:15 | US-070 | COMPLETED | Risk Types + Risk Engine Interface | 2.3m
+2026-03-11 20:20:48 | US-071 | COMPLETED | Position Limit + Notional Limit | 3.5m
+2026-03-11 20:24:47 | US-072 | COMPLETED | Loss Limit + Order Rate Limit + Concentration Limit | 3.9m
+2026-03-11 20:30:18 | US-073 | COMPLETED | Pre-Trade Risk Orchestrator | 5.5m
+2026-03-11 20:36:09 | US-074 | COMPLETED | Post-Trade Risk + Monitors | 5.8m
+2026-03-11 20:40:19 | US-075 | COMPLETED | VaR Calculator | 4.1m
+2026-03-11 20:48:09 | US-076 | ATTEMPTED | Circuit Breaker | 0.3m
+2026-03-11 20:48:13 | US-077 | ATTEMPTED | Risk Report + Logger + Tests | 0m
+2026-03-11 20:48:16 | US-078 | ATTEMPTED | Data Types + Binary Writer | 0m
+2026-03-11 20:48:20 | US-079 | ATTEMPTED | Tick Recorder + CSV Writer | 0m
+2026-03-11 20:48:24 | US-080 | ATTEMPTED | Compression + File Rotation | 0m
+2026-03-11 20:48:27 | US-081 | ATTEMPTED | Tick Store + Time Index | 0m
+2026-03-11 20:48:31 | US-082 | ATTEMPTED | Bar Aggregator + Symbol Catalog | 0m
+2026-03-11 20:48:35 | US-083 | ATTEMPTED | Replay Clock + Engine | 0m
+2026-03-11 20:48:38 | US-084 | ATTEMPTED | Multi-Stream Merger + Replay Publisher | 0m
+2026-03-11 20:48:42 | US-085 | ATTEMPTED | Data Recorder Tests | 0m
+2026-03-11 20:48:45 | US-086 | ATTEMPTED | Backtest Types + Config | 0m
+2026-03-11 20:48:49 | US-087 | ATTEMPTED | Fill Simulator + Latency Simulator | 0m
+2026-03-11 20:48:53 | US-088 | ATTEMPTED | Cost Model + Market Impact | 0m
+2026-03-11 20:48:56 | US-089 | ATTEMPTED | Returns Calculator + Equity Curve | 0m
+2026-03-11 20:49:00 | US-090 | ATTEMPTED | Sharpe Ratio + Max Drawdown | 0m
+2026-03-11 20:49:04 | US-091 | ATTEMPTED | Win Rate + Trade Statistics | 0m
+2026-03-11 20:49:07 | US-092 | ATTEMPTED | Grid Search + Walk-Forward | 0m
+2026-03-11 20:49:11 | US-093 | ATTEMPTED | Parameter Sensitivity | 0m
+2026-03-11 20:49:15 | US-094 | ATTEMPTED | Backtest Engine + Runner + Tests | 0m
+2026-03-11 20:49:18 | US-095 | ATTEMPTED | Gateway Types + Message Serializer | 0m
+2026-03-11 20:49:22 | US-096 | ATTEMPTED | WebSocket Server | 0m
+2026-03-11 20:49:26 | US-097 | ATTEMPTED | Client Manager + Throttle | 0m
+2026-03-11 20:49:29 | US-098 | ATTEMPTED | Book Channel + Trade Channel | 0m
+2026-03-11 20:49:33 | US-099 | ATTEMPTED | Signal + PnL + Risk + System Channels | 0m
+2026-03-11 20:49:36 | US-100 | ATTEMPTED | REST Server + Endpoints | 0m
+2026-03-11 20:49:40 | US-101 | ATTEMPTED | Dashboard Scaffolding | 0m
+2026-03-11 20:49:44 | US-102 | ATTEMPTED | TypeScript Types + API Constants | 0m
+2026-03-11 20:49:47 | US-103 | ATTEMPTED | WebSocket Connection Manager | 0m
+2026-03-11 20:49:51 | US-104 | ATTEMPTED | REST API Client + React Hooks (Market Data) | 0m
+2026-03-11 20:49:55 | US-105 | ATTEMPTED | React Hooks (Signals, PnL, Risk, System) | 0m
+2026-03-11 20:49:58 | US-106 | ATTEMPTED | Zustand Stores (Market + Portfolio) | 0m
+2026-03-11 20:50:02 | US-107 | ATTEMPTED | Zustand Stores (Signal, Risk, Strategy, System, Backtest) | 0m
+2026-03-11 20:50:06 | US-108 | ATTEMPTED | Layout Components | 0m
+2026-03-11 20:50:09 | US-109 | ATTEMPTED | OrderBookView | 0m
+2026-03-11 20:50:13 | US-110 | ATTEMPTED | PriceChart (Candlestick) | 0m
+2026-03-11 20:50:17 | US-111 | ATTEMPTED | Depth Chart + Spread Chart + Trade Ticker + Symbol Selector | 0m
+2026-03-11 20:50:20 | US-112 | ATTEMPTED | Signal Dashboard + Signal Card | 0m
+2026-03-11 20:50:24 | US-113 | ATTEMPTED | Signal Chart + Heatmap + Alpha Composite | 0m
+2026-03-11 20:50:27 | US-114 | ATTEMPTED | Order Entry + Active Orders | 0m
+2026-03-11 20:50:31 | US-115 | ATTEMPTED | Order History + Position Table + Fills Table | 0m
+2026-03-11 20:50:35 | US-116 | ATTEMPTED | PnL Summary + Equity Curve | 0m
+2026-03-11 20:50:38 | US-117 | ATTEMPTED | PnL By Symbol + Trade Stats | 0m
+2026-03-11 20:50:42 | US-118 | ATTEMPTED | Risk Dashboard + Exposure Gauge | 0m
+2026-03-11 20:50:46 | US-119 | ATTEMPTED | Drawdown Chart + Limit Utilization + Circuit Breaker Panel | 0m
+2026-03-11 20:50:49 | US-120 | ATTEMPTED | Strategy Views | 0m
+2026-03-11 20:50:53 | US-121 | ATTEMPTED | Backtest Views | 0m
+2026-03-11 20:50:57 | US-122 | ATTEMPTED | System Monitoring Views | 0m
+2026-03-11 20:51:00 | US-123 | ATTEMPTED | Shared Components | 0m
+2026-03-11 20:51:04 | US-124 | ATTEMPTED | Pages + Routing + Theme | 0m
+2026-03-11 20:51:08 | US-125 | ATTEMPTED | FIX Fields + Message Builder/Parser | 0m
+2026-03-11 20:51:11 | US-126 | ATTEMPTED | FIX Session Layer | 0m
+2026-03-11 20:51:15 | US-127 | ATTEMPTED | FIX Gateway | 0m
+2026-03-11 20:51:19 | US-128 | ATTEMPTED | TCP Server + Client (Async Asio) | 0m
+2026-03-11 20:51:22 | US-129 | ATTEMPTED | Integration Test — Sim to Handler E2E | 0m
+2026-03-11 20:51:26 | US-130 | ATTEMPTED | Integration Test — Signal Pipeline | 0m
+2026-03-11 20:51:30 | US-131 | ATTEMPTED | Integration Test — Strategy to OMS to Risk | 0m
+2026-03-11 20:51:33 | US-132 | ATTEMPTED | Integration Test — Full Loop | 0m
+2026-03-11 20:51:37 | US-133 | ATTEMPTED | Benchmarks | 0m
+2026-03-11 20:51:41 | US-134 | ATTEMPTED | CMakeLists.txt — All Targets | 0m
+2026-03-11 20:51:44 | US-135 | ATTEMPTED | Docker + Docker Compose | 0m
+2026-03-11 20:51:48 | US-136 | ATTEMPTED | GitHub Actions CI | 0m
+2026-03-11 20:51:51 | US-137 | ATTEMPTED | Config Files | 0m
+2026-03-11 20:51:55 | US-138 | ATTEMPTED | Scripts + README | 0m
+2026-03-12 09:01:06 | US-076 | COMPLETED | Circuit Breaker | 4.6m
+2026-03-12 09:12:47 | US-077 | COMPLETED | Risk Report + Logger + Tests | 11.6m
+2026-03-12 09:19:17 | US-078 | COMPLETED | Data Types + Binary Writer | 6.5m
+2026-03-12 09:26:25 | US-079 | COMPLETED | Tick Recorder + CSV Writer | 7.1m
+2026-03-12 09:35:03 | US-080 | COMPLETED | Compression + File Rotation | 8.6m
+2026-03-12 09:40:37 | US-081 | COMPLETED | Tick Store + Time Index | 5.5m
+2026-03-12 09:44:30 | US-082 | COMPLETED | Bar Aggregator + Symbol Catalog | 3.8m
+2026-03-12 09:51:19 | US-083 | COMPLETED | Replay Clock + Engine | 6.8m
+2026-03-12 09:57:10 | US-084 | COMPLETED | Multi-Stream Merger + Replay Publisher | 5.8m

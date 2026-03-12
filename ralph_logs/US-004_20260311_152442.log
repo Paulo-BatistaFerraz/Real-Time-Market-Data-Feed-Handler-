@@ -1,0 +1,8 @@
+I need write permission to create `tests/test_spsc_queue.cpp`. Could you approve the file write permission so I can proceed? The file contains 6 Google Test cases covering all the acceptance criteria:
+
+1. **PushPopSingleItem** - single item round-trip
+2. **FullQueueRejectsPush** - fill to capacity, verify try_push returns false
+3. **EmptyQueueRejectsPop** - pop from empty, verify try_pop returns false
+4. **WrapAround** - fill/drain/fill/drain to exercise index wrapping
+5. **FIFOOrdering** - push 1..N, pop in same order
+6. **ConcurrentProducerConsumer** - producer thread pushes 100K items, consumer pops all, verify in-order delivery

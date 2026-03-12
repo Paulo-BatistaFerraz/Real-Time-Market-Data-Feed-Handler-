@@ -1,43 +1,1201 @@
 [
 {
   "directory": "D:/market-data-feed-handler/build",
-  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\handler\\main.cpp.obj -c D:\\market-data-feed-handler\\src\\handler\\main.cpp",
+  "command": "C:\\mingw64\\bin\\gcc.exe  @CMakeFiles/lz4_lib.dir/includes_C.rsp -O3 -DNDEBUG -o CMakeFiles\\lz4_lib.dir\\_deps\\lz4-src\\lib\\lz4.c.obj -c D:\\market-data-feed-handler\\build\\_deps\\lz4-src\\lib\\lz4.c",
+  "file": "D:/market-data-feed-handler/build/_deps/lz4-src/lib/lz4.c",
+  "output": "CMakeFiles/lz4_lib.dir/_deps/lz4-src/lib/lz4.c.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\handler\\main.cpp.obj -c D:\\market-data-feed-handler\\src\\handler\\main.cpp",
   "file": "D:/market-data-feed-handler/src/handler/main.cpp",
   "output": "CMakeFiles/feed_handler.dir/src/handler/main.cpp.obj"
 },
 {
   "directory": "D:/market-data-feed-handler/build",
-  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE @CMakeFiles/exchange_simulator.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\exchange_simulator.dir\\src\\simulator\\main.cpp.obj -c D:\\market-data-feed-handler\\src\\simulator\\main.cpp",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\handler\\network_stage.cpp.obj -c D:\\market-data-feed-handler\\src\\handler\\network_stage.cpp",
+  "file": "D:/market-data-feed-handler/src/handler/network_stage.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/handler/network_stage.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\handler\\parser_stage.cpp.obj -c D:\\market-data-feed-handler\\src\\handler\\parser_stage.cpp",
+  "file": "D:/market-data-feed-handler/src/handler/parser_stage.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/handler/parser_stage.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\handler\\book_stage.cpp.obj -c D:\\market-data-feed-handler\\src\\handler\\book_stage.cpp",
+  "file": "D:/market-data-feed-handler/src/handler/book_stage.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/handler/book_stage.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\handler\\consumer_stage.cpp.obj -c D:\\market-data-feed-handler\\src\\handler\\consumer_stage.cpp",
+  "file": "D:/market-data-feed-handler/src/handler/consumer_stage.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/handler/consumer_stage.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\core\\pipeline.cpp.obj -c D:\\market-data-feed-handler\\src\\core\\pipeline.cpp",
+  "file": "D:/market-data-feed-handler/src/core/pipeline.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/core/pipeline.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\network\\multicast_sender.cpp.obj -c D:\\market-data-feed-handler\\src\\network\\multicast_sender.cpp",
+  "file": "D:/market-data-feed-handler/src/network/multicast_sender.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/network/multicast_sender.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\network\\multicast_receiver.cpp.obj -c D:\\market-data-feed-handler\\src\\network\\multicast_receiver.cpp",
+  "file": "D:/market-data-feed-handler/src/network/multicast_receiver.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/network/multicast_receiver.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\protocol\\frame_parser.cpp.obj -c D:\\market-data-feed-handler\\src\\protocol\\frame_parser.cpp",
+  "file": "D:/market-data-feed-handler/src/protocol/frame_parser.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/protocol/frame_parser.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\protocol\\validator.cpp.obj -c D:\\market-data-feed-handler\\src\\protocol\\validator.cpp",
+  "file": "D:/market-data-feed-handler/src/protocol/validator.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/protocol/validator.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\protocol\\sequence.cpp.obj -c D:\\market-data-feed-handler\\src\\protocol\\sequence.cpp",
+  "file": "D:/market-data-feed-handler/src/protocol/sequence.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/protocol/sequence.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\protocol\\batcher.cpp.obj -c D:\\market-data-feed-handler\\src\\protocol\\batcher.cpp",
+  "file": "D:/market-data-feed-handler/src/protocol/batcher.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/protocol/batcher.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\core\\order_store.cpp.obj -c D:\\market-data-feed-handler\\src\\core\\order_store.cpp",
+  "file": "D:/market-data-feed-handler/src/core/order_store.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/core/order_store.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\core\\order_book.cpp.obj -c D:\\market-data-feed-handler\\src\\core\\order_book.cpp",
+  "file": "D:/market-data-feed-handler/src/core/order_book.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/core/order_book.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\core\\book_manager.cpp.obj -c D:\\market-data-feed-handler\\src\\core\\book_manager.cpp",
+  "file": "D:/market-data-feed-handler/src/core/book_manager.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/core/book_manager.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\consumer\\latency_histogram.cpp.obj -c D:\\market-data-feed-handler\\src\\consumer\\latency_histogram.cpp",
+  "file": "D:/market-data-feed-handler/src/consumer/latency_histogram.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/consumer/latency_histogram.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\consumer\\throughput_tracker.cpp.obj -c D:\\market-data-feed-handler\\src\\consumer\\throughput_tracker.cpp",
+  "file": "D:/market-data-feed-handler/src/consumer/throughput_tracker.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/consumer/throughput_tracker.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\consumer\\stats_collector.cpp.obj -c D:\\market-data-feed-handler\\src\\consumer\\stats_collector.cpp",
+  "file": "D:/market-data-feed-handler/src/consumer/stats_collector.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/consumer/stats_collector.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\consumer\\console_display.cpp.obj -c D:\\market-data-feed-handler\\src\\consumer\\console_display.cpp",
+  "file": "D:/market-data-feed-handler/src/consumer/console_display.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/consumer/console_display.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\consumer\\csv_logger.cpp.obj -c D:\\market-data-feed-handler\\src\\consumer\\csv_logger.cpp",
+  "file": "D:/market-data-feed-handler/src/consumer/csv_logger.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/consumer/csv_logger.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\infra\\config.cpp.obj -c D:\\market-data-feed-handler\\src\\infra\\config.cpp",
+  "file": "D:/market-data-feed-handler/src/infra/config.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/infra/config.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/feed_handler.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\feed_handler.dir\\src\\infra\\logging.cpp.obj -c D:\\market-data-feed-handler\\src\\infra\\logging.cpp",
+  "file": "D:/market-data-feed-handler/src/infra/logging.cpp",
+  "output": "CMakeFiles/feed_handler.dir/src/infra/logging.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/exchange_simulator.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\exchange_simulator.dir\\src\\simulator\\main.cpp.obj -c D:\\market-data-feed-handler\\src\\simulator\\main.cpp",
   "file": "D:/market-data-feed-handler/src/simulator/main.cpp",
   "output": "CMakeFiles/exchange_simulator.dir/src/simulator/main.cpp.obj"
 },
 {
   "directory": "D:/market-data-feed-handler/build",
-  "command": "C:\\mingw64\\bin\\c++.exe  @CMakeFiles/run_tests.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_stub.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_stub.cpp",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/exchange_simulator.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\exchange_simulator.dir\\src\\simulator\\scenario_loader.cpp.obj -c D:\\market-data-feed-handler\\src\\simulator\\scenario_loader.cpp",
+  "file": "D:/market-data-feed-handler/src/simulator/scenario_loader.cpp",
+  "output": "CMakeFiles/exchange_simulator.dir/src/simulator/scenario_loader.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/exchange_simulator.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\exchange_simulator.dir\\src\\simulator\\price_walk.cpp.obj -c D:\\market-data-feed-handler\\src\\simulator\\price_walk.cpp",
+  "file": "D:/market-data-feed-handler/src/simulator/price_walk.cpp",
+  "output": "CMakeFiles/exchange_simulator.dir/src/simulator/price_walk.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/exchange_simulator.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\exchange_simulator.dir\\src\\simulator\\order_generator.cpp.obj -c D:\\market-data-feed-handler\\src\\simulator\\order_generator.cpp",
+  "file": "D:/market-data-feed-handler/src/simulator/order_generator.cpp",
+  "output": "CMakeFiles/exchange_simulator.dir/src/simulator/order_generator.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/exchange_simulator.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\exchange_simulator.dir\\src\\simulator\\sim_order_book.cpp.obj -c D:\\market-data-feed-handler\\src\\simulator\\sim_order_book.cpp",
+  "file": "D:/market-data-feed-handler/src/simulator/sim_order_book.cpp",
+  "output": "CMakeFiles/exchange_simulator.dir/src/simulator/sim_order_book.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/exchange_simulator.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\exchange_simulator.dir\\src\\simulator\\sim_matching_engine.cpp.obj -c D:\\market-data-feed-handler\\src\\simulator\\sim_matching_engine.cpp",
+  "file": "D:/market-data-feed-handler/src/simulator/sim_matching_engine.cpp",
+  "output": "CMakeFiles/exchange_simulator.dir/src/simulator/sim_matching_engine.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/exchange_simulator.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\exchange_simulator.dir\\src\\simulator\\market_simulator.cpp.obj -c D:\\market-data-feed-handler\\src\\simulator\\market_simulator.cpp",
+  "file": "D:/market-data-feed-handler/src/simulator/market_simulator.cpp",
+  "output": "CMakeFiles/exchange_simulator.dir/src/simulator/market_simulator.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/exchange_simulator.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\exchange_simulator.dir\\src\\simulator\\volatility_regime.cpp.obj -c D:\\market-data-feed-handler\\src\\simulator\\volatility_regime.cpp",
+  "file": "D:/market-data-feed-handler/src/simulator/volatility_regime.cpp",
+  "output": "CMakeFiles/exchange_simulator.dir/src/simulator/volatility_regime.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/exchange_simulator.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\exchange_simulator.dir\\src\\simulator\\news_event_generator.cpp.obj -c D:\\market-data-feed-handler\\src\\simulator\\news_event_generator.cpp",
+  "file": "D:/market-data-feed-handler/src/simulator/news_event_generator.cpp",
+  "output": "CMakeFiles/exchange_simulator.dir/src/simulator/news_event_generator.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/exchange_simulator.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\exchange_simulator.dir\\src\\simulator\\participant_model.cpp.obj -c D:\\market-data-feed-handler\\src\\simulator\\participant_model.cpp",
+  "file": "D:/market-data-feed-handler/src/simulator/participant_model.cpp",
+  "output": "CMakeFiles/exchange_simulator.dir/src/simulator/participant_model.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/exchange_simulator.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\exchange_simulator.dir\\src\\simulator\\multi_asset_sim.cpp.obj -c D:\\market-data-feed-handler\\src\\simulator\\multi_asset_sim.cpp",
+  "file": "D:/market-data-feed-handler/src/simulator/multi_asset_sim.cpp",
+  "output": "CMakeFiles/exchange_simulator.dir/src/simulator/multi_asset_sim.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/exchange_simulator.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\exchange_simulator.dir\\src\\network\\multicast_sender.cpp.obj -c D:\\market-data-feed-handler\\src\\network\\multicast_sender.cpp",
+  "file": "D:/market-data-feed-handler/src/network/multicast_sender.cpp",
+  "output": "CMakeFiles/exchange_simulator.dir/src/network/multicast_sender.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/exchange_simulator.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\exchange_simulator.dir\\src\\network\\multicast_receiver.cpp.obj -c D:\\market-data-feed-handler\\src\\network\\multicast_receiver.cpp",
+  "file": "D:/market-data-feed-handler/src/network/multicast_receiver.cpp",
+  "output": "CMakeFiles/exchange_simulator.dir/src/network/multicast_receiver.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/exchange_simulator.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\exchange_simulator.dir\\src\\protocol\\batcher.cpp.obj -c D:\\market-data-feed-handler\\src\\protocol\\batcher.cpp",
+  "file": "D:/market-data-feed-handler/src/protocol/batcher.cpp",
+  "output": "CMakeFiles/exchange_simulator.dir/src/protocol/batcher.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/exchange_simulator.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\exchange_simulator.dir\\src\\infra\\config.cpp.obj -c D:\\market-data-feed-handler\\src\\infra\\config.cpp",
+  "file": "D:/market-data-feed-handler/src/infra/config.cpp",
+  "output": "CMakeFiles/exchange_simulator.dir/src/infra/config.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DASIO_STANDALONE -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/exchange_simulator.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\exchange_simulator.dir\\src\\infra\\logging.cpp.obj -c D:\\market-data-feed-handler\\src\\infra\\logging.cpp",
+  "file": "D:/market-data-feed-handler/src/infra/logging.cpp",
+  "output": "CMakeFiles/exchange_simulator.dir/src/infra/logging.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_stub.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_stub.cpp",
   "file": "D:/market-data-feed-handler/tests/test_stub.cpp",
   "output": "CMakeFiles/run_tests.dir/tests/test_stub.cpp.obj"
 },
 {
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_feature_store.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_feature_store.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_feature_store.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_feature_store.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_vwap.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_vwap.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_vwap.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_vwap.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_twap.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_twap.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_twap.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_twap.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_microprice.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_microprice.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_microprice.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_microprice.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_ema.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_ema.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_ema.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_ema.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_bollinger.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_bollinger.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_bollinger.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_bollinger.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_rsi.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_rsi.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_rsi.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_rsi.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_macd.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_macd.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_macd.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_macd.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_zscore.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_zscore.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_zscore.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_zscore.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_order_flow_imbalance.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_order_flow_imbalance.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_order_flow_imbalance.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_order_flow_imbalance.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_alpha_combiner.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_alpha_combiner.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_alpha_combiner.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_alpha_combiner.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_feature_normalizer.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_feature_normalizer.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_feature_normalizer.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_feature_normalizer.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_signal_engine.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_signal_engine.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_signal_engine.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_signal_engine.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_market_making.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_market_making.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_market_making.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_market_making.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_position_tracker.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_position_tracker.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_position_tracker.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_position_tracker.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_pnl_calculator.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_pnl_calculator.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_pnl_calculator.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_pnl_calculator.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_order_sizer.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_order_sizer.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_order_sizer.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_order_sizer.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\core\\test_order_store.cpp.obj -c D:\\market-data-feed-handler\\tests\\core\\test_order_store.cpp",
+  "file": "D:/market-data-feed-handler/tests/core/test_order_store.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/core/test_order_store.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\core\\test_order_book.cpp.obj -c D:\\market-data-feed-handler\\tests\\core\\test_order_book.cpp",
+  "file": "D:/market-data-feed-handler/tests/core/test_order_book.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/core/test_order_book.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\simulator\\test_price_walk.cpp.obj -c D:\\market-data-feed-handler\\tests\\simulator\\test_price_walk.cpp",
+  "file": "D:/market-data-feed-handler/tests/simulator/test_price_walk.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/simulator/test_price_walk.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\simulator\\test_scenario_loader.cpp.obj -c D:\\market-data-feed-handler\\tests\\simulator\\test_scenario_loader.cpp",
+  "file": "D:/market-data-feed-handler/tests/simulator/test_scenario_loader.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/simulator/test_scenario_loader.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\simulator\\test_order_generator.cpp.obj -c D:\\market-data-feed-handler\\tests\\simulator\\test_order_generator.cpp",
+  "file": "D:/market-data-feed-handler/tests/simulator/test_order_generator.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/simulator/test_order_generator.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\simulator\\test_sim_matching_engine.cpp.obj -c D:\\market-data-feed-handler\\tests\\simulator\\test_sim_matching_engine.cpp",
+  "file": "D:/market-data-feed-handler/tests/simulator/test_sim_matching_engine.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/simulator/test_sim_matching_engine.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\core\\order_store.cpp.obj -c D:\\market-data-feed-handler\\src\\core\\order_store.cpp",
+  "file": "D:/market-data-feed-handler/src/core/order_store.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/core/order_store.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\core\\order_book.cpp.obj -c D:\\market-data-feed-handler\\src\\core\\order_book.cpp",
+  "file": "D:/market-data-feed-handler/src/core/order_book.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/core/order_book.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\core\\book_manager.cpp.obj -c D:\\market-data-feed-handler\\src\\core\\book_manager.cpp",
+  "file": "D:/market-data-feed-handler/src/core/book_manager.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/core/book_manager.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\simulator\\price_walk.cpp.obj -c D:\\market-data-feed-handler\\src\\simulator\\price_walk.cpp",
+  "file": "D:/market-data-feed-handler/src/simulator/price_walk.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/simulator/price_walk.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\simulator\\scenario_loader.cpp.obj -c D:\\market-data-feed-handler\\src\\simulator\\scenario_loader.cpp",
+  "file": "D:/market-data-feed-handler/src/simulator/scenario_loader.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/simulator/scenario_loader.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\simulator\\order_generator.cpp.obj -c D:\\market-data-feed-handler\\src\\simulator\\order_generator.cpp",
+  "file": "D:/market-data-feed-handler/src/simulator/order_generator.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/simulator/order_generator.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\simulator\\sim_order_book.cpp.obj -c D:\\market-data-feed-handler\\src\\simulator\\sim_order_book.cpp",
+  "file": "D:/market-data-feed-handler/src/simulator/sim_order_book.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/simulator/sim_order_book.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\simulator\\sim_matching_engine.cpp.obj -c D:\\market-data-feed-handler\\src\\simulator\\sim_matching_engine.cpp",
+  "file": "D:/market-data-feed-handler/src/simulator/sim_matching_engine.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/simulator/sim_matching_engine.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\features\\vwap.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\features\\vwap.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/features/vwap.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/features/vwap.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\features\\twap.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\features\\twap.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/features/twap.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/features/twap.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\features\\microprice.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\features\\microprice.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/features/microprice.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/features/microprice.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\features\\order_flow_imbalance.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\features\\order_flow_imbalance.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/features/order_flow_imbalance.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/features/order_flow_imbalance.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\features\\book_depth_ratio.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\features\\book_depth_ratio.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/features/book_depth_ratio.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/features/book_depth_ratio.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\features\\spread_tracker.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\features\\spread_tracker.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/features/spread_tracker.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/features/spread_tracker.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\features\\trade_flow.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\features\\trade_flow.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/features/trade_flow.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/features/trade_flow.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\features\\volatility_estimator.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\features\\volatility_estimator.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/features/volatility_estimator.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/features/volatility_estimator.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\features\\momentum.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\features\\momentum.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/features/momentum.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/features/momentum.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\features\\mean_reversion.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\features\\mean_reversion.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/features/mean_reversion.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/features/mean_reversion.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\features\\tick_intensity.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\features\\tick_intensity.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/features/tick_intensity.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/features/tick_intensity.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\indicators\\ema.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\indicators\\ema.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/indicators/ema.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/indicators/ema.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\indicators\\bollinger.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\indicators\\bollinger.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/indicators/bollinger.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/indicators/bollinger.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\indicators\\rsi.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\indicators\\rsi.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/indicators/rsi.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/indicators/rsi.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\indicators\\macd.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\indicators\\macd.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/indicators/macd.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/indicators/macd.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\indicators\\zscore.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\indicators\\zscore.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/indicators/zscore.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/indicators/zscore.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\composite\\alpha_combiner.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\composite\\alpha_combiner.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/composite/alpha_combiner.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/composite/alpha_combiner.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\composite\\signal_decay.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\composite\\signal_decay.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/composite/signal_decay.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/composite/signal_decay.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\composite\\regime_detector.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\composite\\regime_detector.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/composite/regime_detector.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/composite/regime_detector.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\ml\\feature_store.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\ml\\feature_store.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/ml/feature_store.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/ml/feature_store.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\ml\\feature_normalizer.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\ml\\feature_normalizer.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/ml/feature_normalizer.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/ml/feature_normalizer.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\ml\\linear_model.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\ml\\linear_model.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/ml/linear_model.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/ml/linear_model.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\ml\\model_loader.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\ml\\model_loader.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/ml/model_loader.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/ml/model_loader.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\ml\\prediction_cache.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\ml\\prediction_cache.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/ml/prediction_cache.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/ml/prediction_cache.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\signal_registry.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\signal_registry.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/signal_registry.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/signal_registry.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\signals\\signal_engine.cpp.obj -c D:\\market-data-feed-handler\\src\\signals\\signal_engine.cpp",
+  "file": "D:/market-data-feed-handler/src/signals/signal_engine.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/signals/signal_engine.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\strategy\\strategy_registry.cpp.obj -c D:\\market-data-feed-handler\\src\\strategy\\strategy_registry.cpp",
+  "file": "D:/market-data-feed-handler/src/strategy/strategy_registry.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/strategy/strategy_registry.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\strategy\\strategy_engine.cpp.obj -c D:\\market-data-feed-handler\\src\\strategy\\strategy_engine.cpp",
+  "file": "D:/market-data-feed-handler/src/strategy/strategy_engine.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/strategy/strategy_engine.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\strategy\\position\\position_tracker.cpp.obj -c D:\\market-data-feed-handler\\src\\strategy\\position\\position_tracker.cpp",
+  "file": "D:/market-data-feed-handler/src/strategy/position/position_tracker.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/strategy/position/position_tracker.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\strategy\\position\\fill_tracker.cpp.obj -c D:\\market-data-feed-handler\\src\\strategy\\position\\fill_tracker.cpp",
+  "file": "D:/market-data-feed-handler/src/strategy/position/fill_tracker.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/strategy/position/fill_tracker.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\strategy\\position\\pnl_calculator.cpp.obj -c D:\\market-data-feed-handler\\src\\strategy\\position\\pnl_calculator.cpp",
+  "file": "D:/market-data-feed-handler/src/strategy/position/pnl_calculator.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/strategy/position/pnl_calculator.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\strategy\\position\\portfolio.cpp.obj -c D:\\market-data-feed-handler\\src\\strategy\\position\\portfolio.cpp",
+  "file": "D:/market-data-feed-handler/src/strategy/position/portfolio.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/strategy/position/portfolio.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\strategy\\execution\\order_sizer.cpp.obj -c D:\\market-data-feed-handler\\src\\strategy\\execution\\order_sizer.cpp",
+  "file": "D:/market-data-feed-handler/src/strategy/execution/order_sizer.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/strategy/execution/order_sizer.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\strategy\\execution\\slippage_model.cpp.obj -c D:\\market-data-feed-handler\\src\\strategy\\execution\\slippage_model.cpp",
+  "file": "D:/market-data-feed-handler/src/strategy/execution/slippage_model.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/strategy/execution/slippage_model.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\strategy\\execution\\execution_algo.cpp.obj -c D:\\market-data-feed-handler\\src\\strategy\\execution\\execution_algo.cpp",
+  "file": "D:/market-data-feed-handler/src/strategy/execution/execution_algo.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/strategy/execution/execution_algo.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\strategy\\strategies\\market_making.cpp.obj -c D:\\market-data-feed-handler\\src\\strategy\\strategies\\market_making.cpp",
+  "file": "D:/market-data-feed-handler/src/strategy/strategies/market_making.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/strategy/strategies/market_making.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\strategy\\strategies\\momentum_follower.cpp.obj -c D:\\market-data-feed-handler\\src\\strategy\\strategies\\momentum_follower.cpp",
+  "file": "D:/market-data-feed-handler/src/strategy/strategies/momentum_follower.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/strategy/strategies/momentum_follower.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\strategy\\strategies\\mean_reversion_strat.cpp.obj -c D:\\market-data-feed-handler\\src\\strategy\\strategies\\mean_reversion_strat.cpp",
+  "file": "D:/market-data-feed-handler/src/strategy/strategies/mean_reversion_strat.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/strategy/strategies/mean_reversion_strat.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\strategy\\strategies\\stat_arb.cpp.obj -c D:\\market-data-feed-handler\\src\\strategy\\strategies\\stat_arb.cpp",
+  "file": "D:/market-data-feed-handler/src/strategy/strategies/stat_arb.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/strategy/strategies/stat_arb.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\strategy\\strategies\\signal_threshold.cpp.obj -c D:\\market-data-feed-handler\\src\\strategy\\strategies\\signal_threshold.cpp",
+  "file": "D:/market-data-feed-handler/src/strategy/strategies/signal_threshold.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/strategy/strategies/signal_threshold.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\oms\\state_machine\\state_transitions.cpp.obj -c D:\\market-data-feed-handler\\src\\oms\\state_machine\\state_transitions.cpp",
+  "file": "D:/market-data-feed-handler/src/oms/state_machine/state_transitions.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/oms/state_machine/state_transitions.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\oms\\state_machine\\order_journal.cpp.obj -c D:\\market-data-feed-handler\\src\\oms\\state_machine\\order_journal.cpp",
+  "file": "D:/market-data-feed-handler/src/oms/state_machine/order_journal.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/oms/state_machine/order_journal.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\oms\\order_manager.cpp.obj -c D:\\market-data-feed-handler\\src\\oms\\order_manager.cpp",
+  "file": "D:/market-data-feed-handler/src/oms/order_manager.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/oms/order_manager.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\oms\\order_validator.cpp.obj -c D:\\market-data-feed-handler\\src\\oms\\order_validator.cpp",
+  "file": "D:/market-data-feed-handler/src/oms/order_validator.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/oms/order_validator.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\oms\\order_router.cpp.obj -c D:\\market-data-feed-handler\\src\\oms\\order_router.cpp",
+  "file": "D:/market-data-feed-handler/src/oms/order_router.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/oms/order_router.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\oms\\fill_manager.cpp.obj -c D:\\market-data-feed-handler\\src\\oms\\fill_manager.cpp",
+  "file": "D:/market-data-feed-handler/src/oms/fill_manager.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/oms/fill_manager.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\oms\\order_id_generator.cpp.obj -c D:\\market-data-feed-handler\\src\\oms\\order_id_generator.cpp",
+  "file": "D:/market-data-feed-handler/src/oms/order_id_generator.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/oms/order_id_generator.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\oms\\sim_exchange\\sim_exchange.cpp.obj -c D:\\market-data-feed-handler\\src\\oms\\sim_exchange\\sim_exchange.cpp",
+  "file": "D:/market-data-feed-handler/src/oms/sim_exchange/sim_exchange.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\oms\\sim_exchange\\sim_fill_model.cpp.obj -c D:\\market-data-feed-handler\\src\\oms\\sim_exchange\\sim_fill_model.cpp",
+  "file": "D:/market-data-feed-handler/src/oms/sim_exchange/sim_fill_model.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_fill_model.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\oms\\sim_exchange\\sim_exchange_connector.cpp.obj -c D:\\market-data-feed-handler\\src\\oms\\sim_exchange\\sim_exchange_connector.cpp",
+  "file": "D:/market-data-feed-handler/src/oms/sim_exchange/sim_exchange_connector.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange_connector.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\risk\\limits\\position_limit.cpp.obj -c D:\\market-data-feed-handler\\src\\risk\\limits\\position_limit.cpp",
+  "file": "D:/market-data-feed-handler/src/risk/limits/position_limit.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/risk/limits/position_limit.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\risk\\limits\\notional_limit.cpp.obj -c D:\\market-data-feed-handler\\src\\risk\\limits\\notional_limit.cpp",
+  "file": "D:/market-data-feed-handler/src/risk/limits/notional_limit.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/risk/limits/notional_limit.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\risk\\limits\\loss_limit.cpp.obj -c D:\\market-data-feed-handler\\src\\risk\\limits\\loss_limit.cpp",
+  "file": "D:/market-data-feed-handler/src/risk/limits/loss_limit.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/risk/limits/loss_limit.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\risk\\limits\\order_rate_limit.cpp.obj -c D:\\market-data-feed-handler\\src\\risk\\limits\\order_rate_limit.cpp",
+  "file": "D:/market-data-feed-handler/src/risk/limits/order_rate_limit.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/risk/limits/order_rate_limit.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\risk\\limits\\concentration_limit.cpp.obj -c D:\\market-data-feed-handler\\src\\risk\\limits\\concentration_limit.cpp",
+  "file": "D:/market-data-feed-handler/src/risk/limits/concentration_limit.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/risk/limits/concentration_limit.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\risk\\pre_trade_risk.cpp.obj -c D:\\market-data-feed-handler\\src\\risk\\pre_trade_risk.cpp",
+  "file": "D:/market-data-feed-handler/src/risk/pre_trade_risk.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/risk/pre_trade_risk.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\risk\\post_trade_risk.cpp.obj -c D:\\market-data-feed-handler\\src\\risk\\post_trade_risk.cpp",
+  "file": "D:/market-data-feed-handler/src/risk/post_trade_risk.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/risk/post_trade_risk.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\risk\\monitors\\pnl_monitor.cpp.obj -c D:\\market-data-feed-handler\\src\\risk\\monitors\\pnl_monitor.cpp",
+  "file": "D:/market-data-feed-handler/src/risk/monitors/pnl_monitor.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/risk/monitors/pnl_monitor.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\risk\\monitors\\exposure_monitor.cpp.obj -c D:\\market-data-feed-handler\\src\\risk\\monitors\\exposure_monitor.cpp",
+  "file": "D:/market-data-feed-handler/src/risk/monitors/exposure_monitor.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/risk/monitors/exposure_monitor.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\risk\\monitors\\var_calculator.cpp.obj -c D:\\market-data-feed-handler\\src\\risk\\monitors\\var_calculator.cpp",
+  "file": "D:/market-data-feed-handler/src/risk/monitors/var_calculator.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/risk/monitors/var_calculator.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\risk\\monitors\\circuit_breaker.cpp.obj -c D:\\market-data-feed-handler\\src\\risk\\monitors\\circuit_breaker.cpp",
+  "file": "D:/market-data-feed-handler/src/risk/monitors/circuit_breaker.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/risk/monitors/circuit_breaker.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\risk\\reporting\\risk_report.cpp.obj -c D:\\market-data-feed-handler\\src\\risk\\reporting\\risk_report.cpp",
+  "file": "D:/market-data-feed-handler/src/risk/reporting/risk_report.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/risk/reporting/risk_report.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\risk\\reporting\\risk_logger.cpp.obj -c D:\\market-data-feed-handler\\src\\risk\\reporting\\risk_logger.cpp",
+  "file": "D:/market-data-feed-handler/src/risk/reporting/risk_logger.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/risk/reporting/risk_logger.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\data\\recorder\\binary_writer.cpp.obj -c D:\\market-data-feed-handler\\src\\data\\recorder\\binary_writer.cpp",
+  "file": "D:/market-data-feed-handler/src/data/recorder/binary_writer.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/data/recorder/binary_writer.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\data\\recorder\\tick_recorder.cpp.obj -c D:\\market-data-feed-handler\\src\\data\\recorder\\tick_recorder.cpp",
+  "file": "D:/market-data-feed-handler/src/data/recorder/tick_recorder.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/data/recorder/tick_recorder.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\data\\recorder\\csv_writer.cpp.obj -c D:\\market-data-feed-handler\\src\\data\\recorder\\csv_writer.cpp",
+  "file": "D:/market-data-feed-handler/src/data/recorder/csv_writer.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/data/recorder/csv_writer.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\data\\recorder\\compression.cpp.obj -c D:\\market-data-feed-handler\\src\\data\\recorder\\compression.cpp",
+  "file": "D:/market-data-feed-handler/src/data/recorder/compression.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/data/recorder/compression.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\data\\recorder\\rotation.cpp.obj -c D:\\market-data-feed-handler\\src\\data\\recorder\\rotation.cpp",
+  "file": "D:/market-data-feed-handler/src/data/recorder/rotation.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/data/recorder/rotation.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\data\\storage\\tick_store.cpp.obj -c D:\\market-data-feed-handler\\src\\data\\storage\\tick_store.cpp",
+  "file": "D:/market-data-feed-handler/src/data/storage/tick_store.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/data/storage/tick_store.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\data\\storage\\time_index.cpp.obj -c D:\\market-data-feed-handler\\src\\data\\storage\\time_index.cpp",
+  "file": "D:/market-data-feed-handler/src/data/storage/time_index.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/data/storage/time_index.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\data\\storage\\bar_aggregator.cpp.obj -c D:\\market-data-feed-handler\\src\\data\\storage\\bar_aggregator.cpp",
+  "file": "D:/market-data-feed-handler/src/data/storage/bar_aggregator.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/data/storage/bar_aggregator.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\data\\storage\\symbol_catalog.cpp.obj -c D:\\market-data-feed-handler\\src\\data\\storage\\symbol_catalog.cpp",
+  "file": "D:/market-data-feed-handler/src/data/storage/symbol_catalog.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/data/storage/symbol_catalog.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\data\\replay\\replay_clock.cpp.obj -c D:\\market-data-feed-handler\\src\\data\\replay\\replay_clock.cpp",
+  "file": "D:/market-data-feed-handler/src/data/replay/replay_clock.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/data/replay/replay_clock.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\data\\replay\\replay_engine.cpp.obj -c D:\\market-data-feed-handler\\src\\data\\replay\\replay_engine.cpp",
+  "file": "D:/market-data-feed-handler/src/data/replay/replay_engine.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/data/replay/replay_engine.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\data\\replay\\multi_stream_merger.cpp.obj -c D:\\market-data-feed-handler\\src\\data\\replay\\multi_stream_merger.cpp",
+  "file": "D:/market-data-feed-handler/src/data/replay/multi_stream_merger.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/data/replay/multi_stream_merger.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\data\\replay\\replay_publisher.cpp.obj -c D:\\market-data-feed-handler\\src\\data\\replay\\replay_publisher.cpp",
+  "file": "D:/market-data-feed-handler/src/data/replay/replay_publisher.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/data/replay/replay_publisher.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_circuit_breaker.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_circuit_breaker.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_circuit_breaker.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_circuit_breaker.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_position_limit.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_position_limit.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_position_limit.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_position_limit.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_loss_limit.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_loss_limit.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_loss_limit.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_loss_limit.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_var_calculator.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_var_calculator.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_var_calculator.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_var_calculator.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_state_machine.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_state_machine.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_state_machine.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_state_machine.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_order_manager.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_order_manager.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_order_manager.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_order_manager.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_sim_exchange.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_sim_exchange.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_sim_exchange.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_sim_exchange.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_tick_recorder.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_tick_recorder.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_tick_recorder.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_tick_recorder.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_bar_aggregator.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_bar_aggregator.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_bar_aggregator.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_bar_aggregator.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_replay_engine.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_replay_engine.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_replay_engine.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_replay_engine.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\tests\\test_compression.cpp.obj -c D:\\market-data-feed-handler\\tests\\test_compression.cpp",
+  "file": "D:/market-data-feed-handler/tests/test_compression.cpp",
+  "output": "CMakeFiles/run_tests.dir/tests/test_compression.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\infra\\config.cpp.obj -c D:\\market-data-feed-handler\\src\\infra\\config.cpp",
+  "file": "D:/market-data-feed-handler/src/infra/config.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/infra/config.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/run_tests.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\run_tests.dir\\src\\infra\\logging.cpp.obj -c D:\\market-data-feed-handler\\src\\infra\\logging.cpp",
+  "file": "D:/market-data-feed-handler/src/infra/logging.cpp",
+  "output": "CMakeFiles/run_tests.dir/src/infra/logging.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\binary.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\binary.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/binary.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/binary.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\convert.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\convert.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/convert.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/convert.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\depthguard.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\depthguard.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/depthguard.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/depthguard.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\directives.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\directives.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/directives.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/directives.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\emit.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\emit.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/emit.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emit.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\emitfromevents.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\emitfromevents.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/emitfromevents.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitfromevents.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\emitter.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\emitter.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/emitter.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitter.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\emitterstate.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\emitterstate.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/emitterstate.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterstate.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\emitterutils.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\emitterutils.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/emitterutils.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/emitterutils.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\exceptions.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\exceptions.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/exceptions.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exceptions.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\exp.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\exp.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/exp.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/exp.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\memory.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\memory.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/memory.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/memory.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\node.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\node.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/node.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\node_data.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\node_data.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/node_data.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/node_data.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\nodebuilder.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\nodebuilder.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/nodebuilder.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodebuilder.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\nodeevents.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\nodeevents.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/nodeevents.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/nodeevents.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\null.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\null.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/null.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/null.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\ostream_wrapper.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\ostream_wrapper.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/ostream_wrapper.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/ostream_wrapper.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\parse.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\parse.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/parse.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parse.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\parser.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\parser.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/parser.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/parser.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\regex_yaml.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\regex_yaml.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/regex_yaml.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/regex_yaml.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\scanner.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\scanner.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/scanner.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanner.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\scanscalar.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\scanscalar.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/scanscalar.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scanscalar.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\scantag.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\scantag.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/scantag.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantag.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\scantoken.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\scantoken.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/scantoken.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/scantoken.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\simplekey.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\simplekey.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/simplekey.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/simplekey.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\singledocparser.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\singledocparser.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/singledocparser.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/singledocparser.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\stream.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\stream.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/stream.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/stream.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/yaml-cpp-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DYAML_CPP_NO_CONTRIB -DYAML_CPP_STATIC_DEFINE @CMakeFiles/yaml-cpp.dir/includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\yaml-cpp.dir\\src\\tag.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\yaml-cpp-src\\src\\tag.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/yaml-cpp-src/src/tag.cpp",
+  "output": "_deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/src/tag.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/spdlog-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED @CMakeFiles/spdlog.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -o CMakeFiles\\spdlog.dir\\src\\spdlog.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\spdlog-src\\src\\spdlog.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/spdlog-src/src/spdlog.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/spdlog-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED @CMakeFiles/spdlog.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -o CMakeFiles\\spdlog.dir\\src\\stdout_sinks.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\spdlog-src\\src\\stdout_sinks.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/spdlog-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED @CMakeFiles/spdlog.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -o CMakeFiles\\spdlog.dir\\src\\color_sinks.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\spdlog-src\\src\\color_sinks.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/spdlog-src/src/color_sinks.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/spdlog-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED @CMakeFiles/spdlog.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -o CMakeFiles\\spdlog.dir\\src\\file_sinks.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\spdlog-src\\src\\file_sinks.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/spdlog-src/src/file_sinks.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/spdlog-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED @CMakeFiles/spdlog.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -o CMakeFiles\\spdlog.dir\\src\\async.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\spdlog-src\\src\\async.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/spdlog-src/src/async.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/spdlog-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED @CMakeFiles/spdlog.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -o CMakeFiles\\spdlog.dir\\src\\cfg.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\spdlog-src\\src\\cfg.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/spdlog-src/src/cfg.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.obj"
+},
+{
+  "directory": "D:/market-data-feed-handler/build/_deps/spdlog-build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED @CMakeFiles/spdlog.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -o CMakeFiles\\spdlog.dir\\src\\bundled_fmtlib_format.cpp.obj -c D:\\market-data-feed-handler\\build\\_deps\\spdlog-src\\src\\bundled_fmtlib_format.cpp",
+  "file": "D:/market-data-feed-handler/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "output": "_deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.obj"
+},
+{
   "directory": "D:/market-data-feed-handler/build/_deps/googletest-build/googlemock",
-  "command": "C:\\mingw64\\bin\\c++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c D:\\market-data-feed-handler\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "command": "C:\\mingw64\\bin\\c++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c D:\\market-data-feed-handler\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
   "file": "D:/market-data-feed-handler/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
   "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
 },
 {
   "directory": "D:/market-data-feed-handler/build/_deps/googletest-build/googlemock",
-  "command": "C:\\mingw64\\bin\\c++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c D:\\market-data-feed-handler\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "command": "C:\\mingw64\\bin\\c++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c D:\\market-data-feed-handler\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
   "file": "D:/market-data-feed-handler/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
   "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
 },
 {
   "directory": "D:/market-data-feed-handler/build/_deps/googletest-build/googletest",
-  "command": "C:\\mingw64\\bin\\c++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c D:\\market-data-feed-handler\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "command": "C:\\mingw64\\bin\\c++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c D:\\market-data-feed-handler\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
   "file": "D:/market-data-feed-handler/build/_deps/googletest-src/googletest/src/gtest-all.cc",
   "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
 },
 {
   "directory": "D:/market-data-feed-handler/build/_deps/googletest-build/googletest",
-  "command": "C:\\mingw64\\bin\\c++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c D:\\market-data-feed-handler\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "command": "C:\\mingw64\\bin\\c++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -O3 -DNDEBUG -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c D:\\market-data-feed-handler\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
   "file": "D:/market-data-feed-handler/build/_deps/googletest-src/googletest/src/gtest_main.cc",
   "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
 }

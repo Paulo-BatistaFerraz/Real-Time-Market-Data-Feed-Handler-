@@ -1,0 +1,11 @@
+All done. Here's the acceptance criteria assessment:
+
+| Criterion | Status |
+|---|---|
+| `BookStage::run(queue_in, queue_out, book_manager)` ΓÇö loops: pop ParsedEvent from Q2 ΓåÆ dispatch to BookManager ΓåÆ push BookUpdate into Q3 | **PASS** ΓÇö `book_stage.cpp:8-22`: loops while `running_`, pops from `q2_`, calls `book_manager_.process()`, pushes to `q3_` |
+| `ConsumerStage::run(queue_in, stats_collector)` ΓÇö loops: pop BookUpdate from Q3 ΓåÆ feed to StatsCollector ΓåÆ update display | **PASS** ΓÇö `consumer_stage.cpp:12-46`: loops while `running_`, pops from `q3_`, feeds to `stats_collector_.process()`, manages ConsoleDisplay + CsvLogger |
+| `Pipeline` owns: MulticastReceiver, 3 SPSC queues (Q1: 65536, Q2: 65536, Q3: 16384), BookManager, StatsCollector | **PASS** ΓÇö `pipeline.hpp:55-61`: owns `q1_` (65536), `q2_` (65536), `q3_` (16384), `book_manager_`, `stats_collector_`; MulticastReceiver created in network_stage scope |
+| `Pipeline::start()` launches 4 `std::thread`s, one per stage | **PASS** ΓÇö `pipeline.cpp:14-21`: launches network, parser, book, consumer threads |
+| `Pipeline::stop()` signals all stages to stop, joins all threads | **PASS** ΓÇö `pipeline.cpp:23-30`: sets `running_` to false, joins all 4 threads |
+| `Pipeline::get_stats()` returns current StatsSnapshot | **PASS** ΓÇö `pipeline.hpp:48` + `pipeline.cpp:32-34`: returns `stats_collector_.snapshot()` |
+| Build passes | **PASS** ΓÇö clean build, all 56 tests pass |

@@ -1,0 +1,31 @@
+All files implemented. Here's the acceptance criteria assessment:
+
+## Acceptance Criteria
+
+- [x] **`SimExchange` accepts orders and generates fills based on current market prices** ΓÇö PASS
+  - `submit_order()` accepts `OmsOrder`, uses `market_price_for()` to look up current best bid/ask, generates `FillReport`s via callback
+
+- [x] **Market orders: fill immediately at best bid/ask** ΓÇö PASS  
+  - `submit_order()` line 26-41: market orders get `market_price_for()` (buyΓåÆask, sellΓåÆbid) and `generate_fills()` immediately
+
+- [x] **Limit orders: fill when market price reaches limit price** ΓÇö PASS  
+  - Limit orders are queued in `pending_orders_`; `on_market_update()` triggers `check_pending_orders()` which calls `try_fill_limit()` ΓÇö buy fills when ask Γëñ limit, sell fills when bid ΓëÑ limit
+
+- [x] **`SimFillModel` adds realistic behavior: configurable latency, partial fills, random rejects** ΓÇö PASS  
+  - `apply_latency()`: adds configurable `latency_ns` to timestamps
+  - `split_quantity()`: probabilistically splits large orders (above threshold) into 2-5 partial fills
+  - `should_reject()`: random rejection at configurable `reject_rate`
+
+- [x] **Generates FillReports and sends back to FillManager** ΓÇö PASS  
+  - `generate_fills()` creates properly structured `FillReport` objects (with `is_final` flag on the last partial) and invokes `on_fill_` callback which wires to `FillManager`
+
+- [x] **Build passes** ΓÇö PASS  
+  - Both new `.cpp` files compile and link cleanly into `run_tests` target
+
+## Files Created
+| File | Purpose |
+|------|---------|
+| `include/qf/oms/sim_exchange/sim_exchange.hpp` | SimExchange class header |
+| `include/qf/oms/sim_exchange/sim_fill_model.hpp` | SimFillModel + FillModelConfig header |
+| `src/oms/sim_exchange/sim_exchange.cpp` | SimExchange implementation |
+| `src/oms/sim_exchange/sim_fill_model.cpp` | SimFillModel implementation |

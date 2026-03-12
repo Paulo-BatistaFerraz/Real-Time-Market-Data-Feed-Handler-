@@ -1,8 +1,8 @@
 #include <iostream>
 #include <chrono>
-#include "mdfh/core/pipeline.hpp"
+#include "qf/core/pipeline.hpp"
 
-using namespace mdfh::core;
+using namespace qf::core;
 
 // TODO: End-to-end pipeline latency benchmark
 // Measure time from packet injection to consumer output

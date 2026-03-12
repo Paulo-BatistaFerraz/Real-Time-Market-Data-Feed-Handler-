@@ -1,0 +1,12 @@
+## Acceptance Criteria
+
+| Criterion | Status |
+|---|---|
+| Parses `--config <path>` (JSON scenario config), `--display` (enable console display) | **PASS** ΓÇö Lines 75-89 parse both flags, plus `--help` |
+| Loads multicast address + port from config | **PASS** ΓÇö `load_config()` reads `multicast_group` and `port` from JSON (lines 31-56) |
+| Creates Pipeline with configured receiver | **PASS** ΓÇö Line 113 constructs `Pipeline` with the populated `PipelineConfig` |
+| Calls `pipeline.start()` | **PASS** ΓÇö Line 114 |
+| Registers signal handler (SIGINT/SIGTERM) to call `pipeline.stop()` | **PASS** ΓÇö Lines 107-110 register handlers; signal sets the flag, main thread calls `stop()` on lines 122-123 |
+| Prints startup banner with config summary | **PASS** ΓÇö `print_banner()` (lines 58-67) shows multicast, port, display, CSV settings |
+| Waits for signal, then shuts down cleanly | **PASS** ΓÇö Condition variable wait (lines 117-120), then `pipeline.stop()` + "Clean shutdown complete" message |
+| Build passes | **PASS** ΓÇö Clean build with 0 errors, 0 warnings |

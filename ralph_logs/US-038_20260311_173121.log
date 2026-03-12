@@ -1,0 +1,15 @@
+Clean build ΓÇö no errors or warnings.
+
+## Acceptance Criteria
+
+- **`OrderFlowImbalance` (OFI): tracks net buy vs sell volume over a rolling window** ΓÇö PASS. Uses `std::deque<VolumeSample>` with timestamp-based eviction over configurable `window_ns_`.
+
+- **`compute()` returns (buy_volume - sell_volume) / (buy_volume + sell_volume), range [-1, +1]** ΓÇö PASS. Implemented exactly as `(buy_volume - sell_volume) / total` in `order_flow_imbalance.cpp:39`.
+
+- **`BookDepthRatio` computes total bid depth / total ask depth across top N levels** ΓÇö PASS. Uses `book.bid_depth(num_levels_)` and `book.ask_depth(num_levels_)`, sums quantities, returns ratio.
+
+- **Returns ratio > 1 when more bid depth (bullish), < 1 when more ask depth** ΓÇö PASS. Direct division `total_bid / total_ask` produces this behavior.
+
+- **Configurable number of levels (default 5)** ΓÇö PASS. Constructor takes `size_t num_levels = 5`.
+
+- **Build passes** ΓÇö PASS. Clean compilation with zero errors/warnings.

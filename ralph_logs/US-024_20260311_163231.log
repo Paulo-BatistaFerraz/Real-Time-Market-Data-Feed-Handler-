@@ -1,0 +1,17 @@
+All 62 tests pass. Build succeeds. Let me verify the acceptance criteria:
+
+**Acceptance Criteria:**
+
+- [x] **`MarketSimulator` owns: PriceWalk per symbol, SimOrderBook, OrderGenerator, Batcher, MulticastSender** ΓÇö PASS. Header declares `price_walks_` (vector), `book_`, `generator_`, `matching_engine_`, `batcher_`, `sender_` (MulticastSender), plus `io_ctx_` for Asio.
+
+- [x] **`run(SimConfig)` ΓÇö main loop: generate message ΓåÆ encode ΓåÆ batch ΓåÆ send when full** ΓÇö PASS. `run()` calls `generator_->next()` (which encodes), then `batcher_.add_and_flush()` which auto-sends via the `send_callback` lambda that calls `sender_->send()`.
+
+- [x] **Rate limiting: configurable messages_per_second, uses `std::this_thread::sleep_for` or busy-spin** ΓÇö PASS. Computes `interval_ns` from `config_.msg_rate`, uses `sleep_for` when wait > 100╬╝s, otherwise busy-spins via `continue`.
+
+- [x] **Runs for `duration_seconds` then stops** ΓÇö PASS. Loop checks `now >= end_time` where `end_time = start + seconds(config_.duration_sec)`.
+
+- [x] **Prints summary at end: total messages sent, duration, actual rate** ΓÇö PASS. `print_summary()` outputs all four stats.
+
+- [x] **Supports graceful shutdown via signal handler** ΓÇö PASS. `main.cpp` installs SIGINT/SIGTERM handlers that call `g_simulator->stop()`, which sets `running_` to false.
+
+- [x] **Build passes** ΓÇö PASS. All targets compile, 62 tests pass.

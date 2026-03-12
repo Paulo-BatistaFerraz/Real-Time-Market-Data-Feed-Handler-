@@ -1,0 +1,9 @@
+Build passes. These are header-only files so they compile as part of the existing targets without needing CMakeLists changes.
+
+**Acceptance Criteria:**
+
+- [x] `OmsOrder` struct: order_id, symbol, side, type (Market/Limit), price, quantity, filled_quantity, state, timestamps (created, sent, acked, last_fill) ΓÇö **PASS**
+- [x] `OrderState` enum: `New`, `Sent`, `Acked`, `PartialFill`, `Filled`, `Cancelled`, `Rejected` ΓÇö **PASS**
+- [x] `FillReport` struct: order_id, fill_price, fill_quantity, timestamp, is_final ΓÇö **PASS**
+- [x] `OrderEvent` struct: order_id, from_state, to_state, timestamp, reason ΓÇö **PASS**
+- [x] Build passes ΓÇö **PASS**

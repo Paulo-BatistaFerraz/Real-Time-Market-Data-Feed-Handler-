@@ -1,0 +1,15 @@
+Build passes. Let me verify the acceptance criteria:
+
+**Acceptance Criteria:**
+
+- **`Batcher` accumulates encoded messages into an internal buffer (max 1400 bytes per datagram)** ΓÇö PASS. `add()` copies messages into `buffer_` with `MAX_DATAGRAM` (1400) as default max size.
+
+- **`add(encoded_bytes, length)` returns true if fits, false if datagram is full** ΓÇö PASS. Returns `true` when message fits, `false` when it would exceed capacity.
+
+- **`flush()` returns pointer and size of the completed datagram, resets for next batch** ΓÇö PASS. `FlushResult flush()` returns `{data, size}` and resets `write_pos_` and `msg_count_`.
+
+- **`is_empty()` returns true if no messages added since last flush** ΓÇö PASS. Inline method checks `msg_count_ == 0`.
+
+- **Never exceeds configurable MTU (default 1400)** ΓÇö PASS. Constructor accepts `max_datagram_size` (default `MAX_DATAGRAM` = 1400), `add()` rejects messages that would exceed it.
+
+- **Build passes** ΓÇö PASS.

@@ -1,0 +1,26 @@
+I need your approval to run cmake commands. Could you please approve the build commands? I'm trying to run:
+
+1. `cmake -B build -G "MinGW Makefiles"` ΓÇö to configure the build
+2. `cmake --build build` ΓÇö to compile
+
+In the meantime, let me review the existing implementation against all acceptance criteria:
+
+The existing code in `include/mdfh/protocol/encoder.hpp` already contains:
+
+**1. `Encoder::encode<T>(msg, timestamp, buffer, buffer_size)`** (lines 23-44) ΓÇö Writes `MessageHeader` + payload bytes via `memcpy`, returns `wire_size` (total bytes written). **IMPLEMENTED**
+
+**2. `Encoder::decode_payload<T>(buffer_ptr, out_msg)`** (lines 47-50) ΓÇö Reads payload struct from raw bytes using `memcpy`. **IMPLEMENTED**
+
+**3. `Encoder::peek_message_type(buffer)`** (lines 61-63) ΓÇö Returns `MessageType` from `buffer[2]` (3rd byte = offset past the 2-byte `message_length` field). **IMPLEMENTED**
+
+**4. Handles all 5 message types** ΓÇö `AddOrder`, `CancelOrder`, `ExecuteOrder`, `ReplaceOrder`, `TradeMessage` ΓÇö all supported via templates and the `parse()` switch. **IMPLEMENTED**
+
+**5. Returns 0 if buffer is too small** (line 33) ΓÇö `if (buffer_size < wire_size) return 0;`. **IMPLEMENTED**
+
+**6. Little-endian byte order, `memcpy`-based** ΓÇö All serialization uses `std::memcpy`, no `reinterpret_cast`. Platform is x86 (little-endian). **IMPLEMENTED**
+
+**7. Build passes** ΓÇö Needs verification (awaiting approval for cmake commands).
+
+The implementation is complete and header-only (template code must reside in headers). No `src/protocol/encoder.cpp` is needed since there are no non-template member functions.
+
+Could you approve the cmake build command so I can verify criterion 7?

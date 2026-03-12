@@ -1,0 +1,10 @@
+All targets build cleanly. Here's the acceptance criteria assessment:
+
+**US-041: Momentum + Mean Reversion Features**
+
+- [x] **`Momentum` computes price change over short (10), medium (50), long (200) tick windows** ΓÇö PASS. Default constructor uses 10/50/200. `compute()` calculates price change over each window via `compute_zscore()`.
+- [x] **Normalizes by dividing by rolling standard deviation (z-score of returns)** ΓÇö PASS. `compute_zscore()` divides price change by the rolling standard deviation of tick-to-tick returns within the window.
+- [x] **`MeanReversion` computes z-score of current price vs rolling moving average** ΓÇö PASS. `compute_zscore()` calculates the moving average over the window and returns `(current_price - mean) / stddev`.
+- [x] **Positive z-score = price above mean (potential sell), negative = below (potential buy)** ΓÇö PASS. The z-score formula `(current_price - mean) / stddev` naturally yields positive when above and negative when below.
+- [x] **Both configurable window sizes** ΓÇö PASS. Both constructors accept `short_window`, `medium_window`, `long_window` parameters.
+- [x] **Build passes** ΓÇö PASS. All 5 targets (`feed_handler`, `exchange_simulator`, `run_tests`, `gmock`, `gmock_main`) build cleanly.

@@ -1,0 +1,12 @@
+All 218 tests pass (including all pre-existing tests). Here's the acceptance criteria status:
+
+| Criterion | Status |
+|---|---|
+| Test microprice computation with known bid/ask sizes | **PASS** ΓÇö `MicropriceTest` covers basic computation, equal quantities, heavy bid, empty/missing sides (8 tests) |
+| Test OFI returns correct imbalance ratio | **PASS** ΓÇö `OFITest` covers all buys (+1), all sells (-1), balanced (0), known ratio (0.5), window eviction (9 tests) |
+| Test Bollinger bands with known price sequence | **PASS** ΓÇö `BollingerTest` covers known 5-value sequence (SMA=30, stddev=sqrt(200)), rolling window, %B, bandwidth (11 tests) |
+| Test AlphaCombiner produces weighted sum within [-1, +1] | **PASS** ΓÇö `AlphaCombinerTest` covers weighted sums, clamping to +1/-1, missing features, empty vectors (11 tests) |
+| Test FeatureNormalizer converges to correct mean/std | **PASS** ΓÇö `FeatureNormalizerTest` covers Welford mean/stddev convergence, z-score normalization, constant input, large sample (12 tests) |
+| Test full SignalEngine: feed BookUpdates ΓåÆ get Signals | **PASS** ΓÇö `SignalEngineTest` covers full pipeline (featuresΓåÆindicatorsΓåÆcompositesΓåÆsignals), direction, strength range, OFI+trade history integration (12 tests) |
+| All tests pass | **PASS** ΓÇö 218/218 tests pass |
+| Build passes | **PASS** ΓÇö clean build with no errors |

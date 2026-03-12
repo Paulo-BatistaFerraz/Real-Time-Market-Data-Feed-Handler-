@@ -1,0 +1,11 @@
+All 218 tests pass. Build and tests are green.
+
+**Acceptance Criteria:**
+
+- [x] **`OrderSizer` supports: fixed size, fixed fractional (% of portfolio), Kelly criterion** ΓÇö PASS: `SizingMethod` enum with `Fixed`, `FixedFractional`, `Kelly`; each with dedicated sizing logic in `size_fixed()`, `size_fractional()`, `size_kelly()`.
+- [x] **`size(signal_strength, portfolio, risk_budget)` returns quantity** ΓÇö PASS: `OrderSizer::size(double, const Portfolio&, const RiskBudget&)` returns `Quantity`.
+- [x] **Respects max position size limits** ΓÇö PASS: `apply_limits()` clamps output to `max_position_`.
+- [x] **`SlippageModel` estimates market impact based on order size relative to book depth** ΓÇö PASS: `estimate_slippage()` computes impact as `alpha * (quantity / ADV)`.
+- [x] **Linear impact model: `slippage = alpha * (quantity / ADV)`** ΓÇö PASS: Exact formula in `estimate_slippage()`.
+- [x] **Returns estimated fill price after impact** ΓÇö PASS: `estimated_fill_price()` shifts reference price by slippage (higher for buys, lower for sells).
+- [x] **Build passes** ΓÇö PASS: 218 tests pass, clean build.

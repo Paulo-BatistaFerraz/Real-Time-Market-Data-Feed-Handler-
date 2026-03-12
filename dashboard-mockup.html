@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuantFlow Dashboard</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #0a0e17; --surface: #111827; --surface2: #1a2332;
+    --border: #1e2d3d; --text: #e2e8f0; --muted: #64748b;
+    --green: #22c55e; --red: #ef4444; --blue: #3b82f6;
+    --yellow: #eab308; --cyan: #06b6d4; --purple: #a855f7;
+    --green-dim: rgba(34,197,94,0.15); --red-dim: rgba(239,68,68,0.15);
+  }
+  body { font-family: 'SF Mono', 'Cascadia Code', 'JetBrains Mono', monospace; background: var(--bg); color: var(--text); font-size: 13px; overflow: hidden; height: 100vh; }
+
+  /* Layout */
+  .app { display: grid; grid-template-rows: 40px 1fr 32px; height: 100vh; }
+  .header { display: flex; align-items: center; justify-content: space-between; padding: 0 16px; background: var(--surface); border-bottom: 1px solid var(--border); }
+  .header .logo { font-size: 15px; font-weight: 700; letter-spacing: 1px; }
+  .header .logo span { color: var(--cyan); }
+  .header .status { display: flex; gap: 20px; align-items: center; }
+  .header .status-item { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 11px; }
+  .header .dot { width: 7px; height: 7px; border-radius: 50%; }
+  .dot.green { background: var(--green); box-shadow: 0 0 6px var(--green); }
+  .dot.yellow { background: var(--yellow); box-shadow: 0 0 6px var(--yellow); }
+
+  .main { display: grid; grid-template-columns: 56px 1fr; overflow: hidden; }
+
+  /* Sidebar */
+  .sidebar { background: var(--surface); border-right: 1px solid var(--border); display: flex; flex-direction: column; align-items: center; padding-top: 12px; gap: 4px; }
+  .sidebar a { width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 8px; color: var(--muted); text-decoration: none; font-size: 18px; transition: all 0.15s; cursor: pointer; }
+  .sidebar a:hover { background: var(--surface2); color: var(--text); }
+  .sidebar a.active { background: rgba(6,182,212,0.12); color: var(--cyan); }
+
+  /* Content grid */
+  .content { display: grid; grid-template-columns: 320px 1fr 280px; grid-template-rows: 1fr 1fr; gap: 1px; background: var(--border); overflow: hidden; }
+
+  .panel { background: var(--surface); overflow: hidden; display: flex; flex-direction: column; }
+  .panel-header { padding: 10px 14px 8px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.2px; color: var(--muted); border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-shrink: 0; }
+  .panel-header .tag { font-size: 10px; padding: 2px 6px; border-radius: 3px; font-weight: 500; }
+  .panel-body { flex: 1; overflow-y: auto; padding: 8px 0; }
+
+  /* Order Book */
+  .book-row { display: grid; grid-template-columns: 1fr 80px 1fr; padding: 2px 14px; font-size: 12px; align-items: center; position: relative; }
+  .book-row .price { text-align: center; font-weight: 600; }
+  .book-row .qty { font-variant-numeric: tabular-nums; }
+  .book-row .qty.bid { text-align: right; color: var(--green); }
+  .book-row .qty.ask { text-align: left; color: var(--red); }
+  .book-row .bar { position: absolute; top: 0; bottom: 0; opacity: 0.12; }
+  .book-row .bar.bid-bar { right: 50%; background: var(--green); }
+  .book-row .bar.ask-bar { left: 50%; background: var(--red); }
+  .spread-row { text-align: center; padding: 6px 14px; font-size: 11px; color: var(--muted); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: var(--bg); }
+
+  /* Chart placeholder */
+  .chart-area { position: relative; flex: 1; }
+  .chart-canvas { width: 100%; height: 100%; }
+  .chart-overlay { position: absolute; top: 10px; left: 14px; }
+  .chart-overlay .sym { font-size: 18px; font-weight: 700; }
+  .chart-overlay .price-big { font-size: 28px; font-weight: 700; color: var(--green); }
+  .chart-overlay .change { font-size: 13px; color: var(--green); margin-left: 8px; }
+
+  /* Signals */
+  .signal-row { display: grid; grid-template-columns: 140px 1fr 60px 50px; padding: 6px 14px; align-items: center; gap: 8px; }
+  .signal-row:hover { background: var(--surface2); }
+  .signal-name { font-size: 12px; color: var(--text); }
+  .signal-bar-wrap { height: 8px; background: var(--bg); border-radius: 4px; overflow: hidden; position: relative; }
+  .signal-bar-center { position: absolute; left: 50%; top: 0; bottom: 0; width: 1px; background: var(--border); }
+  .signal-bar { position: absolute; top: 0; bottom: 0; border-radius: 4px; transition: width 0.3s; }
+  .signal-bar.pos { left: 50%; background: var(--green); }
+  .signal-bar.neg { right: 50%; background: var(--red); }
+  .signal-val { text-align: right; font-weight: 600; font-variant-numeric: tabular-nums; font-size: 12px; }
+  .signal-dir { font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 3px; text-align: center; }
+  .signal-dir.buy { background: var(--green-dim); color: var(--green); }
+  .signal-dir.sell { background: var(--red-dim); color: var(--red); }
+  .signal-dir.neutral { background: rgba(100,116,139,0.15); color: var(--muted); }
+
+  /* PnL & Risk panels */
+  .metrics-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); }
+  .metric-card { background: var(--surface); padding: 12px 14px; }
+  .metric-label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.8px; color: var(--muted); margin-bottom: 4px; }
+  .metric-value { font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .metric-value.green { color: var(--green); }
+  .metric-value.red { color: var(--red); }
+  .metric-value.blue { color: var(--blue); }
+  .metric-sub { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+  /* Gauge */
+  .gauge-row { padding: 8px 14px; }
+  .gauge-label { display: flex; justify-content: space-between; font-size: 11px; margin-bottom: 4px; }
+  .gauge-track { height: 6px; background: var(--bg); border-radius: 3px; overflow: hidden; }
+  .gauge-fill { height: 100%; border-radius: 3px; transition: width 0.5s; }
+  .gauge-fill.safe { background: var(--green); }
+  .gauge-fill.warn { background: var(--yellow); }
+  .gauge-fill.danger { background: var(--red); }
+
+  /* Trades ticker */
+  .trade-row { display: grid; grid-template-columns: 70px 70px 60px 1fr; padding: 3px 14px; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .trade-row:nth-child(odd) { background: rgba(255,255,255,0.015); }
+  .trade-row .time { color: var(--muted); }
+
+  /* Active Orders */
+  .order-row { display: grid; grid-template-columns: 60px 50px 70px 60px 1fr; padding: 4px 14px; font-size: 11px; font-variant-numeric: tabular-nums; }
+  .order-row:nth-child(odd) { background: rgba(255,255,255,0.015); }
+  .order-header { font-weight: 600; color: var(--muted); font-size: 10px; text-transform: uppercase; border-bottom: 1px solid var(--border); }
+
+  /* Status bar */
+  .statusbar { display: flex; align-items: center; padding: 0 16px; background: var(--surface); border-top: 1px solid var(--border); font-size: 11px; color: var(--muted); gap: 24px; }
+  .statusbar .sep { color: var(--border); }
+  .statusbar .val { color: var(--cyan); font-weight: 600; }
+  .statusbar .val.ok { color: var(--green); }
+  .statusbar .val.hot { color: var(--yellow); }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+  /* Animations */
+  @keyframes flash-green { 0% { background: var(--green-dim); } 100% { background: transparent; } }
+  @keyframes flash-red { 0% { background: var(--red-dim); } 100% { background: transparent; } }
+  .flash-g { animation: flash-green 0.4s ease-out; }
+  .flash-r { animation: flash-red 0.4s ease-out; }
+
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+  .live-dot { animation: pulse 2s ease-in-out infinite; }
+</style>
+</head>
+<body>
+<div class="app">
+  <!-- Header -->
+  <div class="header">
+    <div class="logo"><span>QUANT</span>FLOW</div>
+    <div class="status">
+      <div class="status-item"><span>AAPL</span></div>
+      <div class="status-item"><div class="dot green live-dot"></div> Connected</div>
+      <div class="status-item">&#9650; <span id="hdr-throughput" class="val">152,431</span> msg/s</div>
+      <div class="status-item">Latency p99 <span class="val">6.8μs</span></div>
+      <div class="status-item" style="color:var(--muted);font-size:10px;" id="clock">09:30:47</div>
+    </div>
+  </div>
+
+  <div class="main">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <a class="active" title="Trading">&#9634;</a>
+      <a title="Signals">&#9733;</a>
+      <a title="Portfolio">&#9830;</a>
+      <a title="Risk">&#9888;</a>
+      <a title="Strategy">&#9881;</a>
+      <a title="Backtest">&#8635;</a>
+      <a title="System">&#9670;</a>
+    </div>
+
+    <!-- Main content -->
+    <div class="content">
+
+      <!-- Order Book (top-left) -->
+      <div class="panel">
+        <div class="panel-header">
+          Order Book
+          <span class="tag" style="color:var(--cyan);background:rgba(6,182,212,0.12);">LIVE</span>
+        </div>
+        <div class="panel-body" id="order-book"></div>
+      </div>
+
+      <!-- Price Chart (top-center) -->
+      <div class="panel" style="grid-row: span 2;">
+        <div class="panel-header">
+          AAPL — Price
+          <span style="font-size:11px;color:var(--muted);text-transform:none;letter-spacing:0;">1m candles</span>
+        </div>
+        <div class="chart-area">
+          <canvas class="chart-canvas" id="price-chart"></canvas>
+          <div class="chart-overlay">
+            <div class="sym">AAPL</div>
+            <div><span class="price-big" id="live-price">185.06</span><span class="change" id="live-change">+0.34 (+0.18%)</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Signals + Risk (top-right) -->
+      <div class="panel">
+        <div class="panel-header">
+          Signals
+          <span class="tag" style="color:var(--green);background:var(--green-dim);">&#945; = +0.68</span>
+        </div>
+        <div class="panel-body" id="signals-panel"></div>
+      </div>
+
+      <!-- Trades + Active Orders (bottom-left) -->
+      <div class="panel">
+        <div class="panel-header">
+          Trades & Orders
+          <span class="tag" style="color:var(--purple);background:rgba(168,85,247,0.12);">47 fills</span>
+        </div>
+        <div class="panel-body">
+          <div class="order-row order-header">
+            <span>Side</span><span>Qty</span><span>Price</span><span>Status</span><span>Time</span>
+          </div>
+          <div id="orders-list"></div>
+          <div style="padding:8px 14px;font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;border-top:1px solid var(--border);border-bottom:1px solid var(--border);margin-top:6px;">Recent Trades</div>
+          <div id="trades-list"></div>
+        </div>
+      </div>
+
+      <!-- PnL + Risk (bottom-right) -->
+      <div class="panel">
+        <div class="panel-header">Performance & Risk</div>
+        <div class="panel-body" style="padding:0;">
+          <div class="metrics-grid">
+            <div class="metric-card">
+              <div class="metric-label">Total PnL</div>
+              <div class="metric-value green" id="pnl-value">+$4,231</div>
+              <div class="metric-sub">Realized: +$3,890</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-label">Sharpe Ratio</div>
+              <div class="metric-value blue">2.41</div>
+              <div class="metric-sub">Annualized</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-label">Win Rate</div>
+              <div class="metric-value green">61.7%</div>
+              <div class="metric-sub">29W / 18L</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-label">Position</div>
+              <div class="metric-value" style="color:var(--text);" id="pos-value">+300</div>
+              <div class="metric-sub">AAPL @ $185.06 avg</div>
+            </div>
+          </div>
+          <div style="padding:10px 0 4px;">
+            <div class="gauge-row">
+              <div class="gauge-label"><span>Position Limit</span><span style="color:var(--green)">300 / 1,000</span></div>
+              <div class="gauge-track"><div class="gauge-fill safe" style="width:30%"></div></div>
+            </div>
+            <div class="gauge-row">
+              <div class="gauge-label"><span>Notional Exposure</span><span style="color:var(--yellow)">$55.5k / $200k</span></div>
+              <div class="gauge-track"><div class="gauge-fill warn" style="width:27.8%"></div></div>
+            </div>
+            <div class="gauge-row">
+              <div class="gauge-label"><span>Daily Drawdown</span><span style="color:var(--green)">-0.3% / 2.0%</span></div>
+              <div class="gauge-track"><div class="gauge-fill safe" style="width:15%"></div></div>
+            </div>
+            <div class="gauge-row">
+              <div class="gauge-label"><span>Order Rate</span><span style="color:var(--green)">12/s / 50/s</span></div>
+              <div class="gauge-track"><div class="gauge-fill safe" style="width:24%"></div></div>
+            </div>
+            <div class="gauge-row">
+              <div class="gauge-label"><span>Concentration</span><span style="color:var(--green)">30% / 50%</span></div>
+              <div class="gauge-track"><div class="gauge-fill safe" style="width:60%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Status Bar -->
+  <div class="statusbar">
+    <span>p50 <span class="val ok">1.2μs</span></span>
+    <span class="sep">|</span>
+    <span>p99 <span class="val ok">6.8μs</span></span>
+    <span class="sep">|</span>
+    <span>Throughput <span class="val" id="sb-throughput">152,431 msg/s</span></span>
+    <span class="sep">|</span>
+    <span>Queue depth <span class="val ok">12 / 65536</span></span>
+    <span class="sep">|</span>
+    <span>Gaps <span class="val ok">0</span></span>
+    <span class="sep">|</span>
+    <span>Strategy <span class="val" style="color:var(--green)">MOMENTUM</span></span>
+    <span class="sep">|</span>
+    <span>Circuit Breaker <span class="val ok">OK</span></span>
+    <span style="margin-left:auto;font-size:10px;">QuantFlow v0.1.0</span>
+  </div>
+</div>
+
+<script>
+// === ORDER BOOK ===
+const asks = [
+  { price: 185.12, qty: 400 },
+  { price: 185.11, qty: 650 },
+  { price: 185.10, qty: 900 },
+  { price: 185.09, qty: 1100 },
+  { price: 185.08, qty: 800 },
+  { price: 185.07, qty: 1200 },
+];
+const bids = [
+  { price: 185.06, qty: 2000 },
+  { price: 185.05, qty: 1500 },
+  { price: 185.04, qty: 1100 },
+  { price: 185.03, qty: 700 },
+  { price: 185.02, qty: 950 },
+  { price: 185.01, qty: 500 },
+];
+
+function renderBook() {
+  const maxQty = Math.max(...asks.map(a=>a.qty), ...bids.map(b=>b.qty));
+  let html = '';
+  for (let i = 0; i < asks.length; i++) {
+    const a = asks[i];
+    const pct = (a.qty / maxQty * 45);
+    html += `<div class="book-row"><div class="bar ask-bar" style="width:${pct}%"></div><div class="qty ask"></div><div class="price" style="color:var(--red)">${a.price.toFixed(2)}</div><div class="qty ask">${a.qty.toLocaleString()}</div></div>`;
+  }
+  html += `<div class="spread-row">Spread: $0.01 (0.005%)</div>`;
+  for (let i = 0; i < bids.length; i++) {
+    const b = bids[i];
+    const pct = (b.qty / maxQty * 45);
+    html += `<div class="book-row"><div class="bar bid-bar" style="width:${pct}%"></div><div class="qty bid">${b.qty.toLocaleString()}</div><div class="price" style="color:var(--green)">${b.price.toFixed(2)}</div><div class="qty bid"></div></div>`;
+  }
+  document.getElementById('order-book').innerHTML = html;
+}
+
+// === SIGNALS ===
+const signals = [
+  { name: 'VWAP Cross', val: 0.72, dir: 'buy' },
+  { name: 'Microprice', val: 0.58, dir: 'buy' },
+  { name: 'Order Flow Imbal.', val: 0.45, dir: 'buy' },
+  { name: 'Momentum', val: 0.81, dir: 'buy' },
+  { name: 'Mean Reversion', val: -0.12, dir: 'neutral' },
+  { name: 'Spread Z-Score', val: 0.23, dir: 'buy' },
+  { name: 'Volatility', val: -0.34, dir: 'sell' },
+  { name: 'Book Depth Ratio', val: 0.61, dir: 'buy' },
+  { name: 'Tick Intensity', val: 0.15, dir: 'neutral' },
+  { name: 'Composite Alpha', val: 0.68, dir: 'buy' },
+];
+
+function renderSignals() {
+  let html = '';
+  signals.forEach(s => {
+    const absPct = Math.abs(s.val) * 50;
+    const cls = s.val >= 0 ? 'pos' : 'neg';
+    const color = s.val > 0.3 ? 'var(--green)' : s.val < -0.3 ? 'var(--red)' : 'var(--muted)';
+    const isComposite = s.name === 'Composite Alpha';
+    const style = isComposite ? 'border-top:1px solid var(--border);padding-top:8px;margin-top:4px;' : '';
+    const nameStyle = isComposite ? 'font-weight:700;color:var(--cyan);' : '';
+    html += `<div class="signal-row" style="${style}">
+      <div class="signal-name" style="${nameStyle}">${s.name}</div>
+      <div class="signal-bar-wrap"><div class="signal-bar-center"></div><div class="signal-bar ${cls}" style="width:${absPct}%"></div></div>
+      <div class="signal-val" style="color:${color}">${s.val > 0 ? '+' : ''}${s.val.toFixed(2)}</div>
+      <div class="signal-dir ${s.dir}">${s.dir.toUpperCase()}</div>
+    </div>`;
+  });
+  document.getElementById('signals-panel').innerHTML = html;
+}
+
+// === TRADES ===
+const trades = [
+  { time: '09:30:47', price: 185.06, qty: 300, side: 'buy' },
+  { time: '09:30:45', price: 185.07, qty: 150, side: 'sell' },
+  { time: '09:30:42', price: 185.05, qty: 500, side: 'buy' },
+  { time: '09:30:39', price: 185.04, qty: 200, side: 'buy' },
+  { time: '09:30:36', price: 185.06, qty: 100, side: 'sell' },
+  { time: '09:30:33', price: 185.03, qty: 400, side: 'buy' },
+  { time: '09:30:30', price: 185.05, qty: 250, side: 'sell' },
+];
+
+function renderTrades() {
+  let html = '';
+  trades.forEach(t => {
+    const c = t.side === 'buy' ? 'var(--green)' : 'var(--red)';
+    html += `<div class="trade-row"><div class="time">${t.time}</div><div style="color:${c}">${t.price.toFixed(2)}</div><div>${t.qty}</div><div style="color:${c}">${t.side.toUpperCase()}</div></div>`;
+  });
+  document.getElementById('trades-list').innerHTML = html;
+}
+
+// === ACTIVE ORDERS ===
+const orders = [
+  { side: 'BUY', qty: 300, price: 185.06, status: 'FILLED', time: '09:30:47' },
+  { side: 'BUY', qty: 200, price: 185.04, status: 'ACTIVE', time: '09:30:48' },
+  { side: 'SELL', qty: 100, price: 185.10, status: 'ACTIVE', time: '09:30:48' },
+];
+
+function renderOrders() {
+  let html = '';
+  orders.forEach(o => {
+    const sc = o.side === 'BUY' ? 'var(--green)' : 'var(--red)';
+    const stc = o.status === 'FILLED' ? 'var(--muted)' : o.status === 'ACTIVE' ? 'var(--cyan)' : 'var(--yellow)';
+    html += `<div class="order-row"><div style="color:${sc};font-weight:600">${o.side}</div><div>${o.qty}</div><div>${o.price.toFixed(2)}</div><div style="color:${stc};font-size:10px">${o.status}</div><div class="time" style="color:var(--muted)">${o.time}</div></div>`;
+  });
+  document.getElementById('orders-list').innerHTML = html;
+}
+
+// === PRICE CHART (canvas) ===
+function drawChart() {
+  const canvas = document.getElementById('price-chart');
+  const rect = canvas.parentElement.getBoundingClientRect();
+  canvas.width = rect.width * 2;
+  canvas.height = rect.height * 2;
+  canvas.style.width = rect.width + 'px';
+  canvas.style.height = rect.height + 'px';
+  const ctx = canvas.getContext('2d');
+  ctx.scale(2, 2);
+  const W = rect.width, H = rect.height;
+
+  // Generate candlestick data
+  const candles = [];
+  let p = 184.72;
+  for (let i = 0; i < 60; i++) {
+    const o = p;
+    const move = (Math.random() - 0.48) * 0.08;
+    const c = o + move;
+    const h = Math.max(o, c) + Math.random() * 0.04;
+    const l = Math.min(o, c) - Math.random() * 0.04;
+    candles.push({ o, h, l, c });
+    p = c;
+  }
+
+  const prices = candles.flatMap(c => [c.h, c.l]);
+  const minP = Math.min(...prices) - 0.05;
+  const maxP = Math.max(...prices) + 0.05;
+  const toY = v => 80 + (maxP - v) / (maxP - minP) * (H - 100);
+  const cw = (W - 80) / candles.length;
+
+  // Grid
+  ctx.strokeStyle = 'rgba(30,45,61,0.5)';
+  ctx.lineWidth = 0.5;
+  for (let v = Math.ceil(minP * 10) / 10; v <= maxP; v += 0.1) {
+    const y = toY(v);
+    ctx.beginPath(); ctx.moveTo(60, y); ctx.lineTo(W - 10, y); ctx.stroke();
+    ctx.fillStyle = '#475569'; ctx.font = '10px monospace'; ctx.textAlign = 'right';
+    ctx.fillText(v.toFixed(2), 56, y + 3);
+  }
+
+  // Candles
+  candles.forEach((c, i) => {
+    const x = 65 + i * cw + cw / 2;
+    const bull = c.c >= c.o;
+    ctx.strokeStyle = bull ? '#22c55e' : '#ef4444';
+    ctx.fillStyle = bull ? '#22c55e' : '#ef4444';
+
+    // Wick
+    ctx.beginPath();
+    ctx.moveTo(x, toY(c.h)); ctx.lineTo(x, toY(c.l));
+    ctx.lineWidth = 1; ctx.stroke();
+
+    // Body
+    const bodyTop = toY(Math.max(c.o, c.c));
+    const bodyBot = toY(Math.min(c.o, c.c));
+    const bodyH = Math.max(bodyBot - bodyTop, 1);
+    if (bull) {
+      ctx.fillRect(x - cw * 0.35, bodyTop, cw * 0.7, bodyH);
+    } else {
+      ctx.fillRect(x - cw * 0.35, bodyTop, cw * 0.7, bodyH);
+    }
+  });
+
+  // Volume bars at bottom
+  candles.forEach((c, i) => {
+    const x = 65 + i * cw + cw / 2;
+    const vol = 200 + Math.random() * 800;
+    const vh = vol / 1000 * 30;
+    const bull = c.c >= c.o;
+    ctx.fillStyle = bull ? 'rgba(34,197,94,0.2)' : 'rgba(239,68,68,0.2)';
+    ctx.fillRect(x - cw * 0.35, H - 10 - vh, cw * 0.7, vh);
+  });
+
+  // Signal arrows
+  const arrowPositions = [15, 28, 42, 55];
+  arrowPositions.forEach(i => {
+    if (i >= candles.length) return;
+    const c = candles[i];
+    const x = 65 + i * cw + cw / 2;
+    const isBuy = c.c >= c.o;
+    const y = isBuy ? toY(c.l) + 12 : toY(c.h) - 12;
+    ctx.fillStyle = isBuy ? '#22c55e' : '#ef4444';
+    ctx.beginPath();
+    if (isBuy) {
+      ctx.moveTo(x, y - 6); ctx.lineTo(x - 4, y + 2); ctx.lineTo(x + 4, y + 2);
+    } else {
+      ctx.moveTo(x, y + 6); ctx.lineTo(x - 4, y - 2); ctx.lineTo(x + 4, y - 2);
+    }
+    ctx.fill();
+  });
+}
+
+// === LIVE UPDATES ===
+function tick() {
+  // Jitter order book quantities
+  bids.forEach(b => { b.qty = Math.max(100, b.qty + Math.floor((Math.random() - 0.5) * 200)); });
+  asks.forEach(a => { a.qty = Math.max(100, a.qty + Math.floor((Math.random() - 0.5) * 200)); });
+
+  // Jitter signals
+  signals.forEach(s => {
+    if (s.name !== 'Composite Alpha') {
+      s.val = Math.max(-1, Math.min(1, s.val + (Math.random() - 0.5) * 0.06));
+      s.dir = s.val > 0.3 ? 'buy' : s.val < -0.3 ? 'sell' : 'neutral';
+    }
+  });
+  const composite = signals.filter(s => s.name !== 'Composite Alpha');
+  const avg = composite.reduce((a, s) => a + s.val, 0) / composite.length;
+  const cs = signals.find(s => s.name === 'Composite Alpha');
+  cs.val = Math.round(avg * 100) / 100;
+  cs.dir = cs.val > 0.3 ? 'buy' : cs.val < -0.3 ? 'sell' : 'neutral';
+
+  // Update header tag
+  document.querySelector('.panel-header .tag[style*="green"]').textContent = `α = ${cs.val > 0 ? '+' : ''}${cs.val.toFixed(2)}`;
+
+  // Jitter price
+  const priceEl = document.getElementById('live-price');
+  const p = parseFloat(priceEl.textContent) + (Math.random() - 0.48) * 0.02;
+  priceEl.textContent = p.toFixed(2);
+
+  // Throughput jitter
+  const tp = 148000 + Math.floor(Math.random() * 8000);
+  document.getElementById('hdr-throughput').textContent = tp.toLocaleString();
+  document.getElementById('sb-throughput').textContent = tp.toLocaleString() + ' msg/s';
+
+  // Clock
+  const now = new Date();
+  document.getElementById('clock').textContent = now.toLocaleTimeString('en-US', { hour12: false });
+
+  renderBook();
+  renderSignals();
+}
+
+// Init
+renderBook();
+renderSignals();
+renderTrades();
+renderOrders();
+setTimeout(drawChart, 100);
+window.addEventListener('resize', () => setTimeout(drawChart, 50));
+setInterval(tick, 400);
+</script>
+</body>
+</html>

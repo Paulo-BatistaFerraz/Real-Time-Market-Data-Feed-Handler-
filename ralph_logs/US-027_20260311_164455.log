@@ -1,0 +1,9 @@
+Build passes. Let me verify all acceptance criteria:
+
+- **Parses `--config <path>` argument** ΓÇö PASS. Proper `--config <path>` flag parsing with `--help` support and unknown argument handling.
+- **Loads SimConfig via ScenarioLoader** ΓÇö PASS. Calls `ScenarioLoader::load(config_path)` when a config path is provided, falls back to defaults otherwise.
+- **Creates and runs MarketSimulator** ΓÇö PASS. Constructs `MarketSimulator(config)` and calls `simulator.run()`.
+- **Signal handler for graceful shutdown** ΓÇö PASS. Registers `SIGINT` and `SIGTERM` (when available) handlers that call `simulator.stop()`.
+- **Prints startup banner: symbols, target rate, duration, multicast address** ΓÇö PASS. `print_banner()` shows all symbol names, msg rate, duration, and multicast address:port.
+- **Prints summary on exit: messages sent, actual rate, duration** ΓÇö PASS. `print_exit_summary()` prints messages sent, actual rate, and duration from `SimStats`.
+- **Build passes** ΓÇö PASS. Clean build with no errors.

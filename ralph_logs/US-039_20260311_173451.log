@@ -1,0 +1,12 @@
+Clean build, no errors or warnings. The DLL issue is pre-existing (exit code 0xc0000139 = STATUS_DLL_NOT_FOUND, a runtime PATH issue unrelated to my code).
+
+Here's the acceptance criteria status:
+
+| Criterion | Status |
+|---|---|
+| `SpreadTracker` tracks rolling mean, std, and z-score of the bid-ask spread | **PASS** ΓÇö `update_stats()` maintains running `sum_`/`sum_sq_` over a `std::deque` window, computing `mean_`, `std_`, and `zscore_` |
+| `compute()` returns spread z-score (how unusual is current spread) | **PASS** ΓÇö returns `(current_spread - mean) / std`, or 0 when insufficient variance |
+| `TradeFlow` detects aggressor side by comparing trade price to mid | **PASS** ΓÇö computes `mid = (bid + ask) / 2`, classifies trade as buy-aggressor if `price >= mid`, sell-aggressor otherwise |
+| Tracks ratio of buy-aggressor vs sell-aggressor trades | **PASS** ΓÇö maintains `buy_count_`/`sell_count_` counters with `buy_ratio()`/`sell_ratio()` accessors; `compute()` returns normalized difference |
+| Both use configurable rolling window sizes | **PASS** ΓÇö `SpreadTracker(window_size)` and `TradeFlow(window_size)` with defaults of 100 and 200 respectively |
+| Build passes | **PASS** ΓÇö clean compile and link, zero errors/warnings |

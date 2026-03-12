@@ -1,0 +1,10 @@
+Build passes cleanly. Let me verify the acceptance criteria:
+
+- **`RiskCheck` enum: `PositionLimit`, `NotionalLimit`, `LossLimit`, `OrderRateLimit`, `ConcentrationLimit`** ΓÇö PASS
+- **`RiskResult` struct: check_type, passed (bool), current_value, limit_value, message** ΓÇö PASS
+- **`Exposure` struct: net_exposure, gross_exposure, per_symbol map** ΓÇö PASS
+- **`RiskEngine` interface: `check_pre_trade(Decision, Portfolio)` returns vector of RiskResults** ΓÇö PASS
+- **`check_post_trade(FillReport, Portfolio)` updates monitors** ΓÇö PASS
+- **Build passes** ΓÇö PASS
+
+All 6/6 acceptance criteria **PASS**.

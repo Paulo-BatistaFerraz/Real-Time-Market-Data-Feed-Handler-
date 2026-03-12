@@ -1,8 +1,8 @@
 #include <gtest/gtest.h>
 #include <thread>
-#include "mdfh/core/spsc_queue.hpp"
+#include "qf/core/spsc_queue.hpp"
 
-using namespace mdfh::core;
+using namespace qf::core;
 
 // TODO: SPSC queue tests
 

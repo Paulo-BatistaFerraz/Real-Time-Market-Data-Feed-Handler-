@@ -1,0 +1,15 @@
+All good. Here's the acceptance criteria assessment:
+
+## Acceptance Criteria
+
+- [x] **Add yaml-cpp dependency via FetchContent in CMakeLists.txt** ΓÇö PASS. Added yaml-cpp 0.8.0 via `FetchContent_Declare`/`FetchContent_MakeAvailable` at `CMakeLists.txt:29-39`, linked to all three targets.
+
+- [x] **`Config::load(path)` reads YAML file into a tree structure** ΓÇö PASS. `Config::load()` at `src/infra/config.cpp:37-44` uses `YAML::LoadFile()` and flattens the tree into a dot-notation key-value map.
+
+- [x] **`Config::get<T>(key)` returns typed value with dot-notation** ΓÇö PASS. Template specializations for `std::string`, `int`, `uint16_t`, `uint32_t`, `uint64_t`, `double`, `bool` all implemented. Dot-notation (e.g., `"feed.multicast_address"`) works via the flattened map.
+
+- [x] **`Config::get<T>(key, default)` returns default if key missing** ΓÇö PASS. Each type has a two-argument overload that returns `default_value` when the key is absent.
+
+- [x] **Create `config/quantflow.yaml` with sections for: feed, simulator, signals, strategy, risk, gateway, data** ΓÇö PASS. All 7 sections present with realistic configuration values.
+
+- [x] **Build passes** ΓÇö PASS. All three targets (`feed_handler`, `exchange_simulator`, `run_tests`) compile and link. 89 existing tests pass.

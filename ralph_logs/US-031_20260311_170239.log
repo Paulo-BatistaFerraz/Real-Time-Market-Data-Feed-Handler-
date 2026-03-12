@@ -1,0 +1,11 @@
+All done. Here's the acceptance criteria assessment:
+
+| Criterion | Status |
+|---|---|
+| **Add spdlog dependency via FetchContent in CMakeLists.txt** | **PASS** ΓÇö spdlog v1.15.1 fetched via `FetchContent_Declare`/`FetchContent_MakeAvailable`, linked to all 3 targets |
+| **`Logger::init(config)` sets up spdlog with console + optional file sinks** | **PASS** ΓÇö `Logger::init(const Config&)` reads `logging.level`, `logging.file`, `logging.pattern`; creates `stderr_color_sink_mt` always + `basic_file_sink_mt` when file path is provided |
+| **Macros: `QF_LOG_DEBUG(...)`, `QF_LOG_INFO(...)`, `QF_LOG_WARN(...)`, `QF_LOG_ERROR(...)`** | **PASS** ΓÇö All four defined, plus `_T` tagged variants for subsystem identification |
+| **Each log line includes: timestamp (╬╝s precision), thread name, subsystem tag, message** | **PASS** ΓÇö Pattern `[%Y-%m-%d %H:%M:%S.%f] [%t] [%^%l%$] %v` gives ╬╝s timestamps, thread ID, level, and message; subsystem tag via `_T` macros |
+| **Log level configurable at runtime** | **PASS** ΓÇö `Logger::set_level(const std::string&)` changes level at runtime |
+| **No logging on hot path by default (wrapped in level check)** | **PASS** ΓÇö Every macro wraps the log call in `if (lg_->should_log(...))` ΓÇö argument evaluation is skipped entirely when the level is below threshold |
+| **Build passes** | **PASS** ΓÇö All 3 targets (feed_handler, exchange_simulator, run_tests) build successfully; 89 tests pass |

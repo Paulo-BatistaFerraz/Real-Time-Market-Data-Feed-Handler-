@@ -1,9 +1,9 @@
 #include <gtest/gtest.h>
-#include "mdfh/protocol/encoder.hpp"
-#include "mdfh/protocol/messages.hpp"
+#include "qf/protocol/encoder.hpp"
+#include "qf/protocol/messages.hpp"
 
-using namespace mdfh;
-using namespace mdfh::protocol;
+using namespace qf;
+using namespace qf::protocol;
 
 // TODO: Round-trip encode → decode tests for all 5 message types
 

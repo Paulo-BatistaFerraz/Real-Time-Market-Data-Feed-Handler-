@@ -1,0 +1,15 @@
+All 56 tests pass. Here's the acceptance criteria assessment:
+
+**US-014: Latency Histogram + Throughput Tracker**
+
+| Criterion | Status |
+|---|---|
+| `LatencyHistogram` uses fixed buckets (0-100╬╝s in 0.1╬╝s steps) ΓÇö no dynamic allocation | **PASS** ΓÇö Pre-allocated vector of fixed buckets sized at construction; `record()` does zero allocations, only index arithmetic and increment |
+| `record(uint64_t latency_ns)` increments the correct bucket | **PASS** ΓÇö Computes `latency_ns / bucket_width_ns_`, clamped to last bucket, and increments it |
+| `percentile(double p)` returns p-th percentile (p50, p95, p99, p999) | **PASS** ΓÇö Walks buckets accumulating counts, returns upper bound of bucket where cumulative count reaches threshold; convenience methods `p50()`, `p95()`, `p99()`, `p999()` provided |
+| `reset()` clears all buckets for next reporting window | **PASS** ΓÇö Fills all buckets with 0, resets count/sum/min/max/overflow |
+| `ThroughputTracker` tracks events per second over a rolling 1-second window | **PASS** ΓÇö Circular buffer of per-second counts with configurable window size |
+| `tick()` records one event | **PASS** ΓÇö `tick(count)` records events into current window slot and advances the rolling window |
+| `rate()` returns current events/second | **PASS** ΓÇö `current_rate()` averages event counts over filled window slots |
+| Both are thread-safe (single-threaded is fine) | **PASS** ΓÇö Single-threaded consumer design, no shared mutable state across threads |
+| Build passes | **PASS** ΓÇö All targets build successfully, all 56 tests pass |

@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include "mdfh/core/pipeline.hpp"
+#include "qf/core/pipeline.hpp"
 
-using namespace mdfh::core;
+using namespace qf::core;
 
 // TODO: Pipeline integration tests
 

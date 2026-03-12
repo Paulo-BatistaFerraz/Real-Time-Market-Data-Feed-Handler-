@@ -1,0 +1,13 @@
+All 16 tests pass. Build is clean. Here's the acceptance criteria checklist:
+
+| Criterion | Status |
+|---|---|
+| `OrderBook` stores `std::map<Price, PriceLevel>` for bids (descending) and asks (ascending) | **PASS** ΓÇö `bids_` uses `std::greater<Price>`, `asks_` uses default ascending |
+| `add_order(order)` ΓåÆ inserts into OrderStore, creates/updates PriceLevel | **PASS** ΓÇö calls `store_.add()` then `add_to_side()` |
+| `cancel_order(order_id)` ΓåÆ removes from OrderStore, decrements PriceLevel, removes level if empty | **PASS** ΓÇö calls `store_.remove()` then `remove_from_side()` which erases empty levels |
+| `execute_order(order_id, exec_qty)` ΓåÆ reduces remaining_quantity, updates PriceLevel, removes order if fully filled | **PASS** ΓÇö decrements qty, updates level, removes order+level when fully filled |
+| `replace_order(order_id, new_price, new_qty)` ΓåÆ cancel old level entry, update order, add to new level | **PASS** ΓÇö removes from old level, updates order in store, adds to new level |
+| `best_bid()` and `best_ask()` return top-of-book price or nullopt if empty | **PASS** ΓÇö returns `std::optional<Price>` |
+| `top_n_levels(side, n)` returns vector of top N price levels for display | **PASS** ΓÇö delegates to `bid_depth`/`ask_depth` based on side |
+| Each method returns a `BookUpdate` struct with: symbol, best_bid, best_ask, timestamp | **PASS** ΓÇö core operations return `std::optional<BookUpdate>` via `make_update()` |
+| Build passes | **PASS** ΓÇö clean build, all 16 tests pass |

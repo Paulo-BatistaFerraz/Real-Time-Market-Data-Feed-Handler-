@@ -7,10 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "C:/mingw64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake"
   "C:/mingw64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake"
   "C:/mingw64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake"
-  "C:/mingw64/share/cmake-3.27/Modules/CMakeSystem.cmake.in"
   "C:/mingw64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/mingw64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake"
   "C:/mingw64/share/cmake-3.27/Modules/ExternalProject.cmake"
@@ -38,7 +36,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.27.2/CMakeSystem.cmake"
   "asio-populate-prefix/tmp/asio-populate-mkdirs.cmake"
   "asio-populate-prefix/tmp/asio-populate-gitclone.cmake"
   "asio-populate-prefix/src/asio-populate-stamp/asio-populate-gitinfo.txt"

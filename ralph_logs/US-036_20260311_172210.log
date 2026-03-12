@@ -1,0 +1,9 @@
+All 6 tests pass. Here's the acceptance criteria status:
+
+- [x] **`VWAP` extends FeatureBase** ΓÇö PASS: `VWAP` inherits from `FeatureBase` and implements `compute()` and `name()`
+- [x] **Tracks cumulative (price ├ù quantity) and cumulative quantity from trades** ΓÇö PASS: `cum_price_qty_` and `cum_qty_` accumulators
+- [x] **`compute()` returns sum(price*qty) / sum(qty)** ΓÇö PASS: verified by `KnownSequenceCorrectVWAP` test
+- [x] **`reset()` clears accumulators (for daily reset)** ΓÇö PASS: verified by `ResetClearsAccumulators` test
+- [x] **Test: known sequence of trades ΓåÆ correct VWAP** ΓÇö PASS
+- [x] **Test: single trade ΓåÆ VWAP equals trade price** ΓÇö PASS
+- [x] **Build passes** ΓÇö PASS

@@ -1,0 +1,25 @@
+All 355 tests pass including the new ones. Let me verify the acceptance criteria:
+
+## Acceptance Criteria Results
+
+- [x] **`RiskReport::snapshot()` returns: all positions, exposures, PnL, limit utilizations, VaR, circuit breaker state** ΓÇö PASS  
+  `RiskSnapshot` includes: `positions`, `exposure`, `total_realized_pnl`/`total_unrealized_pnl`/`total_pnl`, `limit_utilizations` (vector of utilization structs), `var` (PortfolioVaRResult), `circuit_breaker_tripped`/`circuit_breaker_drawdown`/`circuit_breaker_threshold`.
+
+- [x] **`RiskLogger` logs every pre-trade check (passed/failed), every post-trade update, every breaker event** ΓÇö PASS  
+  `log_pre_trade()` logs each individual check result (DEBUG for pass, WARN for fail) plus summary. `log_post_trade()` logs fill details and any breaches. `log_breaker_event()` and `log_breaker_reset()` cover circuit breaker events.
+
+- [x] **Test: position limit blocks order exceeding max** ΓÇö PASS  
+  `PositionLimitTest.BlocksOrderExceedingMax` and `BlocksWhenExistingPositionPlusDeltaExceeds` verify this.
+
+- [x] **Test: loss limit blocks order when daily loss exceeded** ΓÇö PASS  
+  `LossLimitTest.BlocksOrderWhenDailyLossExceeded` and `BlocksWhenRunningPnlAloneExceedsLimit` verify this.
+
+- [x] **Test: circuit breaker trips on drawdown threshold** ΓÇö PASS  
+  `CircuitBreakerTest.DrawdownAboveThresholdTrips` (existing test, already passing).
+
+- [x] **Test: VaR calculation matches hand-computed value** ΓÇö PASS  
+  `VaRCalculatorTest.HandComputedSingleSymbol` verifies VaR = 150000 * 0.02 * 1.645 = $4935.00.
+
+- [x] **All tests pass** ΓÇö PASS (355/355)
+
+- [x] **Build passes** ΓÇö PASS

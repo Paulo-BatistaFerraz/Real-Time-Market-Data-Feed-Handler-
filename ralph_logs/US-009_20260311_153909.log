@@ -1,0 +1,11 @@
+All 15 tests pass. Here's the acceptance criteria assessment:
+
+| Criterion | Status |
+|---|---|
+| `OrderStore` wraps `std::unordered_map<OrderId, Order>` | **PASS** ΓÇö `orders_` member is `std::unordered_map<OrderId, Order>` |
+| `insert(Order)` adds order, returns false if ID already exists | **PASS** ΓÇö `add()` uses `emplace`, returns `inserted` bool |
+| `find(OrderId)` returns pointer to Order or nullptr | **PASS** ΓÇö both const and non-const overloads |
+| `erase(OrderId)` removes order, returns the removed Order (or nullopt) | **PASS** ΓÇö `remove()` returns `std::optional<Order>` |
+| `reserve(n)` pre-allocates buckets to avoid rehashing on hot path | **PASS** ΓÇö public `reserve()` method + constructor pre-reserves |
+| `size()` and `empty()` accessors | **PASS** ΓÇö inline in header |
+| Build passes | **PASS** ΓÇö clean build, 15/15 tests pass |

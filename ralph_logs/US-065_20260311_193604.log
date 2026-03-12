@@ -1,0 +1,27 @@
+Build passes cleanly. Now let me verify all acceptance criteria against the implementation:
+
+**Acceptance Criteria Assessment:**
+
+1. **`OrderManager` owns: order store (map<OrderId, OmsOrder>), StateTransitions, OrderJournal** ΓÇö PASS  
+   `order_manager.hpp:46-48`: `std::unordered_map<OrderId, OmsOrder> orders_`, `StateTransitions transitions_`, `OrderJournal journal_`
+
+2. **`submit(Decision)` ΓåÆ creates OmsOrder in New state, assigns ID, validates, transitions to Sent** ΓÇö PASS  
+   `order_manager.cpp:14-43`: Creates order in New state, assigns ID via atomic counter, validates quantity, transitions NewΓåÆSent
+
+3. **`on_ack(order_id)` ΓåÆ transitions to Acked** ΓÇö PASS  
+   `order_manager.cpp:45-54`: Finds order, transitions to Acked, updates acked timestamp
+
+4. **`on_fill(FillReport)` ΓåÆ updates filled_quantity, transitions to PartialFill or Filled** ΓÇö PASS  
+   `order_manager.cpp:56-70`: Updates `filled_quantity`, transitions to `Filled` if fully filled, `PartialFill` otherwise
+
+5. **`cancel(order_id)` ΓåÆ transitions to Cancelled** ΓÇö PASS  
+   `order_manager.cpp:72-79`: Finds order, transitions to Cancelled
+
+6. **`on_reject(order_id, reason)` ΓåÆ transitions to Rejected** ΓÇö PASS  
+   `order_manager.cpp:81-88`: Finds order, transitions to Rejected with reason string
+
+7. **All transitions go through StateTransitions for validation** ΓÇö PASS  
+   All methods call `apply_transition()` which delegates to `transitions_.transition()`
+
+8. **Build passes** ΓÇö PASS  
+   Clean build with no errors or warnings

@@ -1,0 +1,29 @@
+All 62 tests pass. Build succeeds and existing tests are unaffected.
+
+## Acceptance Criteria Checklist
+
+- **`ParticipantModel` defines trader types: MarketMaker (quotes both sides), MomentumTrader (follows trend), RandomTrader (noise)** ΓÇö PASS
+  - `TraderType` enum with `MarketMaker`, `MomentumTrader`, `RandomTrader` (`participant_model.hpp:11-15`)
+  - MarketMaker: `choose_side()` uses 50/50 buy/sell (quotes both sides)
+  - MomentumTrader: `choose_side()` follows price trend (80% directional bias)
+  - RandomTrader: `choose_side()` is uniform random (noise)
+
+- **Each type has characteristic order size distribution, placement patterns, and cancel rates** ΓÇö PASS
+  - `TraderProfile` struct with per-type `size_mean/stddev`, `spread_ticks_mean/stddev`, `cancel_rate` (`participant_model.hpp:21-42`)
+  - MM: tight spreads (2 ticks), high cancel (40%), medium size (200 mean)
+  - Momentum: aggressive placement (1 tick), moderate cancel (15%), large size (300 mean)
+  - Random: wide spreads (5 ticks), low cancel (10%), small size (100 mean)
+
+- **`MultiAssetSim` generates correlated price moves across symbols** ΓÇö PASS
+  - `MultiAssetSim::step()` advances all price walks with correlated noise (`multi_asset_sim.cpp:33-56`)
+
+- **Uses configurable correlation matrix** ΓÇö PASS
+  - `MultiAssetConfig` accepts a `correlation_matrix` vector (`multi_asset_sim.hpp:14-17`)
+  - Defaults to identity (independent) if empty
+
+- **Correlation implemented via Cholesky decomposition of random normal draws** ΓÇö PASS
+  - `cholesky_decompose()` computes lower-triangular L such that L*L^T = correlation matrix (`multi_asset_sim.cpp:60-93`)
+  - `step()` generates independent N(0,1) draws, multiplies by L to get correlated draws (`multi_asset_sim.cpp:33-56`)
+
+- **Build passes** ΓÇö PASS
+  - All targets compile, all 62 tests pass

@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include "mdfh/consumer/latency_histogram.hpp"
+#include "qf/consumer/latency_histogram.hpp"
 
-using namespace mdfh::consumer;
+using namespace qf::consumer;
 
 // TODO: Latency histogram tests
 

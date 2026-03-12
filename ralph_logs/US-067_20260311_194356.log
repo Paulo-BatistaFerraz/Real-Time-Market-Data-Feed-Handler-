@@ -1,0 +1,21 @@
+All 272 tests pass. Let me verify the acceptance criteria:
+
+**Acceptance Criteria:**
+
+1. **`FillManager` receives FillReports, updates OrderManager, feeds Portfolio** ΓÇö PASS  
+   `FillManager::on_fill(FillReport)` calls `order_mgr_.on_fill()` and `portfolio_.on_fill()` (`src/oms/fill_manager.cpp:12,25`)
+
+2. **`on_fill(FillReport)` ΓåÆ calls OrderManager::on_fill ΓåÆ calls Portfolio::on_fill** ΓÇö PASS  
+   The chain is: `FillManager::on_fill` ΓåÆ `order_mgr_.on_fill(report)` ΓåÆ `portfolio_.on_fill(ts, symbol, side, price, qty)` (`src/oms/fill_manager.cpp:12-26`)
+
+3. **Tracks total fills, total volume, average fill price per symbol** ΓÇö PASS  
+   `total_fills_`, `total_volume_` tracked globally; `SymbolFillStats` per symbol tracks `fill_count`, `total_volume`, and computes `average_fill_price()` (`include/qf/oms/fill_manager.hpp:14-21`)
+
+4. **`OrderIdGenerator` produces monotonically increasing uint64_t IDs** ΓÇö PASS  
+   Uses `atomic::fetch_add(1)` which guarantees monotonic increase (`include/qf/oms/order_id_generator.hpp:15`)
+
+5. **Thread-safe via atomic increment** ΓÇö PASS  
+   `std::atomic<uint64_t>` with `fetch_add` (`include/qf/oms/order_id_generator.hpp:15,20`)
+
+6. **Build passes** ΓÇö PASS  
+   Clean build, 272/272 tests pass

@@ -1,41 +1,50 @@
-#include "mdfh/core/order_store.hpp"
+#include "qf/core/order_store.hpp"
 
-namespace mdfh::core {
-
-// TODO: Implement order store logic
+namespace qf::core {
 
 OrderStore::OrderStore(size_t initial_capacity) {
     orders_.reserve(initial_capacity);
 }
 
 bool OrderStore::add(const Order& order) {
-    (void)order;
-    return false;
+    auto [it, inserted] = orders_.emplace(order.order_id, order);
+    return inserted;
 }
 
 Order* OrderStore::find(OrderId id) {
-    (void)id;
-    return nullptr;
+    auto it = orders_.find(id);
+    return it != orders_.end() ? &it->second : nullptr;
 }
 
 const Order* OrderStore::find(OrderId id) const {
-    (void)id;
-    return nullptr;
+    auto it = orders_.find(id);
+    return it != orders_.end() ? &it->second : nullptr;
 }
 
-bool OrderStore::remove(OrderId id) {
-    (void)id;
-    return false;
+std::optional<Order> OrderStore::remove(OrderId id) {
+    auto it = orders_.find(id);
+    if (it == orders_.end()) {
+        return std::nullopt;
+    }
+    Order removed = std::move(it->second);
+    orders_.erase(it);
+    return removed;
 }
 
 bool OrderStore::update_price_qty(OrderId id, Price new_price, Quantity new_qty) {
-    (void)id; (void)new_price; (void)new_qty;
-    return false;
+    auto it = orders_.find(id);
+    if (it == orders_.end()) return false;
+    it->second.price = new_price;
+    it->second.remaining_quantity = new_qty;
+    return true;
 }
 
 bool OrderStore::reduce_quantity(OrderId id, Quantity amount) {
-    (void)id; (void)amount;
-    return false;
+    auto it = orders_.find(id);
+    if (it == orders_.end()) return false;
+    if (amount > it->second.remaining_quantity) return false;
+    it->second.remaining_quantity -= amount;
+    return true;
 }
 
-}  // namespace mdfh::core
+}  // namespace qf::core

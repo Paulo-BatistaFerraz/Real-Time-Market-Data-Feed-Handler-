@@ -1,0 +1,63 @@
+Running main() from D:\market-data-feed-handler\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = *TickRecorder*:*BarAggregator*:*ReplayEngine*:*Compression*
+[==========] Running 22 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 7 tests from CompressionTest
+[ RUN      ] CompressionTest.BasicRoundTrip
+[       OK ] CompressionTest.BasicRoundTrip (0 ms)
+[ RUN      ] CompressionTest.TickRecordArrayRoundTrip
+[       OK ] CompressionTest.TickRecordArrayRoundTrip (0 ms)
+[ RUN      ] CompressionTest.CompressedSmallerForRepetitive
+[       OK ] CompressionTest.CompressedSmallerForRepetitive (0 ms)
+[ RUN      ] CompressionTest.LargeDataRoundTrip
+[       OK ] CompressionTest.LargeDataRoundTrip (1 ms)
+[ RUN      ] CompressionTest.NullInputReturnsZero
+[       OK ] CompressionTest.NullInputReturnsZero (0 ms)
+[ RUN      ] CompressionTest.ZeroSizeReturnsZero
+[       OK ] CompressionTest.ZeroSizeReturnsZero (0 ms)
+[ RUN      ] CompressionTest.MaxCompressedSizePositive
+[       OK ] CompressionTest.MaxCompressedSizePositive (0 ms)
+[----------] 7 tests from CompressionTest (9 ms total)
+
+[----------] 5 tests from ReplayEngineTest
+[ RUN      ] ReplayEngineTest.EmitsInTimestampOrder
+[       OK ] ReplayEngineTest.EmitsInTimestampOrder (1 ms)
+[ RUN      ] ReplayEngineTest.SymbolFilteredReplay
+[       OK ] ReplayEngineTest.SymbolFilteredReplay (1 ms)
+[ RUN      ] ReplayEngineTest.TimeRangeFilteredReplay
+[       OK ] ReplayEngineTest.TimeRangeFilteredReplay (1 ms)
+[ RUN      ] ReplayEngineTest.EmptyStoreProducesNoEvents
+[       OK ] ReplayEngineTest.EmptyStoreProducesNoEvents (1 ms)
+[ RUN      ] ReplayEngineTest.BytesPublishedAccurate
+[       OK ] ReplayEngineTest.BytesPublishedAccurate (4 ms)
+[----------] 5 tests from ReplayEngineTest (18 ms total)
+
+[----------] 5 tests from BarAggregatorTest
+[ RUN      ] BarAggregatorTest.SingleBarOHLCV
+[       OK ] BarAggregatorTest.SingleBarOHLCV (0 ms)
+[ RUN      ] BarAggregatorTest.IntervalBoundaryEmitsBar
+[       OK ] BarAggregatorTest.IntervalBoundaryEmitsBar (0 ms)
+[ RUN      ] BarAggregatorTest.MultiSymbolBarsIndependent
+[       OK ] BarAggregatorTest.MultiSymbolBarsIndependent (0 ms)
+[ RUN      ] BarAggregatorTest.FiveMinuteInterval
+[       OK ] BarAggregatorTest.FiveMinuteInterval (0 ms)
+[ RUN      ] BarAggregatorTest.SingleTickBar
+[       OK ] BarAggregatorTest.SingleTickBar (0 ms)
+[----------] 5 tests from BarAggregatorTest (6 ms total)
+
+[----------] 5 tests from TickRecorderTest
+[ RUN      ] TickRecorderTest.SingleRecordRoundTrip
+[       OK ] TickRecorderTest.SingleRecordRoundTrip (1 ms)
+[ RUN      ] TickRecorderTest.MultipleRecordRoundTrip
+[       OK ] TickRecorderTest.MultipleRecordRoundTrip (2 ms)
+[ RUN      ] TickRecorderTest.HeaderValidation
+[       OK ] TickRecorderTest.HeaderValidation (1 ms)
+[ RUN      ] TickRecorderTest.MaxPayloadPreserved
+[       OK ] TickRecorderTest.MaxPayloadPreserved (1 ms)
+[ RUN      ] TickRecorderTest.SymbolFilteredRead
+[       OK ] TickRecorderTest.SymbolFilteredRead (1 ms)
+[----------] 5 tests from TickRecorderTest (14 ms total)
+
+[----------] Global test environment tear-down
+[==========] 22 tests from 4 test suites ran. (82 ms total)
+[  PASSED  ] 22 tests.

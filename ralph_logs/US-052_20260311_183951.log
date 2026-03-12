@@ -1,0 +1,10 @@
+All 218 tests pass. Build and tests are clean.
+
+**Acceptance Criteria:**
+
+- [x] **`Decision` struct: symbol, side, quantity, order_type (Market/Limit), limit_price, urgency** ΓÇö PASS (`strategy_types.hpp:28-35`)
+- [x] **`StrategyBase` abstract: `virtual std::vector<Decision> on_signal(Signal, const Portfolio&) = 0`** ΓÇö PASS (`strategy_base.hpp:22-23`)
+- [x] **`virtual std::string name() = 0`, `virtual void configure(Config) = 0`** ΓÇö PASS (`strategy_base.hpp:26,29`)
+- [x] **`StrategyRegistry` allows registering strategies by name for dynamic selection** ΓÇö PASS (`strategy_registry.hpp` + `strategy_registry.cpp`)
+- [x] **`StrategyEngine` runs active strategies, collects Decisions, forwards to OMS** ΓÇö PASS (`strategy_engine.hpp` + `strategy_engine.cpp` with `OmsCallback`)
+- [x] **Build passes** ΓÇö PASS (218 tests passing)

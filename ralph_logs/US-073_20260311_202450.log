@@ -1,0 +1,11 @@
+Implementation complete. Here's the acceptance criteria review:
+
+| Criterion | Status |
+|---|---|
+| `PreTradeRisk::check(Decision, Portfolio)` runs all limit checks | **PASS** ΓÇö `check_pre_trade()` calls all 5 limit checkers (position, notional, loss, rate, concentration) |
+| Returns `Approved` only if ALL checks pass | **PASS** ΓÇö returns vector where all `passed == true` only when every check passes; logs "all checks PASSED" |
+| Returns `Rejected(reasons)` if any check fails, with list of failed checks | **PASS** ΓÇö failed checks have `passed == false` with `message` explaining the breach; summary log counts failures |
+| Order of checks: position ΓåÆ notional ΓåÆ loss ΓåÆ rate ΓåÆ concentration | **PASS** ΓÇö lines 40ΓÇô66 run them in exactly that order |
+| Short-circuits on first failure (configurable: fail-fast vs check-all) | **PASS** ΓÇö `fail_fast_` flag (configurable via `PreTradeRiskConfig::fail_fast` and `set_fail_fast()`) causes early return after first failure; default is check-all |
+| Logs every check result | **PASS** ΓÇö `run_check` lambda logs DEBUG for passes, WARN for failures, plus summary log at end |
+| Build passes | **PASS** ΓÇö clean build with zero errors/warnings |

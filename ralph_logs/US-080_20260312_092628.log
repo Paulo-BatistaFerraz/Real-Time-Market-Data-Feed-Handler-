@@ -1,0 +1,13 @@
+All 355 tests pass. Build is clean, all existing functionality intact.
+
+Here's the acceptance criteria status:
+
+| Criterion | Status |
+|---|---|
+| `Compression` wraps LZ4 (via FetchContent) for block compression | **PASS** ΓÇö LZ4 v1.10.0 fetched via FetchContent, wrapped in `Compression` class |
+| `compress(input, input_size, output, output_capacity)` returns compressed size | **PASS** ΓÇö Implemented via `LZ4_compress_default`, returns `size_t` |
+| `decompress(input, input_size, output, output_capacity)` returns decompressed size | **PASS** ΓÇö Implemented via `LZ4_decompress_safe`, returns `size_t` |
+| `Rotation` manages daily file rotation: `data/YYYY-MM-DD/symbol.bin` | **PASS** ΓÇö `current_path()` returns `base_dir/YYYY-MM-DD/symbol.bin` |
+| Creates new file at midnight or on explicit `rotate()` call | **PASS** ΓÇö `needs_rotation()` detects day change; `rotate()` forces re-evaluation |
+| Cleans up files older than configurable retention days | **PASS** ΓÇö `cleanup()` removes directories older than `retention_days_` (configurable, default 30) |
+| Build passes | **PASS** ΓÇö 355/355 tests pass |

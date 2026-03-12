@@ -1,0 +1,17 @@
+Tests pass (exit 0, no output to stderr). The build is clean. Let me verify the acceptance criteria:
+
+**Acceptance Criteria:**
+
+- [x] **`PostTradeRisk::on_fill(FillReport, Portfolio)` updates all monitors** ΓÇö `on_fill()` calls `pnl_monitor_.update(portfolio)` and `exposure_monitor_.update(portfolio)` then checks each for breaches. (`src/risk/post_trade_risk.cpp:14-16`)
+
+- [x] **Checks if any limit is NOW breached (may have been fine pre-trade)** ΓÇö After updating monitors with the post-fill portfolio state, calls `pnl_monitor_.check()` and `exposure_monitor_.check()` to detect new breaches. (`src/risk/post_trade_risk.cpp:19-40`)
+
+- [x] **Returns list of breached limits** ΓÇö Collects all failed `RiskResult` objects into a `std::vector<RiskResult>` and returns it. (`src/risk/post_trade_risk.cpp:19,49`)
+
+- [x] **`PnLMonitor` tracks running PnL, fires alert if approaching limit (80% threshold)** ΓÇö `update()` reads `portfolio.snapshot().total_pnl`, `check()` returns `PnLWarning` when PnL <= -(max_loss * 0.8), and `LossLimit` breach when fully exceeded. (`src/risk/monitors/pnl_monitor.cpp:14-16,20-50,53-57`)
+
+- [x] **`ExposureMonitor` tracks net/gross exposure per symbol and total** ΓÇö `update()` computes per-symbol notional from positions ├ù prices, accumulates net and gross totals into `Exposure` struct. `check()` validates against max_net and max_gross limits. (`src/risk/monitors/exposure_monitor.cpp:19-33,35-68`)
+
+- [x] **Build passes** ΓÇö Confirmed: `cmake --build build` succeeds, all tests pass with exit code 0.
+
+All 6 criteria: **PASS**.

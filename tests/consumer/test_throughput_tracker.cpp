@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include "mdfh/consumer/throughput_tracker.hpp"
+#include "qf/consumer/throughput_tracker.hpp"
 
-using namespace mdfh::consumer;
+using namespace qf::consumer;
 
 // TODO: Throughput tracker tests
 

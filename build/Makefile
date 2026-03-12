@@ -167,8 +167,22 @@ preinstall/fast:
 
 # clear depends
 depend:
+	$(CMAKE_COMMAND) -P D:\market-data-feed-handler\build\CMakeFiles\VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named lz4_lib
+
+# Build rule for target.
+lz4_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lz4_lib
+.PHONY : lz4_lib
+
+# fast build rule for target.
+lz4_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lz4_lib.dir\build.make CMakeFiles/lz4_lib.dir/build
+.PHONY : lz4_lib/fast
 
 #=============================================================================
 # Target rules for targets named feed_handler
@@ -208,6 +222,422 @@ run_tests: cmake_check_build_system
 run_tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/build
 .PHONY : run_tests/fast
+
+#=============================================================================
+# Target rules for targets named Experimental
+
+# Build rule for target.
+Experimental: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Experimental
+.PHONY : Experimental
+
+# fast build rule for target.
+Experimental/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\Experimental.dir\build.make _deps/yaml-cpp-build/CMakeFiles/Experimental.dir/build
+.PHONY : Experimental/fast
+
+#=============================================================================
+# Target rules for targets named Nightly
+
+# Build rule for target.
+Nightly: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Nightly
+.PHONY : Nightly
+
+# fast build rule for target.
+Nightly/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\Nightly.dir\build.make _deps/yaml-cpp-build/CMakeFiles/Nightly.dir/build
+.PHONY : Nightly/fast
+
+#=============================================================================
+# Target rules for targets named Continuous
+
+# Build rule for target.
+Continuous: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Continuous
+.PHONY : Continuous
+
+# fast build rule for target.
+Continuous/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\Continuous.dir\build.make _deps/yaml-cpp-build/CMakeFiles/Continuous.dir/build
+.PHONY : Continuous/fast
+
+#=============================================================================
+# Target rules for targets named NightlyMemoryCheck
+
+# Build rule for target.
+NightlyMemoryCheck: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 NightlyMemoryCheck
+.PHONY : NightlyMemoryCheck
+
+# fast build rule for target.
+NightlyMemoryCheck/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\NightlyMemoryCheck.dir\build.make _deps/yaml-cpp-build/CMakeFiles/NightlyMemoryCheck.dir/build
+.PHONY : NightlyMemoryCheck/fast
+
+#=============================================================================
+# Target rules for targets named NightlyStart
+
+# Build rule for target.
+NightlyStart: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 NightlyStart
+.PHONY : NightlyStart
+
+# fast build rule for target.
+NightlyStart/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\NightlyStart.dir\build.make _deps/yaml-cpp-build/CMakeFiles/NightlyStart.dir/build
+.PHONY : NightlyStart/fast
+
+#=============================================================================
+# Target rules for targets named NightlyUpdate
+
+# Build rule for target.
+NightlyUpdate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 NightlyUpdate
+.PHONY : NightlyUpdate
+
+# fast build rule for target.
+NightlyUpdate/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\NightlyUpdate.dir\build.make _deps/yaml-cpp-build/CMakeFiles/NightlyUpdate.dir/build
+.PHONY : NightlyUpdate/fast
+
+#=============================================================================
+# Target rules for targets named NightlyConfigure
+
+# Build rule for target.
+NightlyConfigure: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 NightlyConfigure
+.PHONY : NightlyConfigure
+
+# fast build rule for target.
+NightlyConfigure/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\NightlyConfigure.dir\build.make _deps/yaml-cpp-build/CMakeFiles/NightlyConfigure.dir/build
+.PHONY : NightlyConfigure/fast
+
+#=============================================================================
+# Target rules for targets named NightlyBuild
+
+# Build rule for target.
+NightlyBuild: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 NightlyBuild
+.PHONY : NightlyBuild
+
+# fast build rule for target.
+NightlyBuild/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\NightlyBuild.dir\build.make _deps/yaml-cpp-build/CMakeFiles/NightlyBuild.dir/build
+.PHONY : NightlyBuild/fast
+
+#=============================================================================
+# Target rules for targets named NightlyTest
+
+# Build rule for target.
+NightlyTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 NightlyTest
+.PHONY : NightlyTest
+
+# fast build rule for target.
+NightlyTest/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\NightlyTest.dir\build.make _deps/yaml-cpp-build/CMakeFiles/NightlyTest.dir/build
+.PHONY : NightlyTest/fast
+
+#=============================================================================
+# Target rules for targets named NightlyCoverage
+
+# Build rule for target.
+NightlyCoverage: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 NightlyCoverage
+.PHONY : NightlyCoverage
+
+# fast build rule for target.
+NightlyCoverage/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\NightlyCoverage.dir\build.make _deps/yaml-cpp-build/CMakeFiles/NightlyCoverage.dir/build
+.PHONY : NightlyCoverage/fast
+
+#=============================================================================
+# Target rules for targets named NightlyMemCheck
+
+# Build rule for target.
+NightlyMemCheck: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 NightlyMemCheck
+.PHONY : NightlyMemCheck
+
+# fast build rule for target.
+NightlyMemCheck/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\NightlyMemCheck.dir\build.make _deps/yaml-cpp-build/CMakeFiles/NightlyMemCheck.dir/build
+.PHONY : NightlyMemCheck/fast
+
+#=============================================================================
+# Target rules for targets named NightlySubmit
+
+# Build rule for target.
+NightlySubmit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 NightlySubmit
+.PHONY : NightlySubmit
+
+# fast build rule for target.
+NightlySubmit/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\NightlySubmit.dir\build.make _deps/yaml-cpp-build/CMakeFiles/NightlySubmit.dir/build
+.PHONY : NightlySubmit/fast
+
+#=============================================================================
+# Target rules for targets named ExperimentalStart
+
+# Build rule for target.
+ExperimentalStart: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ExperimentalStart
+.PHONY : ExperimentalStart
+
+# fast build rule for target.
+ExperimentalStart/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\ExperimentalStart.dir\build.make _deps/yaml-cpp-build/CMakeFiles/ExperimentalStart.dir/build
+.PHONY : ExperimentalStart/fast
+
+#=============================================================================
+# Target rules for targets named ExperimentalUpdate
+
+# Build rule for target.
+ExperimentalUpdate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ExperimentalUpdate
+.PHONY : ExperimentalUpdate
+
+# fast build rule for target.
+ExperimentalUpdate/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\ExperimentalUpdate.dir\build.make _deps/yaml-cpp-build/CMakeFiles/ExperimentalUpdate.dir/build
+.PHONY : ExperimentalUpdate/fast
+
+#=============================================================================
+# Target rules for targets named ExperimentalConfigure
+
+# Build rule for target.
+ExperimentalConfigure: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ExperimentalConfigure
+.PHONY : ExperimentalConfigure
+
+# fast build rule for target.
+ExperimentalConfigure/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\ExperimentalConfigure.dir\build.make _deps/yaml-cpp-build/CMakeFiles/ExperimentalConfigure.dir/build
+.PHONY : ExperimentalConfigure/fast
+
+#=============================================================================
+# Target rules for targets named ExperimentalBuild
+
+# Build rule for target.
+ExperimentalBuild: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ExperimentalBuild
+.PHONY : ExperimentalBuild
+
+# fast build rule for target.
+ExperimentalBuild/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\ExperimentalBuild.dir\build.make _deps/yaml-cpp-build/CMakeFiles/ExperimentalBuild.dir/build
+.PHONY : ExperimentalBuild/fast
+
+#=============================================================================
+# Target rules for targets named ExperimentalTest
+
+# Build rule for target.
+ExperimentalTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ExperimentalTest
+.PHONY : ExperimentalTest
+
+# fast build rule for target.
+ExperimentalTest/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\ExperimentalTest.dir\build.make _deps/yaml-cpp-build/CMakeFiles/ExperimentalTest.dir/build
+.PHONY : ExperimentalTest/fast
+
+#=============================================================================
+# Target rules for targets named ExperimentalCoverage
+
+# Build rule for target.
+ExperimentalCoverage: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ExperimentalCoverage
+.PHONY : ExperimentalCoverage
+
+# fast build rule for target.
+ExperimentalCoverage/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\ExperimentalCoverage.dir\build.make _deps/yaml-cpp-build/CMakeFiles/ExperimentalCoverage.dir/build
+.PHONY : ExperimentalCoverage/fast
+
+#=============================================================================
+# Target rules for targets named ExperimentalMemCheck
+
+# Build rule for target.
+ExperimentalMemCheck: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ExperimentalMemCheck
+.PHONY : ExperimentalMemCheck
+
+# fast build rule for target.
+ExperimentalMemCheck/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\ExperimentalMemCheck.dir\build.make _deps/yaml-cpp-build/CMakeFiles/ExperimentalMemCheck.dir/build
+.PHONY : ExperimentalMemCheck/fast
+
+#=============================================================================
+# Target rules for targets named ExperimentalSubmit
+
+# Build rule for target.
+ExperimentalSubmit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ExperimentalSubmit
+.PHONY : ExperimentalSubmit
+
+# fast build rule for target.
+ExperimentalSubmit/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\ExperimentalSubmit.dir\build.make _deps/yaml-cpp-build/CMakeFiles/ExperimentalSubmit.dir/build
+.PHONY : ExperimentalSubmit/fast
+
+#=============================================================================
+# Target rules for targets named ContinuousStart
+
+# Build rule for target.
+ContinuousStart: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ContinuousStart
+.PHONY : ContinuousStart
+
+# fast build rule for target.
+ContinuousStart/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\ContinuousStart.dir\build.make _deps/yaml-cpp-build/CMakeFiles/ContinuousStart.dir/build
+.PHONY : ContinuousStart/fast
+
+#=============================================================================
+# Target rules for targets named ContinuousUpdate
+
+# Build rule for target.
+ContinuousUpdate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ContinuousUpdate
+.PHONY : ContinuousUpdate
+
+# fast build rule for target.
+ContinuousUpdate/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\ContinuousUpdate.dir\build.make _deps/yaml-cpp-build/CMakeFiles/ContinuousUpdate.dir/build
+.PHONY : ContinuousUpdate/fast
+
+#=============================================================================
+# Target rules for targets named ContinuousConfigure
+
+# Build rule for target.
+ContinuousConfigure: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ContinuousConfigure
+.PHONY : ContinuousConfigure
+
+# fast build rule for target.
+ContinuousConfigure/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\ContinuousConfigure.dir\build.make _deps/yaml-cpp-build/CMakeFiles/ContinuousConfigure.dir/build
+.PHONY : ContinuousConfigure/fast
+
+#=============================================================================
+# Target rules for targets named ContinuousBuild
+
+# Build rule for target.
+ContinuousBuild: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ContinuousBuild
+.PHONY : ContinuousBuild
+
+# fast build rule for target.
+ContinuousBuild/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\ContinuousBuild.dir\build.make _deps/yaml-cpp-build/CMakeFiles/ContinuousBuild.dir/build
+.PHONY : ContinuousBuild/fast
+
+#=============================================================================
+# Target rules for targets named ContinuousTest
+
+# Build rule for target.
+ContinuousTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ContinuousTest
+.PHONY : ContinuousTest
+
+# fast build rule for target.
+ContinuousTest/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\ContinuousTest.dir\build.make _deps/yaml-cpp-build/CMakeFiles/ContinuousTest.dir/build
+.PHONY : ContinuousTest/fast
+
+#=============================================================================
+# Target rules for targets named ContinuousCoverage
+
+# Build rule for target.
+ContinuousCoverage: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ContinuousCoverage
+.PHONY : ContinuousCoverage
+
+# fast build rule for target.
+ContinuousCoverage/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\ContinuousCoverage.dir\build.make _deps/yaml-cpp-build/CMakeFiles/ContinuousCoverage.dir/build
+.PHONY : ContinuousCoverage/fast
+
+#=============================================================================
+# Target rules for targets named ContinuousMemCheck
+
+# Build rule for target.
+ContinuousMemCheck: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ContinuousMemCheck
+.PHONY : ContinuousMemCheck
+
+# fast build rule for target.
+ContinuousMemCheck/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\ContinuousMemCheck.dir\build.make _deps/yaml-cpp-build/CMakeFiles/ContinuousMemCheck.dir/build
+.PHONY : ContinuousMemCheck/fast
+
+#=============================================================================
+# Target rules for targets named ContinuousSubmit
+
+# Build rule for target.
+ContinuousSubmit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ContinuousSubmit
+.PHONY : ContinuousSubmit
+
+# fast build rule for target.
+ContinuousSubmit/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\ContinuousSubmit.dir\build.make _deps/yaml-cpp-build/CMakeFiles/ContinuousSubmit.dir/build
+.PHONY : ContinuousSubmit/fast
+
+#=============================================================================
+# Target rules for targets named yaml-cpp
+
+# Build rule for target.
+yaml-cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 yaml-cpp
+.PHONY : yaml-cpp
+
+# fast build rule for target.
+yaml-cpp/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\yaml-cpp.dir\build.make _deps/yaml-cpp-build/CMakeFiles/yaml-cpp.dir/build
+.PHONY : yaml-cpp/fast
+
+#=============================================================================
+# Target rules for targets named format
+
+# Build rule for target.
+format: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 format
+.PHONY : format
+
+# fast build rule for target.
+format/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\format.dir\build.make _deps/yaml-cpp-build/CMakeFiles/format.dir/build
+.PHONY : format/fast
+
+#=============================================================================
+# Target rules for targets named uninstall
+
+# Build rule for target.
+uninstall: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 uninstall
+.PHONY : uninstall
+
+# fast build rule for target.
+uninstall/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\yaml-cpp-build\CMakeFiles\uninstall.dir\build.make _deps/yaml-cpp-build/CMakeFiles/uninstall.dir/build
+.PHONY : uninstall/fast
+
+#=============================================================================
+# Target rules for targets named spdlog
+
+# Build rule for target.
+spdlog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 spdlog
+.PHONY : spdlog
+
+# fast build rule for target.
+spdlog/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\spdlog-build\CMakeFiles\spdlog.dir\build.make _deps/spdlog-build/CMakeFiles/spdlog.dir/build
+.PHONY : spdlog/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -261,6 +691,615 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+_deps/lz4-src/lib/lz4.obj: _deps/lz4-src/lib/lz4.c.obj
+.PHONY : _deps/lz4-src/lib/lz4.obj
+
+# target to build an object file
+_deps/lz4-src/lib/lz4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lz4_lib.dir\build.make CMakeFiles/lz4_lib.dir/_deps/lz4-src/lib/lz4.c.obj
+.PHONY : _deps/lz4-src/lib/lz4.c.obj
+
+_deps/lz4-src/lib/lz4.i: _deps/lz4-src/lib/lz4.c.i
+.PHONY : _deps/lz4-src/lib/lz4.i
+
+# target to preprocess a source file
+_deps/lz4-src/lib/lz4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lz4_lib.dir\build.make CMakeFiles/lz4_lib.dir/_deps/lz4-src/lib/lz4.c.i
+.PHONY : _deps/lz4-src/lib/lz4.c.i
+
+_deps/lz4-src/lib/lz4.s: _deps/lz4-src/lib/lz4.c.s
+.PHONY : _deps/lz4-src/lib/lz4.s
+
+# target to generate assembly for a file
+_deps/lz4-src/lib/lz4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\lz4_lib.dir\build.make CMakeFiles/lz4_lib.dir/_deps/lz4-src/lib/lz4.c.s
+.PHONY : _deps/lz4-src/lib/lz4.c.s
+
+src/consumer/console_display.obj: src/consumer/console_display.cpp.obj
+.PHONY : src/consumer/console_display.obj
+
+# target to build an object file
+src/consumer/console_display.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/consumer/console_display.cpp.obj
+.PHONY : src/consumer/console_display.cpp.obj
+
+src/consumer/console_display.i: src/consumer/console_display.cpp.i
+.PHONY : src/consumer/console_display.i
+
+# target to preprocess a source file
+src/consumer/console_display.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/consumer/console_display.cpp.i
+.PHONY : src/consumer/console_display.cpp.i
+
+src/consumer/console_display.s: src/consumer/console_display.cpp.s
+.PHONY : src/consumer/console_display.s
+
+# target to generate assembly for a file
+src/consumer/console_display.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/consumer/console_display.cpp.s
+.PHONY : src/consumer/console_display.cpp.s
+
+src/consumer/csv_logger.obj: src/consumer/csv_logger.cpp.obj
+.PHONY : src/consumer/csv_logger.obj
+
+# target to build an object file
+src/consumer/csv_logger.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/consumer/csv_logger.cpp.obj
+.PHONY : src/consumer/csv_logger.cpp.obj
+
+src/consumer/csv_logger.i: src/consumer/csv_logger.cpp.i
+.PHONY : src/consumer/csv_logger.i
+
+# target to preprocess a source file
+src/consumer/csv_logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/consumer/csv_logger.cpp.i
+.PHONY : src/consumer/csv_logger.cpp.i
+
+src/consumer/csv_logger.s: src/consumer/csv_logger.cpp.s
+.PHONY : src/consumer/csv_logger.s
+
+# target to generate assembly for a file
+src/consumer/csv_logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/consumer/csv_logger.cpp.s
+.PHONY : src/consumer/csv_logger.cpp.s
+
+src/consumer/latency_histogram.obj: src/consumer/latency_histogram.cpp.obj
+.PHONY : src/consumer/latency_histogram.obj
+
+# target to build an object file
+src/consumer/latency_histogram.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/consumer/latency_histogram.cpp.obj
+.PHONY : src/consumer/latency_histogram.cpp.obj
+
+src/consumer/latency_histogram.i: src/consumer/latency_histogram.cpp.i
+.PHONY : src/consumer/latency_histogram.i
+
+# target to preprocess a source file
+src/consumer/latency_histogram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/consumer/latency_histogram.cpp.i
+.PHONY : src/consumer/latency_histogram.cpp.i
+
+src/consumer/latency_histogram.s: src/consumer/latency_histogram.cpp.s
+.PHONY : src/consumer/latency_histogram.s
+
+# target to generate assembly for a file
+src/consumer/latency_histogram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/consumer/latency_histogram.cpp.s
+.PHONY : src/consumer/latency_histogram.cpp.s
+
+src/consumer/stats_collector.obj: src/consumer/stats_collector.cpp.obj
+.PHONY : src/consumer/stats_collector.obj
+
+# target to build an object file
+src/consumer/stats_collector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/consumer/stats_collector.cpp.obj
+.PHONY : src/consumer/stats_collector.cpp.obj
+
+src/consumer/stats_collector.i: src/consumer/stats_collector.cpp.i
+.PHONY : src/consumer/stats_collector.i
+
+# target to preprocess a source file
+src/consumer/stats_collector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/consumer/stats_collector.cpp.i
+.PHONY : src/consumer/stats_collector.cpp.i
+
+src/consumer/stats_collector.s: src/consumer/stats_collector.cpp.s
+.PHONY : src/consumer/stats_collector.s
+
+# target to generate assembly for a file
+src/consumer/stats_collector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/consumer/stats_collector.cpp.s
+.PHONY : src/consumer/stats_collector.cpp.s
+
+src/consumer/throughput_tracker.obj: src/consumer/throughput_tracker.cpp.obj
+.PHONY : src/consumer/throughput_tracker.obj
+
+# target to build an object file
+src/consumer/throughput_tracker.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/consumer/throughput_tracker.cpp.obj
+.PHONY : src/consumer/throughput_tracker.cpp.obj
+
+src/consumer/throughput_tracker.i: src/consumer/throughput_tracker.cpp.i
+.PHONY : src/consumer/throughput_tracker.i
+
+# target to preprocess a source file
+src/consumer/throughput_tracker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/consumer/throughput_tracker.cpp.i
+.PHONY : src/consumer/throughput_tracker.cpp.i
+
+src/consumer/throughput_tracker.s: src/consumer/throughput_tracker.cpp.s
+.PHONY : src/consumer/throughput_tracker.s
+
+# target to generate assembly for a file
+src/consumer/throughput_tracker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/consumer/throughput_tracker.cpp.s
+.PHONY : src/consumer/throughput_tracker.cpp.s
+
+src/core/book_manager.obj: src/core/book_manager.cpp.obj
+.PHONY : src/core/book_manager.obj
+
+# target to build an object file
+src/core/book_manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/core/book_manager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/core/book_manager.cpp.obj
+.PHONY : src/core/book_manager.cpp.obj
+
+src/core/book_manager.i: src/core/book_manager.cpp.i
+.PHONY : src/core/book_manager.i
+
+# target to preprocess a source file
+src/core/book_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/core/book_manager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/core/book_manager.cpp.i
+.PHONY : src/core/book_manager.cpp.i
+
+src/core/book_manager.s: src/core/book_manager.cpp.s
+.PHONY : src/core/book_manager.s
+
+# target to generate assembly for a file
+src/core/book_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/core/book_manager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/core/book_manager.cpp.s
+.PHONY : src/core/book_manager.cpp.s
+
+src/core/order_book.obj: src/core/order_book.cpp.obj
+.PHONY : src/core/order_book.obj
+
+# target to build an object file
+src/core/order_book.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/core/order_book.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/core/order_book.cpp.obj
+.PHONY : src/core/order_book.cpp.obj
+
+src/core/order_book.i: src/core/order_book.cpp.i
+.PHONY : src/core/order_book.i
+
+# target to preprocess a source file
+src/core/order_book.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/core/order_book.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/core/order_book.cpp.i
+.PHONY : src/core/order_book.cpp.i
+
+src/core/order_book.s: src/core/order_book.cpp.s
+.PHONY : src/core/order_book.s
+
+# target to generate assembly for a file
+src/core/order_book.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/core/order_book.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/core/order_book.cpp.s
+.PHONY : src/core/order_book.cpp.s
+
+src/core/order_store.obj: src/core/order_store.cpp.obj
+.PHONY : src/core/order_store.obj
+
+# target to build an object file
+src/core/order_store.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/core/order_store.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/core/order_store.cpp.obj
+.PHONY : src/core/order_store.cpp.obj
+
+src/core/order_store.i: src/core/order_store.cpp.i
+.PHONY : src/core/order_store.i
+
+# target to preprocess a source file
+src/core/order_store.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/core/order_store.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/core/order_store.cpp.i
+.PHONY : src/core/order_store.cpp.i
+
+src/core/order_store.s: src/core/order_store.cpp.s
+.PHONY : src/core/order_store.s
+
+# target to generate assembly for a file
+src/core/order_store.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/core/order_store.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/core/order_store.cpp.s
+.PHONY : src/core/order_store.cpp.s
+
+src/core/pipeline.obj: src/core/pipeline.cpp.obj
+.PHONY : src/core/pipeline.obj
+
+# target to build an object file
+src/core/pipeline.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/core/pipeline.cpp.obj
+.PHONY : src/core/pipeline.cpp.obj
+
+src/core/pipeline.i: src/core/pipeline.cpp.i
+.PHONY : src/core/pipeline.i
+
+# target to preprocess a source file
+src/core/pipeline.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/core/pipeline.cpp.i
+.PHONY : src/core/pipeline.cpp.i
+
+src/core/pipeline.s: src/core/pipeline.cpp.s
+.PHONY : src/core/pipeline.s
+
+# target to generate assembly for a file
+src/core/pipeline.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/core/pipeline.cpp.s
+.PHONY : src/core/pipeline.cpp.s
+
+src/data/recorder/binary_writer.obj: src/data/recorder/binary_writer.cpp.obj
+.PHONY : src/data/recorder/binary_writer.obj
+
+# target to build an object file
+src/data/recorder/binary_writer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/recorder/binary_writer.cpp.obj
+.PHONY : src/data/recorder/binary_writer.cpp.obj
+
+src/data/recorder/binary_writer.i: src/data/recorder/binary_writer.cpp.i
+.PHONY : src/data/recorder/binary_writer.i
+
+# target to preprocess a source file
+src/data/recorder/binary_writer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/recorder/binary_writer.cpp.i
+.PHONY : src/data/recorder/binary_writer.cpp.i
+
+src/data/recorder/binary_writer.s: src/data/recorder/binary_writer.cpp.s
+.PHONY : src/data/recorder/binary_writer.s
+
+# target to generate assembly for a file
+src/data/recorder/binary_writer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/recorder/binary_writer.cpp.s
+.PHONY : src/data/recorder/binary_writer.cpp.s
+
+src/data/recorder/compression.obj: src/data/recorder/compression.cpp.obj
+.PHONY : src/data/recorder/compression.obj
+
+# target to build an object file
+src/data/recorder/compression.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/recorder/compression.cpp.obj
+.PHONY : src/data/recorder/compression.cpp.obj
+
+src/data/recorder/compression.i: src/data/recorder/compression.cpp.i
+.PHONY : src/data/recorder/compression.i
+
+# target to preprocess a source file
+src/data/recorder/compression.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/recorder/compression.cpp.i
+.PHONY : src/data/recorder/compression.cpp.i
+
+src/data/recorder/compression.s: src/data/recorder/compression.cpp.s
+.PHONY : src/data/recorder/compression.s
+
+# target to generate assembly for a file
+src/data/recorder/compression.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/recorder/compression.cpp.s
+.PHONY : src/data/recorder/compression.cpp.s
+
+src/data/recorder/csv_writer.obj: src/data/recorder/csv_writer.cpp.obj
+.PHONY : src/data/recorder/csv_writer.obj
+
+# target to build an object file
+src/data/recorder/csv_writer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/recorder/csv_writer.cpp.obj
+.PHONY : src/data/recorder/csv_writer.cpp.obj
+
+src/data/recorder/csv_writer.i: src/data/recorder/csv_writer.cpp.i
+.PHONY : src/data/recorder/csv_writer.i
+
+# target to preprocess a source file
+src/data/recorder/csv_writer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/recorder/csv_writer.cpp.i
+.PHONY : src/data/recorder/csv_writer.cpp.i
+
+src/data/recorder/csv_writer.s: src/data/recorder/csv_writer.cpp.s
+.PHONY : src/data/recorder/csv_writer.s
+
+# target to generate assembly for a file
+src/data/recorder/csv_writer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/recorder/csv_writer.cpp.s
+.PHONY : src/data/recorder/csv_writer.cpp.s
+
+src/data/recorder/rotation.obj: src/data/recorder/rotation.cpp.obj
+.PHONY : src/data/recorder/rotation.obj
+
+# target to build an object file
+src/data/recorder/rotation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/recorder/rotation.cpp.obj
+.PHONY : src/data/recorder/rotation.cpp.obj
+
+src/data/recorder/rotation.i: src/data/recorder/rotation.cpp.i
+.PHONY : src/data/recorder/rotation.i
+
+# target to preprocess a source file
+src/data/recorder/rotation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/recorder/rotation.cpp.i
+.PHONY : src/data/recorder/rotation.cpp.i
+
+src/data/recorder/rotation.s: src/data/recorder/rotation.cpp.s
+.PHONY : src/data/recorder/rotation.s
+
+# target to generate assembly for a file
+src/data/recorder/rotation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/recorder/rotation.cpp.s
+.PHONY : src/data/recorder/rotation.cpp.s
+
+src/data/recorder/tick_recorder.obj: src/data/recorder/tick_recorder.cpp.obj
+.PHONY : src/data/recorder/tick_recorder.obj
+
+# target to build an object file
+src/data/recorder/tick_recorder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/recorder/tick_recorder.cpp.obj
+.PHONY : src/data/recorder/tick_recorder.cpp.obj
+
+src/data/recorder/tick_recorder.i: src/data/recorder/tick_recorder.cpp.i
+.PHONY : src/data/recorder/tick_recorder.i
+
+# target to preprocess a source file
+src/data/recorder/tick_recorder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/recorder/tick_recorder.cpp.i
+.PHONY : src/data/recorder/tick_recorder.cpp.i
+
+src/data/recorder/tick_recorder.s: src/data/recorder/tick_recorder.cpp.s
+.PHONY : src/data/recorder/tick_recorder.s
+
+# target to generate assembly for a file
+src/data/recorder/tick_recorder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/recorder/tick_recorder.cpp.s
+.PHONY : src/data/recorder/tick_recorder.cpp.s
+
+src/data/replay/multi_stream_merger.obj: src/data/replay/multi_stream_merger.cpp.obj
+.PHONY : src/data/replay/multi_stream_merger.obj
+
+# target to build an object file
+src/data/replay/multi_stream_merger.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/replay/multi_stream_merger.cpp.obj
+.PHONY : src/data/replay/multi_stream_merger.cpp.obj
+
+src/data/replay/multi_stream_merger.i: src/data/replay/multi_stream_merger.cpp.i
+.PHONY : src/data/replay/multi_stream_merger.i
+
+# target to preprocess a source file
+src/data/replay/multi_stream_merger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/replay/multi_stream_merger.cpp.i
+.PHONY : src/data/replay/multi_stream_merger.cpp.i
+
+src/data/replay/multi_stream_merger.s: src/data/replay/multi_stream_merger.cpp.s
+.PHONY : src/data/replay/multi_stream_merger.s
+
+# target to generate assembly for a file
+src/data/replay/multi_stream_merger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/replay/multi_stream_merger.cpp.s
+.PHONY : src/data/replay/multi_stream_merger.cpp.s
+
+src/data/replay/replay_clock.obj: src/data/replay/replay_clock.cpp.obj
+.PHONY : src/data/replay/replay_clock.obj
+
+# target to build an object file
+src/data/replay/replay_clock.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/replay/replay_clock.cpp.obj
+.PHONY : src/data/replay/replay_clock.cpp.obj
+
+src/data/replay/replay_clock.i: src/data/replay/replay_clock.cpp.i
+.PHONY : src/data/replay/replay_clock.i
+
+# target to preprocess a source file
+src/data/replay/replay_clock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/replay/replay_clock.cpp.i
+.PHONY : src/data/replay/replay_clock.cpp.i
+
+src/data/replay/replay_clock.s: src/data/replay/replay_clock.cpp.s
+.PHONY : src/data/replay/replay_clock.s
+
+# target to generate assembly for a file
+src/data/replay/replay_clock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/replay/replay_clock.cpp.s
+.PHONY : src/data/replay/replay_clock.cpp.s
+
+src/data/replay/replay_engine.obj: src/data/replay/replay_engine.cpp.obj
+.PHONY : src/data/replay/replay_engine.obj
+
+# target to build an object file
+src/data/replay/replay_engine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/replay/replay_engine.cpp.obj
+.PHONY : src/data/replay/replay_engine.cpp.obj
+
+src/data/replay/replay_engine.i: src/data/replay/replay_engine.cpp.i
+.PHONY : src/data/replay/replay_engine.i
+
+# target to preprocess a source file
+src/data/replay/replay_engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/replay/replay_engine.cpp.i
+.PHONY : src/data/replay/replay_engine.cpp.i
+
+src/data/replay/replay_engine.s: src/data/replay/replay_engine.cpp.s
+.PHONY : src/data/replay/replay_engine.s
+
+# target to generate assembly for a file
+src/data/replay/replay_engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/replay/replay_engine.cpp.s
+.PHONY : src/data/replay/replay_engine.cpp.s
+
+src/data/replay/replay_publisher.obj: src/data/replay/replay_publisher.cpp.obj
+.PHONY : src/data/replay/replay_publisher.obj
+
+# target to build an object file
+src/data/replay/replay_publisher.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/replay/replay_publisher.cpp.obj
+.PHONY : src/data/replay/replay_publisher.cpp.obj
+
+src/data/replay/replay_publisher.i: src/data/replay/replay_publisher.cpp.i
+.PHONY : src/data/replay/replay_publisher.i
+
+# target to preprocess a source file
+src/data/replay/replay_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/replay/replay_publisher.cpp.i
+.PHONY : src/data/replay/replay_publisher.cpp.i
+
+src/data/replay/replay_publisher.s: src/data/replay/replay_publisher.cpp.s
+.PHONY : src/data/replay/replay_publisher.s
+
+# target to generate assembly for a file
+src/data/replay/replay_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/replay/replay_publisher.cpp.s
+.PHONY : src/data/replay/replay_publisher.cpp.s
+
+src/data/storage/bar_aggregator.obj: src/data/storage/bar_aggregator.cpp.obj
+.PHONY : src/data/storage/bar_aggregator.obj
+
+# target to build an object file
+src/data/storage/bar_aggregator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/storage/bar_aggregator.cpp.obj
+.PHONY : src/data/storage/bar_aggregator.cpp.obj
+
+src/data/storage/bar_aggregator.i: src/data/storage/bar_aggregator.cpp.i
+.PHONY : src/data/storage/bar_aggregator.i
+
+# target to preprocess a source file
+src/data/storage/bar_aggregator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/storage/bar_aggregator.cpp.i
+.PHONY : src/data/storage/bar_aggregator.cpp.i
+
+src/data/storage/bar_aggregator.s: src/data/storage/bar_aggregator.cpp.s
+.PHONY : src/data/storage/bar_aggregator.s
+
+# target to generate assembly for a file
+src/data/storage/bar_aggregator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/storage/bar_aggregator.cpp.s
+.PHONY : src/data/storage/bar_aggregator.cpp.s
+
+src/data/storage/symbol_catalog.obj: src/data/storage/symbol_catalog.cpp.obj
+.PHONY : src/data/storage/symbol_catalog.obj
+
+# target to build an object file
+src/data/storage/symbol_catalog.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/storage/symbol_catalog.cpp.obj
+.PHONY : src/data/storage/symbol_catalog.cpp.obj
+
+src/data/storage/symbol_catalog.i: src/data/storage/symbol_catalog.cpp.i
+.PHONY : src/data/storage/symbol_catalog.i
+
+# target to preprocess a source file
+src/data/storage/symbol_catalog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/storage/symbol_catalog.cpp.i
+.PHONY : src/data/storage/symbol_catalog.cpp.i
+
+src/data/storage/symbol_catalog.s: src/data/storage/symbol_catalog.cpp.s
+.PHONY : src/data/storage/symbol_catalog.s
+
+# target to generate assembly for a file
+src/data/storage/symbol_catalog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/storage/symbol_catalog.cpp.s
+.PHONY : src/data/storage/symbol_catalog.cpp.s
+
+src/data/storage/tick_store.obj: src/data/storage/tick_store.cpp.obj
+.PHONY : src/data/storage/tick_store.obj
+
+# target to build an object file
+src/data/storage/tick_store.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/storage/tick_store.cpp.obj
+.PHONY : src/data/storage/tick_store.cpp.obj
+
+src/data/storage/tick_store.i: src/data/storage/tick_store.cpp.i
+.PHONY : src/data/storage/tick_store.i
+
+# target to preprocess a source file
+src/data/storage/tick_store.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/storage/tick_store.cpp.i
+.PHONY : src/data/storage/tick_store.cpp.i
+
+src/data/storage/tick_store.s: src/data/storage/tick_store.cpp.s
+.PHONY : src/data/storage/tick_store.s
+
+# target to generate assembly for a file
+src/data/storage/tick_store.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/storage/tick_store.cpp.s
+.PHONY : src/data/storage/tick_store.cpp.s
+
+src/data/storage/time_index.obj: src/data/storage/time_index.cpp.obj
+.PHONY : src/data/storage/time_index.obj
+
+# target to build an object file
+src/data/storage/time_index.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/storage/time_index.cpp.obj
+.PHONY : src/data/storage/time_index.cpp.obj
+
+src/data/storage/time_index.i: src/data/storage/time_index.cpp.i
+.PHONY : src/data/storage/time_index.i
+
+# target to preprocess a source file
+src/data/storage/time_index.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/storage/time_index.cpp.i
+.PHONY : src/data/storage/time_index.cpp.i
+
+src/data/storage/time_index.s: src/data/storage/time_index.cpp.s
+.PHONY : src/data/storage/time_index.s
+
+# target to generate assembly for a file
+src/data/storage/time_index.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/data/storage/time_index.cpp.s
+.PHONY : src/data/storage/time_index.cpp.s
+
+src/handler/book_stage.obj: src/handler/book_stage.cpp.obj
+.PHONY : src/handler/book_stage.obj
+
+# target to build an object file
+src/handler/book_stage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/handler/book_stage.cpp.obj
+.PHONY : src/handler/book_stage.cpp.obj
+
+src/handler/book_stage.i: src/handler/book_stage.cpp.i
+.PHONY : src/handler/book_stage.i
+
+# target to preprocess a source file
+src/handler/book_stage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/handler/book_stage.cpp.i
+.PHONY : src/handler/book_stage.cpp.i
+
+src/handler/book_stage.s: src/handler/book_stage.cpp.s
+.PHONY : src/handler/book_stage.s
+
+# target to generate assembly for a file
+src/handler/book_stage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/handler/book_stage.cpp.s
+.PHONY : src/handler/book_stage.cpp.s
+
+src/handler/consumer_stage.obj: src/handler/consumer_stage.cpp.obj
+.PHONY : src/handler/consumer_stage.obj
+
+# target to build an object file
+src/handler/consumer_stage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/handler/consumer_stage.cpp.obj
+.PHONY : src/handler/consumer_stage.cpp.obj
+
+src/handler/consumer_stage.i: src/handler/consumer_stage.cpp.i
+.PHONY : src/handler/consumer_stage.i
+
+# target to preprocess a source file
+src/handler/consumer_stage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/handler/consumer_stage.cpp.i
+.PHONY : src/handler/consumer_stage.cpp.i
+
+src/handler/consumer_stage.s: src/handler/consumer_stage.cpp.s
+.PHONY : src/handler/consumer_stage.s
+
+# target to generate assembly for a file
+src/handler/consumer_stage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/handler/consumer_stage.cpp.s
+.PHONY : src/handler/consumer_stage.cpp.s
+
 src/handler/main.obj: src/handler/main.cpp.obj
 .PHONY : src/handler/main.obj
 
@@ -284,6 +1323,1443 @@ src/handler/main.s: src/handler/main.cpp.s
 src/handler/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/handler/main.cpp.s
 .PHONY : src/handler/main.cpp.s
+
+src/handler/network_stage.obj: src/handler/network_stage.cpp.obj
+.PHONY : src/handler/network_stage.obj
+
+# target to build an object file
+src/handler/network_stage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/handler/network_stage.cpp.obj
+.PHONY : src/handler/network_stage.cpp.obj
+
+src/handler/network_stage.i: src/handler/network_stage.cpp.i
+.PHONY : src/handler/network_stage.i
+
+# target to preprocess a source file
+src/handler/network_stage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/handler/network_stage.cpp.i
+.PHONY : src/handler/network_stage.cpp.i
+
+src/handler/network_stage.s: src/handler/network_stage.cpp.s
+.PHONY : src/handler/network_stage.s
+
+# target to generate assembly for a file
+src/handler/network_stage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/handler/network_stage.cpp.s
+.PHONY : src/handler/network_stage.cpp.s
+
+src/handler/parser_stage.obj: src/handler/parser_stage.cpp.obj
+.PHONY : src/handler/parser_stage.obj
+
+# target to build an object file
+src/handler/parser_stage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/handler/parser_stage.cpp.obj
+.PHONY : src/handler/parser_stage.cpp.obj
+
+src/handler/parser_stage.i: src/handler/parser_stage.cpp.i
+.PHONY : src/handler/parser_stage.i
+
+# target to preprocess a source file
+src/handler/parser_stage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/handler/parser_stage.cpp.i
+.PHONY : src/handler/parser_stage.cpp.i
+
+src/handler/parser_stage.s: src/handler/parser_stage.cpp.s
+.PHONY : src/handler/parser_stage.s
+
+# target to generate assembly for a file
+src/handler/parser_stage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/handler/parser_stage.cpp.s
+.PHONY : src/handler/parser_stage.cpp.s
+
+src/infra/config.obj: src/infra/config.cpp.obj
+.PHONY : src/infra/config.obj
+
+# target to build an object file
+src/infra/config.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/infra/config.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/infra/config.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/infra/config.cpp.obj
+.PHONY : src/infra/config.cpp.obj
+
+src/infra/config.i: src/infra/config.cpp.i
+.PHONY : src/infra/config.i
+
+# target to preprocess a source file
+src/infra/config.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/infra/config.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/infra/config.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/infra/config.cpp.i
+.PHONY : src/infra/config.cpp.i
+
+src/infra/config.s: src/infra/config.cpp.s
+.PHONY : src/infra/config.s
+
+# target to generate assembly for a file
+src/infra/config.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/infra/config.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/infra/config.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/infra/config.cpp.s
+.PHONY : src/infra/config.cpp.s
+
+src/infra/logging.obj: src/infra/logging.cpp.obj
+.PHONY : src/infra/logging.obj
+
+# target to build an object file
+src/infra/logging.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/infra/logging.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/infra/logging.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/infra/logging.cpp.obj
+.PHONY : src/infra/logging.cpp.obj
+
+src/infra/logging.i: src/infra/logging.cpp.i
+.PHONY : src/infra/logging.i
+
+# target to preprocess a source file
+src/infra/logging.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/infra/logging.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/infra/logging.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/infra/logging.cpp.i
+.PHONY : src/infra/logging.cpp.i
+
+src/infra/logging.s: src/infra/logging.cpp.s
+.PHONY : src/infra/logging.s
+
+# target to generate assembly for a file
+src/infra/logging.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/infra/logging.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/infra/logging.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/infra/logging.cpp.s
+.PHONY : src/infra/logging.cpp.s
+
+src/network/multicast_receiver.obj: src/network/multicast_receiver.cpp.obj
+.PHONY : src/network/multicast_receiver.obj
+
+# target to build an object file
+src/network/multicast_receiver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/network/multicast_receiver.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/network/multicast_receiver.cpp.obj
+.PHONY : src/network/multicast_receiver.cpp.obj
+
+src/network/multicast_receiver.i: src/network/multicast_receiver.cpp.i
+.PHONY : src/network/multicast_receiver.i
+
+# target to preprocess a source file
+src/network/multicast_receiver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/network/multicast_receiver.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/network/multicast_receiver.cpp.i
+.PHONY : src/network/multicast_receiver.cpp.i
+
+src/network/multicast_receiver.s: src/network/multicast_receiver.cpp.s
+.PHONY : src/network/multicast_receiver.s
+
+# target to generate assembly for a file
+src/network/multicast_receiver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/network/multicast_receiver.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/network/multicast_receiver.cpp.s
+.PHONY : src/network/multicast_receiver.cpp.s
+
+src/network/multicast_sender.obj: src/network/multicast_sender.cpp.obj
+.PHONY : src/network/multicast_sender.obj
+
+# target to build an object file
+src/network/multicast_sender.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/network/multicast_sender.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/network/multicast_sender.cpp.obj
+.PHONY : src/network/multicast_sender.cpp.obj
+
+src/network/multicast_sender.i: src/network/multicast_sender.cpp.i
+.PHONY : src/network/multicast_sender.i
+
+# target to preprocess a source file
+src/network/multicast_sender.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/network/multicast_sender.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/network/multicast_sender.cpp.i
+.PHONY : src/network/multicast_sender.cpp.i
+
+src/network/multicast_sender.s: src/network/multicast_sender.cpp.s
+.PHONY : src/network/multicast_sender.s
+
+# target to generate assembly for a file
+src/network/multicast_sender.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/network/multicast_sender.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/network/multicast_sender.cpp.s
+.PHONY : src/network/multicast_sender.cpp.s
+
+src/oms/fill_manager.obj: src/oms/fill_manager.cpp.obj
+.PHONY : src/oms/fill_manager.obj
+
+# target to build an object file
+src/oms/fill_manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/fill_manager.cpp.obj
+.PHONY : src/oms/fill_manager.cpp.obj
+
+src/oms/fill_manager.i: src/oms/fill_manager.cpp.i
+.PHONY : src/oms/fill_manager.i
+
+# target to preprocess a source file
+src/oms/fill_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/fill_manager.cpp.i
+.PHONY : src/oms/fill_manager.cpp.i
+
+src/oms/fill_manager.s: src/oms/fill_manager.cpp.s
+.PHONY : src/oms/fill_manager.s
+
+# target to generate assembly for a file
+src/oms/fill_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/fill_manager.cpp.s
+.PHONY : src/oms/fill_manager.cpp.s
+
+src/oms/order_id_generator.obj: src/oms/order_id_generator.cpp.obj
+.PHONY : src/oms/order_id_generator.obj
+
+# target to build an object file
+src/oms/order_id_generator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/order_id_generator.cpp.obj
+.PHONY : src/oms/order_id_generator.cpp.obj
+
+src/oms/order_id_generator.i: src/oms/order_id_generator.cpp.i
+.PHONY : src/oms/order_id_generator.i
+
+# target to preprocess a source file
+src/oms/order_id_generator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/order_id_generator.cpp.i
+.PHONY : src/oms/order_id_generator.cpp.i
+
+src/oms/order_id_generator.s: src/oms/order_id_generator.cpp.s
+.PHONY : src/oms/order_id_generator.s
+
+# target to generate assembly for a file
+src/oms/order_id_generator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/order_id_generator.cpp.s
+.PHONY : src/oms/order_id_generator.cpp.s
+
+src/oms/order_manager.obj: src/oms/order_manager.cpp.obj
+.PHONY : src/oms/order_manager.obj
+
+# target to build an object file
+src/oms/order_manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/order_manager.cpp.obj
+.PHONY : src/oms/order_manager.cpp.obj
+
+src/oms/order_manager.i: src/oms/order_manager.cpp.i
+.PHONY : src/oms/order_manager.i
+
+# target to preprocess a source file
+src/oms/order_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/order_manager.cpp.i
+.PHONY : src/oms/order_manager.cpp.i
+
+src/oms/order_manager.s: src/oms/order_manager.cpp.s
+.PHONY : src/oms/order_manager.s
+
+# target to generate assembly for a file
+src/oms/order_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/order_manager.cpp.s
+.PHONY : src/oms/order_manager.cpp.s
+
+src/oms/order_router.obj: src/oms/order_router.cpp.obj
+.PHONY : src/oms/order_router.obj
+
+# target to build an object file
+src/oms/order_router.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/order_router.cpp.obj
+.PHONY : src/oms/order_router.cpp.obj
+
+src/oms/order_router.i: src/oms/order_router.cpp.i
+.PHONY : src/oms/order_router.i
+
+# target to preprocess a source file
+src/oms/order_router.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/order_router.cpp.i
+.PHONY : src/oms/order_router.cpp.i
+
+src/oms/order_router.s: src/oms/order_router.cpp.s
+.PHONY : src/oms/order_router.s
+
+# target to generate assembly for a file
+src/oms/order_router.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/order_router.cpp.s
+.PHONY : src/oms/order_router.cpp.s
+
+src/oms/order_validator.obj: src/oms/order_validator.cpp.obj
+.PHONY : src/oms/order_validator.obj
+
+# target to build an object file
+src/oms/order_validator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/order_validator.cpp.obj
+.PHONY : src/oms/order_validator.cpp.obj
+
+src/oms/order_validator.i: src/oms/order_validator.cpp.i
+.PHONY : src/oms/order_validator.i
+
+# target to preprocess a source file
+src/oms/order_validator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/order_validator.cpp.i
+.PHONY : src/oms/order_validator.cpp.i
+
+src/oms/order_validator.s: src/oms/order_validator.cpp.s
+.PHONY : src/oms/order_validator.s
+
+# target to generate assembly for a file
+src/oms/order_validator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/order_validator.cpp.s
+.PHONY : src/oms/order_validator.cpp.s
+
+src/oms/sim_exchange/sim_exchange.obj: src/oms/sim_exchange/sim_exchange.cpp.obj
+.PHONY : src/oms/sim_exchange/sim_exchange.obj
+
+# target to build an object file
+src/oms/sim_exchange/sim_exchange.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange.cpp.obj
+.PHONY : src/oms/sim_exchange/sim_exchange.cpp.obj
+
+src/oms/sim_exchange/sim_exchange.i: src/oms/sim_exchange/sim_exchange.cpp.i
+.PHONY : src/oms/sim_exchange/sim_exchange.i
+
+# target to preprocess a source file
+src/oms/sim_exchange/sim_exchange.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange.cpp.i
+.PHONY : src/oms/sim_exchange/sim_exchange.cpp.i
+
+src/oms/sim_exchange/sim_exchange.s: src/oms/sim_exchange/sim_exchange.cpp.s
+.PHONY : src/oms/sim_exchange/sim_exchange.s
+
+# target to generate assembly for a file
+src/oms/sim_exchange/sim_exchange.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange.cpp.s
+.PHONY : src/oms/sim_exchange/sim_exchange.cpp.s
+
+src/oms/sim_exchange/sim_exchange_connector.obj: src/oms/sim_exchange/sim_exchange_connector.cpp.obj
+.PHONY : src/oms/sim_exchange/sim_exchange_connector.obj
+
+# target to build an object file
+src/oms/sim_exchange/sim_exchange_connector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange_connector.cpp.obj
+.PHONY : src/oms/sim_exchange/sim_exchange_connector.cpp.obj
+
+src/oms/sim_exchange/sim_exchange_connector.i: src/oms/sim_exchange/sim_exchange_connector.cpp.i
+.PHONY : src/oms/sim_exchange/sim_exchange_connector.i
+
+# target to preprocess a source file
+src/oms/sim_exchange/sim_exchange_connector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange_connector.cpp.i
+.PHONY : src/oms/sim_exchange/sim_exchange_connector.cpp.i
+
+src/oms/sim_exchange/sim_exchange_connector.s: src/oms/sim_exchange/sim_exchange_connector.cpp.s
+.PHONY : src/oms/sim_exchange/sim_exchange_connector.s
+
+# target to generate assembly for a file
+src/oms/sim_exchange/sim_exchange_connector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange_connector.cpp.s
+.PHONY : src/oms/sim_exchange/sim_exchange_connector.cpp.s
+
+src/oms/sim_exchange/sim_fill_model.obj: src/oms/sim_exchange/sim_fill_model.cpp.obj
+.PHONY : src/oms/sim_exchange/sim_fill_model.obj
+
+# target to build an object file
+src/oms/sim_exchange/sim_fill_model.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_fill_model.cpp.obj
+.PHONY : src/oms/sim_exchange/sim_fill_model.cpp.obj
+
+src/oms/sim_exchange/sim_fill_model.i: src/oms/sim_exchange/sim_fill_model.cpp.i
+.PHONY : src/oms/sim_exchange/sim_fill_model.i
+
+# target to preprocess a source file
+src/oms/sim_exchange/sim_fill_model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_fill_model.cpp.i
+.PHONY : src/oms/sim_exchange/sim_fill_model.cpp.i
+
+src/oms/sim_exchange/sim_fill_model.s: src/oms/sim_exchange/sim_fill_model.cpp.s
+.PHONY : src/oms/sim_exchange/sim_fill_model.s
+
+# target to generate assembly for a file
+src/oms/sim_exchange/sim_fill_model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_fill_model.cpp.s
+.PHONY : src/oms/sim_exchange/sim_fill_model.cpp.s
+
+src/oms/state_machine/order_journal.obj: src/oms/state_machine/order_journal.cpp.obj
+.PHONY : src/oms/state_machine/order_journal.obj
+
+# target to build an object file
+src/oms/state_machine/order_journal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/state_machine/order_journal.cpp.obj
+.PHONY : src/oms/state_machine/order_journal.cpp.obj
+
+src/oms/state_machine/order_journal.i: src/oms/state_machine/order_journal.cpp.i
+.PHONY : src/oms/state_machine/order_journal.i
+
+# target to preprocess a source file
+src/oms/state_machine/order_journal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/state_machine/order_journal.cpp.i
+.PHONY : src/oms/state_machine/order_journal.cpp.i
+
+src/oms/state_machine/order_journal.s: src/oms/state_machine/order_journal.cpp.s
+.PHONY : src/oms/state_machine/order_journal.s
+
+# target to generate assembly for a file
+src/oms/state_machine/order_journal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/state_machine/order_journal.cpp.s
+.PHONY : src/oms/state_machine/order_journal.cpp.s
+
+src/oms/state_machine/state_transitions.obj: src/oms/state_machine/state_transitions.cpp.obj
+.PHONY : src/oms/state_machine/state_transitions.obj
+
+# target to build an object file
+src/oms/state_machine/state_transitions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/state_machine/state_transitions.cpp.obj
+.PHONY : src/oms/state_machine/state_transitions.cpp.obj
+
+src/oms/state_machine/state_transitions.i: src/oms/state_machine/state_transitions.cpp.i
+.PHONY : src/oms/state_machine/state_transitions.i
+
+# target to preprocess a source file
+src/oms/state_machine/state_transitions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/state_machine/state_transitions.cpp.i
+.PHONY : src/oms/state_machine/state_transitions.cpp.i
+
+src/oms/state_machine/state_transitions.s: src/oms/state_machine/state_transitions.cpp.s
+.PHONY : src/oms/state_machine/state_transitions.s
+
+# target to generate assembly for a file
+src/oms/state_machine/state_transitions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/oms/state_machine/state_transitions.cpp.s
+.PHONY : src/oms/state_machine/state_transitions.cpp.s
+
+src/protocol/batcher.obj: src/protocol/batcher.cpp.obj
+.PHONY : src/protocol/batcher.obj
+
+# target to build an object file
+src/protocol/batcher.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/protocol/batcher.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/protocol/batcher.cpp.obj
+.PHONY : src/protocol/batcher.cpp.obj
+
+src/protocol/batcher.i: src/protocol/batcher.cpp.i
+.PHONY : src/protocol/batcher.i
+
+# target to preprocess a source file
+src/protocol/batcher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/protocol/batcher.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/protocol/batcher.cpp.i
+.PHONY : src/protocol/batcher.cpp.i
+
+src/protocol/batcher.s: src/protocol/batcher.cpp.s
+.PHONY : src/protocol/batcher.s
+
+# target to generate assembly for a file
+src/protocol/batcher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/protocol/batcher.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/protocol/batcher.cpp.s
+.PHONY : src/protocol/batcher.cpp.s
+
+src/protocol/frame_parser.obj: src/protocol/frame_parser.cpp.obj
+.PHONY : src/protocol/frame_parser.obj
+
+# target to build an object file
+src/protocol/frame_parser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/protocol/frame_parser.cpp.obj
+.PHONY : src/protocol/frame_parser.cpp.obj
+
+src/protocol/frame_parser.i: src/protocol/frame_parser.cpp.i
+.PHONY : src/protocol/frame_parser.i
+
+# target to preprocess a source file
+src/protocol/frame_parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/protocol/frame_parser.cpp.i
+.PHONY : src/protocol/frame_parser.cpp.i
+
+src/protocol/frame_parser.s: src/protocol/frame_parser.cpp.s
+.PHONY : src/protocol/frame_parser.s
+
+# target to generate assembly for a file
+src/protocol/frame_parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/protocol/frame_parser.cpp.s
+.PHONY : src/protocol/frame_parser.cpp.s
+
+src/protocol/sequence.obj: src/protocol/sequence.cpp.obj
+.PHONY : src/protocol/sequence.obj
+
+# target to build an object file
+src/protocol/sequence.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/protocol/sequence.cpp.obj
+.PHONY : src/protocol/sequence.cpp.obj
+
+src/protocol/sequence.i: src/protocol/sequence.cpp.i
+.PHONY : src/protocol/sequence.i
+
+# target to preprocess a source file
+src/protocol/sequence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/protocol/sequence.cpp.i
+.PHONY : src/protocol/sequence.cpp.i
+
+src/protocol/sequence.s: src/protocol/sequence.cpp.s
+.PHONY : src/protocol/sequence.s
+
+# target to generate assembly for a file
+src/protocol/sequence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/protocol/sequence.cpp.s
+.PHONY : src/protocol/sequence.cpp.s
+
+src/protocol/validator.obj: src/protocol/validator.cpp.obj
+.PHONY : src/protocol/validator.obj
+
+# target to build an object file
+src/protocol/validator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/protocol/validator.cpp.obj
+.PHONY : src/protocol/validator.cpp.obj
+
+src/protocol/validator.i: src/protocol/validator.cpp.i
+.PHONY : src/protocol/validator.i
+
+# target to preprocess a source file
+src/protocol/validator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/protocol/validator.cpp.i
+.PHONY : src/protocol/validator.cpp.i
+
+src/protocol/validator.s: src/protocol/validator.cpp.s
+.PHONY : src/protocol/validator.s
+
+# target to generate assembly for a file
+src/protocol/validator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\feed_handler.dir\build.make CMakeFiles/feed_handler.dir/src/protocol/validator.cpp.s
+.PHONY : src/protocol/validator.cpp.s
+
+src/risk/limits/concentration_limit.obj: src/risk/limits/concentration_limit.cpp.obj
+.PHONY : src/risk/limits/concentration_limit.obj
+
+# target to build an object file
+src/risk/limits/concentration_limit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/limits/concentration_limit.cpp.obj
+.PHONY : src/risk/limits/concentration_limit.cpp.obj
+
+src/risk/limits/concentration_limit.i: src/risk/limits/concentration_limit.cpp.i
+.PHONY : src/risk/limits/concentration_limit.i
+
+# target to preprocess a source file
+src/risk/limits/concentration_limit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/limits/concentration_limit.cpp.i
+.PHONY : src/risk/limits/concentration_limit.cpp.i
+
+src/risk/limits/concentration_limit.s: src/risk/limits/concentration_limit.cpp.s
+.PHONY : src/risk/limits/concentration_limit.s
+
+# target to generate assembly for a file
+src/risk/limits/concentration_limit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/limits/concentration_limit.cpp.s
+.PHONY : src/risk/limits/concentration_limit.cpp.s
+
+src/risk/limits/loss_limit.obj: src/risk/limits/loss_limit.cpp.obj
+.PHONY : src/risk/limits/loss_limit.obj
+
+# target to build an object file
+src/risk/limits/loss_limit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/limits/loss_limit.cpp.obj
+.PHONY : src/risk/limits/loss_limit.cpp.obj
+
+src/risk/limits/loss_limit.i: src/risk/limits/loss_limit.cpp.i
+.PHONY : src/risk/limits/loss_limit.i
+
+# target to preprocess a source file
+src/risk/limits/loss_limit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/limits/loss_limit.cpp.i
+.PHONY : src/risk/limits/loss_limit.cpp.i
+
+src/risk/limits/loss_limit.s: src/risk/limits/loss_limit.cpp.s
+.PHONY : src/risk/limits/loss_limit.s
+
+# target to generate assembly for a file
+src/risk/limits/loss_limit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/limits/loss_limit.cpp.s
+.PHONY : src/risk/limits/loss_limit.cpp.s
+
+src/risk/limits/notional_limit.obj: src/risk/limits/notional_limit.cpp.obj
+.PHONY : src/risk/limits/notional_limit.obj
+
+# target to build an object file
+src/risk/limits/notional_limit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/limits/notional_limit.cpp.obj
+.PHONY : src/risk/limits/notional_limit.cpp.obj
+
+src/risk/limits/notional_limit.i: src/risk/limits/notional_limit.cpp.i
+.PHONY : src/risk/limits/notional_limit.i
+
+# target to preprocess a source file
+src/risk/limits/notional_limit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/limits/notional_limit.cpp.i
+.PHONY : src/risk/limits/notional_limit.cpp.i
+
+src/risk/limits/notional_limit.s: src/risk/limits/notional_limit.cpp.s
+.PHONY : src/risk/limits/notional_limit.s
+
+# target to generate assembly for a file
+src/risk/limits/notional_limit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/limits/notional_limit.cpp.s
+.PHONY : src/risk/limits/notional_limit.cpp.s
+
+src/risk/limits/order_rate_limit.obj: src/risk/limits/order_rate_limit.cpp.obj
+.PHONY : src/risk/limits/order_rate_limit.obj
+
+# target to build an object file
+src/risk/limits/order_rate_limit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/limits/order_rate_limit.cpp.obj
+.PHONY : src/risk/limits/order_rate_limit.cpp.obj
+
+src/risk/limits/order_rate_limit.i: src/risk/limits/order_rate_limit.cpp.i
+.PHONY : src/risk/limits/order_rate_limit.i
+
+# target to preprocess a source file
+src/risk/limits/order_rate_limit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/limits/order_rate_limit.cpp.i
+.PHONY : src/risk/limits/order_rate_limit.cpp.i
+
+src/risk/limits/order_rate_limit.s: src/risk/limits/order_rate_limit.cpp.s
+.PHONY : src/risk/limits/order_rate_limit.s
+
+# target to generate assembly for a file
+src/risk/limits/order_rate_limit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/limits/order_rate_limit.cpp.s
+.PHONY : src/risk/limits/order_rate_limit.cpp.s
+
+src/risk/limits/position_limit.obj: src/risk/limits/position_limit.cpp.obj
+.PHONY : src/risk/limits/position_limit.obj
+
+# target to build an object file
+src/risk/limits/position_limit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/limits/position_limit.cpp.obj
+.PHONY : src/risk/limits/position_limit.cpp.obj
+
+src/risk/limits/position_limit.i: src/risk/limits/position_limit.cpp.i
+.PHONY : src/risk/limits/position_limit.i
+
+# target to preprocess a source file
+src/risk/limits/position_limit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/limits/position_limit.cpp.i
+.PHONY : src/risk/limits/position_limit.cpp.i
+
+src/risk/limits/position_limit.s: src/risk/limits/position_limit.cpp.s
+.PHONY : src/risk/limits/position_limit.s
+
+# target to generate assembly for a file
+src/risk/limits/position_limit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/limits/position_limit.cpp.s
+.PHONY : src/risk/limits/position_limit.cpp.s
+
+src/risk/monitors/circuit_breaker.obj: src/risk/monitors/circuit_breaker.cpp.obj
+.PHONY : src/risk/monitors/circuit_breaker.obj
+
+# target to build an object file
+src/risk/monitors/circuit_breaker.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/monitors/circuit_breaker.cpp.obj
+.PHONY : src/risk/monitors/circuit_breaker.cpp.obj
+
+src/risk/monitors/circuit_breaker.i: src/risk/monitors/circuit_breaker.cpp.i
+.PHONY : src/risk/monitors/circuit_breaker.i
+
+# target to preprocess a source file
+src/risk/monitors/circuit_breaker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/monitors/circuit_breaker.cpp.i
+.PHONY : src/risk/monitors/circuit_breaker.cpp.i
+
+src/risk/monitors/circuit_breaker.s: src/risk/monitors/circuit_breaker.cpp.s
+.PHONY : src/risk/monitors/circuit_breaker.s
+
+# target to generate assembly for a file
+src/risk/monitors/circuit_breaker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/monitors/circuit_breaker.cpp.s
+.PHONY : src/risk/monitors/circuit_breaker.cpp.s
+
+src/risk/monitors/exposure_monitor.obj: src/risk/monitors/exposure_monitor.cpp.obj
+.PHONY : src/risk/monitors/exposure_monitor.obj
+
+# target to build an object file
+src/risk/monitors/exposure_monitor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/monitors/exposure_monitor.cpp.obj
+.PHONY : src/risk/monitors/exposure_monitor.cpp.obj
+
+src/risk/monitors/exposure_monitor.i: src/risk/monitors/exposure_monitor.cpp.i
+.PHONY : src/risk/monitors/exposure_monitor.i
+
+# target to preprocess a source file
+src/risk/monitors/exposure_monitor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/monitors/exposure_monitor.cpp.i
+.PHONY : src/risk/monitors/exposure_monitor.cpp.i
+
+src/risk/monitors/exposure_monitor.s: src/risk/monitors/exposure_monitor.cpp.s
+.PHONY : src/risk/monitors/exposure_monitor.s
+
+# target to generate assembly for a file
+src/risk/monitors/exposure_monitor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/monitors/exposure_monitor.cpp.s
+.PHONY : src/risk/monitors/exposure_monitor.cpp.s
+
+src/risk/monitors/pnl_monitor.obj: src/risk/monitors/pnl_monitor.cpp.obj
+.PHONY : src/risk/monitors/pnl_monitor.obj
+
+# target to build an object file
+src/risk/monitors/pnl_monitor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/monitors/pnl_monitor.cpp.obj
+.PHONY : src/risk/monitors/pnl_monitor.cpp.obj
+
+src/risk/monitors/pnl_monitor.i: src/risk/monitors/pnl_monitor.cpp.i
+.PHONY : src/risk/monitors/pnl_monitor.i
+
+# target to preprocess a source file
+src/risk/monitors/pnl_monitor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/monitors/pnl_monitor.cpp.i
+.PHONY : src/risk/monitors/pnl_monitor.cpp.i
+
+src/risk/monitors/pnl_monitor.s: src/risk/monitors/pnl_monitor.cpp.s
+.PHONY : src/risk/monitors/pnl_monitor.s
+
+# target to generate assembly for a file
+src/risk/monitors/pnl_monitor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/monitors/pnl_monitor.cpp.s
+.PHONY : src/risk/monitors/pnl_monitor.cpp.s
+
+src/risk/monitors/var_calculator.obj: src/risk/monitors/var_calculator.cpp.obj
+.PHONY : src/risk/monitors/var_calculator.obj
+
+# target to build an object file
+src/risk/monitors/var_calculator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/monitors/var_calculator.cpp.obj
+.PHONY : src/risk/monitors/var_calculator.cpp.obj
+
+src/risk/monitors/var_calculator.i: src/risk/monitors/var_calculator.cpp.i
+.PHONY : src/risk/monitors/var_calculator.i
+
+# target to preprocess a source file
+src/risk/monitors/var_calculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/monitors/var_calculator.cpp.i
+.PHONY : src/risk/monitors/var_calculator.cpp.i
+
+src/risk/monitors/var_calculator.s: src/risk/monitors/var_calculator.cpp.s
+.PHONY : src/risk/monitors/var_calculator.s
+
+# target to generate assembly for a file
+src/risk/monitors/var_calculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/monitors/var_calculator.cpp.s
+.PHONY : src/risk/monitors/var_calculator.cpp.s
+
+src/risk/post_trade_risk.obj: src/risk/post_trade_risk.cpp.obj
+.PHONY : src/risk/post_trade_risk.obj
+
+# target to build an object file
+src/risk/post_trade_risk.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/post_trade_risk.cpp.obj
+.PHONY : src/risk/post_trade_risk.cpp.obj
+
+src/risk/post_trade_risk.i: src/risk/post_trade_risk.cpp.i
+.PHONY : src/risk/post_trade_risk.i
+
+# target to preprocess a source file
+src/risk/post_trade_risk.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/post_trade_risk.cpp.i
+.PHONY : src/risk/post_trade_risk.cpp.i
+
+src/risk/post_trade_risk.s: src/risk/post_trade_risk.cpp.s
+.PHONY : src/risk/post_trade_risk.s
+
+# target to generate assembly for a file
+src/risk/post_trade_risk.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/post_trade_risk.cpp.s
+.PHONY : src/risk/post_trade_risk.cpp.s
+
+src/risk/pre_trade_risk.obj: src/risk/pre_trade_risk.cpp.obj
+.PHONY : src/risk/pre_trade_risk.obj
+
+# target to build an object file
+src/risk/pre_trade_risk.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/pre_trade_risk.cpp.obj
+.PHONY : src/risk/pre_trade_risk.cpp.obj
+
+src/risk/pre_trade_risk.i: src/risk/pre_trade_risk.cpp.i
+.PHONY : src/risk/pre_trade_risk.i
+
+# target to preprocess a source file
+src/risk/pre_trade_risk.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/pre_trade_risk.cpp.i
+.PHONY : src/risk/pre_trade_risk.cpp.i
+
+src/risk/pre_trade_risk.s: src/risk/pre_trade_risk.cpp.s
+.PHONY : src/risk/pre_trade_risk.s
+
+# target to generate assembly for a file
+src/risk/pre_trade_risk.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/pre_trade_risk.cpp.s
+.PHONY : src/risk/pre_trade_risk.cpp.s
+
+src/risk/reporting/risk_logger.obj: src/risk/reporting/risk_logger.cpp.obj
+.PHONY : src/risk/reporting/risk_logger.obj
+
+# target to build an object file
+src/risk/reporting/risk_logger.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/reporting/risk_logger.cpp.obj
+.PHONY : src/risk/reporting/risk_logger.cpp.obj
+
+src/risk/reporting/risk_logger.i: src/risk/reporting/risk_logger.cpp.i
+.PHONY : src/risk/reporting/risk_logger.i
+
+# target to preprocess a source file
+src/risk/reporting/risk_logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/reporting/risk_logger.cpp.i
+.PHONY : src/risk/reporting/risk_logger.cpp.i
+
+src/risk/reporting/risk_logger.s: src/risk/reporting/risk_logger.cpp.s
+.PHONY : src/risk/reporting/risk_logger.s
+
+# target to generate assembly for a file
+src/risk/reporting/risk_logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/reporting/risk_logger.cpp.s
+.PHONY : src/risk/reporting/risk_logger.cpp.s
+
+src/risk/reporting/risk_report.obj: src/risk/reporting/risk_report.cpp.obj
+.PHONY : src/risk/reporting/risk_report.obj
+
+# target to build an object file
+src/risk/reporting/risk_report.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/reporting/risk_report.cpp.obj
+.PHONY : src/risk/reporting/risk_report.cpp.obj
+
+src/risk/reporting/risk_report.i: src/risk/reporting/risk_report.cpp.i
+.PHONY : src/risk/reporting/risk_report.i
+
+# target to preprocess a source file
+src/risk/reporting/risk_report.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/reporting/risk_report.cpp.i
+.PHONY : src/risk/reporting/risk_report.cpp.i
+
+src/risk/reporting/risk_report.s: src/risk/reporting/risk_report.cpp.s
+.PHONY : src/risk/reporting/risk_report.s
+
+# target to generate assembly for a file
+src/risk/reporting/risk_report.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/risk/reporting/risk_report.cpp.s
+.PHONY : src/risk/reporting/risk_report.cpp.s
+
+src/signals/composite/alpha_combiner.obj: src/signals/composite/alpha_combiner.cpp.obj
+.PHONY : src/signals/composite/alpha_combiner.obj
+
+# target to build an object file
+src/signals/composite/alpha_combiner.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/composite/alpha_combiner.cpp.obj
+.PHONY : src/signals/composite/alpha_combiner.cpp.obj
+
+src/signals/composite/alpha_combiner.i: src/signals/composite/alpha_combiner.cpp.i
+.PHONY : src/signals/composite/alpha_combiner.i
+
+# target to preprocess a source file
+src/signals/composite/alpha_combiner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/composite/alpha_combiner.cpp.i
+.PHONY : src/signals/composite/alpha_combiner.cpp.i
+
+src/signals/composite/alpha_combiner.s: src/signals/composite/alpha_combiner.cpp.s
+.PHONY : src/signals/composite/alpha_combiner.s
+
+# target to generate assembly for a file
+src/signals/composite/alpha_combiner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/composite/alpha_combiner.cpp.s
+.PHONY : src/signals/composite/alpha_combiner.cpp.s
+
+src/signals/composite/regime_detector.obj: src/signals/composite/regime_detector.cpp.obj
+.PHONY : src/signals/composite/regime_detector.obj
+
+# target to build an object file
+src/signals/composite/regime_detector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/composite/regime_detector.cpp.obj
+.PHONY : src/signals/composite/regime_detector.cpp.obj
+
+src/signals/composite/regime_detector.i: src/signals/composite/regime_detector.cpp.i
+.PHONY : src/signals/composite/regime_detector.i
+
+# target to preprocess a source file
+src/signals/composite/regime_detector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/composite/regime_detector.cpp.i
+.PHONY : src/signals/composite/regime_detector.cpp.i
+
+src/signals/composite/regime_detector.s: src/signals/composite/regime_detector.cpp.s
+.PHONY : src/signals/composite/regime_detector.s
+
+# target to generate assembly for a file
+src/signals/composite/regime_detector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/composite/regime_detector.cpp.s
+.PHONY : src/signals/composite/regime_detector.cpp.s
+
+src/signals/composite/signal_decay.obj: src/signals/composite/signal_decay.cpp.obj
+.PHONY : src/signals/composite/signal_decay.obj
+
+# target to build an object file
+src/signals/composite/signal_decay.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/composite/signal_decay.cpp.obj
+.PHONY : src/signals/composite/signal_decay.cpp.obj
+
+src/signals/composite/signal_decay.i: src/signals/composite/signal_decay.cpp.i
+.PHONY : src/signals/composite/signal_decay.i
+
+# target to preprocess a source file
+src/signals/composite/signal_decay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/composite/signal_decay.cpp.i
+.PHONY : src/signals/composite/signal_decay.cpp.i
+
+src/signals/composite/signal_decay.s: src/signals/composite/signal_decay.cpp.s
+.PHONY : src/signals/composite/signal_decay.s
+
+# target to generate assembly for a file
+src/signals/composite/signal_decay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/composite/signal_decay.cpp.s
+.PHONY : src/signals/composite/signal_decay.cpp.s
+
+src/signals/features/book_depth_ratio.obj: src/signals/features/book_depth_ratio.cpp.obj
+.PHONY : src/signals/features/book_depth_ratio.obj
+
+# target to build an object file
+src/signals/features/book_depth_ratio.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/book_depth_ratio.cpp.obj
+.PHONY : src/signals/features/book_depth_ratio.cpp.obj
+
+src/signals/features/book_depth_ratio.i: src/signals/features/book_depth_ratio.cpp.i
+.PHONY : src/signals/features/book_depth_ratio.i
+
+# target to preprocess a source file
+src/signals/features/book_depth_ratio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/book_depth_ratio.cpp.i
+.PHONY : src/signals/features/book_depth_ratio.cpp.i
+
+src/signals/features/book_depth_ratio.s: src/signals/features/book_depth_ratio.cpp.s
+.PHONY : src/signals/features/book_depth_ratio.s
+
+# target to generate assembly for a file
+src/signals/features/book_depth_ratio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/book_depth_ratio.cpp.s
+.PHONY : src/signals/features/book_depth_ratio.cpp.s
+
+src/signals/features/mean_reversion.obj: src/signals/features/mean_reversion.cpp.obj
+.PHONY : src/signals/features/mean_reversion.obj
+
+# target to build an object file
+src/signals/features/mean_reversion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/mean_reversion.cpp.obj
+.PHONY : src/signals/features/mean_reversion.cpp.obj
+
+src/signals/features/mean_reversion.i: src/signals/features/mean_reversion.cpp.i
+.PHONY : src/signals/features/mean_reversion.i
+
+# target to preprocess a source file
+src/signals/features/mean_reversion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/mean_reversion.cpp.i
+.PHONY : src/signals/features/mean_reversion.cpp.i
+
+src/signals/features/mean_reversion.s: src/signals/features/mean_reversion.cpp.s
+.PHONY : src/signals/features/mean_reversion.s
+
+# target to generate assembly for a file
+src/signals/features/mean_reversion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/mean_reversion.cpp.s
+.PHONY : src/signals/features/mean_reversion.cpp.s
+
+src/signals/features/microprice.obj: src/signals/features/microprice.cpp.obj
+.PHONY : src/signals/features/microprice.obj
+
+# target to build an object file
+src/signals/features/microprice.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/microprice.cpp.obj
+.PHONY : src/signals/features/microprice.cpp.obj
+
+src/signals/features/microprice.i: src/signals/features/microprice.cpp.i
+.PHONY : src/signals/features/microprice.i
+
+# target to preprocess a source file
+src/signals/features/microprice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/microprice.cpp.i
+.PHONY : src/signals/features/microprice.cpp.i
+
+src/signals/features/microprice.s: src/signals/features/microprice.cpp.s
+.PHONY : src/signals/features/microprice.s
+
+# target to generate assembly for a file
+src/signals/features/microprice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/microprice.cpp.s
+.PHONY : src/signals/features/microprice.cpp.s
+
+src/signals/features/momentum.obj: src/signals/features/momentum.cpp.obj
+.PHONY : src/signals/features/momentum.obj
+
+# target to build an object file
+src/signals/features/momentum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/momentum.cpp.obj
+.PHONY : src/signals/features/momentum.cpp.obj
+
+src/signals/features/momentum.i: src/signals/features/momentum.cpp.i
+.PHONY : src/signals/features/momentum.i
+
+# target to preprocess a source file
+src/signals/features/momentum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/momentum.cpp.i
+.PHONY : src/signals/features/momentum.cpp.i
+
+src/signals/features/momentum.s: src/signals/features/momentum.cpp.s
+.PHONY : src/signals/features/momentum.s
+
+# target to generate assembly for a file
+src/signals/features/momentum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/momentum.cpp.s
+.PHONY : src/signals/features/momentum.cpp.s
+
+src/signals/features/order_flow_imbalance.obj: src/signals/features/order_flow_imbalance.cpp.obj
+.PHONY : src/signals/features/order_flow_imbalance.obj
+
+# target to build an object file
+src/signals/features/order_flow_imbalance.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/order_flow_imbalance.cpp.obj
+.PHONY : src/signals/features/order_flow_imbalance.cpp.obj
+
+src/signals/features/order_flow_imbalance.i: src/signals/features/order_flow_imbalance.cpp.i
+.PHONY : src/signals/features/order_flow_imbalance.i
+
+# target to preprocess a source file
+src/signals/features/order_flow_imbalance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/order_flow_imbalance.cpp.i
+.PHONY : src/signals/features/order_flow_imbalance.cpp.i
+
+src/signals/features/order_flow_imbalance.s: src/signals/features/order_flow_imbalance.cpp.s
+.PHONY : src/signals/features/order_flow_imbalance.s
+
+# target to generate assembly for a file
+src/signals/features/order_flow_imbalance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/order_flow_imbalance.cpp.s
+.PHONY : src/signals/features/order_flow_imbalance.cpp.s
+
+src/signals/features/spread_tracker.obj: src/signals/features/spread_tracker.cpp.obj
+.PHONY : src/signals/features/spread_tracker.obj
+
+# target to build an object file
+src/signals/features/spread_tracker.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/spread_tracker.cpp.obj
+.PHONY : src/signals/features/spread_tracker.cpp.obj
+
+src/signals/features/spread_tracker.i: src/signals/features/spread_tracker.cpp.i
+.PHONY : src/signals/features/spread_tracker.i
+
+# target to preprocess a source file
+src/signals/features/spread_tracker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/spread_tracker.cpp.i
+.PHONY : src/signals/features/spread_tracker.cpp.i
+
+src/signals/features/spread_tracker.s: src/signals/features/spread_tracker.cpp.s
+.PHONY : src/signals/features/spread_tracker.s
+
+# target to generate assembly for a file
+src/signals/features/spread_tracker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/spread_tracker.cpp.s
+.PHONY : src/signals/features/spread_tracker.cpp.s
+
+src/signals/features/tick_intensity.obj: src/signals/features/tick_intensity.cpp.obj
+.PHONY : src/signals/features/tick_intensity.obj
+
+# target to build an object file
+src/signals/features/tick_intensity.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/tick_intensity.cpp.obj
+.PHONY : src/signals/features/tick_intensity.cpp.obj
+
+src/signals/features/tick_intensity.i: src/signals/features/tick_intensity.cpp.i
+.PHONY : src/signals/features/tick_intensity.i
+
+# target to preprocess a source file
+src/signals/features/tick_intensity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/tick_intensity.cpp.i
+.PHONY : src/signals/features/tick_intensity.cpp.i
+
+src/signals/features/tick_intensity.s: src/signals/features/tick_intensity.cpp.s
+.PHONY : src/signals/features/tick_intensity.s
+
+# target to generate assembly for a file
+src/signals/features/tick_intensity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/tick_intensity.cpp.s
+.PHONY : src/signals/features/tick_intensity.cpp.s
+
+src/signals/features/trade_flow.obj: src/signals/features/trade_flow.cpp.obj
+.PHONY : src/signals/features/trade_flow.obj
+
+# target to build an object file
+src/signals/features/trade_flow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/trade_flow.cpp.obj
+.PHONY : src/signals/features/trade_flow.cpp.obj
+
+src/signals/features/trade_flow.i: src/signals/features/trade_flow.cpp.i
+.PHONY : src/signals/features/trade_flow.i
+
+# target to preprocess a source file
+src/signals/features/trade_flow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/trade_flow.cpp.i
+.PHONY : src/signals/features/trade_flow.cpp.i
+
+src/signals/features/trade_flow.s: src/signals/features/trade_flow.cpp.s
+.PHONY : src/signals/features/trade_flow.s
+
+# target to generate assembly for a file
+src/signals/features/trade_flow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/trade_flow.cpp.s
+.PHONY : src/signals/features/trade_flow.cpp.s
+
+src/signals/features/twap.obj: src/signals/features/twap.cpp.obj
+.PHONY : src/signals/features/twap.obj
+
+# target to build an object file
+src/signals/features/twap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/twap.cpp.obj
+.PHONY : src/signals/features/twap.cpp.obj
+
+src/signals/features/twap.i: src/signals/features/twap.cpp.i
+.PHONY : src/signals/features/twap.i
+
+# target to preprocess a source file
+src/signals/features/twap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/twap.cpp.i
+.PHONY : src/signals/features/twap.cpp.i
+
+src/signals/features/twap.s: src/signals/features/twap.cpp.s
+.PHONY : src/signals/features/twap.s
+
+# target to generate assembly for a file
+src/signals/features/twap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/twap.cpp.s
+.PHONY : src/signals/features/twap.cpp.s
+
+src/signals/features/volatility_estimator.obj: src/signals/features/volatility_estimator.cpp.obj
+.PHONY : src/signals/features/volatility_estimator.obj
+
+# target to build an object file
+src/signals/features/volatility_estimator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/volatility_estimator.cpp.obj
+.PHONY : src/signals/features/volatility_estimator.cpp.obj
+
+src/signals/features/volatility_estimator.i: src/signals/features/volatility_estimator.cpp.i
+.PHONY : src/signals/features/volatility_estimator.i
+
+# target to preprocess a source file
+src/signals/features/volatility_estimator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/volatility_estimator.cpp.i
+.PHONY : src/signals/features/volatility_estimator.cpp.i
+
+src/signals/features/volatility_estimator.s: src/signals/features/volatility_estimator.cpp.s
+.PHONY : src/signals/features/volatility_estimator.s
+
+# target to generate assembly for a file
+src/signals/features/volatility_estimator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/volatility_estimator.cpp.s
+.PHONY : src/signals/features/volatility_estimator.cpp.s
+
+src/signals/features/vwap.obj: src/signals/features/vwap.cpp.obj
+.PHONY : src/signals/features/vwap.obj
+
+# target to build an object file
+src/signals/features/vwap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/vwap.cpp.obj
+.PHONY : src/signals/features/vwap.cpp.obj
+
+src/signals/features/vwap.i: src/signals/features/vwap.cpp.i
+.PHONY : src/signals/features/vwap.i
+
+# target to preprocess a source file
+src/signals/features/vwap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/vwap.cpp.i
+.PHONY : src/signals/features/vwap.cpp.i
+
+src/signals/features/vwap.s: src/signals/features/vwap.cpp.s
+.PHONY : src/signals/features/vwap.s
+
+# target to generate assembly for a file
+src/signals/features/vwap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/features/vwap.cpp.s
+.PHONY : src/signals/features/vwap.cpp.s
+
+src/signals/indicators/bollinger.obj: src/signals/indicators/bollinger.cpp.obj
+.PHONY : src/signals/indicators/bollinger.obj
+
+# target to build an object file
+src/signals/indicators/bollinger.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/indicators/bollinger.cpp.obj
+.PHONY : src/signals/indicators/bollinger.cpp.obj
+
+src/signals/indicators/bollinger.i: src/signals/indicators/bollinger.cpp.i
+.PHONY : src/signals/indicators/bollinger.i
+
+# target to preprocess a source file
+src/signals/indicators/bollinger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/indicators/bollinger.cpp.i
+.PHONY : src/signals/indicators/bollinger.cpp.i
+
+src/signals/indicators/bollinger.s: src/signals/indicators/bollinger.cpp.s
+.PHONY : src/signals/indicators/bollinger.s
+
+# target to generate assembly for a file
+src/signals/indicators/bollinger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/indicators/bollinger.cpp.s
+.PHONY : src/signals/indicators/bollinger.cpp.s
+
+src/signals/indicators/ema.obj: src/signals/indicators/ema.cpp.obj
+.PHONY : src/signals/indicators/ema.obj
+
+# target to build an object file
+src/signals/indicators/ema.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/indicators/ema.cpp.obj
+.PHONY : src/signals/indicators/ema.cpp.obj
+
+src/signals/indicators/ema.i: src/signals/indicators/ema.cpp.i
+.PHONY : src/signals/indicators/ema.i
+
+# target to preprocess a source file
+src/signals/indicators/ema.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/indicators/ema.cpp.i
+.PHONY : src/signals/indicators/ema.cpp.i
+
+src/signals/indicators/ema.s: src/signals/indicators/ema.cpp.s
+.PHONY : src/signals/indicators/ema.s
+
+# target to generate assembly for a file
+src/signals/indicators/ema.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/indicators/ema.cpp.s
+.PHONY : src/signals/indicators/ema.cpp.s
+
+src/signals/indicators/macd.obj: src/signals/indicators/macd.cpp.obj
+.PHONY : src/signals/indicators/macd.obj
+
+# target to build an object file
+src/signals/indicators/macd.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/indicators/macd.cpp.obj
+.PHONY : src/signals/indicators/macd.cpp.obj
+
+src/signals/indicators/macd.i: src/signals/indicators/macd.cpp.i
+.PHONY : src/signals/indicators/macd.i
+
+# target to preprocess a source file
+src/signals/indicators/macd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/indicators/macd.cpp.i
+.PHONY : src/signals/indicators/macd.cpp.i
+
+src/signals/indicators/macd.s: src/signals/indicators/macd.cpp.s
+.PHONY : src/signals/indicators/macd.s
+
+# target to generate assembly for a file
+src/signals/indicators/macd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/indicators/macd.cpp.s
+.PHONY : src/signals/indicators/macd.cpp.s
+
+src/signals/indicators/rsi.obj: src/signals/indicators/rsi.cpp.obj
+.PHONY : src/signals/indicators/rsi.obj
+
+# target to build an object file
+src/signals/indicators/rsi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/indicators/rsi.cpp.obj
+.PHONY : src/signals/indicators/rsi.cpp.obj
+
+src/signals/indicators/rsi.i: src/signals/indicators/rsi.cpp.i
+.PHONY : src/signals/indicators/rsi.i
+
+# target to preprocess a source file
+src/signals/indicators/rsi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/indicators/rsi.cpp.i
+.PHONY : src/signals/indicators/rsi.cpp.i
+
+src/signals/indicators/rsi.s: src/signals/indicators/rsi.cpp.s
+.PHONY : src/signals/indicators/rsi.s
+
+# target to generate assembly for a file
+src/signals/indicators/rsi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/indicators/rsi.cpp.s
+.PHONY : src/signals/indicators/rsi.cpp.s
+
+src/signals/indicators/zscore.obj: src/signals/indicators/zscore.cpp.obj
+.PHONY : src/signals/indicators/zscore.obj
+
+# target to build an object file
+src/signals/indicators/zscore.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/indicators/zscore.cpp.obj
+.PHONY : src/signals/indicators/zscore.cpp.obj
+
+src/signals/indicators/zscore.i: src/signals/indicators/zscore.cpp.i
+.PHONY : src/signals/indicators/zscore.i
+
+# target to preprocess a source file
+src/signals/indicators/zscore.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/indicators/zscore.cpp.i
+.PHONY : src/signals/indicators/zscore.cpp.i
+
+src/signals/indicators/zscore.s: src/signals/indicators/zscore.cpp.s
+.PHONY : src/signals/indicators/zscore.s
+
+# target to generate assembly for a file
+src/signals/indicators/zscore.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/indicators/zscore.cpp.s
+.PHONY : src/signals/indicators/zscore.cpp.s
+
+src/signals/ml/feature_normalizer.obj: src/signals/ml/feature_normalizer.cpp.obj
+.PHONY : src/signals/ml/feature_normalizer.obj
+
+# target to build an object file
+src/signals/ml/feature_normalizer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/ml/feature_normalizer.cpp.obj
+.PHONY : src/signals/ml/feature_normalizer.cpp.obj
+
+src/signals/ml/feature_normalizer.i: src/signals/ml/feature_normalizer.cpp.i
+.PHONY : src/signals/ml/feature_normalizer.i
+
+# target to preprocess a source file
+src/signals/ml/feature_normalizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/ml/feature_normalizer.cpp.i
+.PHONY : src/signals/ml/feature_normalizer.cpp.i
+
+src/signals/ml/feature_normalizer.s: src/signals/ml/feature_normalizer.cpp.s
+.PHONY : src/signals/ml/feature_normalizer.s
+
+# target to generate assembly for a file
+src/signals/ml/feature_normalizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/ml/feature_normalizer.cpp.s
+.PHONY : src/signals/ml/feature_normalizer.cpp.s
+
+src/signals/ml/feature_store.obj: src/signals/ml/feature_store.cpp.obj
+.PHONY : src/signals/ml/feature_store.obj
+
+# target to build an object file
+src/signals/ml/feature_store.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/ml/feature_store.cpp.obj
+.PHONY : src/signals/ml/feature_store.cpp.obj
+
+src/signals/ml/feature_store.i: src/signals/ml/feature_store.cpp.i
+.PHONY : src/signals/ml/feature_store.i
+
+# target to preprocess a source file
+src/signals/ml/feature_store.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/ml/feature_store.cpp.i
+.PHONY : src/signals/ml/feature_store.cpp.i
+
+src/signals/ml/feature_store.s: src/signals/ml/feature_store.cpp.s
+.PHONY : src/signals/ml/feature_store.s
+
+# target to generate assembly for a file
+src/signals/ml/feature_store.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/ml/feature_store.cpp.s
+.PHONY : src/signals/ml/feature_store.cpp.s
+
+src/signals/ml/linear_model.obj: src/signals/ml/linear_model.cpp.obj
+.PHONY : src/signals/ml/linear_model.obj
+
+# target to build an object file
+src/signals/ml/linear_model.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/ml/linear_model.cpp.obj
+.PHONY : src/signals/ml/linear_model.cpp.obj
+
+src/signals/ml/linear_model.i: src/signals/ml/linear_model.cpp.i
+.PHONY : src/signals/ml/linear_model.i
+
+# target to preprocess a source file
+src/signals/ml/linear_model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/ml/linear_model.cpp.i
+.PHONY : src/signals/ml/linear_model.cpp.i
+
+src/signals/ml/linear_model.s: src/signals/ml/linear_model.cpp.s
+.PHONY : src/signals/ml/linear_model.s
+
+# target to generate assembly for a file
+src/signals/ml/linear_model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/ml/linear_model.cpp.s
+.PHONY : src/signals/ml/linear_model.cpp.s
+
+src/signals/ml/model_loader.obj: src/signals/ml/model_loader.cpp.obj
+.PHONY : src/signals/ml/model_loader.obj
+
+# target to build an object file
+src/signals/ml/model_loader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/ml/model_loader.cpp.obj
+.PHONY : src/signals/ml/model_loader.cpp.obj
+
+src/signals/ml/model_loader.i: src/signals/ml/model_loader.cpp.i
+.PHONY : src/signals/ml/model_loader.i
+
+# target to preprocess a source file
+src/signals/ml/model_loader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/ml/model_loader.cpp.i
+.PHONY : src/signals/ml/model_loader.cpp.i
+
+src/signals/ml/model_loader.s: src/signals/ml/model_loader.cpp.s
+.PHONY : src/signals/ml/model_loader.s
+
+# target to generate assembly for a file
+src/signals/ml/model_loader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/ml/model_loader.cpp.s
+.PHONY : src/signals/ml/model_loader.cpp.s
+
+src/signals/ml/prediction_cache.obj: src/signals/ml/prediction_cache.cpp.obj
+.PHONY : src/signals/ml/prediction_cache.obj
+
+# target to build an object file
+src/signals/ml/prediction_cache.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/ml/prediction_cache.cpp.obj
+.PHONY : src/signals/ml/prediction_cache.cpp.obj
+
+src/signals/ml/prediction_cache.i: src/signals/ml/prediction_cache.cpp.i
+.PHONY : src/signals/ml/prediction_cache.i
+
+# target to preprocess a source file
+src/signals/ml/prediction_cache.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/ml/prediction_cache.cpp.i
+.PHONY : src/signals/ml/prediction_cache.cpp.i
+
+src/signals/ml/prediction_cache.s: src/signals/ml/prediction_cache.cpp.s
+.PHONY : src/signals/ml/prediction_cache.s
+
+# target to generate assembly for a file
+src/signals/ml/prediction_cache.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/ml/prediction_cache.cpp.s
+.PHONY : src/signals/ml/prediction_cache.cpp.s
+
+src/signals/signal_engine.obj: src/signals/signal_engine.cpp.obj
+.PHONY : src/signals/signal_engine.obj
+
+# target to build an object file
+src/signals/signal_engine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/signal_engine.cpp.obj
+.PHONY : src/signals/signal_engine.cpp.obj
+
+src/signals/signal_engine.i: src/signals/signal_engine.cpp.i
+.PHONY : src/signals/signal_engine.i
+
+# target to preprocess a source file
+src/signals/signal_engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/signal_engine.cpp.i
+.PHONY : src/signals/signal_engine.cpp.i
+
+src/signals/signal_engine.s: src/signals/signal_engine.cpp.s
+.PHONY : src/signals/signal_engine.s
+
+# target to generate assembly for a file
+src/signals/signal_engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/signal_engine.cpp.s
+.PHONY : src/signals/signal_engine.cpp.s
+
+src/signals/signal_registry.obj: src/signals/signal_registry.cpp.obj
+.PHONY : src/signals/signal_registry.obj
+
+# target to build an object file
+src/signals/signal_registry.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/signal_registry.cpp.obj
+.PHONY : src/signals/signal_registry.cpp.obj
+
+src/signals/signal_registry.i: src/signals/signal_registry.cpp.i
+.PHONY : src/signals/signal_registry.i
+
+# target to preprocess a source file
+src/signals/signal_registry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/signal_registry.cpp.i
+.PHONY : src/signals/signal_registry.cpp.i
+
+src/signals/signal_registry.s: src/signals/signal_registry.cpp.s
+.PHONY : src/signals/signal_registry.s
+
+# target to generate assembly for a file
+src/signals/signal_registry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/signals/signal_registry.cpp.s
+.PHONY : src/signals/signal_registry.cpp.s
 
 src/simulator/main.obj: src/simulator/main.cpp.obj
 .PHONY : src/simulator/main.obj
@@ -309,6 +2785,1293 @@ src/simulator/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/main.cpp.s
 .PHONY : src/simulator/main.cpp.s
 
+src/simulator/market_simulator.obj: src/simulator/market_simulator.cpp.obj
+.PHONY : src/simulator/market_simulator.obj
+
+# target to build an object file
+src/simulator/market_simulator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/market_simulator.cpp.obj
+.PHONY : src/simulator/market_simulator.cpp.obj
+
+src/simulator/market_simulator.i: src/simulator/market_simulator.cpp.i
+.PHONY : src/simulator/market_simulator.i
+
+# target to preprocess a source file
+src/simulator/market_simulator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/market_simulator.cpp.i
+.PHONY : src/simulator/market_simulator.cpp.i
+
+src/simulator/market_simulator.s: src/simulator/market_simulator.cpp.s
+.PHONY : src/simulator/market_simulator.s
+
+# target to generate assembly for a file
+src/simulator/market_simulator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/market_simulator.cpp.s
+.PHONY : src/simulator/market_simulator.cpp.s
+
+src/simulator/multi_asset_sim.obj: src/simulator/multi_asset_sim.cpp.obj
+.PHONY : src/simulator/multi_asset_sim.obj
+
+# target to build an object file
+src/simulator/multi_asset_sim.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/multi_asset_sim.cpp.obj
+.PHONY : src/simulator/multi_asset_sim.cpp.obj
+
+src/simulator/multi_asset_sim.i: src/simulator/multi_asset_sim.cpp.i
+.PHONY : src/simulator/multi_asset_sim.i
+
+# target to preprocess a source file
+src/simulator/multi_asset_sim.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/multi_asset_sim.cpp.i
+.PHONY : src/simulator/multi_asset_sim.cpp.i
+
+src/simulator/multi_asset_sim.s: src/simulator/multi_asset_sim.cpp.s
+.PHONY : src/simulator/multi_asset_sim.s
+
+# target to generate assembly for a file
+src/simulator/multi_asset_sim.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/multi_asset_sim.cpp.s
+.PHONY : src/simulator/multi_asset_sim.cpp.s
+
+src/simulator/news_event_generator.obj: src/simulator/news_event_generator.cpp.obj
+.PHONY : src/simulator/news_event_generator.obj
+
+# target to build an object file
+src/simulator/news_event_generator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/news_event_generator.cpp.obj
+.PHONY : src/simulator/news_event_generator.cpp.obj
+
+src/simulator/news_event_generator.i: src/simulator/news_event_generator.cpp.i
+.PHONY : src/simulator/news_event_generator.i
+
+# target to preprocess a source file
+src/simulator/news_event_generator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/news_event_generator.cpp.i
+.PHONY : src/simulator/news_event_generator.cpp.i
+
+src/simulator/news_event_generator.s: src/simulator/news_event_generator.cpp.s
+.PHONY : src/simulator/news_event_generator.s
+
+# target to generate assembly for a file
+src/simulator/news_event_generator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/news_event_generator.cpp.s
+.PHONY : src/simulator/news_event_generator.cpp.s
+
+src/simulator/order_generator.obj: src/simulator/order_generator.cpp.obj
+.PHONY : src/simulator/order_generator.obj
+
+# target to build an object file
+src/simulator/order_generator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/order_generator.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/simulator/order_generator.cpp.obj
+.PHONY : src/simulator/order_generator.cpp.obj
+
+src/simulator/order_generator.i: src/simulator/order_generator.cpp.i
+.PHONY : src/simulator/order_generator.i
+
+# target to preprocess a source file
+src/simulator/order_generator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/order_generator.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/simulator/order_generator.cpp.i
+.PHONY : src/simulator/order_generator.cpp.i
+
+src/simulator/order_generator.s: src/simulator/order_generator.cpp.s
+.PHONY : src/simulator/order_generator.s
+
+# target to generate assembly for a file
+src/simulator/order_generator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/order_generator.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/simulator/order_generator.cpp.s
+.PHONY : src/simulator/order_generator.cpp.s
+
+src/simulator/participant_model.obj: src/simulator/participant_model.cpp.obj
+.PHONY : src/simulator/participant_model.obj
+
+# target to build an object file
+src/simulator/participant_model.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/participant_model.cpp.obj
+.PHONY : src/simulator/participant_model.cpp.obj
+
+src/simulator/participant_model.i: src/simulator/participant_model.cpp.i
+.PHONY : src/simulator/participant_model.i
+
+# target to preprocess a source file
+src/simulator/participant_model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/participant_model.cpp.i
+.PHONY : src/simulator/participant_model.cpp.i
+
+src/simulator/participant_model.s: src/simulator/participant_model.cpp.s
+.PHONY : src/simulator/participant_model.s
+
+# target to generate assembly for a file
+src/simulator/participant_model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/participant_model.cpp.s
+.PHONY : src/simulator/participant_model.cpp.s
+
+src/simulator/price_walk.obj: src/simulator/price_walk.cpp.obj
+.PHONY : src/simulator/price_walk.obj
+
+# target to build an object file
+src/simulator/price_walk.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/price_walk.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/simulator/price_walk.cpp.obj
+.PHONY : src/simulator/price_walk.cpp.obj
+
+src/simulator/price_walk.i: src/simulator/price_walk.cpp.i
+.PHONY : src/simulator/price_walk.i
+
+# target to preprocess a source file
+src/simulator/price_walk.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/price_walk.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/simulator/price_walk.cpp.i
+.PHONY : src/simulator/price_walk.cpp.i
+
+src/simulator/price_walk.s: src/simulator/price_walk.cpp.s
+.PHONY : src/simulator/price_walk.s
+
+# target to generate assembly for a file
+src/simulator/price_walk.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/price_walk.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/simulator/price_walk.cpp.s
+.PHONY : src/simulator/price_walk.cpp.s
+
+src/simulator/scenario_loader.obj: src/simulator/scenario_loader.cpp.obj
+.PHONY : src/simulator/scenario_loader.obj
+
+# target to build an object file
+src/simulator/scenario_loader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/scenario_loader.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/simulator/scenario_loader.cpp.obj
+.PHONY : src/simulator/scenario_loader.cpp.obj
+
+src/simulator/scenario_loader.i: src/simulator/scenario_loader.cpp.i
+.PHONY : src/simulator/scenario_loader.i
+
+# target to preprocess a source file
+src/simulator/scenario_loader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/scenario_loader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/simulator/scenario_loader.cpp.i
+.PHONY : src/simulator/scenario_loader.cpp.i
+
+src/simulator/scenario_loader.s: src/simulator/scenario_loader.cpp.s
+.PHONY : src/simulator/scenario_loader.s
+
+# target to generate assembly for a file
+src/simulator/scenario_loader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/scenario_loader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/simulator/scenario_loader.cpp.s
+.PHONY : src/simulator/scenario_loader.cpp.s
+
+src/simulator/sim_matching_engine.obj: src/simulator/sim_matching_engine.cpp.obj
+.PHONY : src/simulator/sim_matching_engine.obj
+
+# target to build an object file
+src/simulator/sim_matching_engine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/sim_matching_engine.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/simulator/sim_matching_engine.cpp.obj
+.PHONY : src/simulator/sim_matching_engine.cpp.obj
+
+src/simulator/sim_matching_engine.i: src/simulator/sim_matching_engine.cpp.i
+.PHONY : src/simulator/sim_matching_engine.i
+
+# target to preprocess a source file
+src/simulator/sim_matching_engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/sim_matching_engine.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/simulator/sim_matching_engine.cpp.i
+.PHONY : src/simulator/sim_matching_engine.cpp.i
+
+src/simulator/sim_matching_engine.s: src/simulator/sim_matching_engine.cpp.s
+.PHONY : src/simulator/sim_matching_engine.s
+
+# target to generate assembly for a file
+src/simulator/sim_matching_engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/sim_matching_engine.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/simulator/sim_matching_engine.cpp.s
+.PHONY : src/simulator/sim_matching_engine.cpp.s
+
+src/simulator/sim_order_book.obj: src/simulator/sim_order_book.cpp.obj
+.PHONY : src/simulator/sim_order_book.obj
+
+# target to build an object file
+src/simulator/sim_order_book.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/sim_order_book.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/simulator/sim_order_book.cpp.obj
+.PHONY : src/simulator/sim_order_book.cpp.obj
+
+src/simulator/sim_order_book.i: src/simulator/sim_order_book.cpp.i
+.PHONY : src/simulator/sim_order_book.i
+
+# target to preprocess a source file
+src/simulator/sim_order_book.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/sim_order_book.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/simulator/sim_order_book.cpp.i
+.PHONY : src/simulator/sim_order_book.cpp.i
+
+src/simulator/sim_order_book.s: src/simulator/sim_order_book.cpp.s
+.PHONY : src/simulator/sim_order_book.s
+
+# target to generate assembly for a file
+src/simulator/sim_order_book.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/sim_order_book.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/simulator/sim_order_book.cpp.s
+.PHONY : src/simulator/sim_order_book.cpp.s
+
+src/simulator/volatility_regime.obj: src/simulator/volatility_regime.cpp.obj
+.PHONY : src/simulator/volatility_regime.obj
+
+# target to build an object file
+src/simulator/volatility_regime.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/volatility_regime.cpp.obj
+.PHONY : src/simulator/volatility_regime.cpp.obj
+
+src/simulator/volatility_regime.i: src/simulator/volatility_regime.cpp.i
+.PHONY : src/simulator/volatility_regime.i
+
+# target to preprocess a source file
+src/simulator/volatility_regime.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/volatility_regime.cpp.i
+.PHONY : src/simulator/volatility_regime.cpp.i
+
+src/simulator/volatility_regime.s: src/simulator/volatility_regime.cpp.s
+.PHONY : src/simulator/volatility_regime.s
+
+# target to generate assembly for a file
+src/simulator/volatility_regime.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exchange_simulator.dir\build.make CMakeFiles/exchange_simulator.dir/src/simulator/volatility_regime.cpp.s
+.PHONY : src/simulator/volatility_regime.cpp.s
+
+src/strategy/execution/execution_algo.obj: src/strategy/execution/execution_algo.cpp.obj
+.PHONY : src/strategy/execution/execution_algo.obj
+
+# target to build an object file
+src/strategy/execution/execution_algo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/execution/execution_algo.cpp.obj
+.PHONY : src/strategy/execution/execution_algo.cpp.obj
+
+src/strategy/execution/execution_algo.i: src/strategy/execution/execution_algo.cpp.i
+.PHONY : src/strategy/execution/execution_algo.i
+
+# target to preprocess a source file
+src/strategy/execution/execution_algo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/execution/execution_algo.cpp.i
+.PHONY : src/strategy/execution/execution_algo.cpp.i
+
+src/strategy/execution/execution_algo.s: src/strategy/execution/execution_algo.cpp.s
+.PHONY : src/strategy/execution/execution_algo.s
+
+# target to generate assembly for a file
+src/strategy/execution/execution_algo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/execution/execution_algo.cpp.s
+.PHONY : src/strategy/execution/execution_algo.cpp.s
+
+src/strategy/execution/order_sizer.obj: src/strategy/execution/order_sizer.cpp.obj
+.PHONY : src/strategy/execution/order_sizer.obj
+
+# target to build an object file
+src/strategy/execution/order_sizer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/execution/order_sizer.cpp.obj
+.PHONY : src/strategy/execution/order_sizer.cpp.obj
+
+src/strategy/execution/order_sizer.i: src/strategy/execution/order_sizer.cpp.i
+.PHONY : src/strategy/execution/order_sizer.i
+
+# target to preprocess a source file
+src/strategy/execution/order_sizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/execution/order_sizer.cpp.i
+.PHONY : src/strategy/execution/order_sizer.cpp.i
+
+src/strategy/execution/order_sizer.s: src/strategy/execution/order_sizer.cpp.s
+.PHONY : src/strategy/execution/order_sizer.s
+
+# target to generate assembly for a file
+src/strategy/execution/order_sizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/execution/order_sizer.cpp.s
+.PHONY : src/strategy/execution/order_sizer.cpp.s
+
+src/strategy/execution/slippage_model.obj: src/strategy/execution/slippage_model.cpp.obj
+.PHONY : src/strategy/execution/slippage_model.obj
+
+# target to build an object file
+src/strategy/execution/slippage_model.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/execution/slippage_model.cpp.obj
+.PHONY : src/strategy/execution/slippage_model.cpp.obj
+
+src/strategy/execution/slippage_model.i: src/strategy/execution/slippage_model.cpp.i
+.PHONY : src/strategy/execution/slippage_model.i
+
+# target to preprocess a source file
+src/strategy/execution/slippage_model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/execution/slippage_model.cpp.i
+.PHONY : src/strategy/execution/slippage_model.cpp.i
+
+src/strategy/execution/slippage_model.s: src/strategy/execution/slippage_model.cpp.s
+.PHONY : src/strategy/execution/slippage_model.s
+
+# target to generate assembly for a file
+src/strategy/execution/slippage_model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/execution/slippage_model.cpp.s
+.PHONY : src/strategy/execution/slippage_model.cpp.s
+
+src/strategy/position/fill_tracker.obj: src/strategy/position/fill_tracker.cpp.obj
+.PHONY : src/strategy/position/fill_tracker.obj
+
+# target to build an object file
+src/strategy/position/fill_tracker.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/position/fill_tracker.cpp.obj
+.PHONY : src/strategy/position/fill_tracker.cpp.obj
+
+src/strategy/position/fill_tracker.i: src/strategy/position/fill_tracker.cpp.i
+.PHONY : src/strategy/position/fill_tracker.i
+
+# target to preprocess a source file
+src/strategy/position/fill_tracker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/position/fill_tracker.cpp.i
+.PHONY : src/strategy/position/fill_tracker.cpp.i
+
+src/strategy/position/fill_tracker.s: src/strategy/position/fill_tracker.cpp.s
+.PHONY : src/strategy/position/fill_tracker.s
+
+# target to generate assembly for a file
+src/strategy/position/fill_tracker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/position/fill_tracker.cpp.s
+.PHONY : src/strategy/position/fill_tracker.cpp.s
+
+src/strategy/position/pnl_calculator.obj: src/strategy/position/pnl_calculator.cpp.obj
+.PHONY : src/strategy/position/pnl_calculator.obj
+
+# target to build an object file
+src/strategy/position/pnl_calculator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/position/pnl_calculator.cpp.obj
+.PHONY : src/strategy/position/pnl_calculator.cpp.obj
+
+src/strategy/position/pnl_calculator.i: src/strategy/position/pnl_calculator.cpp.i
+.PHONY : src/strategy/position/pnl_calculator.i
+
+# target to preprocess a source file
+src/strategy/position/pnl_calculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/position/pnl_calculator.cpp.i
+.PHONY : src/strategy/position/pnl_calculator.cpp.i
+
+src/strategy/position/pnl_calculator.s: src/strategy/position/pnl_calculator.cpp.s
+.PHONY : src/strategy/position/pnl_calculator.s
+
+# target to generate assembly for a file
+src/strategy/position/pnl_calculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/position/pnl_calculator.cpp.s
+.PHONY : src/strategy/position/pnl_calculator.cpp.s
+
+src/strategy/position/portfolio.obj: src/strategy/position/portfolio.cpp.obj
+.PHONY : src/strategy/position/portfolio.obj
+
+# target to build an object file
+src/strategy/position/portfolio.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/position/portfolio.cpp.obj
+.PHONY : src/strategy/position/portfolio.cpp.obj
+
+src/strategy/position/portfolio.i: src/strategy/position/portfolio.cpp.i
+.PHONY : src/strategy/position/portfolio.i
+
+# target to preprocess a source file
+src/strategy/position/portfolio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/position/portfolio.cpp.i
+.PHONY : src/strategy/position/portfolio.cpp.i
+
+src/strategy/position/portfolio.s: src/strategy/position/portfolio.cpp.s
+.PHONY : src/strategy/position/portfolio.s
+
+# target to generate assembly for a file
+src/strategy/position/portfolio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/position/portfolio.cpp.s
+.PHONY : src/strategy/position/portfolio.cpp.s
+
+src/strategy/position/position_tracker.obj: src/strategy/position/position_tracker.cpp.obj
+.PHONY : src/strategy/position/position_tracker.obj
+
+# target to build an object file
+src/strategy/position/position_tracker.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/position/position_tracker.cpp.obj
+.PHONY : src/strategy/position/position_tracker.cpp.obj
+
+src/strategy/position/position_tracker.i: src/strategy/position/position_tracker.cpp.i
+.PHONY : src/strategy/position/position_tracker.i
+
+# target to preprocess a source file
+src/strategy/position/position_tracker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/position/position_tracker.cpp.i
+.PHONY : src/strategy/position/position_tracker.cpp.i
+
+src/strategy/position/position_tracker.s: src/strategy/position/position_tracker.cpp.s
+.PHONY : src/strategy/position/position_tracker.s
+
+# target to generate assembly for a file
+src/strategy/position/position_tracker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/position/position_tracker.cpp.s
+.PHONY : src/strategy/position/position_tracker.cpp.s
+
+src/strategy/strategies/market_making.obj: src/strategy/strategies/market_making.cpp.obj
+.PHONY : src/strategy/strategies/market_making.obj
+
+# target to build an object file
+src/strategy/strategies/market_making.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategies/market_making.cpp.obj
+.PHONY : src/strategy/strategies/market_making.cpp.obj
+
+src/strategy/strategies/market_making.i: src/strategy/strategies/market_making.cpp.i
+.PHONY : src/strategy/strategies/market_making.i
+
+# target to preprocess a source file
+src/strategy/strategies/market_making.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategies/market_making.cpp.i
+.PHONY : src/strategy/strategies/market_making.cpp.i
+
+src/strategy/strategies/market_making.s: src/strategy/strategies/market_making.cpp.s
+.PHONY : src/strategy/strategies/market_making.s
+
+# target to generate assembly for a file
+src/strategy/strategies/market_making.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategies/market_making.cpp.s
+.PHONY : src/strategy/strategies/market_making.cpp.s
+
+src/strategy/strategies/mean_reversion_strat.obj: src/strategy/strategies/mean_reversion_strat.cpp.obj
+.PHONY : src/strategy/strategies/mean_reversion_strat.obj
+
+# target to build an object file
+src/strategy/strategies/mean_reversion_strat.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategies/mean_reversion_strat.cpp.obj
+.PHONY : src/strategy/strategies/mean_reversion_strat.cpp.obj
+
+src/strategy/strategies/mean_reversion_strat.i: src/strategy/strategies/mean_reversion_strat.cpp.i
+.PHONY : src/strategy/strategies/mean_reversion_strat.i
+
+# target to preprocess a source file
+src/strategy/strategies/mean_reversion_strat.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategies/mean_reversion_strat.cpp.i
+.PHONY : src/strategy/strategies/mean_reversion_strat.cpp.i
+
+src/strategy/strategies/mean_reversion_strat.s: src/strategy/strategies/mean_reversion_strat.cpp.s
+.PHONY : src/strategy/strategies/mean_reversion_strat.s
+
+# target to generate assembly for a file
+src/strategy/strategies/mean_reversion_strat.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategies/mean_reversion_strat.cpp.s
+.PHONY : src/strategy/strategies/mean_reversion_strat.cpp.s
+
+src/strategy/strategies/momentum_follower.obj: src/strategy/strategies/momentum_follower.cpp.obj
+.PHONY : src/strategy/strategies/momentum_follower.obj
+
+# target to build an object file
+src/strategy/strategies/momentum_follower.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategies/momentum_follower.cpp.obj
+.PHONY : src/strategy/strategies/momentum_follower.cpp.obj
+
+src/strategy/strategies/momentum_follower.i: src/strategy/strategies/momentum_follower.cpp.i
+.PHONY : src/strategy/strategies/momentum_follower.i
+
+# target to preprocess a source file
+src/strategy/strategies/momentum_follower.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategies/momentum_follower.cpp.i
+.PHONY : src/strategy/strategies/momentum_follower.cpp.i
+
+src/strategy/strategies/momentum_follower.s: src/strategy/strategies/momentum_follower.cpp.s
+.PHONY : src/strategy/strategies/momentum_follower.s
+
+# target to generate assembly for a file
+src/strategy/strategies/momentum_follower.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategies/momentum_follower.cpp.s
+.PHONY : src/strategy/strategies/momentum_follower.cpp.s
+
+src/strategy/strategies/signal_threshold.obj: src/strategy/strategies/signal_threshold.cpp.obj
+.PHONY : src/strategy/strategies/signal_threshold.obj
+
+# target to build an object file
+src/strategy/strategies/signal_threshold.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategies/signal_threshold.cpp.obj
+.PHONY : src/strategy/strategies/signal_threshold.cpp.obj
+
+src/strategy/strategies/signal_threshold.i: src/strategy/strategies/signal_threshold.cpp.i
+.PHONY : src/strategy/strategies/signal_threshold.i
+
+# target to preprocess a source file
+src/strategy/strategies/signal_threshold.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategies/signal_threshold.cpp.i
+.PHONY : src/strategy/strategies/signal_threshold.cpp.i
+
+src/strategy/strategies/signal_threshold.s: src/strategy/strategies/signal_threshold.cpp.s
+.PHONY : src/strategy/strategies/signal_threshold.s
+
+# target to generate assembly for a file
+src/strategy/strategies/signal_threshold.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategies/signal_threshold.cpp.s
+.PHONY : src/strategy/strategies/signal_threshold.cpp.s
+
+src/strategy/strategies/stat_arb.obj: src/strategy/strategies/stat_arb.cpp.obj
+.PHONY : src/strategy/strategies/stat_arb.obj
+
+# target to build an object file
+src/strategy/strategies/stat_arb.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategies/stat_arb.cpp.obj
+.PHONY : src/strategy/strategies/stat_arb.cpp.obj
+
+src/strategy/strategies/stat_arb.i: src/strategy/strategies/stat_arb.cpp.i
+.PHONY : src/strategy/strategies/stat_arb.i
+
+# target to preprocess a source file
+src/strategy/strategies/stat_arb.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategies/stat_arb.cpp.i
+.PHONY : src/strategy/strategies/stat_arb.cpp.i
+
+src/strategy/strategies/stat_arb.s: src/strategy/strategies/stat_arb.cpp.s
+.PHONY : src/strategy/strategies/stat_arb.s
+
+# target to generate assembly for a file
+src/strategy/strategies/stat_arb.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategies/stat_arb.cpp.s
+.PHONY : src/strategy/strategies/stat_arb.cpp.s
+
+src/strategy/strategy_engine.obj: src/strategy/strategy_engine.cpp.obj
+.PHONY : src/strategy/strategy_engine.obj
+
+# target to build an object file
+src/strategy/strategy_engine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategy_engine.cpp.obj
+.PHONY : src/strategy/strategy_engine.cpp.obj
+
+src/strategy/strategy_engine.i: src/strategy/strategy_engine.cpp.i
+.PHONY : src/strategy/strategy_engine.i
+
+# target to preprocess a source file
+src/strategy/strategy_engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategy_engine.cpp.i
+.PHONY : src/strategy/strategy_engine.cpp.i
+
+src/strategy/strategy_engine.s: src/strategy/strategy_engine.cpp.s
+.PHONY : src/strategy/strategy_engine.s
+
+# target to generate assembly for a file
+src/strategy/strategy_engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategy_engine.cpp.s
+.PHONY : src/strategy/strategy_engine.cpp.s
+
+src/strategy/strategy_registry.obj: src/strategy/strategy_registry.cpp.obj
+.PHONY : src/strategy/strategy_registry.obj
+
+# target to build an object file
+src/strategy/strategy_registry.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategy_registry.cpp.obj
+.PHONY : src/strategy/strategy_registry.cpp.obj
+
+src/strategy/strategy_registry.i: src/strategy/strategy_registry.cpp.i
+.PHONY : src/strategy/strategy_registry.i
+
+# target to preprocess a source file
+src/strategy/strategy_registry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategy_registry.cpp.i
+.PHONY : src/strategy/strategy_registry.cpp.i
+
+src/strategy/strategy_registry.s: src/strategy/strategy_registry.cpp.s
+.PHONY : src/strategy/strategy_registry.s
+
+# target to generate assembly for a file
+src/strategy/strategy_registry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/src/strategy/strategy_registry.cpp.s
+.PHONY : src/strategy/strategy_registry.cpp.s
+
+tests/core/test_order_book.obj: tests/core/test_order_book.cpp.obj
+.PHONY : tests/core/test_order_book.obj
+
+# target to build an object file
+tests/core/test_order_book.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/core/test_order_book.cpp.obj
+.PHONY : tests/core/test_order_book.cpp.obj
+
+tests/core/test_order_book.i: tests/core/test_order_book.cpp.i
+.PHONY : tests/core/test_order_book.i
+
+# target to preprocess a source file
+tests/core/test_order_book.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/core/test_order_book.cpp.i
+.PHONY : tests/core/test_order_book.cpp.i
+
+tests/core/test_order_book.s: tests/core/test_order_book.cpp.s
+.PHONY : tests/core/test_order_book.s
+
+# target to generate assembly for a file
+tests/core/test_order_book.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/core/test_order_book.cpp.s
+.PHONY : tests/core/test_order_book.cpp.s
+
+tests/core/test_order_store.obj: tests/core/test_order_store.cpp.obj
+.PHONY : tests/core/test_order_store.obj
+
+# target to build an object file
+tests/core/test_order_store.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/core/test_order_store.cpp.obj
+.PHONY : tests/core/test_order_store.cpp.obj
+
+tests/core/test_order_store.i: tests/core/test_order_store.cpp.i
+.PHONY : tests/core/test_order_store.i
+
+# target to preprocess a source file
+tests/core/test_order_store.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/core/test_order_store.cpp.i
+.PHONY : tests/core/test_order_store.cpp.i
+
+tests/core/test_order_store.s: tests/core/test_order_store.cpp.s
+.PHONY : tests/core/test_order_store.s
+
+# target to generate assembly for a file
+tests/core/test_order_store.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/core/test_order_store.cpp.s
+.PHONY : tests/core/test_order_store.cpp.s
+
+tests/simulator/test_order_generator.obj: tests/simulator/test_order_generator.cpp.obj
+.PHONY : tests/simulator/test_order_generator.obj
+
+# target to build an object file
+tests/simulator/test_order_generator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/simulator/test_order_generator.cpp.obj
+.PHONY : tests/simulator/test_order_generator.cpp.obj
+
+tests/simulator/test_order_generator.i: tests/simulator/test_order_generator.cpp.i
+.PHONY : tests/simulator/test_order_generator.i
+
+# target to preprocess a source file
+tests/simulator/test_order_generator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/simulator/test_order_generator.cpp.i
+.PHONY : tests/simulator/test_order_generator.cpp.i
+
+tests/simulator/test_order_generator.s: tests/simulator/test_order_generator.cpp.s
+.PHONY : tests/simulator/test_order_generator.s
+
+# target to generate assembly for a file
+tests/simulator/test_order_generator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/simulator/test_order_generator.cpp.s
+.PHONY : tests/simulator/test_order_generator.cpp.s
+
+tests/simulator/test_price_walk.obj: tests/simulator/test_price_walk.cpp.obj
+.PHONY : tests/simulator/test_price_walk.obj
+
+# target to build an object file
+tests/simulator/test_price_walk.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/simulator/test_price_walk.cpp.obj
+.PHONY : tests/simulator/test_price_walk.cpp.obj
+
+tests/simulator/test_price_walk.i: tests/simulator/test_price_walk.cpp.i
+.PHONY : tests/simulator/test_price_walk.i
+
+# target to preprocess a source file
+tests/simulator/test_price_walk.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/simulator/test_price_walk.cpp.i
+.PHONY : tests/simulator/test_price_walk.cpp.i
+
+tests/simulator/test_price_walk.s: tests/simulator/test_price_walk.cpp.s
+.PHONY : tests/simulator/test_price_walk.s
+
+# target to generate assembly for a file
+tests/simulator/test_price_walk.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/simulator/test_price_walk.cpp.s
+.PHONY : tests/simulator/test_price_walk.cpp.s
+
+tests/simulator/test_scenario_loader.obj: tests/simulator/test_scenario_loader.cpp.obj
+.PHONY : tests/simulator/test_scenario_loader.obj
+
+# target to build an object file
+tests/simulator/test_scenario_loader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/simulator/test_scenario_loader.cpp.obj
+.PHONY : tests/simulator/test_scenario_loader.cpp.obj
+
+tests/simulator/test_scenario_loader.i: tests/simulator/test_scenario_loader.cpp.i
+.PHONY : tests/simulator/test_scenario_loader.i
+
+# target to preprocess a source file
+tests/simulator/test_scenario_loader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/simulator/test_scenario_loader.cpp.i
+.PHONY : tests/simulator/test_scenario_loader.cpp.i
+
+tests/simulator/test_scenario_loader.s: tests/simulator/test_scenario_loader.cpp.s
+.PHONY : tests/simulator/test_scenario_loader.s
+
+# target to generate assembly for a file
+tests/simulator/test_scenario_loader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/simulator/test_scenario_loader.cpp.s
+.PHONY : tests/simulator/test_scenario_loader.cpp.s
+
+tests/simulator/test_sim_matching_engine.obj: tests/simulator/test_sim_matching_engine.cpp.obj
+.PHONY : tests/simulator/test_sim_matching_engine.obj
+
+# target to build an object file
+tests/simulator/test_sim_matching_engine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/simulator/test_sim_matching_engine.cpp.obj
+.PHONY : tests/simulator/test_sim_matching_engine.cpp.obj
+
+tests/simulator/test_sim_matching_engine.i: tests/simulator/test_sim_matching_engine.cpp.i
+.PHONY : tests/simulator/test_sim_matching_engine.i
+
+# target to preprocess a source file
+tests/simulator/test_sim_matching_engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/simulator/test_sim_matching_engine.cpp.i
+.PHONY : tests/simulator/test_sim_matching_engine.cpp.i
+
+tests/simulator/test_sim_matching_engine.s: tests/simulator/test_sim_matching_engine.cpp.s
+.PHONY : tests/simulator/test_sim_matching_engine.s
+
+# target to generate assembly for a file
+tests/simulator/test_sim_matching_engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/simulator/test_sim_matching_engine.cpp.s
+.PHONY : tests/simulator/test_sim_matching_engine.cpp.s
+
+tests/test_alpha_combiner.obj: tests/test_alpha_combiner.cpp.obj
+.PHONY : tests/test_alpha_combiner.obj
+
+# target to build an object file
+tests/test_alpha_combiner.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_alpha_combiner.cpp.obj
+.PHONY : tests/test_alpha_combiner.cpp.obj
+
+tests/test_alpha_combiner.i: tests/test_alpha_combiner.cpp.i
+.PHONY : tests/test_alpha_combiner.i
+
+# target to preprocess a source file
+tests/test_alpha_combiner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_alpha_combiner.cpp.i
+.PHONY : tests/test_alpha_combiner.cpp.i
+
+tests/test_alpha_combiner.s: tests/test_alpha_combiner.cpp.s
+.PHONY : tests/test_alpha_combiner.s
+
+# target to generate assembly for a file
+tests/test_alpha_combiner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_alpha_combiner.cpp.s
+.PHONY : tests/test_alpha_combiner.cpp.s
+
+tests/test_bar_aggregator.obj: tests/test_bar_aggregator.cpp.obj
+.PHONY : tests/test_bar_aggregator.obj
+
+# target to build an object file
+tests/test_bar_aggregator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_bar_aggregator.cpp.obj
+.PHONY : tests/test_bar_aggregator.cpp.obj
+
+tests/test_bar_aggregator.i: tests/test_bar_aggregator.cpp.i
+.PHONY : tests/test_bar_aggregator.i
+
+# target to preprocess a source file
+tests/test_bar_aggregator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_bar_aggregator.cpp.i
+.PHONY : tests/test_bar_aggregator.cpp.i
+
+tests/test_bar_aggregator.s: tests/test_bar_aggregator.cpp.s
+.PHONY : tests/test_bar_aggregator.s
+
+# target to generate assembly for a file
+tests/test_bar_aggregator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_bar_aggregator.cpp.s
+.PHONY : tests/test_bar_aggregator.cpp.s
+
+tests/test_bollinger.obj: tests/test_bollinger.cpp.obj
+.PHONY : tests/test_bollinger.obj
+
+# target to build an object file
+tests/test_bollinger.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_bollinger.cpp.obj
+.PHONY : tests/test_bollinger.cpp.obj
+
+tests/test_bollinger.i: tests/test_bollinger.cpp.i
+.PHONY : tests/test_bollinger.i
+
+# target to preprocess a source file
+tests/test_bollinger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_bollinger.cpp.i
+.PHONY : tests/test_bollinger.cpp.i
+
+tests/test_bollinger.s: tests/test_bollinger.cpp.s
+.PHONY : tests/test_bollinger.s
+
+# target to generate assembly for a file
+tests/test_bollinger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_bollinger.cpp.s
+.PHONY : tests/test_bollinger.cpp.s
+
+tests/test_circuit_breaker.obj: tests/test_circuit_breaker.cpp.obj
+.PHONY : tests/test_circuit_breaker.obj
+
+# target to build an object file
+tests/test_circuit_breaker.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_circuit_breaker.cpp.obj
+.PHONY : tests/test_circuit_breaker.cpp.obj
+
+tests/test_circuit_breaker.i: tests/test_circuit_breaker.cpp.i
+.PHONY : tests/test_circuit_breaker.i
+
+# target to preprocess a source file
+tests/test_circuit_breaker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_circuit_breaker.cpp.i
+.PHONY : tests/test_circuit_breaker.cpp.i
+
+tests/test_circuit_breaker.s: tests/test_circuit_breaker.cpp.s
+.PHONY : tests/test_circuit_breaker.s
+
+# target to generate assembly for a file
+tests/test_circuit_breaker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_circuit_breaker.cpp.s
+.PHONY : tests/test_circuit_breaker.cpp.s
+
+tests/test_compression.obj: tests/test_compression.cpp.obj
+.PHONY : tests/test_compression.obj
+
+# target to build an object file
+tests/test_compression.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_compression.cpp.obj
+.PHONY : tests/test_compression.cpp.obj
+
+tests/test_compression.i: tests/test_compression.cpp.i
+.PHONY : tests/test_compression.i
+
+# target to preprocess a source file
+tests/test_compression.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_compression.cpp.i
+.PHONY : tests/test_compression.cpp.i
+
+tests/test_compression.s: tests/test_compression.cpp.s
+.PHONY : tests/test_compression.s
+
+# target to generate assembly for a file
+tests/test_compression.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_compression.cpp.s
+.PHONY : tests/test_compression.cpp.s
+
+tests/test_ema.obj: tests/test_ema.cpp.obj
+.PHONY : tests/test_ema.obj
+
+# target to build an object file
+tests/test_ema.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_ema.cpp.obj
+.PHONY : tests/test_ema.cpp.obj
+
+tests/test_ema.i: tests/test_ema.cpp.i
+.PHONY : tests/test_ema.i
+
+# target to preprocess a source file
+tests/test_ema.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_ema.cpp.i
+.PHONY : tests/test_ema.cpp.i
+
+tests/test_ema.s: tests/test_ema.cpp.s
+.PHONY : tests/test_ema.s
+
+# target to generate assembly for a file
+tests/test_ema.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_ema.cpp.s
+.PHONY : tests/test_ema.cpp.s
+
+tests/test_feature_normalizer.obj: tests/test_feature_normalizer.cpp.obj
+.PHONY : tests/test_feature_normalizer.obj
+
+# target to build an object file
+tests/test_feature_normalizer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_feature_normalizer.cpp.obj
+.PHONY : tests/test_feature_normalizer.cpp.obj
+
+tests/test_feature_normalizer.i: tests/test_feature_normalizer.cpp.i
+.PHONY : tests/test_feature_normalizer.i
+
+# target to preprocess a source file
+tests/test_feature_normalizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_feature_normalizer.cpp.i
+.PHONY : tests/test_feature_normalizer.cpp.i
+
+tests/test_feature_normalizer.s: tests/test_feature_normalizer.cpp.s
+.PHONY : tests/test_feature_normalizer.s
+
+# target to generate assembly for a file
+tests/test_feature_normalizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_feature_normalizer.cpp.s
+.PHONY : tests/test_feature_normalizer.cpp.s
+
+tests/test_feature_store.obj: tests/test_feature_store.cpp.obj
+.PHONY : tests/test_feature_store.obj
+
+# target to build an object file
+tests/test_feature_store.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_feature_store.cpp.obj
+.PHONY : tests/test_feature_store.cpp.obj
+
+tests/test_feature_store.i: tests/test_feature_store.cpp.i
+.PHONY : tests/test_feature_store.i
+
+# target to preprocess a source file
+tests/test_feature_store.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_feature_store.cpp.i
+.PHONY : tests/test_feature_store.cpp.i
+
+tests/test_feature_store.s: tests/test_feature_store.cpp.s
+.PHONY : tests/test_feature_store.s
+
+# target to generate assembly for a file
+tests/test_feature_store.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_feature_store.cpp.s
+.PHONY : tests/test_feature_store.cpp.s
+
+tests/test_loss_limit.obj: tests/test_loss_limit.cpp.obj
+.PHONY : tests/test_loss_limit.obj
+
+# target to build an object file
+tests/test_loss_limit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_loss_limit.cpp.obj
+.PHONY : tests/test_loss_limit.cpp.obj
+
+tests/test_loss_limit.i: tests/test_loss_limit.cpp.i
+.PHONY : tests/test_loss_limit.i
+
+# target to preprocess a source file
+tests/test_loss_limit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_loss_limit.cpp.i
+.PHONY : tests/test_loss_limit.cpp.i
+
+tests/test_loss_limit.s: tests/test_loss_limit.cpp.s
+.PHONY : tests/test_loss_limit.s
+
+# target to generate assembly for a file
+tests/test_loss_limit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_loss_limit.cpp.s
+.PHONY : tests/test_loss_limit.cpp.s
+
+tests/test_macd.obj: tests/test_macd.cpp.obj
+.PHONY : tests/test_macd.obj
+
+# target to build an object file
+tests/test_macd.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_macd.cpp.obj
+.PHONY : tests/test_macd.cpp.obj
+
+tests/test_macd.i: tests/test_macd.cpp.i
+.PHONY : tests/test_macd.i
+
+# target to preprocess a source file
+tests/test_macd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_macd.cpp.i
+.PHONY : tests/test_macd.cpp.i
+
+tests/test_macd.s: tests/test_macd.cpp.s
+.PHONY : tests/test_macd.s
+
+# target to generate assembly for a file
+tests/test_macd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_macd.cpp.s
+.PHONY : tests/test_macd.cpp.s
+
+tests/test_market_making.obj: tests/test_market_making.cpp.obj
+.PHONY : tests/test_market_making.obj
+
+# target to build an object file
+tests/test_market_making.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_market_making.cpp.obj
+.PHONY : tests/test_market_making.cpp.obj
+
+tests/test_market_making.i: tests/test_market_making.cpp.i
+.PHONY : tests/test_market_making.i
+
+# target to preprocess a source file
+tests/test_market_making.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_market_making.cpp.i
+.PHONY : tests/test_market_making.cpp.i
+
+tests/test_market_making.s: tests/test_market_making.cpp.s
+.PHONY : tests/test_market_making.s
+
+# target to generate assembly for a file
+tests/test_market_making.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_market_making.cpp.s
+.PHONY : tests/test_market_making.cpp.s
+
+tests/test_microprice.obj: tests/test_microprice.cpp.obj
+.PHONY : tests/test_microprice.obj
+
+# target to build an object file
+tests/test_microprice.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_microprice.cpp.obj
+.PHONY : tests/test_microprice.cpp.obj
+
+tests/test_microprice.i: tests/test_microprice.cpp.i
+.PHONY : tests/test_microprice.i
+
+# target to preprocess a source file
+tests/test_microprice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_microprice.cpp.i
+.PHONY : tests/test_microprice.cpp.i
+
+tests/test_microprice.s: tests/test_microprice.cpp.s
+.PHONY : tests/test_microprice.s
+
+# target to generate assembly for a file
+tests/test_microprice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_microprice.cpp.s
+.PHONY : tests/test_microprice.cpp.s
+
+tests/test_order_flow_imbalance.obj: tests/test_order_flow_imbalance.cpp.obj
+.PHONY : tests/test_order_flow_imbalance.obj
+
+# target to build an object file
+tests/test_order_flow_imbalance.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_order_flow_imbalance.cpp.obj
+.PHONY : tests/test_order_flow_imbalance.cpp.obj
+
+tests/test_order_flow_imbalance.i: tests/test_order_flow_imbalance.cpp.i
+.PHONY : tests/test_order_flow_imbalance.i
+
+# target to preprocess a source file
+tests/test_order_flow_imbalance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_order_flow_imbalance.cpp.i
+.PHONY : tests/test_order_flow_imbalance.cpp.i
+
+tests/test_order_flow_imbalance.s: tests/test_order_flow_imbalance.cpp.s
+.PHONY : tests/test_order_flow_imbalance.s
+
+# target to generate assembly for a file
+tests/test_order_flow_imbalance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_order_flow_imbalance.cpp.s
+.PHONY : tests/test_order_flow_imbalance.cpp.s
+
+tests/test_order_manager.obj: tests/test_order_manager.cpp.obj
+.PHONY : tests/test_order_manager.obj
+
+# target to build an object file
+tests/test_order_manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_order_manager.cpp.obj
+.PHONY : tests/test_order_manager.cpp.obj
+
+tests/test_order_manager.i: tests/test_order_manager.cpp.i
+.PHONY : tests/test_order_manager.i
+
+# target to preprocess a source file
+tests/test_order_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_order_manager.cpp.i
+.PHONY : tests/test_order_manager.cpp.i
+
+tests/test_order_manager.s: tests/test_order_manager.cpp.s
+.PHONY : tests/test_order_manager.s
+
+# target to generate assembly for a file
+tests/test_order_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_order_manager.cpp.s
+.PHONY : tests/test_order_manager.cpp.s
+
+tests/test_order_sizer.obj: tests/test_order_sizer.cpp.obj
+.PHONY : tests/test_order_sizer.obj
+
+# target to build an object file
+tests/test_order_sizer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_order_sizer.cpp.obj
+.PHONY : tests/test_order_sizer.cpp.obj
+
+tests/test_order_sizer.i: tests/test_order_sizer.cpp.i
+.PHONY : tests/test_order_sizer.i
+
+# target to preprocess a source file
+tests/test_order_sizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_order_sizer.cpp.i
+.PHONY : tests/test_order_sizer.cpp.i
+
+tests/test_order_sizer.s: tests/test_order_sizer.cpp.s
+.PHONY : tests/test_order_sizer.s
+
+# target to generate assembly for a file
+tests/test_order_sizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_order_sizer.cpp.s
+.PHONY : tests/test_order_sizer.cpp.s
+
+tests/test_pnl_calculator.obj: tests/test_pnl_calculator.cpp.obj
+.PHONY : tests/test_pnl_calculator.obj
+
+# target to build an object file
+tests/test_pnl_calculator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_pnl_calculator.cpp.obj
+.PHONY : tests/test_pnl_calculator.cpp.obj
+
+tests/test_pnl_calculator.i: tests/test_pnl_calculator.cpp.i
+.PHONY : tests/test_pnl_calculator.i
+
+# target to preprocess a source file
+tests/test_pnl_calculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_pnl_calculator.cpp.i
+.PHONY : tests/test_pnl_calculator.cpp.i
+
+tests/test_pnl_calculator.s: tests/test_pnl_calculator.cpp.s
+.PHONY : tests/test_pnl_calculator.s
+
+# target to generate assembly for a file
+tests/test_pnl_calculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_pnl_calculator.cpp.s
+.PHONY : tests/test_pnl_calculator.cpp.s
+
+tests/test_position_limit.obj: tests/test_position_limit.cpp.obj
+.PHONY : tests/test_position_limit.obj
+
+# target to build an object file
+tests/test_position_limit.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_position_limit.cpp.obj
+.PHONY : tests/test_position_limit.cpp.obj
+
+tests/test_position_limit.i: tests/test_position_limit.cpp.i
+.PHONY : tests/test_position_limit.i
+
+# target to preprocess a source file
+tests/test_position_limit.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_position_limit.cpp.i
+.PHONY : tests/test_position_limit.cpp.i
+
+tests/test_position_limit.s: tests/test_position_limit.cpp.s
+.PHONY : tests/test_position_limit.s
+
+# target to generate assembly for a file
+tests/test_position_limit.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_position_limit.cpp.s
+.PHONY : tests/test_position_limit.cpp.s
+
+tests/test_position_tracker.obj: tests/test_position_tracker.cpp.obj
+.PHONY : tests/test_position_tracker.obj
+
+# target to build an object file
+tests/test_position_tracker.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_position_tracker.cpp.obj
+.PHONY : tests/test_position_tracker.cpp.obj
+
+tests/test_position_tracker.i: tests/test_position_tracker.cpp.i
+.PHONY : tests/test_position_tracker.i
+
+# target to preprocess a source file
+tests/test_position_tracker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_position_tracker.cpp.i
+.PHONY : tests/test_position_tracker.cpp.i
+
+tests/test_position_tracker.s: tests/test_position_tracker.cpp.s
+.PHONY : tests/test_position_tracker.s
+
+# target to generate assembly for a file
+tests/test_position_tracker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_position_tracker.cpp.s
+.PHONY : tests/test_position_tracker.cpp.s
+
+tests/test_replay_engine.obj: tests/test_replay_engine.cpp.obj
+.PHONY : tests/test_replay_engine.obj
+
+# target to build an object file
+tests/test_replay_engine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_replay_engine.cpp.obj
+.PHONY : tests/test_replay_engine.cpp.obj
+
+tests/test_replay_engine.i: tests/test_replay_engine.cpp.i
+.PHONY : tests/test_replay_engine.i
+
+# target to preprocess a source file
+tests/test_replay_engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_replay_engine.cpp.i
+.PHONY : tests/test_replay_engine.cpp.i
+
+tests/test_replay_engine.s: tests/test_replay_engine.cpp.s
+.PHONY : tests/test_replay_engine.s
+
+# target to generate assembly for a file
+tests/test_replay_engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_replay_engine.cpp.s
+.PHONY : tests/test_replay_engine.cpp.s
+
+tests/test_rsi.obj: tests/test_rsi.cpp.obj
+.PHONY : tests/test_rsi.obj
+
+# target to build an object file
+tests/test_rsi.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_rsi.cpp.obj
+.PHONY : tests/test_rsi.cpp.obj
+
+tests/test_rsi.i: tests/test_rsi.cpp.i
+.PHONY : tests/test_rsi.i
+
+# target to preprocess a source file
+tests/test_rsi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_rsi.cpp.i
+.PHONY : tests/test_rsi.cpp.i
+
+tests/test_rsi.s: tests/test_rsi.cpp.s
+.PHONY : tests/test_rsi.s
+
+# target to generate assembly for a file
+tests/test_rsi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_rsi.cpp.s
+.PHONY : tests/test_rsi.cpp.s
+
+tests/test_signal_engine.obj: tests/test_signal_engine.cpp.obj
+.PHONY : tests/test_signal_engine.obj
+
+# target to build an object file
+tests/test_signal_engine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_signal_engine.cpp.obj
+.PHONY : tests/test_signal_engine.cpp.obj
+
+tests/test_signal_engine.i: tests/test_signal_engine.cpp.i
+.PHONY : tests/test_signal_engine.i
+
+# target to preprocess a source file
+tests/test_signal_engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_signal_engine.cpp.i
+.PHONY : tests/test_signal_engine.cpp.i
+
+tests/test_signal_engine.s: tests/test_signal_engine.cpp.s
+.PHONY : tests/test_signal_engine.s
+
+# target to generate assembly for a file
+tests/test_signal_engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_signal_engine.cpp.s
+.PHONY : tests/test_signal_engine.cpp.s
+
+tests/test_sim_exchange.obj: tests/test_sim_exchange.cpp.obj
+.PHONY : tests/test_sim_exchange.obj
+
+# target to build an object file
+tests/test_sim_exchange.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_sim_exchange.cpp.obj
+.PHONY : tests/test_sim_exchange.cpp.obj
+
+tests/test_sim_exchange.i: tests/test_sim_exchange.cpp.i
+.PHONY : tests/test_sim_exchange.i
+
+# target to preprocess a source file
+tests/test_sim_exchange.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_sim_exchange.cpp.i
+.PHONY : tests/test_sim_exchange.cpp.i
+
+tests/test_sim_exchange.s: tests/test_sim_exchange.cpp.s
+.PHONY : tests/test_sim_exchange.s
+
+# target to generate assembly for a file
+tests/test_sim_exchange.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_sim_exchange.cpp.s
+.PHONY : tests/test_sim_exchange.cpp.s
+
+tests/test_state_machine.obj: tests/test_state_machine.cpp.obj
+.PHONY : tests/test_state_machine.obj
+
+# target to build an object file
+tests/test_state_machine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_state_machine.cpp.obj
+.PHONY : tests/test_state_machine.cpp.obj
+
+tests/test_state_machine.i: tests/test_state_machine.cpp.i
+.PHONY : tests/test_state_machine.i
+
+# target to preprocess a source file
+tests/test_state_machine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_state_machine.cpp.i
+.PHONY : tests/test_state_machine.cpp.i
+
+tests/test_state_machine.s: tests/test_state_machine.cpp.s
+.PHONY : tests/test_state_machine.s
+
+# target to generate assembly for a file
+tests/test_state_machine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_state_machine.cpp.s
+.PHONY : tests/test_state_machine.cpp.s
+
 tests/test_stub.obj: tests/test_stub.cpp.obj
 .PHONY : tests/test_stub.obj
 
@@ -333,6 +4096,126 @@ tests/test_stub.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_stub.cpp.s
 .PHONY : tests/test_stub.cpp.s
 
+tests/test_tick_recorder.obj: tests/test_tick_recorder.cpp.obj
+.PHONY : tests/test_tick_recorder.obj
+
+# target to build an object file
+tests/test_tick_recorder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_tick_recorder.cpp.obj
+.PHONY : tests/test_tick_recorder.cpp.obj
+
+tests/test_tick_recorder.i: tests/test_tick_recorder.cpp.i
+.PHONY : tests/test_tick_recorder.i
+
+# target to preprocess a source file
+tests/test_tick_recorder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_tick_recorder.cpp.i
+.PHONY : tests/test_tick_recorder.cpp.i
+
+tests/test_tick_recorder.s: tests/test_tick_recorder.cpp.s
+.PHONY : tests/test_tick_recorder.s
+
+# target to generate assembly for a file
+tests/test_tick_recorder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_tick_recorder.cpp.s
+.PHONY : tests/test_tick_recorder.cpp.s
+
+tests/test_twap.obj: tests/test_twap.cpp.obj
+.PHONY : tests/test_twap.obj
+
+# target to build an object file
+tests/test_twap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_twap.cpp.obj
+.PHONY : tests/test_twap.cpp.obj
+
+tests/test_twap.i: tests/test_twap.cpp.i
+.PHONY : tests/test_twap.i
+
+# target to preprocess a source file
+tests/test_twap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_twap.cpp.i
+.PHONY : tests/test_twap.cpp.i
+
+tests/test_twap.s: tests/test_twap.cpp.s
+.PHONY : tests/test_twap.s
+
+# target to generate assembly for a file
+tests/test_twap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_twap.cpp.s
+.PHONY : tests/test_twap.cpp.s
+
+tests/test_var_calculator.obj: tests/test_var_calculator.cpp.obj
+.PHONY : tests/test_var_calculator.obj
+
+# target to build an object file
+tests/test_var_calculator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_var_calculator.cpp.obj
+.PHONY : tests/test_var_calculator.cpp.obj
+
+tests/test_var_calculator.i: tests/test_var_calculator.cpp.i
+.PHONY : tests/test_var_calculator.i
+
+# target to preprocess a source file
+tests/test_var_calculator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_var_calculator.cpp.i
+.PHONY : tests/test_var_calculator.cpp.i
+
+tests/test_var_calculator.s: tests/test_var_calculator.cpp.s
+.PHONY : tests/test_var_calculator.s
+
+# target to generate assembly for a file
+tests/test_var_calculator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_var_calculator.cpp.s
+.PHONY : tests/test_var_calculator.cpp.s
+
+tests/test_vwap.obj: tests/test_vwap.cpp.obj
+.PHONY : tests/test_vwap.obj
+
+# target to build an object file
+tests/test_vwap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_vwap.cpp.obj
+.PHONY : tests/test_vwap.cpp.obj
+
+tests/test_vwap.i: tests/test_vwap.cpp.i
+.PHONY : tests/test_vwap.i
+
+# target to preprocess a source file
+tests/test_vwap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_vwap.cpp.i
+.PHONY : tests/test_vwap.cpp.i
+
+tests/test_vwap.s: tests/test_vwap.cpp.s
+.PHONY : tests/test_vwap.s
+
+# target to generate assembly for a file
+tests/test_vwap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_vwap.cpp.s
+.PHONY : tests/test_vwap.cpp.s
+
+tests/test_zscore.obj: tests/test_zscore.cpp.obj
+.PHONY : tests/test_zscore.obj
+
+# target to build an object file
+tests/test_zscore.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_zscore.cpp.obj
+.PHONY : tests/test_zscore.cpp.obj
+
+tests/test_zscore.i: tests/test_zscore.cpp.i
+.PHONY : tests/test_zscore.i
+
+# target to preprocess a source file
+tests/test_zscore.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_zscore.cpp.i
+.PHONY : tests/test_zscore.cpp.i
+
+tests/test_zscore.s: tests/test_zscore.cpp.s
+.PHONY : tests/test_zscore.s
+
+# target to generate assembly for a file
+tests/test_zscore.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_tests.dir\build.make CMakeFiles/run_tests.dir/tests/test_zscore.cpp.s
+.PHONY : tests/test_zscore.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -346,22 +4229,481 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... Continuous
+	@echo ... ContinuousBuild
+	@echo ... ContinuousConfigure
+	@echo ... ContinuousCoverage
+	@echo ... ContinuousMemCheck
+	@echo ... ContinuousStart
+	@echo ... ContinuousSubmit
+	@echo ... ContinuousTest
+	@echo ... ContinuousUpdate
+	@echo ... Experimental
+	@echo ... ExperimentalBuild
+	@echo ... ExperimentalConfigure
+	@echo ... ExperimentalCoverage
+	@echo ... ExperimentalMemCheck
+	@echo ... ExperimentalStart
+	@echo ... ExperimentalSubmit
+	@echo ... ExperimentalTest
+	@echo ... ExperimentalUpdate
+	@echo ... Nightly
+	@echo ... NightlyBuild
+	@echo ... NightlyConfigure
+	@echo ... NightlyCoverage
+	@echo ... NightlyMemCheck
+	@echo ... NightlyMemoryCheck
+	@echo ... NightlyStart
+	@echo ... NightlySubmit
+	@echo ... NightlyTest
+	@echo ... NightlyUpdate
+	@echo ... format
+	@echo ... uninstall
 	@echo ... exchange_simulator
 	@echo ... feed_handler
 	@echo ... gmock
 	@echo ... gmock_main
 	@echo ... gtest
 	@echo ... gtest_main
+	@echo ... lz4_lib
 	@echo ... run_tests
+	@echo ... spdlog
+	@echo ... yaml-cpp
+	@echo ... _deps/lz4-src/lib/lz4.obj
+	@echo ... _deps/lz4-src/lib/lz4.i
+	@echo ... _deps/lz4-src/lib/lz4.s
+	@echo ... src/consumer/console_display.obj
+	@echo ... src/consumer/console_display.i
+	@echo ... src/consumer/console_display.s
+	@echo ... src/consumer/csv_logger.obj
+	@echo ... src/consumer/csv_logger.i
+	@echo ... src/consumer/csv_logger.s
+	@echo ... src/consumer/latency_histogram.obj
+	@echo ... src/consumer/latency_histogram.i
+	@echo ... src/consumer/latency_histogram.s
+	@echo ... src/consumer/stats_collector.obj
+	@echo ... src/consumer/stats_collector.i
+	@echo ... src/consumer/stats_collector.s
+	@echo ... src/consumer/throughput_tracker.obj
+	@echo ... src/consumer/throughput_tracker.i
+	@echo ... src/consumer/throughput_tracker.s
+	@echo ... src/core/book_manager.obj
+	@echo ... src/core/book_manager.i
+	@echo ... src/core/book_manager.s
+	@echo ... src/core/order_book.obj
+	@echo ... src/core/order_book.i
+	@echo ... src/core/order_book.s
+	@echo ... src/core/order_store.obj
+	@echo ... src/core/order_store.i
+	@echo ... src/core/order_store.s
+	@echo ... src/core/pipeline.obj
+	@echo ... src/core/pipeline.i
+	@echo ... src/core/pipeline.s
+	@echo ... src/data/recorder/binary_writer.obj
+	@echo ... src/data/recorder/binary_writer.i
+	@echo ... src/data/recorder/binary_writer.s
+	@echo ... src/data/recorder/compression.obj
+	@echo ... src/data/recorder/compression.i
+	@echo ... src/data/recorder/compression.s
+	@echo ... src/data/recorder/csv_writer.obj
+	@echo ... src/data/recorder/csv_writer.i
+	@echo ... src/data/recorder/csv_writer.s
+	@echo ... src/data/recorder/rotation.obj
+	@echo ... src/data/recorder/rotation.i
+	@echo ... src/data/recorder/rotation.s
+	@echo ... src/data/recorder/tick_recorder.obj
+	@echo ... src/data/recorder/tick_recorder.i
+	@echo ... src/data/recorder/tick_recorder.s
+	@echo ... src/data/replay/multi_stream_merger.obj
+	@echo ... src/data/replay/multi_stream_merger.i
+	@echo ... src/data/replay/multi_stream_merger.s
+	@echo ... src/data/replay/replay_clock.obj
+	@echo ... src/data/replay/replay_clock.i
+	@echo ... src/data/replay/replay_clock.s
+	@echo ... src/data/replay/replay_engine.obj
+	@echo ... src/data/replay/replay_engine.i
+	@echo ... src/data/replay/replay_engine.s
+	@echo ... src/data/replay/replay_publisher.obj
+	@echo ... src/data/replay/replay_publisher.i
+	@echo ... src/data/replay/replay_publisher.s
+	@echo ... src/data/storage/bar_aggregator.obj
+	@echo ... src/data/storage/bar_aggregator.i
+	@echo ... src/data/storage/bar_aggregator.s
+	@echo ... src/data/storage/symbol_catalog.obj
+	@echo ... src/data/storage/symbol_catalog.i
+	@echo ... src/data/storage/symbol_catalog.s
+	@echo ... src/data/storage/tick_store.obj
+	@echo ... src/data/storage/tick_store.i
+	@echo ... src/data/storage/tick_store.s
+	@echo ... src/data/storage/time_index.obj
+	@echo ... src/data/storage/time_index.i
+	@echo ... src/data/storage/time_index.s
+	@echo ... src/handler/book_stage.obj
+	@echo ... src/handler/book_stage.i
+	@echo ... src/handler/book_stage.s
+	@echo ... src/handler/consumer_stage.obj
+	@echo ... src/handler/consumer_stage.i
+	@echo ... src/handler/consumer_stage.s
 	@echo ... src/handler/main.obj
 	@echo ... src/handler/main.i
 	@echo ... src/handler/main.s
+	@echo ... src/handler/network_stage.obj
+	@echo ... src/handler/network_stage.i
+	@echo ... src/handler/network_stage.s
+	@echo ... src/handler/parser_stage.obj
+	@echo ... src/handler/parser_stage.i
+	@echo ... src/handler/parser_stage.s
+	@echo ... src/infra/config.obj
+	@echo ... src/infra/config.i
+	@echo ... src/infra/config.s
+	@echo ... src/infra/logging.obj
+	@echo ... src/infra/logging.i
+	@echo ... src/infra/logging.s
+	@echo ... src/network/multicast_receiver.obj
+	@echo ... src/network/multicast_receiver.i
+	@echo ... src/network/multicast_receiver.s
+	@echo ... src/network/multicast_sender.obj
+	@echo ... src/network/multicast_sender.i
+	@echo ... src/network/multicast_sender.s
+	@echo ... src/oms/fill_manager.obj
+	@echo ... src/oms/fill_manager.i
+	@echo ... src/oms/fill_manager.s
+	@echo ... src/oms/order_id_generator.obj
+	@echo ... src/oms/order_id_generator.i
+	@echo ... src/oms/order_id_generator.s
+	@echo ... src/oms/order_manager.obj
+	@echo ... src/oms/order_manager.i
+	@echo ... src/oms/order_manager.s
+	@echo ... src/oms/order_router.obj
+	@echo ... src/oms/order_router.i
+	@echo ... src/oms/order_router.s
+	@echo ... src/oms/order_validator.obj
+	@echo ... src/oms/order_validator.i
+	@echo ... src/oms/order_validator.s
+	@echo ... src/oms/sim_exchange/sim_exchange.obj
+	@echo ... src/oms/sim_exchange/sim_exchange.i
+	@echo ... src/oms/sim_exchange/sim_exchange.s
+	@echo ... src/oms/sim_exchange/sim_exchange_connector.obj
+	@echo ... src/oms/sim_exchange/sim_exchange_connector.i
+	@echo ... src/oms/sim_exchange/sim_exchange_connector.s
+	@echo ... src/oms/sim_exchange/sim_fill_model.obj
+	@echo ... src/oms/sim_exchange/sim_fill_model.i
+	@echo ... src/oms/sim_exchange/sim_fill_model.s
+	@echo ... src/oms/state_machine/order_journal.obj
+	@echo ... src/oms/state_machine/order_journal.i
+	@echo ... src/oms/state_machine/order_journal.s
+	@echo ... src/oms/state_machine/state_transitions.obj
+	@echo ... src/oms/state_machine/state_transitions.i
+	@echo ... src/oms/state_machine/state_transitions.s
+	@echo ... src/protocol/batcher.obj
+	@echo ... src/protocol/batcher.i
+	@echo ... src/protocol/batcher.s
+	@echo ... src/protocol/frame_parser.obj
+	@echo ... src/protocol/frame_parser.i
+	@echo ... src/protocol/frame_parser.s
+	@echo ... src/protocol/sequence.obj
+	@echo ... src/protocol/sequence.i
+	@echo ... src/protocol/sequence.s
+	@echo ... src/protocol/validator.obj
+	@echo ... src/protocol/validator.i
+	@echo ... src/protocol/validator.s
+	@echo ... src/risk/limits/concentration_limit.obj
+	@echo ... src/risk/limits/concentration_limit.i
+	@echo ... src/risk/limits/concentration_limit.s
+	@echo ... src/risk/limits/loss_limit.obj
+	@echo ... src/risk/limits/loss_limit.i
+	@echo ... src/risk/limits/loss_limit.s
+	@echo ... src/risk/limits/notional_limit.obj
+	@echo ... src/risk/limits/notional_limit.i
+	@echo ... src/risk/limits/notional_limit.s
+	@echo ... src/risk/limits/order_rate_limit.obj
+	@echo ... src/risk/limits/order_rate_limit.i
+	@echo ... src/risk/limits/order_rate_limit.s
+	@echo ... src/risk/limits/position_limit.obj
+	@echo ... src/risk/limits/position_limit.i
+	@echo ... src/risk/limits/position_limit.s
+	@echo ... src/risk/monitors/circuit_breaker.obj
+	@echo ... src/risk/monitors/circuit_breaker.i
+	@echo ... src/risk/monitors/circuit_breaker.s
+	@echo ... src/risk/monitors/exposure_monitor.obj
+	@echo ... src/risk/monitors/exposure_monitor.i
+	@echo ... src/risk/monitors/exposure_monitor.s
+	@echo ... src/risk/monitors/pnl_monitor.obj
+	@echo ... src/risk/monitors/pnl_monitor.i
+	@echo ... src/risk/monitors/pnl_monitor.s
+	@echo ... src/risk/monitors/var_calculator.obj
+	@echo ... src/risk/monitors/var_calculator.i
+	@echo ... src/risk/monitors/var_calculator.s
+	@echo ... src/risk/post_trade_risk.obj
+	@echo ... src/risk/post_trade_risk.i
+	@echo ... src/risk/post_trade_risk.s
+	@echo ... src/risk/pre_trade_risk.obj
+	@echo ... src/risk/pre_trade_risk.i
+	@echo ... src/risk/pre_trade_risk.s
+	@echo ... src/risk/reporting/risk_logger.obj
+	@echo ... src/risk/reporting/risk_logger.i
+	@echo ... src/risk/reporting/risk_logger.s
+	@echo ... src/risk/reporting/risk_report.obj
+	@echo ... src/risk/reporting/risk_report.i
+	@echo ... src/risk/reporting/risk_report.s
+	@echo ... src/signals/composite/alpha_combiner.obj
+	@echo ... src/signals/composite/alpha_combiner.i
+	@echo ... src/signals/composite/alpha_combiner.s
+	@echo ... src/signals/composite/regime_detector.obj
+	@echo ... src/signals/composite/regime_detector.i
+	@echo ... src/signals/composite/regime_detector.s
+	@echo ... src/signals/composite/signal_decay.obj
+	@echo ... src/signals/composite/signal_decay.i
+	@echo ... src/signals/composite/signal_decay.s
+	@echo ... src/signals/features/book_depth_ratio.obj
+	@echo ... src/signals/features/book_depth_ratio.i
+	@echo ... src/signals/features/book_depth_ratio.s
+	@echo ... src/signals/features/mean_reversion.obj
+	@echo ... src/signals/features/mean_reversion.i
+	@echo ... src/signals/features/mean_reversion.s
+	@echo ... src/signals/features/microprice.obj
+	@echo ... src/signals/features/microprice.i
+	@echo ... src/signals/features/microprice.s
+	@echo ... src/signals/features/momentum.obj
+	@echo ... src/signals/features/momentum.i
+	@echo ... src/signals/features/momentum.s
+	@echo ... src/signals/features/order_flow_imbalance.obj
+	@echo ... src/signals/features/order_flow_imbalance.i
+	@echo ... src/signals/features/order_flow_imbalance.s
+	@echo ... src/signals/features/spread_tracker.obj
+	@echo ... src/signals/features/spread_tracker.i
+	@echo ... src/signals/features/spread_tracker.s
+	@echo ... src/signals/features/tick_intensity.obj
+	@echo ... src/signals/features/tick_intensity.i
+	@echo ... src/signals/features/tick_intensity.s
+	@echo ... src/signals/features/trade_flow.obj
+	@echo ... src/signals/features/trade_flow.i
+	@echo ... src/signals/features/trade_flow.s
+	@echo ... src/signals/features/twap.obj
+	@echo ... src/signals/features/twap.i
+	@echo ... src/signals/features/twap.s
+	@echo ... src/signals/features/volatility_estimator.obj
+	@echo ... src/signals/features/volatility_estimator.i
+	@echo ... src/signals/features/volatility_estimator.s
+	@echo ... src/signals/features/vwap.obj
+	@echo ... src/signals/features/vwap.i
+	@echo ... src/signals/features/vwap.s
+	@echo ... src/signals/indicators/bollinger.obj
+	@echo ... src/signals/indicators/bollinger.i
+	@echo ... src/signals/indicators/bollinger.s
+	@echo ... src/signals/indicators/ema.obj
+	@echo ... src/signals/indicators/ema.i
+	@echo ... src/signals/indicators/ema.s
+	@echo ... src/signals/indicators/macd.obj
+	@echo ... src/signals/indicators/macd.i
+	@echo ... src/signals/indicators/macd.s
+	@echo ... src/signals/indicators/rsi.obj
+	@echo ... src/signals/indicators/rsi.i
+	@echo ... src/signals/indicators/rsi.s
+	@echo ... src/signals/indicators/zscore.obj
+	@echo ... src/signals/indicators/zscore.i
+	@echo ... src/signals/indicators/zscore.s
+	@echo ... src/signals/ml/feature_normalizer.obj
+	@echo ... src/signals/ml/feature_normalizer.i
+	@echo ... src/signals/ml/feature_normalizer.s
+	@echo ... src/signals/ml/feature_store.obj
+	@echo ... src/signals/ml/feature_store.i
+	@echo ... src/signals/ml/feature_store.s
+	@echo ... src/signals/ml/linear_model.obj
+	@echo ... src/signals/ml/linear_model.i
+	@echo ... src/signals/ml/linear_model.s
+	@echo ... src/signals/ml/model_loader.obj
+	@echo ... src/signals/ml/model_loader.i
+	@echo ... src/signals/ml/model_loader.s
+	@echo ... src/signals/ml/prediction_cache.obj
+	@echo ... src/signals/ml/prediction_cache.i
+	@echo ... src/signals/ml/prediction_cache.s
+	@echo ... src/signals/signal_engine.obj
+	@echo ... src/signals/signal_engine.i
+	@echo ... src/signals/signal_engine.s
+	@echo ... src/signals/signal_registry.obj
+	@echo ... src/signals/signal_registry.i
+	@echo ... src/signals/signal_registry.s
 	@echo ... src/simulator/main.obj
 	@echo ... src/simulator/main.i
 	@echo ... src/simulator/main.s
+	@echo ... src/simulator/market_simulator.obj
+	@echo ... src/simulator/market_simulator.i
+	@echo ... src/simulator/market_simulator.s
+	@echo ... src/simulator/multi_asset_sim.obj
+	@echo ... src/simulator/multi_asset_sim.i
+	@echo ... src/simulator/multi_asset_sim.s
+	@echo ... src/simulator/news_event_generator.obj
+	@echo ... src/simulator/news_event_generator.i
+	@echo ... src/simulator/news_event_generator.s
+	@echo ... src/simulator/order_generator.obj
+	@echo ... src/simulator/order_generator.i
+	@echo ... src/simulator/order_generator.s
+	@echo ... src/simulator/participant_model.obj
+	@echo ... src/simulator/participant_model.i
+	@echo ... src/simulator/participant_model.s
+	@echo ... src/simulator/price_walk.obj
+	@echo ... src/simulator/price_walk.i
+	@echo ... src/simulator/price_walk.s
+	@echo ... src/simulator/scenario_loader.obj
+	@echo ... src/simulator/scenario_loader.i
+	@echo ... src/simulator/scenario_loader.s
+	@echo ... src/simulator/sim_matching_engine.obj
+	@echo ... src/simulator/sim_matching_engine.i
+	@echo ... src/simulator/sim_matching_engine.s
+	@echo ... src/simulator/sim_order_book.obj
+	@echo ... src/simulator/sim_order_book.i
+	@echo ... src/simulator/sim_order_book.s
+	@echo ... src/simulator/volatility_regime.obj
+	@echo ... src/simulator/volatility_regime.i
+	@echo ... src/simulator/volatility_regime.s
+	@echo ... src/strategy/execution/execution_algo.obj
+	@echo ... src/strategy/execution/execution_algo.i
+	@echo ... src/strategy/execution/execution_algo.s
+	@echo ... src/strategy/execution/order_sizer.obj
+	@echo ... src/strategy/execution/order_sizer.i
+	@echo ... src/strategy/execution/order_sizer.s
+	@echo ... src/strategy/execution/slippage_model.obj
+	@echo ... src/strategy/execution/slippage_model.i
+	@echo ... src/strategy/execution/slippage_model.s
+	@echo ... src/strategy/position/fill_tracker.obj
+	@echo ... src/strategy/position/fill_tracker.i
+	@echo ... src/strategy/position/fill_tracker.s
+	@echo ... src/strategy/position/pnl_calculator.obj
+	@echo ... src/strategy/position/pnl_calculator.i
+	@echo ... src/strategy/position/pnl_calculator.s
+	@echo ... src/strategy/position/portfolio.obj
+	@echo ... src/strategy/position/portfolio.i
+	@echo ... src/strategy/position/portfolio.s
+	@echo ... src/strategy/position/position_tracker.obj
+	@echo ... src/strategy/position/position_tracker.i
+	@echo ... src/strategy/position/position_tracker.s
+	@echo ... src/strategy/strategies/market_making.obj
+	@echo ... src/strategy/strategies/market_making.i
+	@echo ... src/strategy/strategies/market_making.s
+	@echo ... src/strategy/strategies/mean_reversion_strat.obj
+	@echo ... src/strategy/strategies/mean_reversion_strat.i
+	@echo ... src/strategy/strategies/mean_reversion_strat.s
+	@echo ... src/strategy/strategies/momentum_follower.obj
+	@echo ... src/strategy/strategies/momentum_follower.i
+	@echo ... src/strategy/strategies/momentum_follower.s
+	@echo ... src/strategy/strategies/signal_threshold.obj
+	@echo ... src/strategy/strategies/signal_threshold.i
+	@echo ... src/strategy/strategies/signal_threshold.s
+	@echo ... src/strategy/strategies/stat_arb.obj
+	@echo ... src/strategy/strategies/stat_arb.i
+	@echo ... src/strategy/strategies/stat_arb.s
+	@echo ... src/strategy/strategy_engine.obj
+	@echo ... src/strategy/strategy_engine.i
+	@echo ... src/strategy/strategy_engine.s
+	@echo ... src/strategy/strategy_registry.obj
+	@echo ... src/strategy/strategy_registry.i
+	@echo ... src/strategy/strategy_registry.s
+	@echo ... tests/core/test_order_book.obj
+	@echo ... tests/core/test_order_book.i
+	@echo ... tests/core/test_order_book.s
+	@echo ... tests/core/test_order_store.obj
+	@echo ... tests/core/test_order_store.i
+	@echo ... tests/core/test_order_store.s
+	@echo ... tests/simulator/test_order_generator.obj
+	@echo ... tests/simulator/test_order_generator.i
+	@echo ... tests/simulator/test_order_generator.s
+	@echo ... tests/simulator/test_price_walk.obj
+	@echo ... tests/simulator/test_price_walk.i
+	@echo ... tests/simulator/test_price_walk.s
+	@echo ... tests/simulator/test_scenario_loader.obj
+	@echo ... tests/simulator/test_scenario_loader.i
+	@echo ... tests/simulator/test_scenario_loader.s
+	@echo ... tests/simulator/test_sim_matching_engine.obj
+	@echo ... tests/simulator/test_sim_matching_engine.i
+	@echo ... tests/simulator/test_sim_matching_engine.s
+	@echo ... tests/test_alpha_combiner.obj
+	@echo ... tests/test_alpha_combiner.i
+	@echo ... tests/test_alpha_combiner.s
+	@echo ... tests/test_bar_aggregator.obj
+	@echo ... tests/test_bar_aggregator.i
+	@echo ... tests/test_bar_aggregator.s
+	@echo ... tests/test_bollinger.obj
+	@echo ... tests/test_bollinger.i
+	@echo ... tests/test_bollinger.s
+	@echo ... tests/test_circuit_breaker.obj
+	@echo ... tests/test_circuit_breaker.i
+	@echo ... tests/test_circuit_breaker.s
+	@echo ... tests/test_compression.obj
+	@echo ... tests/test_compression.i
+	@echo ... tests/test_compression.s
+	@echo ... tests/test_ema.obj
+	@echo ... tests/test_ema.i
+	@echo ... tests/test_ema.s
+	@echo ... tests/test_feature_normalizer.obj
+	@echo ... tests/test_feature_normalizer.i
+	@echo ... tests/test_feature_normalizer.s
+	@echo ... tests/test_feature_store.obj
+	@echo ... tests/test_feature_store.i
+	@echo ... tests/test_feature_store.s
+	@echo ... tests/test_loss_limit.obj
+	@echo ... tests/test_loss_limit.i
+	@echo ... tests/test_loss_limit.s
+	@echo ... tests/test_macd.obj
+	@echo ... tests/test_macd.i
+	@echo ... tests/test_macd.s
+	@echo ... tests/test_market_making.obj
+	@echo ... tests/test_market_making.i
+	@echo ... tests/test_market_making.s
+	@echo ... tests/test_microprice.obj
+	@echo ... tests/test_microprice.i
+	@echo ... tests/test_microprice.s
+	@echo ... tests/test_order_flow_imbalance.obj
+	@echo ... tests/test_order_flow_imbalance.i
+	@echo ... tests/test_order_flow_imbalance.s
+	@echo ... tests/test_order_manager.obj
+	@echo ... tests/test_order_manager.i
+	@echo ... tests/test_order_manager.s
+	@echo ... tests/test_order_sizer.obj
+	@echo ... tests/test_order_sizer.i
+	@echo ... tests/test_order_sizer.s
+	@echo ... tests/test_pnl_calculator.obj
+	@echo ... tests/test_pnl_calculator.i
+	@echo ... tests/test_pnl_calculator.s
+	@echo ... tests/test_position_limit.obj
+	@echo ... tests/test_position_limit.i
+	@echo ... tests/test_position_limit.s
+	@echo ... tests/test_position_tracker.obj
+	@echo ... tests/test_position_tracker.i
+	@echo ... tests/test_position_tracker.s
+	@echo ... tests/test_replay_engine.obj
+	@echo ... tests/test_replay_engine.i
+	@echo ... tests/test_replay_engine.s
+	@echo ... tests/test_rsi.obj
+	@echo ... tests/test_rsi.i
+	@echo ... tests/test_rsi.s
+	@echo ... tests/test_signal_engine.obj
+	@echo ... tests/test_signal_engine.i
+	@echo ... tests/test_signal_engine.s
+	@echo ... tests/test_sim_exchange.obj
+	@echo ... tests/test_sim_exchange.i
+	@echo ... tests/test_sim_exchange.s
+	@echo ... tests/test_state_machine.obj
+	@echo ... tests/test_state_machine.i
+	@echo ... tests/test_state_machine.s
 	@echo ... tests/test_stub.obj
 	@echo ... tests/test_stub.i
 	@echo ... tests/test_stub.s
+	@echo ... tests/test_tick_recorder.obj
+	@echo ... tests/test_tick_recorder.i
+	@echo ... tests/test_tick_recorder.s
+	@echo ... tests/test_twap.obj
+	@echo ... tests/test_twap.i
+	@echo ... tests/test_twap.s
+	@echo ... tests/test_var_calculator.obj
+	@echo ... tests/test_var_calculator.i
+	@echo ... tests/test_var_calculator.s
+	@echo ... tests/test_vwap.obj
+	@echo ... tests/test_vwap.i
+	@echo ... tests/test_vwap.s
+	@echo ... tests/test_zscore.obj
+	@echo ... tests/test_zscore.i
+	@echo ... tests/test_zscore.s
 .PHONY : help
 
 
@@ -373,6 +4715,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
+	$(CMAKE_COMMAND) -P D:\market-data-feed-handler\build\CMakeFiles\VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

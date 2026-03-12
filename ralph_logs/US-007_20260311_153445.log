@@ -1,0 +1,8 @@
+All done. Here's the acceptance criteria checklist:
+
+- **PASS** ΓÇö `Validator::validate(buffer, len)` checks: message_type is known, message_length matches expected for type, payload has enough bytes
+- **PASS** ΓÇö Returns `ValidationResult` with: `Ok`, `UnknownMessageType`, `InvalidLength` (LengthMismatch), `BufferTooSmall` (Truncated) ΓÇö mapped to the existing `ErrorCode` enum
+- **PASS** ΓÇö `SequenceTracker` tracks expected sequence number, detects gaps
+- **PASS** ΓÇö `SequenceTracker::check(seq_num)` returns `Ok` (InOrder), `Gap` (with gap range recorded including expected/received), or `Duplicate`
+- **PASS** ΓÇö Gap callback: `set_gap_callback(GapCallback)` accepts a user-provided `std::function<void(uint64_t expected, uint64_t received)>` called on gap detection
+- **PASS** ΓÇö Build passes (all 7 targets built successfully)

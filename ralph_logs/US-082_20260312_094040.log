@@ -1,0 +1,11 @@
+All 355 tests pass. Build is clean. Let me verify the acceptance criteria:
+
+**Acceptance Criteria:**
+
+- [x] **`BarAggregator` converts ticks into OHLCV bars at configurable intervals (1s, 1m, 5m, 1h)** ΓÇö PASS. `BarInterval` enum supports all four intervals; constructor takes interval parameter.
+- [x] **`add_tick(price, quantity, timestamp)` updates current bar** ΓÇö PASS. `add_tick()` updates open/high/low/close/volume/tick_count on the in-progress bar.
+- [x] **Emits completed bar when interval boundary crossed** ΓÇö PASS. When `align_to_interval(timestamp)` differs from current bar's `start_time`, the bar is emitted via callback before starting a new one.
+- [x] **`SymbolCatalog` indexes available symbols and date ranges** ΓÇö PASS. `add_entry(symbol, date)` populates the index.
+- [x] **`get_available_dates(symbol)` returns vector of dates with data** ΓÇö PASS. Returns sorted `std::vector<DateKey>`.
+- [x] **`get_symbols()` returns all symbols with data** ΓÇö PASS. Returns `std::vector<Symbol>`.
+- [x] **Build passes** ΓÇö PASS. 355 tests pass, no warnings.

@@ -1,0 +1,17 @@
+All object files compiled successfully. The runtime DLL issue is pre-existing (same issue affects the existing VWAP tests).
+
+---
+
+**Acceptance Criteria:**
+
+- [x] **`TWAP` tracks time-weighted price over a configurable window** ΓÇö PASS. Constructor takes `window_ns` parameter, stores `(price, timestamp)` samples in a deque, evicts samples older than the window, and computes time-weighted average.
+
+- [x] **Uses a rolling window of (price, timestamp) pairs** ΓÇö PASS. `std::deque<PriceSample>` with `PriceSample{double price, uint64_t timestamp}`, evicted via `evict_old()`.
+
+- [x] **`Microprice` computes bid/ask size-weighted mid: `(bid_price * ask_qty + ask_price * bid_qty) / (bid_qty + ask_qty)`** ΓÇö PASS. Exact formula implemented in `microprice.cpp:27`.
+
+- [x] **Returns NaN if no bid or ask available** ΓÇö PASS. Checked at `microprice.cpp:12-14`.
+
+- [x] **Both extend `FeatureBase`** ΓÇö PASS. Both classes inherit from `FeatureBase` and implement `compute()` and `name()`.
+
+- [x] **Build passes** ΓÇö PASS. Clean build with zero errors/warnings.

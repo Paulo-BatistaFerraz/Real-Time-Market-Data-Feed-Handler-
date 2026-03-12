@@ -1,0 +1,11 @@
+Clean ΓÇö only the expected `#pragma once in main file` warnings. Both headers are valid C++17.
+
+## Acceptance Criteria
+
+- **`MPSCQueue<T, Capacity>` ΓÇö multi-producer single-consumer lock-free queue** ΓÇö PASS
+- **Uses atomic compare-and-swap for producers, simple load for consumer** ΓÇö PASS (producers use `compare_exchange_weak` CAS loop; consumer uses simple `load` on `committed_`)
+- **`ObjectPool<T, N>` ΓÇö pre-allocated pool of N objects** ΓÇö PASS
+- **`acquire()` returns pointer to available object or nullptr** ΓÇö PASS
+- **`release(ptr)` returns object to pool** ΓÇö PASS
+- **Both are header-only, zero dynamic allocation** ΓÇö PASS (all storage is in-place arrays, no `new`/`malloc`)
+- **Build passes** ΓÇö PASS

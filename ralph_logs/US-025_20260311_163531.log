@@ -1,0 +1,11 @@
+All 62 tests pass, build succeeds. Here's the acceptance criteria status:
+
+**Acceptance Criteria:**
+
+- [x] **`VolatilityRegime` switches between states: `Calm`, `Volatile`, `Crash`** ΓÇö PASS. `RegimeState` enum with 3 states, `try_transition()` switches between them.
+- [x] **Each state adjusts PriceWalk volatility parameter and message rate** ΓÇö PASS. Each state has `volatility_multiplier` and `rate_multiplier` in `RegimeParams`. `MarketSimulator::run()` applies these every tick via `set_volatility()` and adjusted send interval.
+- [x] **Transitions are probabilistic (Markov chain) with configurable transition matrix** ΓÇö PASS. `TransitionMatrix` is a 3x3 row-stochastic matrix in `RegimeConfig`, sampled via cumulative probability roll. Configurable via `set_transition_matrix()`.
+- [x] **`NewsEventGenerator` fires random "events" that cause price jumps** ΓÇö PASS. `check()` returns `std::optional<NewsEvent>`, and `MarketSimulator` applies jumps via `PriceWalk::apply_jump()`.
+- [x] **Events have magnitude (small/medium/large) and direction (up/down)** ΓÇö PASS. `EventMagnitude` (Small/Medium/Large) and `EventDirection` (Up/Down) enums with configurable jump fractions.
+- [x] **Events affect one or all symbols depending on type** ΓÇö PASS. `EventScope::Single` targets one symbol index; `EventScope::Systemic` applies jump to all price walks.
+- [x] **Build passes** ΓÇö PASS. Clean build with 0 errors, 62/62 tests passing.

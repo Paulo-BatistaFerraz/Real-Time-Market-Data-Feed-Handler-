@@ -1,0 +1,14 @@
+# Target labels
+ spdlog-populate
+# Source files and their labels
+D:/market-data-feed-handler/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate
+D:/market-data-feed-handler/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate.rule
+D:/market-data-feed-handler/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate-complete.rule
+D:/market-data-feed-handler/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build.rule
+D:/market-data-feed-handler/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure.rule
+D:/market-data-feed-handler/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download.rule
+D:/market-data-feed-handler/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install.rule
+D:/market-data-feed-handler/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir.rule
+D:/market-data-feed-handler/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch.rule
+D:/market-data-feed-handler/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test.rule
+D:/market-data-feed-handler/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update.rule

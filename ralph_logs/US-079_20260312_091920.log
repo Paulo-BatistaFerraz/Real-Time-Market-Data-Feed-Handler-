@@ -1,0 +1,10 @@
+All 355 tests pass. Build succeeds.
+
+## Acceptance Criteria
+
+- **`TickRecorder` subscribes to pipeline events, records every message via BinaryWriter** ΓÇö PASS. Constructor subscribes to `ParsedEvent` on the `EventBus`; `on_parsed_event()` converts each event to a `TickRecord` and writes via `BinaryWriter`.
+- **`start(output_path)` begins recording** ΓÇö PASS. Creates a `BinaryWriter` and sets the recording flag.
+- **`stop()` flushes and closes file, prints summary (records written, file size)** ΓÇö PASS. Stops recording, flushes/closes the writer, computes file size, and prints summary to stdout.
+- **`CsvWriter` exports tick data to CSV with columns: timestamp, symbol, type, price, quantity, order_id** ΓÇö PASS. Header row and per-record formatting matches exactly.
+- **Can convert from binary format to CSV for analysis** ΓÇö PASS. `CsvWriter::convert(binary_path, csv_path)` reads a `.qfbt` file, validates the header, and writes all records to CSV.
+- **Build passes** ΓÇö PASS. 355 tests pass, all targets compile cleanly.

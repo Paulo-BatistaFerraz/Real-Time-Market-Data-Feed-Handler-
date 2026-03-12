@@ -1,0 +1,15 @@
+All three headers compile cleanly. Here's the acceptance criteria assessment:
+
+| Criteria | Status |
+|----------|--------|
+| `Signal` struct: symbol, type (enum), strength (double, -1 to +1), direction (Buy/Sell/Neutral), timestamp | **PASS** |
+| `FeatureVector` struct: array of named doubles (feature_name ΓåÆ value), timestamp | **PASS** |
+| `SignalStrength` enum: `Strong`, `Moderate`, `Weak`, `None` | **PASS** |
+| `FeatureBase` abstract class: `virtual double compute(const OrderBook&, const TradeHistory&) = 0`, `virtual std::string name() = 0` | **PASS** |
+| `IndicatorBase` abstract class: `virtual double update(double value) = 0`, `virtual double value() = 0`, `virtual void reset() = 0` | **PASS** |
+| Build passes | **PASS** |
+
+**Files created:**
+- `include/qf/signals/signal_types.hpp` ΓÇö `Signal`, `FeatureVector`, `SignalStrength`, `SignalDirection`, `SignalType`, `TradeRecord`, `TradeHistory`
+- `include/qf/signals/features/feature_base.hpp` ΓÇö `FeatureBase` abstract class
+- `include/qf/signals/indicators/indicator_base.hpp` ΓÇö `IndicatorBase` abstract class

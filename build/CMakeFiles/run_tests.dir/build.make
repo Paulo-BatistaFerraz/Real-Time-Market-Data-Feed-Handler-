@@ -83,22 +83,2065 @@ CMakeFiles/run_tests.dir/tests/test_stub.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_stub.cpp.s"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_stub.cpp -o CMakeFiles\run_tests.dir\tests\test_stub.cpp.s
 
+CMakeFiles/run_tests.dir/tests/test_feature_store.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_feature_store.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_feature_store.cpp.obj: D:/market-data-feed-handler/tests/test_feature_store.cpp
+CMakeFiles/run_tests.dir/tests/test_feature_store.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/run_tests.dir/tests/test_feature_store.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_feature_store.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_feature_store.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_feature_store.cpp.obj -c D:\market-data-feed-handler\tests\test_feature_store.cpp
+
+CMakeFiles/run_tests.dir/tests/test_feature_store.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_feature_store.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_feature_store.cpp > CMakeFiles\run_tests.dir\tests\test_feature_store.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_feature_store.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_feature_store.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_feature_store.cpp -o CMakeFiles\run_tests.dir\tests\test_feature_store.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_vwap.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_vwap.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_vwap.cpp.obj: D:/market-data-feed-handler/tests/test_vwap.cpp
+CMakeFiles/run_tests.dir/tests/test_vwap.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/run_tests.dir/tests/test_vwap.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_vwap.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_vwap.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_vwap.cpp.obj -c D:\market-data-feed-handler\tests\test_vwap.cpp
+
+CMakeFiles/run_tests.dir/tests/test_vwap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_vwap.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_vwap.cpp > CMakeFiles\run_tests.dir\tests\test_vwap.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_vwap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_vwap.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_vwap.cpp -o CMakeFiles\run_tests.dir\tests\test_vwap.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_twap.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_twap.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_twap.cpp.obj: D:/market-data-feed-handler/tests/test_twap.cpp
+CMakeFiles/run_tests.dir/tests/test_twap.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/run_tests.dir/tests/test_twap.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_twap.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_twap.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_twap.cpp.obj -c D:\market-data-feed-handler\tests\test_twap.cpp
+
+CMakeFiles/run_tests.dir/tests/test_twap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_twap.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_twap.cpp > CMakeFiles\run_tests.dir\tests\test_twap.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_twap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_twap.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_twap.cpp -o CMakeFiles\run_tests.dir\tests\test_twap.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_microprice.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_microprice.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_microprice.cpp.obj: D:/market-data-feed-handler/tests/test_microprice.cpp
+CMakeFiles/run_tests.dir/tests/test_microprice.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/run_tests.dir/tests/test_microprice.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_microprice.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_microprice.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_microprice.cpp.obj -c D:\market-data-feed-handler\tests\test_microprice.cpp
+
+CMakeFiles/run_tests.dir/tests/test_microprice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_microprice.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_microprice.cpp > CMakeFiles\run_tests.dir\tests\test_microprice.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_microprice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_microprice.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_microprice.cpp -o CMakeFiles\run_tests.dir\tests\test_microprice.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_ema.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_ema.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_ema.cpp.obj: D:/market-data-feed-handler/tests/test_ema.cpp
+CMakeFiles/run_tests.dir/tests/test_ema.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/run_tests.dir/tests/test_ema.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_ema.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_ema.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_ema.cpp.obj -c D:\market-data-feed-handler\tests\test_ema.cpp
+
+CMakeFiles/run_tests.dir/tests/test_ema.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_ema.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_ema.cpp > CMakeFiles\run_tests.dir\tests\test_ema.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_ema.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_ema.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_ema.cpp -o CMakeFiles\run_tests.dir\tests\test_ema.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_bollinger.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_bollinger.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_bollinger.cpp.obj: D:/market-data-feed-handler/tests/test_bollinger.cpp
+CMakeFiles/run_tests.dir/tests/test_bollinger.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/run_tests.dir/tests/test_bollinger.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_bollinger.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_bollinger.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_bollinger.cpp.obj -c D:\market-data-feed-handler\tests\test_bollinger.cpp
+
+CMakeFiles/run_tests.dir/tests/test_bollinger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_bollinger.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_bollinger.cpp > CMakeFiles\run_tests.dir\tests\test_bollinger.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_bollinger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_bollinger.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_bollinger.cpp -o CMakeFiles\run_tests.dir\tests\test_bollinger.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_rsi.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_rsi.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_rsi.cpp.obj: D:/market-data-feed-handler/tests/test_rsi.cpp
+CMakeFiles/run_tests.dir/tests/test_rsi.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/run_tests.dir/tests/test_rsi.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_rsi.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_rsi.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_rsi.cpp.obj -c D:\market-data-feed-handler\tests\test_rsi.cpp
+
+CMakeFiles/run_tests.dir/tests/test_rsi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_rsi.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_rsi.cpp > CMakeFiles\run_tests.dir\tests\test_rsi.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_rsi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_rsi.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_rsi.cpp -o CMakeFiles\run_tests.dir\tests\test_rsi.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_macd.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_macd.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_macd.cpp.obj: D:/market-data-feed-handler/tests/test_macd.cpp
+CMakeFiles/run_tests.dir/tests/test_macd.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/run_tests.dir/tests/test_macd.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_macd.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_macd.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_macd.cpp.obj -c D:\market-data-feed-handler\tests\test_macd.cpp
+
+CMakeFiles/run_tests.dir/tests/test_macd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_macd.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_macd.cpp > CMakeFiles\run_tests.dir\tests\test_macd.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_macd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_macd.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_macd.cpp -o CMakeFiles\run_tests.dir\tests\test_macd.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_zscore.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_zscore.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_zscore.cpp.obj: D:/market-data-feed-handler/tests/test_zscore.cpp
+CMakeFiles/run_tests.dir/tests/test_zscore.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/run_tests.dir/tests/test_zscore.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_zscore.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_zscore.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_zscore.cpp.obj -c D:\market-data-feed-handler\tests\test_zscore.cpp
+
+CMakeFiles/run_tests.dir/tests/test_zscore.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_zscore.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_zscore.cpp > CMakeFiles\run_tests.dir\tests\test_zscore.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_zscore.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_zscore.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_zscore.cpp -o CMakeFiles\run_tests.dir\tests\test_zscore.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_order_flow_imbalance.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_order_flow_imbalance.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_order_flow_imbalance.cpp.obj: D:/market-data-feed-handler/tests/test_order_flow_imbalance.cpp
+CMakeFiles/run_tests.dir/tests/test_order_flow_imbalance.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/run_tests.dir/tests/test_order_flow_imbalance.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_order_flow_imbalance.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_order_flow_imbalance.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_order_flow_imbalance.cpp.obj -c D:\market-data-feed-handler\tests\test_order_flow_imbalance.cpp
+
+CMakeFiles/run_tests.dir/tests/test_order_flow_imbalance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_order_flow_imbalance.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_order_flow_imbalance.cpp > CMakeFiles\run_tests.dir\tests\test_order_flow_imbalance.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_order_flow_imbalance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_order_flow_imbalance.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_order_flow_imbalance.cpp -o CMakeFiles\run_tests.dir\tests\test_order_flow_imbalance.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_alpha_combiner.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_alpha_combiner.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_alpha_combiner.cpp.obj: D:/market-data-feed-handler/tests/test_alpha_combiner.cpp
+CMakeFiles/run_tests.dir/tests/test_alpha_combiner.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/run_tests.dir/tests/test_alpha_combiner.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_alpha_combiner.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_alpha_combiner.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_alpha_combiner.cpp.obj -c D:\market-data-feed-handler\tests\test_alpha_combiner.cpp
+
+CMakeFiles/run_tests.dir/tests/test_alpha_combiner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_alpha_combiner.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_alpha_combiner.cpp > CMakeFiles\run_tests.dir\tests\test_alpha_combiner.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_alpha_combiner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_alpha_combiner.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_alpha_combiner.cpp -o CMakeFiles\run_tests.dir\tests\test_alpha_combiner.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_feature_normalizer.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_feature_normalizer.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_feature_normalizer.cpp.obj: D:/market-data-feed-handler/tests/test_feature_normalizer.cpp
+CMakeFiles/run_tests.dir/tests/test_feature_normalizer.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/run_tests.dir/tests/test_feature_normalizer.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_feature_normalizer.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_feature_normalizer.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_feature_normalizer.cpp.obj -c D:\market-data-feed-handler\tests\test_feature_normalizer.cpp
+
+CMakeFiles/run_tests.dir/tests/test_feature_normalizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_feature_normalizer.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_feature_normalizer.cpp > CMakeFiles\run_tests.dir\tests\test_feature_normalizer.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_feature_normalizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_feature_normalizer.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_feature_normalizer.cpp -o CMakeFiles\run_tests.dir\tests\test_feature_normalizer.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_signal_engine.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_signal_engine.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_signal_engine.cpp.obj: D:/market-data-feed-handler/tests/test_signal_engine.cpp
+CMakeFiles/run_tests.dir/tests/test_signal_engine.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/run_tests.dir/tests/test_signal_engine.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_signal_engine.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_signal_engine.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_signal_engine.cpp.obj -c D:\market-data-feed-handler\tests\test_signal_engine.cpp
+
+CMakeFiles/run_tests.dir/tests/test_signal_engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_signal_engine.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_signal_engine.cpp > CMakeFiles\run_tests.dir\tests\test_signal_engine.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_signal_engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_signal_engine.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_signal_engine.cpp -o CMakeFiles\run_tests.dir\tests\test_signal_engine.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_market_making.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_market_making.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_market_making.cpp.obj: D:/market-data-feed-handler/tests/test_market_making.cpp
+CMakeFiles/run_tests.dir/tests/test_market_making.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/run_tests.dir/tests/test_market_making.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_market_making.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_market_making.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_market_making.cpp.obj -c D:\market-data-feed-handler\tests\test_market_making.cpp
+
+CMakeFiles/run_tests.dir/tests/test_market_making.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_market_making.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_market_making.cpp > CMakeFiles\run_tests.dir\tests\test_market_making.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_market_making.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_market_making.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_market_making.cpp -o CMakeFiles\run_tests.dir\tests\test_market_making.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_position_tracker.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_position_tracker.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_position_tracker.cpp.obj: D:/market-data-feed-handler/tests/test_position_tracker.cpp
+CMakeFiles/run_tests.dir/tests/test_position_tracker.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/run_tests.dir/tests/test_position_tracker.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_position_tracker.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_position_tracker.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_position_tracker.cpp.obj -c D:\market-data-feed-handler\tests\test_position_tracker.cpp
+
+CMakeFiles/run_tests.dir/tests/test_position_tracker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_position_tracker.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_position_tracker.cpp > CMakeFiles\run_tests.dir\tests\test_position_tracker.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_position_tracker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_position_tracker.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_position_tracker.cpp -o CMakeFiles\run_tests.dir\tests\test_position_tracker.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_pnl_calculator.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_pnl_calculator.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_pnl_calculator.cpp.obj: D:/market-data-feed-handler/tests/test_pnl_calculator.cpp
+CMakeFiles/run_tests.dir/tests/test_pnl_calculator.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/run_tests.dir/tests/test_pnl_calculator.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_pnl_calculator.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_pnl_calculator.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_pnl_calculator.cpp.obj -c D:\market-data-feed-handler\tests\test_pnl_calculator.cpp
+
+CMakeFiles/run_tests.dir/tests/test_pnl_calculator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_pnl_calculator.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_pnl_calculator.cpp > CMakeFiles\run_tests.dir\tests\test_pnl_calculator.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_pnl_calculator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_pnl_calculator.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_pnl_calculator.cpp -o CMakeFiles\run_tests.dir\tests\test_pnl_calculator.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_order_sizer.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_order_sizer.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_order_sizer.cpp.obj: D:/market-data-feed-handler/tests/test_order_sizer.cpp
+CMakeFiles/run_tests.dir/tests/test_order_sizer.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/run_tests.dir/tests/test_order_sizer.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_order_sizer.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_order_sizer.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_order_sizer.cpp.obj -c D:\market-data-feed-handler\tests\test_order_sizer.cpp
+
+CMakeFiles/run_tests.dir/tests/test_order_sizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_order_sizer.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_order_sizer.cpp > CMakeFiles\run_tests.dir\tests\test_order_sizer.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_order_sizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_order_sizer.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_order_sizer.cpp -o CMakeFiles\run_tests.dir\tests\test_order_sizer.cpp.s
+
+CMakeFiles/run_tests.dir/tests/core/test_order_store.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/core/test_order_store.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/core/test_order_store.cpp.obj: D:/market-data-feed-handler/tests/core/test_order_store.cpp
+CMakeFiles/run_tests.dir/tests/core/test_order_store.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/run_tests.dir/tests/core/test_order_store.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/core/test_order_store.cpp.obj -MF CMakeFiles\run_tests.dir\tests\core\test_order_store.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\core\test_order_store.cpp.obj -c D:\market-data-feed-handler\tests\core\test_order_store.cpp
+
+CMakeFiles/run_tests.dir/tests/core/test_order_store.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/core/test_order_store.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\core\test_order_store.cpp > CMakeFiles\run_tests.dir\tests\core\test_order_store.cpp.i
+
+CMakeFiles/run_tests.dir/tests/core/test_order_store.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/core/test_order_store.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\core\test_order_store.cpp -o CMakeFiles\run_tests.dir\tests\core\test_order_store.cpp.s
+
+CMakeFiles/run_tests.dir/tests/core/test_order_book.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/core/test_order_book.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/core/test_order_book.cpp.obj: D:/market-data-feed-handler/tests/core/test_order_book.cpp
+CMakeFiles/run_tests.dir/tests/core/test_order_book.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/run_tests.dir/tests/core/test_order_book.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/core/test_order_book.cpp.obj -MF CMakeFiles\run_tests.dir\tests\core\test_order_book.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\core\test_order_book.cpp.obj -c D:\market-data-feed-handler\tests\core\test_order_book.cpp
+
+CMakeFiles/run_tests.dir/tests/core/test_order_book.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/core/test_order_book.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\core\test_order_book.cpp > CMakeFiles\run_tests.dir\tests\core\test_order_book.cpp.i
+
+CMakeFiles/run_tests.dir/tests/core/test_order_book.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/core/test_order_book.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\core\test_order_book.cpp -o CMakeFiles\run_tests.dir\tests\core\test_order_book.cpp.s
+
+CMakeFiles/run_tests.dir/tests/simulator/test_price_walk.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/simulator/test_price_walk.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/simulator/test_price_walk.cpp.obj: D:/market-data-feed-handler/tests/simulator/test_price_walk.cpp
+CMakeFiles/run_tests.dir/tests/simulator/test_price_walk.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/run_tests.dir/tests/simulator/test_price_walk.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/simulator/test_price_walk.cpp.obj -MF CMakeFiles\run_tests.dir\tests\simulator\test_price_walk.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\simulator\test_price_walk.cpp.obj -c D:\market-data-feed-handler\tests\simulator\test_price_walk.cpp
+
+CMakeFiles/run_tests.dir/tests/simulator/test_price_walk.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/simulator/test_price_walk.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\simulator\test_price_walk.cpp > CMakeFiles\run_tests.dir\tests\simulator\test_price_walk.cpp.i
+
+CMakeFiles/run_tests.dir/tests/simulator/test_price_walk.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/simulator/test_price_walk.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\simulator\test_price_walk.cpp -o CMakeFiles\run_tests.dir\tests\simulator\test_price_walk.cpp.s
+
+CMakeFiles/run_tests.dir/tests/simulator/test_scenario_loader.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/simulator/test_scenario_loader.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/simulator/test_scenario_loader.cpp.obj: D:/market-data-feed-handler/tests/simulator/test_scenario_loader.cpp
+CMakeFiles/run_tests.dir/tests/simulator/test_scenario_loader.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/run_tests.dir/tests/simulator/test_scenario_loader.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/simulator/test_scenario_loader.cpp.obj -MF CMakeFiles\run_tests.dir\tests\simulator\test_scenario_loader.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\simulator\test_scenario_loader.cpp.obj -c D:\market-data-feed-handler\tests\simulator\test_scenario_loader.cpp
+
+CMakeFiles/run_tests.dir/tests/simulator/test_scenario_loader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/simulator/test_scenario_loader.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\simulator\test_scenario_loader.cpp > CMakeFiles\run_tests.dir\tests\simulator\test_scenario_loader.cpp.i
+
+CMakeFiles/run_tests.dir/tests/simulator/test_scenario_loader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/simulator/test_scenario_loader.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\simulator\test_scenario_loader.cpp -o CMakeFiles\run_tests.dir\tests\simulator\test_scenario_loader.cpp.s
+
+CMakeFiles/run_tests.dir/tests/simulator/test_order_generator.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/simulator/test_order_generator.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/simulator/test_order_generator.cpp.obj: D:/market-data-feed-handler/tests/simulator/test_order_generator.cpp
+CMakeFiles/run_tests.dir/tests/simulator/test_order_generator.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/run_tests.dir/tests/simulator/test_order_generator.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/simulator/test_order_generator.cpp.obj -MF CMakeFiles\run_tests.dir\tests\simulator\test_order_generator.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\simulator\test_order_generator.cpp.obj -c D:\market-data-feed-handler\tests\simulator\test_order_generator.cpp
+
+CMakeFiles/run_tests.dir/tests/simulator/test_order_generator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/simulator/test_order_generator.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\simulator\test_order_generator.cpp > CMakeFiles\run_tests.dir\tests\simulator\test_order_generator.cpp.i
+
+CMakeFiles/run_tests.dir/tests/simulator/test_order_generator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/simulator/test_order_generator.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\simulator\test_order_generator.cpp -o CMakeFiles\run_tests.dir\tests\simulator\test_order_generator.cpp.s
+
+CMakeFiles/run_tests.dir/tests/simulator/test_sim_matching_engine.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/simulator/test_sim_matching_engine.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/simulator/test_sim_matching_engine.cpp.obj: D:/market-data-feed-handler/tests/simulator/test_sim_matching_engine.cpp
+CMakeFiles/run_tests.dir/tests/simulator/test_sim_matching_engine.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/run_tests.dir/tests/simulator/test_sim_matching_engine.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/simulator/test_sim_matching_engine.cpp.obj -MF CMakeFiles\run_tests.dir\tests\simulator\test_sim_matching_engine.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\simulator\test_sim_matching_engine.cpp.obj -c D:\market-data-feed-handler\tests\simulator\test_sim_matching_engine.cpp
+
+CMakeFiles/run_tests.dir/tests/simulator/test_sim_matching_engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/simulator/test_sim_matching_engine.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\simulator\test_sim_matching_engine.cpp > CMakeFiles\run_tests.dir\tests\simulator\test_sim_matching_engine.cpp.i
+
+CMakeFiles/run_tests.dir/tests/simulator/test_sim_matching_engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/simulator/test_sim_matching_engine.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\simulator\test_sim_matching_engine.cpp -o CMakeFiles\run_tests.dir\tests\simulator\test_sim_matching_engine.cpp.s
+
+CMakeFiles/run_tests.dir/src/core/order_store.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/core/order_store.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/core/order_store.cpp.obj: D:/market-data-feed-handler/src/core/order_store.cpp
+CMakeFiles/run_tests.dir/src/core/order_store.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/run_tests.dir/src/core/order_store.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/core/order_store.cpp.obj -MF CMakeFiles\run_tests.dir\src\core\order_store.cpp.obj.d -o CMakeFiles\run_tests.dir\src\core\order_store.cpp.obj -c D:\market-data-feed-handler\src\core\order_store.cpp
+
+CMakeFiles/run_tests.dir/src/core/order_store.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/core/order_store.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\core\order_store.cpp > CMakeFiles\run_tests.dir\src\core\order_store.cpp.i
+
+CMakeFiles/run_tests.dir/src/core/order_store.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/core/order_store.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\core\order_store.cpp -o CMakeFiles\run_tests.dir\src\core\order_store.cpp.s
+
+CMakeFiles/run_tests.dir/src/core/order_book.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/core/order_book.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/core/order_book.cpp.obj: D:/market-data-feed-handler/src/core/order_book.cpp
+CMakeFiles/run_tests.dir/src/core/order_book.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/run_tests.dir/src/core/order_book.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/core/order_book.cpp.obj -MF CMakeFiles\run_tests.dir\src\core\order_book.cpp.obj.d -o CMakeFiles\run_tests.dir\src\core\order_book.cpp.obj -c D:\market-data-feed-handler\src\core\order_book.cpp
+
+CMakeFiles/run_tests.dir/src/core/order_book.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/core/order_book.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\core\order_book.cpp > CMakeFiles\run_tests.dir\src\core\order_book.cpp.i
+
+CMakeFiles/run_tests.dir/src/core/order_book.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/core/order_book.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\core\order_book.cpp -o CMakeFiles\run_tests.dir\src\core\order_book.cpp.s
+
+CMakeFiles/run_tests.dir/src/core/book_manager.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/core/book_manager.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/core/book_manager.cpp.obj: D:/market-data-feed-handler/src/core/book_manager.cpp
+CMakeFiles/run_tests.dir/src/core/book_manager.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/run_tests.dir/src/core/book_manager.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/core/book_manager.cpp.obj -MF CMakeFiles\run_tests.dir\src\core\book_manager.cpp.obj.d -o CMakeFiles\run_tests.dir\src\core\book_manager.cpp.obj -c D:\market-data-feed-handler\src\core\book_manager.cpp
+
+CMakeFiles/run_tests.dir/src/core/book_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/core/book_manager.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\core\book_manager.cpp > CMakeFiles\run_tests.dir\src\core\book_manager.cpp.i
+
+CMakeFiles/run_tests.dir/src/core/book_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/core/book_manager.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\core\book_manager.cpp -o CMakeFiles\run_tests.dir\src\core\book_manager.cpp.s
+
+CMakeFiles/run_tests.dir/src/simulator/price_walk.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/simulator/price_walk.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/simulator/price_walk.cpp.obj: D:/market-data-feed-handler/src/simulator/price_walk.cpp
+CMakeFiles/run_tests.dir/src/simulator/price_walk.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/run_tests.dir/src/simulator/price_walk.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/simulator/price_walk.cpp.obj -MF CMakeFiles\run_tests.dir\src\simulator\price_walk.cpp.obj.d -o CMakeFiles\run_tests.dir\src\simulator\price_walk.cpp.obj -c D:\market-data-feed-handler\src\simulator\price_walk.cpp
+
+CMakeFiles/run_tests.dir/src/simulator/price_walk.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/simulator/price_walk.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\simulator\price_walk.cpp > CMakeFiles\run_tests.dir\src\simulator\price_walk.cpp.i
+
+CMakeFiles/run_tests.dir/src/simulator/price_walk.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/simulator/price_walk.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\simulator\price_walk.cpp -o CMakeFiles\run_tests.dir\src\simulator\price_walk.cpp.s
+
+CMakeFiles/run_tests.dir/src/simulator/scenario_loader.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/simulator/scenario_loader.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/simulator/scenario_loader.cpp.obj: D:/market-data-feed-handler/src/simulator/scenario_loader.cpp
+CMakeFiles/run_tests.dir/src/simulator/scenario_loader.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/run_tests.dir/src/simulator/scenario_loader.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/simulator/scenario_loader.cpp.obj -MF CMakeFiles\run_tests.dir\src\simulator\scenario_loader.cpp.obj.d -o CMakeFiles\run_tests.dir\src\simulator\scenario_loader.cpp.obj -c D:\market-data-feed-handler\src\simulator\scenario_loader.cpp
+
+CMakeFiles/run_tests.dir/src/simulator/scenario_loader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/simulator/scenario_loader.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\simulator\scenario_loader.cpp > CMakeFiles\run_tests.dir\src\simulator\scenario_loader.cpp.i
+
+CMakeFiles/run_tests.dir/src/simulator/scenario_loader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/simulator/scenario_loader.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\simulator\scenario_loader.cpp -o CMakeFiles\run_tests.dir\src\simulator\scenario_loader.cpp.s
+
+CMakeFiles/run_tests.dir/src/simulator/order_generator.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/simulator/order_generator.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/simulator/order_generator.cpp.obj: D:/market-data-feed-handler/src/simulator/order_generator.cpp
+CMakeFiles/run_tests.dir/src/simulator/order_generator.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/run_tests.dir/src/simulator/order_generator.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/simulator/order_generator.cpp.obj -MF CMakeFiles\run_tests.dir\src\simulator\order_generator.cpp.obj.d -o CMakeFiles\run_tests.dir\src\simulator\order_generator.cpp.obj -c D:\market-data-feed-handler\src\simulator\order_generator.cpp
+
+CMakeFiles/run_tests.dir/src/simulator/order_generator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/simulator/order_generator.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\simulator\order_generator.cpp > CMakeFiles\run_tests.dir\src\simulator\order_generator.cpp.i
+
+CMakeFiles/run_tests.dir/src/simulator/order_generator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/simulator/order_generator.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\simulator\order_generator.cpp -o CMakeFiles\run_tests.dir\src\simulator\order_generator.cpp.s
+
+CMakeFiles/run_tests.dir/src/simulator/sim_order_book.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/simulator/sim_order_book.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/simulator/sim_order_book.cpp.obj: D:/market-data-feed-handler/src/simulator/sim_order_book.cpp
+CMakeFiles/run_tests.dir/src/simulator/sim_order_book.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/run_tests.dir/src/simulator/sim_order_book.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/simulator/sim_order_book.cpp.obj -MF CMakeFiles\run_tests.dir\src\simulator\sim_order_book.cpp.obj.d -o CMakeFiles\run_tests.dir\src\simulator\sim_order_book.cpp.obj -c D:\market-data-feed-handler\src\simulator\sim_order_book.cpp
+
+CMakeFiles/run_tests.dir/src/simulator/sim_order_book.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/simulator/sim_order_book.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\simulator\sim_order_book.cpp > CMakeFiles\run_tests.dir\src\simulator\sim_order_book.cpp.i
+
+CMakeFiles/run_tests.dir/src/simulator/sim_order_book.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/simulator/sim_order_book.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\simulator\sim_order_book.cpp -o CMakeFiles\run_tests.dir\src\simulator\sim_order_book.cpp.s
+
+CMakeFiles/run_tests.dir/src/simulator/sim_matching_engine.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/simulator/sim_matching_engine.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/simulator/sim_matching_engine.cpp.obj: D:/market-data-feed-handler/src/simulator/sim_matching_engine.cpp
+CMakeFiles/run_tests.dir/src/simulator/sim_matching_engine.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/run_tests.dir/src/simulator/sim_matching_engine.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/simulator/sim_matching_engine.cpp.obj -MF CMakeFiles\run_tests.dir\src\simulator\sim_matching_engine.cpp.obj.d -o CMakeFiles\run_tests.dir\src\simulator\sim_matching_engine.cpp.obj -c D:\market-data-feed-handler\src\simulator\sim_matching_engine.cpp
+
+CMakeFiles/run_tests.dir/src/simulator/sim_matching_engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/simulator/sim_matching_engine.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\simulator\sim_matching_engine.cpp > CMakeFiles\run_tests.dir\src\simulator\sim_matching_engine.cpp.i
+
+CMakeFiles/run_tests.dir/src/simulator/sim_matching_engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/simulator/sim_matching_engine.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\simulator\sim_matching_engine.cpp -o CMakeFiles\run_tests.dir\src\simulator\sim_matching_engine.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/features/vwap.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/features/vwap.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/features/vwap.cpp.obj: D:/market-data-feed-handler/src/signals/features/vwap.cpp
+CMakeFiles/run_tests.dir/src/signals/features/vwap.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/run_tests.dir/src/signals/features/vwap.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/features/vwap.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\features\vwap.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\features\vwap.cpp.obj -c D:\market-data-feed-handler\src\signals\features\vwap.cpp
+
+CMakeFiles/run_tests.dir/src/signals/features/vwap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/features/vwap.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\features\vwap.cpp > CMakeFiles\run_tests.dir\src\signals\features\vwap.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/features/vwap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/features/vwap.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\features\vwap.cpp -o CMakeFiles\run_tests.dir\src\signals\features\vwap.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/features/twap.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/features/twap.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/features/twap.cpp.obj: D:/market-data-feed-handler/src/signals/features/twap.cpp
+CMakeFiles/run_tests.dir/src/signals/features/twap.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/run_tests.dir/src/signals/features/twap.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/features/twap.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\features\twap.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\features\twap.cpp.obj -c D:\market-data-feed-handler\src\signals\features\twap.cpp
+
+CMakeFiles/run_tests.dir/src/signals/features/twap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/features/twap.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\features\twap.cpp > CMakeFiles\run_tests.dir\src\signals\features\twap.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/features/twap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/features/twap.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\features\twap.cpp -o CMakeFiles\run_tests.dir\src\signals\features\twap.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/features/microprice.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/features/microprice.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/features/microprice.cpp.obj: D:/market-data-feed-handler/src/signals/features/microprice.cpp
+CMakeFiles/run_tests.dir/src/signals/features/microprice.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/run_tests.dir/src/signals/features/microprice.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/features/microprice.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\features\microprice.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\features\microprice.cpp.obj -c D:\market-data-feed-handler\src\signals\features\microprice.cpp
+
+CMakeFiles/run_tests.dir/src/signals/features/microprice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/features/microprice.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\features\microprice.cpp > CMakeFiles\run_tests.dir\src\signals\features\microprice.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/features/microprice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/features/microprice.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\features\microprice.cpp -o CMakeFiles\run_tests.dir\src\signals\features\microprice.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/features/order_flow_imbalance.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/features/order_flow_imbalance.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/features/order_flow_imbalance.cpp.obj: D:/market-data-feed-handler/src/signals/features/order_flow_imbalance.cpp
+CMakeFiles/run_tests.dir/src/signals/features/order_flow_imbalance.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/run_tests.dir/src/signals/features/order_flow_imbalance.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/features/order_flow_imbalance.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\features\order_flow_imbalance.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\features\order_flow_imbalance.cpp.obj -c D:\market-data-feed-handler\src\signals\features\order_flow_imbalance.cpp
+
+CMakeFiles/run_tests.dir/src/signals/features/order_flow_imbalance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/features/order_flow_imbalance.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\features\order_flow_imbalance.cpp > CMakeFiles\run_tests.dir\src\signals\features\order_flow_imbalance.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/features/order_flow_imbalance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/features/order_flow_imbalance.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\features\order_flow_imbalance.cpp -o CMakeFiles\run_tests.dir\src\signals\features\order_flow_imbalance.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/features/book_depth_ratio.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/features/book_depth_ratio.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/features/book_depth_ratio.cpp.obj: D:/market-data-feed-handler/src/signals/features/book_depth_ratio.cpp
+CMakeFiles/run_tests.dir/src/signals/features/book_depth_ratio.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/run_tests.dir/src/signals/features/book_depth_ratio.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/features/book_depth_ratio.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\features\book_depth_ratio.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\features\book_depth_ratio.cpp.obj -c D:\market-data-feed-handler\src\signals\features\book_depth_ratio.cpp
+
+CMakeFiles/run_tests.dir/src/signals/features/book_depth_ratio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/features/book_depth_ratio.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\features\book_depth_ratio.cpp > CMakeFiles\run_tests.dir\src\signals\features\book_depth_ratio.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/features/book_depth_ratio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/features/book_depth_ratio.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\features\book_depth_ratio.cpp -o CMakeFiles\run_tests.dir\src\signals\features\book_depth_ratio.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/features/spread_tracker.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/features/spread_tracker.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/features/spread_tracker.cpp.obj: D:/market-data-feed-handler/src/signals/features/spread_tracker.cpp
+CMakeFiles/run_tests.dir/src/signals/features/spread_tracker.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/run_tests.dir/src/signals/features/spread_tracker.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/features/spread_tracker.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\features\spread_tracker.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\features\spread_tracker.cpp.obj -c D:\market-data-feed-handler\src\signals\features\spread_tracker.cpp
+
+CMakeFiles/run_tests.dir/src/signals/features/spread_tracker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/features/spread_tracker.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\features\spread_tracker.cpp > CMakeFiles\run_tests.dir\src\signals\features\spread_tracker.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/features/spread_tracker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/features/spread_tracker.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\features\spread_tracker.cpp -o CMakeFiles\run_tests.dir\src\signals\features\spread_tracker.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/features/trade_flow.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/features/trade_flow.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/features/trade_flow.cpp.obj: D:/market-data-feed-handler/src/signals/features/trade_flow.cpp
+CMakeFiles/run_tests.dir/src/signals/features/trade_flow.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/run_tests.dir/src/signals/features/trade_flow.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/features/trade_flow.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\features\trade_flow.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\features\trade_flow.cpp.obj -c D:\market-data-feed-handler\src\signals\features\trade_flow.cpp
+
+CMakeFiles/run_tests.dir/src/signals/features/trade_flow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/features/trade_flow.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\features\trade_flow.cpp > CMakeFiles\run_tests.dir\src\signals\features\trade_flow.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/features/trade_flow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/features/trade_flow.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\features\trade_flow.cpp -o CMakeFiles\run_tests.dir\src\signals\features\trade_flow.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/features/volatility_estimator.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/features/volatility_estimator.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/features/volatility_estimator.cpp.obj: D:/market-data-feed-handler/src/signals/features/volatility_estimator.cpp
+CMakeFiles/run_tests.dir/src/signals/features/volatility_estimator.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/run_tests.dir/src/signals/features/volatility_estimator.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/features/volatility_estimator.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\features\volatility_estimator.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\features\volatility_estimator.cpp.obj -c D:\market-data-feed-handler\src\signals\features\volatility_estimator.cpp
+
+CMakeFiles/run_tests.dir/src/signals/features/volatility_estimator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/features/volatility_estimator.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\features\volatility_estimator.cpp > CMakeFiles\run_tests.dir\src\signals\features\volatility_estimator.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/features/volatility_estimator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/features/volatility_estimator.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\features\volatility_estimator.cpp -o CMakeFiles\run_tests.dir\src\signals\features\volatility_estimator.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/features/momentum.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/features/momentum.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/features/momentum.cpp.obj: D:/market-data-feed-handler/src/signals/features/momentum.cpp
+CMakeFiles/run_tests.dir/src/signals/features/momentum.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/run_tests.dir/src/signals/features/momentum.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/features/momentum.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\features\momentum.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\features\momentum.cpp.obj -c D:\market-data-feed-handler\src\signals\features\momentum.cpp
+
+CMakeFiles/run_tests.dir/src/signals/features/momentum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/features/momentum.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\features\momentum.cpp > CMakeFiles\run_tests.dir\src\signals\features\momentum.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/features/momentum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/features/momentum.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\features\momentum.cpp -o CMakeFiles\run_tests.dir\src\signals\features\momentum.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/features/mean_reversion.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/features/mean_reversion.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/features/mean_reversion.cpp.obj: D:/market-data-feed-handler/src/signals/features/mean_reversion.cpp
+CMakeFiles/run_tests.dir/src/signals/features/mean_reversion.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/run_tests.dir/src/signals/features/mean_reversion.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/features/mean_reversion.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\features\mean_reversion.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\features\mean_reversion.cpp.obj -c D:\market-data-feed-handler\src\signals\features\mean_reversion.cpp
+
+CMakeFiles/run_tests.dir/src/signals/features/mean_reversion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/features/mean_reversion.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\features\mean_reversion.cpp > CMakeFiles\run_tests.dir\src\signals\features\mean_reversion.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/features/mean_reversion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/features/mean_reversion.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\features\mean_reversion.cpp -o CMakeFiles\run_tests.dir\src\signals\features\mean_reversion.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/features/tick_intensity.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/features/tick_intensity.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/features/tick_intensity.cpp.obj: D:/market-data-feed-handler/src/signals/features/tick_intensity.cpp
+CMakeFiles/run_tests.dir/src/signals/features/tick_intensity.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/run_tests.dir/src/signals/features/tick_intensity.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/features/tick_intensity.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\features\tick_intensity.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\features\tick_intensity.cpp.obj -c D:\market-data-feed-handler\src\signals\features\tick_intensity.cpp
+
+CMakeFiles/run_tests.dir/src/signals/features/tick_intensity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/features/tick_intensity.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\features\tick_intensity.cpp > CMakeFiles\run_tests.dir\src\signals\features\tick_intensity.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/features/tick_intensity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/features/tick_intensity.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\features\tick_intensity.cpp -o CMakeFiles\run_tests.dir\src\signals\features\tick_intensity.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/indicators/ema.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/indicators/ema.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/indicators/ema.cpp.obj: D:/market-data-feed-handler/src/signals/indicators/ema.cpp
+CMakeFiles/run_tests.dir/src/signals/indicators/ema.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/run_tests.dir/src/signals/indicators/ema.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/indicators/ema.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\indicators\ema.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\indicators\ema.cpp.obj -c D:\market-data-feed-handler\src\signals\indicators\ema.cpp
+
+CMakeFiles/run_tests.dir/src/signals/indicators/ema.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/indicators/ema.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\indicators\ema.cpp > CMakeFiles\run_tests.dir\src\signals\indicators\ema.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/indicators/ema.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/indicators/ema.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\indicators\ema.cpp -o CMakeFiles\run_tests.dir\src\signals\indicators\ema.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/indicators/bollinger.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/indicators/bollinger.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/indicators/bollinger.cpp.obj: D:/market-data-feed-handler/src/signals/indicators/bollinger.cpp
+CMakeFiles/run_tests.dir/src/signals/indicators/bollinger.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/run_tests.dir/src/signals/indicators/bollinger.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/indicators/bollinger.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\indicators\bollinger.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\indicators\bollinger.cpp.obj -c D:\market-data-feed-handler\src\signals\indicators\bollinger.cpp
+
+CMakeFiles/run_tests.dir/src/signals/indicators/bollinger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/indicators/bollinger.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\indicators\bollinger.cpp > CMakeFiles\run_tests.dir\src\signals\indicators\bollinger.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/indicators/bollinger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/indicators/bollinger.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\indicators\bollinger.cpp -o CMakeFiles\run_tests.dir\src\signals\indicators\bollinger.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/indicators/rsi.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/indicators/rsi.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/indicators/rsi.cpp.obj: D:/market-data-feed-handler/src/signals/indicators/rsi.cpp
+CMakeFiles/run_tests.dir/src/signals/indicators/rsi.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/run_tests.dir/src/signals/indicators/rsi.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/indicators/rsi.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\indicators\rsi.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\indicators\rsi.cpp.obj -c D:\market-data-feed-handler\src\signals\indicators\rsi.cpp
+
+CMakeFiles/run_tests.dir/src/signals/indicators/rsi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/indicators/rsi.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\indicators\rsi.cpp > CMakeFiles\run_tests.dir\src\signals\indicators\rsi.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/indicators/rsi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/indicators/rsi.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\indicators\rsi.cpp -o CMakeFiles\run_tests.dir\src\signals\indicators\rsi.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/indicators/macd.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/indicators/macd.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/indicators/macd.cpp.obj: D:/market-data-feed-handler/src/signals/indicators/macd.cpp
+CMakeFiles/run_tests.dir/src/signals/indicators/macd.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/run_tests.dir/src/signals/indicators/macd.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/indicators/macd.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\indicators\macd.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\indicators\macd.cpp.obj -c D:\market-data-feed-handler\src\signals\indicators\macd.cpp
+
+CMakeFiles/run_tests.dir/src/signals/indicators/macd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/indicators/macd.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\indicators\macd.cpp > CMakeFiles\run_tests.dir\src\signals\indicators\macd.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/indicators/macd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/indicators/macd.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\indicators\macd.cpp -o CMakeFiles\run_tests.dir\src\signals\indicators\macd.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/indicators/zscore.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/indicators/zscore.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/indicators/zscore.cpp.obj: D:/market-data-feed-handler/src/signals/indicators/zscore.cpp
+CMakeFiles/run_tests.dir/src/signals/indicators/zscore.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/run_tests.dir/src/signals/indicators/zscore.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/indicators/zscore.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\indicators\zscore.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\indicators\zscore.cpp.obj -c D:\market-data-feed-handler\src\signals\indicators\zscore.cpp
+
+CMakeFiles/run_tests.dir/src/signals/indicators/zscore.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/indicators/zscore.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\indicators\zscore.cpp > CMakeFiles\run_tests.dir\src\signals\indicators\zscore.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/indicators/zscore.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/indicators/zscore.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\indicators\zscore.cpp -o CMakeFiles\run_tests.dir\src\signals\indicators\zscore.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/composite/alpha_combiner.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/composite/alpha_combiner.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/composite/alpha_combiner.cpp.obj: D:/market-data-feed-handler/src/signals/composite/alpha_combiner.cpp
+CMakeFiles/run_tests.dir/src/signals/composite/alpha_combiner.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/run_tests.dir/src/signals/composite/alpha_combiner.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/composite/alpha_combiner.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\composite\alpha_combiner.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\composite\alpha_combiner.cpp.obj -c D:\market-data-feed-handler\src\signals\composite\alpha_combiner.cpp
+
+CMakeFiles/run_tests.dir/src/signals/composite/alpha_combiner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/composite/alpha_combiner.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\composite\alpha_combiner.cpp > CMakeFiles\run_tests.dir\src\signals\composite\alpha_combiner.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/composite/alpha_combiner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/composite/alpha_combiner.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\composite\alpha_combiner.cpp -o CMakeFiles\run_tests.dir\src\signals\composite\alpha_combiner.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/composite/signal_decay.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/composite/signal_decay.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/composite/signal_decay.cpp.obj: D:/market-data-feed-handler/src/signals/composite/signal_decay.cpp
+CMakeFiles/run_tests.dir/src/signals/composite/signal_decay.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/run_tests.dir/src/signals/composite/signal_decay.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/composite/signal_decay.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\composite\signal_decay.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\composite\signal_decay.cpp.obj -c D:\market-data-feed-handler\src\signals\composite\signal_decay.cpp
+
+CMakeFiles/run_tests.dir/src/signals/composite/signal_decay.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/composite/signal_decay.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\composite\signal_decay.cpp > CMakeFiles\run_tests.dir\src\signals\composite\signal_decay.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/composite/signal_decay.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/composite/signal_decay.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\composite\signal_decay.cpp -o CMakeFiles\run_tests.dir\src\signals\composite\signal_decay.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/composite/regime_detector.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/composite/regime_detector.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/composite/regime_detector.cpp.obj: D:/market-data-feed-handler/src/signals/composite/regime_detector.cpp
+CMakeFiles/run_tests.dir/src/signals/composite/regime_detector.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/run_tests.dir/src/signals/composite/regime_detector.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/composite/regime_detector.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\composite\regime_detector.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\composite\regime_detector.cpp.obj -c D:\market-data-feed-handler\src\signals\composite\regime_detector.cpp
+
+CMakeFiles/run_tests.dir/src/signals/composite/regime_detector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/composite/regime_detector.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\composite\regime_detector.cpp > CMakeFiles\run_tests.dir\src\signals\composite\regime_detector.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/composite/regime_detector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/composite/regime_detector.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\composite\regime_detector.cpp -o CMakeFiles\run_tests.dir\src\signals\composite\regime_detector.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/ml/feature_store.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/ml/feature_store.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/ml/feature_store.cpp.obj: D:/market-data-feed-handler/src/signals/ml/feature_store.cpp
+CMakeFiles/run_tests.dir/src/signals/ml/feature_store.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/run_tests.dir/src/signals/ml/feature_store.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/ml/feature_store.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\ml\feature_store.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\ml\feature_store.cpp.obj -c D:\market-data-feed-handler\src\signals\ml\feature_store.cpp
+
+CMakeFiles/run_tests.dir/src/signals/ml/feature_store.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/ml/feature_store.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\ml\feature_store.cpp > CMakeFiles\run_tests.dir\src\signals\ml\feature_store.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/ml/feature_store.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/ml/feature_store.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\ml\feature_store.cpp -o CMakeFiles\run_tests.dir\src\signals\ml\feature_store.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/ml/feature_normalizer.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/ml/feature_normalizer.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/ml/feature_normalizer.cpp.obj: D:/market-data-feed-handler/src/signals/ml/feature_normalizer.cpp
+CMakeFiles/run_tests.dir/src/signals/ml/feature_normalizer.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/run_tests.dir/src/signals/ml/feature_normalizer.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/ml/feature_normalizer.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\ml\feature_normalizer.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\ml\feature_normalizer.cpp.obj -c D:\market-data-feed-handler\src\signals\ml\feature_normalizer.cpp
+
+CMakeFiles/run_tests.dir/src/signals/ml/feature_normalizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/ml/feature_normalizer.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\ml\feature_normalizer.cpp > CMakeFiles\run_tests.dir\src\signals\ml\feature_normalizer.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/ml/feature_normalizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/ml/feature_normalizer.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\ml\feature_normalizer.cpp -o CMakeFiles\run_tests.dir\src\signals\ml\feature_normalizer.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/ml/linear_model.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/ml/linear_model.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/ml/linear_model.cpp.obj: D:/market-data-feed-handler/src/signals/ml/linear_model.cpp
+CMakeFiles/run_tests.dir/src/signals/ml/linear_model.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/run_tests.dir/src/signals/ml/linear_model.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/ml/linear_model.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\ml\linear_model.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\ml\linear_model.cpp.obj -c D:\market-data-feed-handler\src\signals\ml\linear_model.cpp
+
+CMakeFiles/run_tests.dir/src/signals/ml/linear_model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/ml/linear_model.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\ml\linear_model.cpp > CMakeFiles\run_tests.dir\src\signals\ml\linear_model.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/ml/linear_model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/ml/linear_model.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\ml\linear_model.cpp -o CMakeFiles\run_tests.dir\src\signals\ml\linear_model.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/ml/model_loader.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/ml/model_loader.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/ml/model_loader.cpp.obj: D:/market-data-feed-handler/src/signals/ml/model_loader.cpp
+CMakeFiles/run_tests.dir/src/signals/ml/model_loader.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/run_tests.dir/src/signals/ml/model_loader.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/ml/model_loader.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\ml\model_loader.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\ml\model_loader.cpp.obj -c D:\market-data-feed-handler\src\signals\ml\model_loader.cpp
+
+CMakeFiles/run_tests.dir/src/signals/ml/model_loader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/ml/model_loader.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\ml\model_loader.cpp > CMakeFiles\run_tests.dir\src\signals\ml\model_loader.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/ml/model_loader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/ml/model_loader.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\ml\model_loader.cpp -o CMakeFiles\run_tests.dir\src\signals\ml\model_loader.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/ml/prediction_cache.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/ml/prediction_cache.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/ml/prediction_cache.cpp.obj: D:/market-data-feed-handler/src/signals/ml/prediction_cache.cpp
+CMakeFiles/run_tests.dir/src/signals/ml/prediction_cache.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/run_tests.dir/src/signals/ml/prediction_cache.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/ml/prediction_cache.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\ml\prediction_cache.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\ml\prediction_cache.cpp.obj -c D:\market-data-feed-handler\src\signals\ml\prediction_cache.cpp
+
+CMakeFiles/run_tests.dir/src/signals/ml/prediction_cache.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/ml/prediction_cache.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\ml\prediction_cache.cpp > CMakeFiles\run_tests.dir\src\signals\ml\prediction_cache.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/ml/prediction_cache.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/ml/prediction_cache.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\ml\prediction_cache.cpp -o CMakeFiles\run_tests.dir\src\signals\ml\prediction_cache.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/signal_registry.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/signal_registry.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/signal_registry.cpp.obj: D:/market-data-feed-handler/src/signals/signal_registry.cpp
+CMakeFiles/run_tests.dir/src/signals/signal_registry.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/run_tests.dir/src/signals/signal_registry.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/signal_registry.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\signal_registry.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\signal_registry.cpp.obj -c D:\market-data-feed-handler\src\signals\signal_registry.cpp
+
+CMakeFiles/run_tests.dir/src/signals/signal_registry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/signal_registry.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\signal_registry.cpp > CMakeFiles\run_tests.dir\src\signals\signal_registry.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/signal_registry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/signal_registry.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\signal_registry.cpp -o CMakeFiles\run_tests.dir\src\signals\signal_registry.cpp.s
+
+CMakeFiles/run_tests.dir/src/signals/signal_engine.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/signals/signal_engine.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/signals/signal_engine.cpp.obj: D:/market-data-feed-handler/src/signals/signal_engine.cpp
+CMakeFiles/run_tests.dir/src/signals/signal_engine.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/run_tests.dir/src/signals/signal_engine.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/signals/signal_engine.cpp.obj -MF CMakeFiles\run_tests.dir\src\signals\signal_engine.cpp.obj.d -o CMakeFiles\run_tests.dir\src\signals\signal_engine.cpp.obj -c D:\market-data-feed-handler\src\signals\signal_engine.cpp
+
+CMakeFiles/run_tests.dir/src/signals/signal_engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/signals/signal_engine.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\signals\signal_engine.cpp > CMakeFiles\run_tests.dir\src\signals\signal_engine.cpp.i
+
+CMakeFiles/run_tests.dir/src/signals/signal_engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/signals/signal_engine.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\signals\signal_engine.cpp -o CMakeFiles\run_tests.dir\src\signals\signal_engine.cpp.s
+
+CMakeFiles/run_tests.dir/src/strategy/strategy_registry.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/strategy/strategy_registry.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/strategy/strategy_registry.cpp.obj: D:/market-data-feed-handler/src/strategy/strategy_registry.cpp
+CMakeFiles/run_tests.dir/src/strategy/strategy_registry.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/run_tests.dir/src/strategy/strategy_registry.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/strategy/strategy_registry.cpp.obj -MF CMakeFiles\run_tests.dir\src\strategy\strategy_registry.cpp.obj.d -o CMakeFiles\run_tests.dir\src\strategy\strategy_registry.cpp.obj -c D:\market-data-feed-handler\src\strategy\strategy_registry.cpp
+
+CMakeFiles/run_tests.dir/src/strategy/strategy_registry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/strategy/strategy_registry.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\strategy\strategy_registry.cpp > CMakeFiles\run_tests.dir\src\strategy\strategy_registry.cpp.i
+
+CMakeFiles/run_tests.dir/src/strategy/strategy_registry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/strategy/strategy_registry.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\strategy\strategy_registry.cpp -o CMakeFiles\run_tests.dir\src\strategy\strategy_registry.cpp.s
+
+CMakeFiles/run_tests.dir/src/strategy/strategy_engine.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/strategy/strategy_engine.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/strategy/strategy_engine.cpp.obj: D:/market-data-feed-handler/src/strategy/strategy_engine.cpp
+CMakeFiles/run_tests.dir/src/strategy/strategy_engine.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/run_tests.dir/src/strategy/strategy_engine.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/strategy/strategy_engine.cpp.obj -MF CMakeFiles\run_tests.dir\src\strategy\strategy_engine.cpp.obj.d -o CMakeFiles\run_tests.dir\src\strategy\strategy_engine.cpp.obj -c D:\market-data-feed-handler\src\strategy\strategy_engine.cpp
+
+CMakeFiles/run_tests.dir/src/strategy/strategy_engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/strategy/strategy_engine.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\strategy\strategy_engine.cpp > CMakeFiles\run_tests.dir\src\strategy\strategy_engine.cpp.i
+
+CMakeFiles/run_tests.dir/src/strategy/strategy_engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/strategy/strategy_engine.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\strategy\strategy_engine.cpp -o CMakeFiles\run_tests.dir\src\strategy\strategy_engine.cpp.s
+
+CMakeFiles/run_tests.dir/src/strategy/position/position_tracker.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/strategy/position/position_tracker.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/strategy/position/position_tracker.cpp.obj: D:/market-data-feed-handler/src/strategy/position/position_tracker.cpp
+CMakeFiles/run_tests.dir/src/strategy/position/position_tracker.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/run_tests.dir/src/strategy/position/position_tracker.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/strategy/position/position_tracker.cpp.obj -MF CMakeFiles\run_tests.dir\src\strategy\position\position_tracker.cpp.obj.d -o CMakeFiles\run_tests.dir\src\strategy\position\position_tracker.cpp.obj -c D:\market-data-feed-handler\src\strategy\position\position_tracker.cpp
+
+CMakeFiles/run_tests.dir/src/strategy/position/position_tracker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/strategy/position/position_tracker.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\strategy\position\position_tracker.cpp > CMakeFiles\run_tests.dir\src\strategy\position\position_tracker.cpp.i
+
+CMakeFiles/run_tests.dir/src/strategy/position/position_tracker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/strategy/position/position_tracker.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\strategy\position\position_tracker.cpp -o CMakeFiles\run_tests.dir\src\strategy\position\position_tracker.cpp.s
+
+CMakeFiles/run_tests.dir/src/strategy/position/fill_tracker.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/strategy/position/fill_tracker.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/strategy/position/fill_tracker.cpp.obj: D:/market-data-feed-handler/src/strategy/position/fill_tracker.cpp
+CMakeFiles/run_tests.dir/src/strategy/position/fill_tracker.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/run_tests.dir/src/strategy/position/fill_tracker.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/strategy/position/fill_tracker.cpp.obj -MF CMakeFiles\run_tests.dir\src\strategy\position\fill_tracker.cpp.obj.d -o CMakeFiles\run_tests.dir\src\strategy\position\fill_tracker.cpp.obj -c D:\market-data-feed-handler\src\strategy\position\fill_tracker.cpp
+
+CMakeFiles/run_tests.dir/src/strategy/position/fill_tracker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/strategy/position/fill_tracker.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\strategy\position\fill_tracker.cpp > CMakeFiles\run_tests.dir\src\strategy\position\fill_tracker.cpp.i
+
+CMakeFiles/run_tests.dir/src/strategy/position/fill_tracker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/strategy/position/fill_tracker.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\strategy\position\fill_tracker.cpp -o CMakeFiles\run_tests.dir\src\strategy\position\fill_tracker.cpp.s
+
+CMakeFiles/run_tests.dir/src/strategy/position/pnl_calculator.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/strategy/position/pnl_calculator.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/strategy/position/pnl_calculator.cpp.obj: D:/market-data-feed-handler/src/strategy/position/pnl_calculator.cpp
+CMakeFiles/run_tests.dir/src/strategy/position/pnl_calculator.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/run_tests.dir/src/strategy/position/pnl_calculator.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/strategy/position/pnl_calculator.cpp.obj -MF CMakeFiles\run_tests.dir\src\strategy\position\pnl_calculator.cpp.obj.d -o CMakeFiles\run_tests.dir\src\strategy\position\pnl_calculator.cpp.obj -c D:\market-data-feed-handler\src\strategy\position\pnl_calculator.cpp
+
+CMakeFiles/run_tests.dir/src/strategy/position/pnl_calculator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/strategy/position/pnl_calculator.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\strategy\position\pnl_calculator.cpp > CMakeFiles\run_tests.dir\src\strategy\position\pnl_calculator.cpp.i
+
+CMakeFiles/run_tests.dir/src/strategy/position/pnl_calculator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/strategy/position/pnl_calculator.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\strategy\position\pnl_calculator.cpp -o CMakeFiles\run_tests.dir\src\strategy\position\pnl_calculator.cpp.s
+
+CMakeFiles/run_tests.dir/src/strategy/position/portfolio.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/strategy/position/portfolio.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/strategy/position/portfolio.cpp.obj: D:/market-data-feed-handler/src/strategy/position/portfolio.cpp
+CMakeFiles/run_tests.dir/src/strategy/position/portfolio.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/run_tests.dir/src/strategy/position/portfolio.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/strategy/position/portfolio.cpp.obj -MF CMakeFiles\run_tests.dir\src\strategy\position\portfolio.cpp.obj.d -o CMakeFiles\run_tests.dir\src\strategy\position\portfolio.cpp.obj -c D:\market-data-feed-handler\src\strategy\position\portfolio.cpp
+
+CMakeFiles/run_tests.dir/src/strategy/position/portfolio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/strategy/position/portfolio.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\strategy\position\portfolio.cpp > CMakeFiles\run_tests.dir\src\strategy\position\portfolio.cpp.i
+
+CMakeFiles/run_tests.dir/src/strategy/position/portfolio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/strategy/position/portfolio.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\strategy\position\portfolio.cpp -o CMakeFiles\run_tests.dir\src\strategy\position\portfolio.cpp.s
+
+CMakeFiles/run_tests.dir/src/strategy/execution/order_sizer.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/strategy/execution/order_sizer.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/strategy/execution/order_sizer.cpp.obj: D:/market-data-feed-handler/src/strategy/execution/order_sizer.cpp
+CMakeFiles/run_tests.dir/src/strategy/execution/order_sizer.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/run_tests.dir/src/strategy/execution/order_sizer.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/strategy/execution/order_sizer.cpp.obj -MF CMakeFiles\run_tests.dir\src\strategy\execution\order_sizer.cpp.obj.d -o CMakeFiles\run_tests.dir\src\strategy\execution\order_sizer.cpp.obj -c D:\market-data-feed-handler\src\strategy\execution\order_sizer.cpp
+
+CMakeFiles/run_tests.dir/src/strategy/execution/order_sizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/strategy/execution/order_sizer.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\strategy\execution\order_sizer.cpp > CMakeFiles\run_tests.dir\src\strategy\execution\order_sizer.cpp.i
+
+CMakeFiles/run_tests.dir/src/strategy/execution/order_sizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/strategy/execution/order_sizer.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\strategy\execution\order_sizer.cpp -o CMakeFiles\run_tests.dir\src\strategy\execution\order_sizer.cpp.s
+
+CMakeFiles/run_tests.dir/src/strategy/execution/slippage_model.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/strategy/execution/slippage_model.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/strategy/execution/slippage_model.cpp.obj: D:/market-data-feed-handler/src/strategy/execution/slippage_model.cpp
+CMakeFiles/run_tests.dir/src/strategy/execution/slippage_model.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/run_tests.dir/src/strategy/execution/slippage_model.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/strategy/execution/slippage_model.cpp.obj -MF CMakeFiles\run_tests.dir\src\strategy\execution\slippage_model.cpp.obj.d -o CMakeFiles\run_tests.dir\src\strategy\execution\slippage_model.cpp.obj -c D:\market-data-feed-handler\src\strategy\execution\slippage_model.cpp
+
+CMakeFiles/run_tests.dir/src/strategy/execution/slippage_model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/strategy/execution/slippage_model.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\strategy\execution\slippage_model.cpp > CMakeFiles\run_tests.dir\src\strategy\execution\slippage_model.cpp.i
+
+CMakeFiles/run_tests.dir/src/strategy/execution/slippage_model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/strategy/execution/slippage_model.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\strategy\execution\slippage_model.cpp -o CMakeFiles\run_tests.dir\src\strategy\execution\slippage_model.cpp.s
+
+CMakeFiles/run_tests.dir/src/strategy/execution/execution_algo.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/strategy/execution/execution_algo.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/strategy/execution/execution_algo.cpp.obj: D:/market-data-feed-handler/src/strategy/execution/execution_algo.cpp
+CMakeFiles/run_tests.dir/src/strategy/execution/execution_algo.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/run_tests.dir/src/strategy/execution/execution_algo.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/strategy/execution/execution_algo.cpp.obj -MF CMakeFiles\run_tests.dir\src\strategy\execution\execution_algo.cpp.obj.d -o CMakeFiles\run_tests.dir\src\strategy\execution\execution_algo.cpp.obj -c D:\market-data-feed-handler\src\strategy\execution\execution_algo.cpp
+
+CMakeFiles/run_tests.dir/src/strategy/execution/execution_algo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/strategy/execution/execution_algo.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\strategy\execution\execution_algo.cpp > CMakeFiles\run_tests.dir\src\strategy\execution\execution_algo.cpp.i
+
+CMakeFiles/run_tests.dir/src/strategy/execution/execution_algo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/strategy/execution/execution_algo.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\strategy\execution\execution_algo.cpp -o CMakeFiles\run_tests.dir\src\strategy\execution\execution_algo.cpp.s
+
+CMakeFiles/run_tests.dir/src/strategy/strategies/market_making.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/strategy/strategies/market_making.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/strategy/strategies/market_making.cpp.obj: D:/market-data-feed-handler/src/strategy/strategies/market_making.cpp
+CMakeFiles/run_tests.dir/src/strategy/strategies/market_making.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/run_tests.dir/src/strategy/strategies/market_making.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/strategy/strategies/market_making.cpp.obj -MF CMakeFiles\run_tests.dir\src\strategy\strategies\market_making.cpp.obj.d -o CMakeFiles\run_tests.dir\src\strategy\strategies\market_making.cpp.obj -c D:\market-data-feed-handler\src\strategy\strategies\market_making.cpp
+
+CMakeFiles/run_tests.dir/src/strategy/strategies/market_making.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/strategy/strategies/market_making.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\strategy\strategies\market_making.cpp > CMakeFiles\run_tests.dir\src\strategy\strategies\market_making.cpp.i
+
+CMakeFiles/run_tests.dir/src/strategy/strategies/market_making.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/strategy/strategies/market_making.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\strategy\strategies\market_making.cpp -o CMakeFiles\run_tests.dir\src\strategy\strategies\market_making.cpp.s
+
+CMakeFiles/run_tests.dir/src/strategy/strategies/momentum_follower.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/strategy/strategies/momentum_follower.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/strategy/strategies/momentum_follower.cpp.obj: D:/market-data-feed-handler/src/strategy/strategies/momentum_follower.cpp
+CMakeFiles/run_tests.dir/src/strategy/strategies/momentum_follower.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/run_tests.dir/src/strategy/strategies/momentum_follower.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/strategy/strategies/momentum_follower.cpp.obj -MF CMakeFiles\run_tests.dir\src\strategy\strategies\momentum_follower.cpp.obj.d -o CMakeFiles\run_tests.dir\src\strategy\strategies\momentum_follower.cpp.obj -c D:\market-data-feed-handler\src\strategy\strategies\momentum_follower.cpp
+
+CMakeFiles/run_tests.dir/src/strategy/strategies/momentum_follower.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/strategy/strategies/momentum_follower.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\strategy\strategies\momentum_follower.cpp > CMakeFiles\run_tests.dir\src\strategy\strategies\momentum_follower.cpp.i
+
+CMakeFiles/run_tests.dir/src/strategy/strategies/momentum_follower.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/strategy/strategies/momentum_follower.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\strategy\strategies\momentum_follower.cpp -o CMakeFiles\run_tests.dir\src\strategy\strategies\momentum_follower.cpp.s
+
+CMakeFiles/run_tests.dir/src/strategy/strategies/mean_reversion_strat.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/strategy/strategies/mean_reversion_strat.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/strategy/strategies/mean_reversion_strat.cpp.obj: D:/market-data-feed-handler/src/strategy/strategies/mean_reversion_strat.cpp
+CMakeFiles/run_tests.dir/src/strategy/strategies/mean_reversion_strat.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/run_tests.dir/src/strategy/strategies/mean_reversion_strat.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/strategy/strategies/mean_reversion_strat.cpp.obj -MF CMakeFiles\run_tests.dir\src\strategy\strategies\mean_reversion_strat.cpp.obj.d -o CMakeFiles\run_tests.dir\src\strategy\strategies\mean_reversion_strat.cpp.obj -c D:\market-data-feed-handler\src\strategy\strategies\mean_reversion_strat.cpp
+
+CMakeFiles/run_tests.dir/src/strategy/strategies/mean_reversion_strat.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/strategy/strategies/mean_reversion_strat.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\strategy\strategies\mean_reversion_strat.cpp > CMakeFiles\run_tests.dir\src\strategy\strategies\mean_reversion_strat.cpp.i
+
+CMakeFiles/run_tests.dir/src/strategy/strategies/mean_reversion_strat.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/strategy/strategies/mean_reversion_strat.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\strategy\strategies\mean_reversion_strat.cpp -o CMakeFiles\run_tests.dir\src\strategy\strategies\mean_reversion_strat.cpp.s
+
+CMakeFiles/run_tests.dir/src/strategy/strategies/stat_arb.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/strategy/strategies/stat_arb.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/strategy/strategies/stat_arb.cpp.obj: D:/market-data-feed-handler/src/strategy/strategies/stat_arb.cpp
+CMakeFiles/run_tests.dir/src/strategy/strategies/stat_arb.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/run_tests.dir/src/strategy/strategies/stat_arb.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/strategy/strategies/stat_arb.cpp.obj -MF CMakeFiles\run_tests.dir\src\strategy\strategies\stat_arb.cpp.obj.d -o CMakeFiles\run_tests.dir\src\strategy\strategies\stat_arb.cpp.obj -c D:\market-data-feed-handler\src\strategy\strategies\stat_arb.cpp
+
+CMakeFiles/run_tests.dir/src/strategy/strategies/stat_arb.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/strategy/strategies/stat_arb.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\strategy\strategies\stat_arb.cpp > CMakeFiles\run_tests.dir\src\strategy\strategies\stat_arb.cpp.i
+
+CMakeFiles/run_tests.dir/src/strategy/strategies/stat_arb.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/strategy/strategies/stat_arb.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\strategy\strategies\stat_arb.cpp -o CMakeFiles\run_tests.dir\src\strategy\strategies\stat_arb.cpp.s
+
+CMakeFiles/run_tests.dir/src/strategy/strategies/signal_threshold.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/strategy/strategies/signal_threshold.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/strategy/strategies/signal_threshold.cpp.obj: D:/market-data-feed-handler/src/strategy/strategies/signal_threshold.cpp
+CMakeFiles/run_tests.dir/src/strategy/strategies/signal_threshold.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/run_tests.dir/src/strategy/strategies/signal_threshold.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/strategy/strategies/signal_threshold.cpp.obj -MF CMakeFiles\run_tests.dir\src\strategy\strategies\signal_threshold.cpp.obj.d -o CMakeFiles\run_tests.dir\src\strategy\strategies\signal_threshold.cpp.obj -c D:\market-data-feed-handler\src\strategy\strategies\signal_threshold.cpp
+
+CMakeFiles/run_tests.dir/src/strategy/strategies/signal_threshold.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/strategy/strategies/signal_threshold.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\strategy\strategies\signal_threshold.cpp > CMakeFiles\run_tests.dir\src\strategy\strategies\signal_threshold.cpp.i
+
+CMakeFiles/run_tests.dir/src/strategy/strategies/signal_threshold.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/strategy/strategies/signal_threshold.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\strategy\strategies\signal_threshold.cpp -o CMakeFiles\run_tests.dir\src\strategy\strategies\signal_threshold.cpp.s
+
+CMakeFiles/run_tests.dir/src/oms/state_machine/state_transitions.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/oms/state_machine/state_transitions.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/oms/state_machine/state_transitions.cpp.obj: D:/market-data-feed-handler/src/oms/state_machine/state_transitions.cpp
+CMakeFiles/run_tests.dir/src/oms/state_machine/state_transitions.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/run_tests.dir/src/oms/state_machine/state_transitions.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/oms/state_machine/state_transitions.cpp.obj -MF CMakeFiles\run_tests.dir\src\oms\state_machine\state_transitions.cpp.obj.d -o CMakeFiles\run_tests.dir\src\oms\state_machine\state_transitions.cpp.obj -c D:\market-data-feed-handler\src\oms\state_machine\state_transitions.cpp
+
+CMakeFiles/run_tests.dir/src/oms/state_machine/state_transitions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/oms/state_machine/state_transitions.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\oms\state_machine\state_transitions.cpp > CMakeFiles\run_tests.dir\src\oms\state_machine\state_transitions.cpp.i
+
+CMakeFiles/run_tests.dir/src/oms/state_machine/state_transitions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/oms/state_machine/state_transitions.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\oms\state_machine\state_transitions.cpp -o CMakeFiles\run_tests.dir\src\oms\state_machine\state_transitions.cpp.s
+
+CMakeFiles/run_tests.dir/src/oms/state_machine/order_journal.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/oms/state_machine/order_journal.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/oms/state_machine/order_journal.cpp.obj: D:/market-data-feed-handler/src/oms/state_machine/order_journal.cpp
+CMakeFiles/run_tests.dir/src/oms/state_machine/order_journal.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/run_tests.dir/src/oms/state_machine/order_journal.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/oms/state_machine/order_journal.cpp.obj -MF CMakeFiles\run_tests.dir\src\oms\state_machine\order_journal.cpp.obj.d -o CMakeFiles\run_tests.dir\src\oms\state_machine\order_journal.cpp.obj -c D:\market-data-feed-handler\src\oms\state_machine\order_journal.cpp
+
+CMakeFiles/run_tests.dir/src/oms/state_machine/order_journal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/oms/state_machine/order_journal.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\oms\state_machine\order_journal.cpp > CMakeFiles\run_tests.dir\src\oms\state_machine\order_journal.cpp.i
+
+CMakeFiles/run_tests.dir/src/oms/state_machine/order_journal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/oms/state_machine/order_journal.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\oms\state_machine\order_journal.cpp -o CMakeFiles\run_tests.dir\src\oms\state_machine\order_journal.cpp.s
+
+CMakeFiles/run_tests.dir/src/oms/order_manager.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/oms/order_manager.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/oms/order_manager.cpp.obj: D:/market-data-feed-handler/src/oms/order_manager.cpp
+CMakeFiles/run_tests.dir/src/oms/order_manager.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/run_tests.dir/src/oms/order_manager.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/oms/order_manager.cpp.obj -MF CMakeFiles\run_tests.dir\src\oms\order_manager.cpp.obj.d -o CMakeFiles\run_tests.dir\src\oms\order_manager.cpp.obj -c D:\market-data-feed-handler\src\oms\order_manager.cpp
+
+CMakeFiles/run_tests.dir/src/oms/order_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/oms/order_manager.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\oms\order_manager.cpp > CMakeFiles\run_tests.dir\src\oms\order_manager.cpp.i
+
+CMakeFiles/run_tests.dir/src/oms/order_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/oms/order_manager.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\oms\order_manager.cpp -o CMakeFiles\run_tests.dir\src\oms\order_manager.cpp.s
+
+CMakeFiles/run_tests.dir/src/oms/order_validator.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/oms/order_validator.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/oms/order_validator.cpp.obj: D:/market-data-feed-handler/src/oms/order_validator.cpp
+CMakeFiles/run_tests.dir/src/oms/order_validator.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/run_tests.dir/src/oms/order_validator.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/oms/order_validator.cpp.obj -MF CMakeFiles\run_tests.dir\src\oms\order_validator.cpp.obj.d -o CMakeFiles\run_tests.dir\src\oms\order_validator.cpp.obj -c D:\market-data-feed-handler\src\oms\order_validator.cpp
+
+CMakeFiles/run_tests.dir/src/oms/order_validator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/oms/order_validator.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\oms\order_validator.cpp > CMakeFiles\run_tests.dir\src\oms\order_validator.cpp.i
+
+CMakeFiles/run_tests.dir/src/oms/order_validator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/oms/order_validator.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\oms\order_validator.cpp -o CMakeFiles\run_tests.dir\src\oms\order_validator.cpp.s
+
+CMakeFiles/run_tests.dir/src/oms/order_router.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/oms/order_router.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/oms/order_router.cpp.obj: D:/market-data-feed-handler/src/oms/order_router.cpp
+CMakeFiles/run_tests.dir/src/oms/order_router.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/run_tests.dir/src/oms/order_router.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/oms/order_router.cpp.obj -MF CMakeFiles\run_tests.dir\src\oms\order_router.cpp.obj.d -o CMakeFiles\run_tests.dir\src\oms\order_router.cpp.obj -c D:\market-data-feed-handler\src\oms\order_router.cpp
+
+CMakeFiles/run_tests.dir/src/oms/order_router.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/oms/order_router.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\oms\order_router.cpp > CMakeFiles\run_tests.dir\src\oms\order_router.cpp.i
+
+CMakeFiles/run_tests.dir/src/oms/order_router.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/oms/order_router.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\oms\order_router.cpp -o CMakeFiles\run_tests.dir\src\oms\order_router.cpp.s
+
+CMakeFiles/run_tests.dir/src/oms/fill_manager.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/oms/fill_manager.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/oms/fill_manager.cpp.obj: D:/market-data-feed-handler/src/oms/fill_manager.cpp
+CMakeFiles/run_tests.dir/src/oms/fill_manager.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/run_tests.dir/src/oms/fill_manager.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/oms/fill_manager.cpp.obj -MF CMakeFiles\run_tests.dir\src\oms\fill_manager.cpp.obj.d -o CMakeFiles\run_tests.dir\src\oms\fill_manager.cpp.obj -c D:\market-data-feed-handler\src\oms\fill_manager.cpp
+
+CMakeFiles/run_tests.dir/src/oms/fill_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/oms/fill_manager.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\oms\fill_manager.cpp > CMakeFiles\run_tests.dir\src\oms\fill_manager.cpp.i
+
+CMakeFiles/run_tests.dir/src/oms/fill_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/oms/fill_manager.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\oms\fill_manager.cpp -o CMakeFiles\run_tests.dir\src\oms\fill_manager.cpp.s
+
+CMakeFiles/run_tests.dir/src/oms/order_id_generator.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/oms/order_id_generator.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/oms/order_id_generator.cpp.obj: D:/market-data-feed-handler/src/oms/order_id_generator.cpp
+CMakeFiles/run_tests.dir/src/oms/order_id_generator.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/run_tests.dir/src/oms/order_id_generator.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/oms/order_id_generator.cpp.obj -MF CMakeFiles\run_tests.dir\src\oms\order_id_generator.cpp.obj.d -o CMakeFiles\run_tests.dir\src\oms\order_id_generator.cpp.obj -c D:\market-data-feed-handler\src\oms\order_id_generator.cpp
+
+CMakeFiles/run_tests.dir/src/oms/order_id_generator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/oms/order_id_generator.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\oms\order_id_generator.cpp > CMakeFiles\run_tests.dir\src\oms\order_id_generator.cpp.i
+
+CMakeFiles/run_tests.dir/src/oms/order_id_generator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/oms/order_id_generator.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\oms\order_id_generator.cpp -o CMakeFiles\run_tests.dir\src\oms\order_id_generator.cpp.s
+
+CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange.cpp.obj: D:/market-data-feed-handler/src/oms/sim_exchange/sim_exchange.cpp
+CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange.cpp.obj -MF CMakeFiles\run_tests.dir\src\oms\sim_exchange\sim_exchange.cpp.obj.d -o CMakeFiles\run_tests.dir\src\oms\sim_exchange\sim_exchange.cpp.obj -c D:\market-data-feed-handler\src\oms\sim_exchange\sim_exchange.cpp
+
+CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\oms\sim_exchange\sim_exchange.cpp > CMakeFiles\run_tests.dir\src\oms\sim_exchange\sim_exchange.cpp.i
+
+CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\oms\sim_exchange\sim_exchange.cpp -o CMakeFiles\run_tests.dir\src\oms\sim_exchange\sim_exchange.cpp.s
+
+CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_fill_model.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_fill_model.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_fill_model.cpp.obj: D:/market-data-feed-handler/src/oms/sim_exchange/sim_fill_model.cpp
+CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_fill_model.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_fill_model.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_fill_model.cpp.obj -MF CMakeFiles\run_tests.dir\src\oms\sim_exchange\sim_fill_model.cpp.obj.d -o CMakeFiles\run_tests.dir\src\oms\sim_exchange\sim_fill_model.cpp.obj -c D:\market-data-feed-handler\src\oms\sim_exchange\sim_fill_model.cpp
+
+CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_fill_model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_fill_model.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\oms\sim_exchange\sim_fill_model.cpp > CMakeFiles\run_tests.dir\src\oms\sim_exchange\sim_fill_model.cpp.i
+
+CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_fill_model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_fill_model.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\oms\sim_exchange\sim_fill_model.cpp -o CMakeFiles\run_tests.dir\src\oms\sim_exchange\sim_fill_model.cpp.s
+
+CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange_connector.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange_connector.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange_connector.cpp.obj: D:/market-data-feed-handler/src/oms/sim_exchange/sim_exchange_connector.cpp
+CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange_connector.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange_connector.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange_connector.cpp.obj -MF CMakeFiles\run_tests.dir\src\oms\sim_exchange\sim_exchange_connector.cpp.obj.d -o CMakeFiles\run_tests.dir\src\oms\sim_exchange\sim_exchange_connector.cpp.obj -c D:\market-data-feed-handler\src\oms\sim_exchange\sim_exchange_connector.cpp
+
+CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange_connector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange_connector.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\oms\sim_exchange\sim_exchange_connector.cpp > CMakeFiles\run_tests.dir\src\oms\sim_exchange\sim_exchange_connector.cpp.i
+
+CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange_connector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange_connector.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\oms\sim_exchange\sim_exchange_connector.cpp -o CMakeFiles\run_tests.dir\src\oms\sim_exchange\sim_exchange_connector.cpp.s
+
+CMakeFiles/run_tests.dir/src/risk/limits/position_limit.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/risk/limits/position_limit.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/risk/limits/position_limit.cpp.obj: D:/market-data-feed-handler/src/risk/limits/position_limit.cpp
+CMakeFiles/run_tests.dir/src/risk/limits/position_limit.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/run_tests.dir/src/risk/limits/position_limit.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/risk/limits/position_limit.cpp.obj -MF CMakeFiles\run_tests.dir\src\risk\limits\position_limit.cpp.obj.d -o CMakeFiles\run_tests.dir\src\risk\limits\position_limit.cpp.obj -c D:\market-data-feed-handler\src\risk\limits\position_limit.cpp
+
+CMakeFiles/run_tests.dir/src/risk/limits/position_limit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/risk/limits/position_limit.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\risk\limits\position_limit.cpp > CMakeFiles\run_tests.dir\src\risk\limits\position_limit.cpp.i
+
+CMakeFiles/run_tests.dir/src/risk/limits/position_limit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/risk/limits/position_limit.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\risk\limits\position_limit.cpp -o CMakeFiles\run_tests.dir\src\risk\limits\position_limit.cpp.s
+
+CMakeFiles/run_tests.dir/src/risk/limits/notional_limit.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/risk/limits/notional_limit.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/risk/limits/notional_limit.cpp.obj: D:/market-data-feed-handler/src/risk/limits/notional_limit.cpp
+CMakeFiles/run_tests.dir/src/risk/limits/notional_limit.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/run_tests.dir/src/risk/limits/notional_limit.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/risk/limits/notional_limit.cpp.obj -MF CMakeFiles\run_tests.dir\src\risk\limits\notional_limit.cpp.obj.d -o CMakeFiles\run_tests.dir\src\risk\limits\notional_limit.cpp.obj -c D:\market-data-feed-handler\src\risk\limits\notional_limit.cpp
+
+CMakeFiles/run_tests.dir/src/risk/limits/notional_limit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/risk/limits/notional_limit.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\risk\limits\notional_limit.cpp > CMakeFiles\run_tests.dir\src\risk\limits\notional_limit.cpp.i
+
+CMakeFiles/run_tests.dir/src/risk/limits/notional_limit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/risk/limits/notional_limit.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\risk\limits\notional_limit.cpp -o CMakeFiles\run_tests.dir\src\risk\limits\notional_limit.cpp.s
+
+CMakeFiles/run_tests.dir/src/risk/limits/loss_limit.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/risk/limits/loss_limit.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/risk/limits/loss_limit.cpp.obj: D:/market-data-feed-handler/src/risk/limits/loss_limit.cpp
+CMakeFiles/run_tests.dir/src/risk/limits/loss_limit.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/run_tests.dir/src/risk/limits/loss_limit.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/risk/limits/loss_limit.cpp.obj -MF CMakeFiles\run_tests.dir\src\risk\limits\loss_limit.cpp.obj.d -o CMakeFiles\run_tests.dir\src\risk\limits\loss_limit.cpp.obj -c D:\market-data-feed-handler\src\risk\limits\loss_limit.cpp
+
+CMakeFiles/run_tests.dir/src/risk/limits/loss_limit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/risk/limits/loss_limit.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\risk\limits\loss_limit.cpp > CMakeFiles\run_tests.dir\src\risk\limits\loss_limit.cpp.i
+
+CMakeFiles/run_tests.dir/src/risk/limits/loss_limit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/risk/limits/loss_limit.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\risk\limits\loss_limit.cpp -o CMakeFiles\run_tests.dir\src\risk\limits\loss_limit.cpp.s
+
+CMakeFiles/run_tests.dir/src/risk/limits/order_rate_limit.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/risk/limits/order_rate_limit.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/risk/limits/order_rate_limit.cpp.obj: D:/market-data-feed-handler/src/risk/limits/order_rate_limit.cpp
+CMakeFiles/run_tests.dir/src/risk/limits/order_rate_limit.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/run_tests.dir/src/risk/limits/order_rate_limit.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/risk/limits/order_rate_limit.cpp.obj -MF CMakeFiles\run_tests.dir\src\risk\limits\order_rate_limit.cpp.obj.d -o CMakeFiles\run_tests.dir\src\risk\limits\order_rate_limit.cpp.obj -c D:\market-data-feed-handler\src\risk\limits\order_rate_limit.cpp
+
+CMakeFiles/run_tests.dir/src/risk/limits/order_rate_limit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/risk/limits/order_rate_limit.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\risk\limits\order_rate_limit.cpp > CMakeFiles\run_tests.dir\src\risk\limits\order_rate_limit.cpp.i
+
+CMakeFiles/run_tests.dir/src/risk/limits/order_rate_limit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/risk/limits/order_rate_limit.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\risk\limits\order_rate_limit.cpp -o CMakeFiles\run_tests.dir\src\risk\limits\order_rate_limit.cpp.s
+
+CMakeFiles/run_tests.dir/src/risk/limits/concentration_limit.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/risk/limits/concentration_limit.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/risk/limits/concentration_limit.cpp.obj: D:/market-data-feed-handler/src/risk/limits/concentration_limit.cpp
+CMakeFiles/run_tests.dir/src/risk/limits/concentration_limit.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/run_tests.dir/src/risk/limits/concentration_limit.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/risk/limits/concentration_limit.cpp.obj -MF CMakeFiles\run_tests.dir\src\risk\limits\concentration_limit.cpp.obj.d -o CMakeFiles\run_tests.dir\src\risk\limits\concentration_limit.cpp.obj -c D:\market-data-feed-handler\src\risk\limits\concentration_limit.cpp
+
+CMakeFiles/run_tests.dir/src/risk/limits/concentration_limit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/risk/limits/concentration_limit.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\risk\limits\concentration_limit.cpp > CMakeFiles\run_tests.dir\src\risk\limits\concentration_limit.cpp.i
+
+CMakeFiles/run_tests.dir/src/risk/limits/concentration_limit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/risk/limits/concentration_limit.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\risk\limits\concentration_limit.cpp -o CMakeFiles\run_tests.dir\src\risk\limits\concentration_limit.cpp.s
+
+CMakeFiles/run_tests.dir/src/risk/pre_trade_risk.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/risk/pre_trade_risk.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/risk/pre_trade_risk.cpp.obj: D:/market-data-feed-handler/src/risk/pre_trade_risk.cpp
+CMakeFiles/run_tests.dir/src/risk/pre_trade_risk.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/run_tests.dir/src/risk/pre_trade_risk.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/risk/pre_trade_risk.cpp.obj -MF CMakeFiles\run_tests.dir\src\risk\pre_trade_risk.cpp.obj.d -o CMakeFiles\run_tests.dir\src\risk\pre_trade_risk.cpp.obj -c D:\market-data-feed-handler\src\risk\pre_trade_risk.cpp
+
+CMakeFiles/run_tests.dir/src/risk/pre_trade_risk.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/risk/pre_trade_risk.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\risk\pre_trade_risk.cpp > CMakeFiles\run_tests.dir\src\risk\pre_trade_risk.cpp.i
+
+CMakeFiles/run_tests.dir/src/risk/pre_trade_risk.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/risk/pre_trade_risk.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\risk\pre_trade_risk.cpp -o CMakeFiles\run_tests.dir\src\risk\pre_trade_risk.cpp.s
+
+CMakeFiles/run_tests.dir/src/risk/post_trade_risk.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/risk/post_trade_risk.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/risk/post_trade_risk.cpp.obj: D:/market-data-feed-handler/src/risk/post_trade_risk.cpp
+CMakeFiles/run_tests.dir/src/risk/post_trade_risk.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/run_tests.dir/src/risk/post_trade_risk.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/risk/post_trade_risk.cpp.obj -MF CMakeFiles\run_tests.dir\src\risk\post_trade_risk.cpp.obj.d -o CMakeFiles\run_tests.dir\src\risk\post_trade_risk.cpp.obj -c D:\market-data-feed-handler\src\risk\post_trade_risk.cpp
+
+CMakeFiles/run_tests.dir/src/risk/post_trade_risk.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/risk/post_trade_risk.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\risk\post_trade_risk.cpp > CMakeFiles\run_tests.dir\src\risk\post_trade_risk.cpp.i
+
+CMakeFiles/run_tests.dir/src/risk/post_trade_risk.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/risk/post_trade_risk.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\risk\post_trade_risk.cpp -o CMakeFiles\run_tests.dir\src\risk\post_trade_risk.cpp.s
+
+CMakeFiles/run_tests.dir/src/risk/monitors/pnl_monitor.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/risk/monitors/pnl_monitor.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/risk/monitors/pnl_monitor.cpp.obj: D:/market-data-feed-handler/src/risk/monitors/pnl_monitor.cpp
+CMakeFiles/run_tests.dir/src/risk/monitors/pnl_monitor.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/run_tests.dir/src/risk/monitors/pnl_monitor.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/risk/monitors/pnl_monitor.cpp.obj -MF CMakeFiles\run_tests.dir\src\risk\monitors\pnl_monitor.cpp.obj.d -o CMakeFiles\run_tests.dir\src\risk\monitors\pnl_monitor.cpp.obj -c D:\market-data-feed-handler\src\risk\monitors\pnl_monitor.cpp
+
+CMakeFiles/run_tests.dir/src/risk/monitors/pnl_monitor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/risk/monitors/pnl_monitor.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\risk\monitors\pnl_monitor.cpp > CMakeFiles\run_tests.dir\src\risk\monitors\pnl_monitor.cpp.i
+
+CMakeFiles/run_tests.dir/src/risk/monitors/pnl_monitor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/risk/monitors/pnl_monitor.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\risk\monitors\pnl_monitor.cpp -o CMakeFiles\run_tests.dir\src\risk\monitors\pnl_monitor.cpp.s
+
+CMakeFiles/run_tests.dir/src/risk/monitors/exposure_monitor.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/risk/monitors/exposure_monitor.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/risk/monitors/exposure_monitor.cpp.obj: D:/market-data-feed-handler/src/risk/monitors/exposure_monitor.cpp
+CMakeFiles/run_tests.dir/src/risk/monitors/exposure_monitor.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/run_tests.dir/src/risk/monitors/exposure_monitor.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/risk/monitors/exposure_monitor.cpp.obj -MF CMakeFiles\run_tests.dir\src\risk\monitors\exposure_monitor.cpp.obj.d -o CMakeFiles\run_tests.dir\src\risk\monitors\exposure_monitor.cpp.obj -c D:\market-data-feed-handler\src\risk\monitors\exposure_monitor.cpp
+
+CMakeFiles/run_tests.dir/src/risk/monitors/exposure_monitor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/risk/monitors/exposure_monitor.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\risk\monitors\exposure_monitor.cpp > CMakeFiles\run_tests.dir\src\risk\monitors\exposure_monitor.cpp.i
+
+CMakeFiles/run_tests.dir/src/risk/monitors/exposure_monitor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/risk/monitors/exposure_monitor.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\risk\monitors\exposure_monitor.cpp -o CMakeFiles\run_tests.dir\src\risk\monitors\exposure_monitor.cpp.s
+
+CMakeFiles/run_tests.dir/src/risk/monitors/var_calculator.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/risk/monitors/var_calculator.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/risk/monitors/var_calculator.cpp.obj: D:/market-data-feed-handler/src/risk/monitors/var_calculator.cpp
+CMakeFiles/run_tests.dir/src/risk/monitors/var_calculator.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/run_tests.dir/src/risk/monitors/var_calculator.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/risk/monitors/var_calculator.cpp.obj -MF CMakeFiles\run_tests.dir\src\risk\monitors\var_calculator.cpp.obj.d -o CMakeFiles\run_tests.dir\src\risk\monitors\var_calculator.cpp.obj -c D:\market-data-feed-handler\src\risk\monitors\var_calculator.cpp
+
+CMakeFiles/run_tests.dir/src/risk/monitors/var_calculator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/risk/monitors/var_calculator.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\risk\monitors\var_calculator.cpp > CMakeFiles\run_tests.dir\src\risk\monitors\var_calculator.cpp.i
+
+CMakeFiles/run_tests.dir/src/risk/monitors/var_calculator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/risk/monitors/var_calculator.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\risk\monitors\var_calculator.cpp -o CMakeFiles\run_tests.dir\src\risk\monitors\var_calculator.cpp.s
+
+CMakeFiles/run_tests.dir/src/risk/monitors/circuit_breaker.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/risk/monitors/circuit_breaker.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/risk/monitors/circuit_breaker.cpp.obj: D:/market-data-feed-handler/src/risk/monitors/circuit_breaker.cpp
+CMakeFiles/run_tests.dir/src/risk/monitors/circuit_breaker.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/run_tests.dir/src/risk/monitors/circuit_breaker.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/risk/monitors/circuit_breaker.cpp.obj -MF CMakeFiles\run_tests.dir\src\risk\monitors\circuit_breaker.cpp.obj.d -o CMakeFiles\run_tests.dir\src\risk\monitors\circuit_breaker.cpp.obj -c D:\market-data-feed-handler\src\risk\monitors\circuit_breaker.cpp
+
+CMakeFiles/run_tests.dir/src/risk/monitors/circuit_breaker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/risk/monitors/circuit_breaker.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\risk\monitors\circuit_breaker.cpp > CMakeFiles\run_tests.dir\src\risk\monitors\circuit_breaker.cpp.i
+
+CMakeFiles/run_tests.dir/src/risk/monitors/circuit_breaker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/risk/monitors/circuit_breaker.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\risk\monitors\circuit_breaker.cpp -o CMakeFiles\run_tests.dir\src\risk\monitors\circuit_breaker.cpp.s
+
+CMakeFiles/run_tests.dir/src/risk/reporting/risk_report.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/risk/reporting/risk_report.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/risk/reporting/risk_report.cpp.obj: D:/market-data-feed-handler/src/risk/reporting/risk_report.cpp
+CMakeFiles/run_tests.dir/src/risk/reporting/risk_report.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/run_tests.dir/src/risk/reporting/risk_report.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/risk/reporting/risk_report.cpp.obj -MF CMakeFiles\run_tests.dir\src\risk\reporting\risk_report.cpp.obj.d -o CMakeFiles\run_tests.dir\src\risk\reporting\risk_report.cpp.obj -c D:\market-data-feed-handler\src\risk\reporting\risk_report.cpp
+
+CMakeFiles/run_tests.dir/src/risk/reporting/risk_report.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/risk/reporting/risk_report.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\risk\reporting\risk_report.cpp > CMakeFiles\run_tests.dir\src\risk\reporting\risk_report.cpp.i
+
+CMakeFiles/run_tests.dir/src/risk/reporting/risk_report.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/risk/reporting/risk_report.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\risk\reporting\risk_report.cpp -o CMakeFiles\run_tests.dir\src\risk\reporting\risk_report.cpp.s
+
+CMakeFiles/run_tests.dir/src/risk/reporting/risk_logger.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/risk/reporting/risk_logger.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/risk/reporting/risk_logger.cpp.obj: D:/market-data-feed-handler/src/risk/reporting/risk_logger.cpp
+CMakeFiles/run_tests.dir/src/risk/reporting/risk_logger.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/run_tests.dir/src/risk/reporting/risk_logger.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/risk/reporting/risk_logger.cpp.obj -MF CMakeFiles\run_tests.dir\src\risk\reporting\risk_logger.cpp.obj.d -o CMakeFiles\run_tests.dir\src\risk\reporting\risk_logger.cpp.obj -c D:\market-data-feed-handler\src\risk\reporting\risk_logger.cpp
+
+CMakeFiles/run_tests.dir/src/risk/reporting/risk_logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/risk/reporting/risk_logger.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\risk\reporting\risk_logger.cpp > CMakeFiles\run_tests.dir\src\risk\reporting\risk_logger.cpp.i
+
+CMakeFiles/run_tests.dir/src/risk/reporting/risk_logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/risk/reporting/risk_logger.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\risk\reporting\risk_logger.cpp -o CMakeFiles\run_tests.dir\src\risk\reporting\risk_logger.cpp.s
+
+CMakeFiles/run_tests.dir/src/data/recorder/binary_writer.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/data/recorder/binary_writer.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/data/recorder/binary_writer.cpp.obj: D:/market-data-feed-handler/src/data/recorder/binary_writer.cpp
+CMakeFiles/run_tests.dir/src/data/recorder/binary_writer.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/run_tests.dir/src/data/recorder/binary_writer.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/data/recorder/binary_writer.cpp.obj -MF CMakeFiles\run_tests.dir\src\data\recorder\binary_writer.cpp.obj.d -o CMakeFiles\run_tests.dir\src\data\recorder\binary_writer.cpp.obj -c D:\market-data-feed-handler\src\data\recorder\binary_writer.cpp
+
+CMakeFiles/run_tests.dir/src/data/recorder/binary_writer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/data/recorder/binary_writer.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\data\recorder\binary_writer.cpp > CMakeFiles\run_tests.dir\src\data\recorder\binary_writer.cpp.i
+
+CMakeFiles/run_tests.dir/src/data/recorder/binary_writer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/data/recorder/binary_writer.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\data\recorder\binary_writer.cpp -o CMakeFiles\run_tests.dir\src\data\recorder\binary_writer.cpp.s
+
+CMakeFiles/run_tests.dir/src/data/recorder/tick_recorder.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/data/recorder/tick_recorder.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/data/recorder/tick_recorder.cpp.obj: D:/market-data-feed-handler/src/data/recorder/tick_recorder.cpp
+CMakeFiles/run_tests.dir/src/data/recorder/tick_recorder.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/run_tests.dir/src/data/recorder/tick_recorder.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/data/recorder/tick_recorder.cpp.obj -MF CMakeFiles\run_tests.dir\src\data\recorder\tick_recorder.cpp.obj.d -o CMakeFiles\run_tests.dir\src\data\recorder\tick_recorder.cpp.obj -c D:\market-data-feed-handler\src\data\recorder\tick_recorder.cpp
+
+CMakeFiles/run_tests.dir/src/data/recorder/tick_recorder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/data/recorder/tick_recorder.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\data\recorder\tick_recorder.cpp > CMakeFiles\run_tests.dir\src\data\recorder\tick_recorder.cpp.i
+
+CMakeFiles/run_tests.dir/src/data/recorder/tick_recorder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/data/recorder/tick_recorder.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\data\recorder\tick_recorder.cpp -o CMakeFiles\run_tests.dir\src\data\recorder\tick_recorder.cpp.s
+
+CMakeFiles/run_tests.dir/src/data/recorder/csv_writer.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/data/recorder/csv_writer.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/data/recorder/csv_writer.cpp.obj: D:/market-data-feed-handler/src/data/recorder/csv_writer.cpp
+CMakeFiles/run_tests.dir/src/data/recorder/csv_writer.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/run_tests.dir/src/data/recorder/csv_writer.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/data/recorder/csv_writer.cpp.obj -MF CMakeFiles\run_tests.dir\src\data\recorder\csv_writer.cpp.obj.d -o CMakeFiles\run_tests.dir\src\data\recorder\csv_writer.cpp.obj -c D:\market-data-feed-handler\src\data\recorder\csv_writer.cpp
+
+CMakeFiles/run_tests.dir/src/data/recorder/csv_writer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/data/recorder/csv_writer.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\data\recorder\csv_writer.cpp > CMakeFiles\run_tests.dir\src\data\recorder\csv_writer.cpp.i
+
+CMakeFiles/run_tests.dir/src/data/recorder/csv_writer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/data/recorder/csv_writer.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\data\recorder\csv_writer.cpp -o CMakeFiles\run_tests.dir\src\data\recorder\csv_writer.cpp.s
+
+CMakeFiles/run_tests.dir/src/data/recorder/compression.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/data/recorder/compression.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/data/recorder/compression.cpp.obj: D:/market-data-feed-handler/src/data/recorder/compression.cpp
+CMakeFiles/run_tests.dir/src/data/recorder/compression.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/run_tests.dir/src/data/recorder/compression.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/data/recorder/compression.cpp.obj -MF CMakeFiles\run_tests.dir\src\data\recorder\compression.cpp.obj.d -o CMakeFiles\run_tests.dir\src\data\recorder\compression.cpp.obj -c D:\market-data-feed-handler\src\data\recorder\compression.cpp
+
+CMakeFiles/run_tests.dir/src/data/recorder/compression.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/data/recorder/compression.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\data\recorder\compression.cpp > CMakeFiles\run_tests.dir\src\data\recorder\compression.cpp.i
+
+CMakeFiles/run_tests.dir/src/data/recorder/compression.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/data/recorder/compression.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\data\recorder\compression.cpp -o CMakeFiles\run_tests.dir\src\data\recorder\compression.cpp.s
+
+CMakeFiles/run_tests.dir/src/data/recorder/rotation.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/data/recorder/rotation.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/data/recorder/rotation.cpp.obj: D:/market-data-feed-handler/src/data/recorder/rotation.cpp
+CMakeFiles/run_tests.dir/src/data/recorder/rotation.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/run_tests.dir/src/data/recorder/rotation.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/data/recorder/rotation.cpp.obj -MF CMakeFiles\run_tests.dir\src\data\recorder\rotation.cpp.obj.d -o CMakeFiles\run_tests.dir\src\data\recorder\rotation.cpp.obj -c D:\market-data-feed-handler\src\data\recorder\rotation.cpp
+
+CMakeFiles/run_tests.dir/src/data/recorder/rotation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/data/recorder/rotation.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\data\recorder\rotation.cpp > CMakeFiles\run_tests.dir\src\data\recorder\rotation.cpp.i
+
+CMakeFiles/run_tests.dir/src/data/recorder/rotation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/data/recorder/rotation.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\data\recorder\rotation.cpp -o CMakeFiles\run_tests.dir\src\data\recorder\rotation.cpp.s
+
+CMakeFiles/run_tests.dir/src/data/storage/tick_store.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/data/storage/tick_store.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/data/storage/tick_store.cpp.obj: D:/market-data-feed-handler/src/data/storage/tick_store.cpp
+CMakeFiles/run_tests.dir/src/data/storage/tick_store.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/run_tests.dir/src/data/storage/tick_store.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/data/storage/tick_store.cpp.obj -MF CMakeFiles\run_tests.dir\src\data\storage\tick_store.cpp.obj.d -o CMakeFiles\run_tests.dir\src\data\storage\tick_store.cpp.obj -c D:\market-data-feed-handler\src\data\storage\tick_store.cpp
+
+CMakeFiles/run_tests.dir/src/data/storage/tick_store.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/data/storage/tick_store.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\data\storage\tick_store.cpp > CMakeFiles\run_tests.dir\src\data\storage\tick_store.cpp.i
+
+CMakeFiles/run_tests.dir/src/data/storage/tick_store.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/data/storage/tick_store.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\data\storage\tick_store.cpp -o CMakeFiles\run_tests.dir\src\data\storage\tick_store.cpp.s
+
+CMakeFiles/run_tests.dir/src/data/storage/time_index.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/data/storage/time_index.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/data/storage/time_index.cpp.obj: D:/market-data-feed-handler/src/data/storage/time_index.cpp
+CMakeFiles/run_tests.dir/src/data/storage/time_index.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/run_tests.dir/src/data/storage/time_index.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/data/storage/time_index.cpp.obj -MF CMakeFiles\run_tests.dir\src\data\storage\time_index.cpp.obj.d -o CMakeFiles\run_tests.dir\src\data\storage\time_index.cpp.obj -c D:\market-data-feed-handler\src\data\storage\time_index.cpp
+
+CMakeFiles/run_tests.dir/src/data/storage/time_index.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/data/storage/time_index.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\data\storage\time_index.cpp > CMakeFiles\run_tests.dir\src\data\storage\time_index.cpp.i
+
+CMakeFiles/run_tests.dir/src/data/storage/time_index.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/data/storage/time_index.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\data\storage\time_index.cpp -o CMakeFiles\run_tests.dir\src\data\storage\time_index.cpp.s
+
+CMakeFiles/run_tests.dir/src/data/storage/bar_aggregator.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/data/storage/bar_aggregator.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/data/storage/bar_aggregator.cpp.obj: D:/market-data-feed-handler/src/data/storage/bar_aggregator.cpp
+CMakeFiles/run_tests.dir/src/data/storage/bar_aggregator.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/run_tests.dir/src/data/storage/bar_aggregator.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/data/storage/bar_aggregator.cpp.obj -MF CMakeFiles\run_tests.dir\src\data\storage\bar_aggregator.cpp.obj.d -o CMakeFiles\run_tests.dir\src\data\storage\bar_aggregator.cpp.obj -c D:\market-data-feed-handler\src\data\storage\bar_aggregator.cpp
+
+CMakeFiles/run_tests.dir/src/data/storage/bar_aggregator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/data/storage/bar_aggregator.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\data\storage\bar_aggregator.cpp > CMakeFiles\run_tests.dir\src\data\storage\bar_aggregator.cpp.i
+
+CMakeFiles/run_tests.dir/src/data/storage/bar_aggregator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/data/storage/bar_aggregator.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\data\storage\bar_aggregator.cpp -o CMakeFiles\run_tests.dir\src\data\storage\bar_aggregator.cpp.s
+
+CMakeFiles/run_tests.dir/src/data/storage/symbol_catalog.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/data/storage/symbol_catalog.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/data/storage/symbol_catalog.cpp.obj: D:/market-data-feed-handler/src/data/storage/symbol_catalog.cpp
+CMakeFiles/run_tests.dir/src/data/storage/symbol_catalog.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/run_tests.dir/src/data/storage/symbol_catalog.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/data/storage/symbol_catalog.cpp.obj -MF CMakeFiles\run_tests.dir\src\data\storage\symbol_catalog.cpp.obj.d -o CMakeFiles\run_tests.dir\src\data\storage\symbol_catalog.cpp.obj -c D:\market-data-feed-handler\src\data\storage\symbol_catalog.cpp
+
+CMakeFiles/run_tests.dir/src/data/storage/symbol_catalog.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/data/storage/symbol_catalog.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\data\storage\symbol_catalog.cpp > CMakeFiles\run_tests.dir\src\data\storage\symbol_catalog.cpp.i
+
+CMakeFiles/run_tests.dir/src/data/storage/symbol_catalog.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/data/storage/symbol_catalog.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\data\storage\symbol_catalog.cpp -o CMakeFiles\run_tests.dir\src\data\storage\symbol_catalog.cpp.s
+
+CMakeFiles/run_tests.dir/src/data/replay/replay_clock.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/data/replay/replay_clock.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/data/replay/replay_clock.cpp.obj: D:/market-data-feed-handler/src/data/replay/replay_clock.cpp
+CMakeFiles/run_tests.dir/src/data/replay/replay_clock.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/run_tests.dir/src/data/replay/replay_clock.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/data/replay/replay_clock.cpp.obj -MF CMakeFiles\run_tests.dir\src\data\replay\replay_clock.cpp.obj.d -o CMakeFiles\run_tests.dir\src\data\replay\replay_clock.cpp.obj -c D:\market-data-feed-handler\src\data\replay\replay_clock.cpp
+
+CMakeFiles/run_tests.dir/src/data/replay/replay_clock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/data/replay/replay_clock.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\data\replay\replay_clock.cpp > CMakeFiles\run_tests.dir\src\data\replay\replay_clock.cpp.i
+
+CMakeFiles/run_tests.dir/src/data/replay/replay_clock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/data/replay/replay_clock.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\data\replay\replay_clock.cpp -o CMakeFiles\run_tests.dir\src\data\replay\replay_clock.cpp.s
+
+CMakeFiles/run_tests.dir/src/data/replay/replay_engine.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/data/replay/replay_engine.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/data/replay/replay_engine.cpp.obj: D:/market-data-feed-handler/src/data/replay/replay_engine.cpp
+CMakeFiles/run_tests.dir/src/data/replay/replay_engine.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/run_tests.dir/src/data/replay/replay_engine.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/data/replay/replay_engine.cpp.obj -MF CMakeFiles\run_tests.dir\src\data\replay\replay_engine.cpp.obj.d -o CMakeFiles\run_tests.dir\src\data\replay\replay_engine.cpp.obj -c D:\market-data-feed-handler\src\data\replay\replay_engine.cpp
+
+CMakeFiles/run_tests.dir/src/data/replay/replay_engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/data/replay/replay_engine.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\data\replay\replay_engine.cpp > CMakeFiles\run_tests.dir\src\data\replay\replay_engine.cpp.i
+
+CMakeFiles/run_tests.dir/src/data/replay/replay_engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/data/replay/replay_engine.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\data\replay\replay_engine.cpp -o CMakeFiles\run_tests.dir\src\data\replay\replay_engine.cpp.s
+
+CMakeFiles/run_tests.dir/src/data/replay/multi_stream_merger.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/data/replay/multi_stream_merger.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/data/replay/multi_stream_merger.cpp.obj: D:/market-data-feed-handler/src/data/replay/multi_stream_merger.cpp
+CMakeFiles/run_tests.dir/src/data/replay/multi_stream_merger.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/run_tests.dir/src/data/replay/multi_stream_merger.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/data/replay/multi_stream_merger.cpp.obj -MF CMakeFiles\run_tests.dir\src\data\replay\multi_stream_merger.cpp.obj.d -o CMakeFiles\run_tests.dir\src\data\replay\multi_stream_merger.cpp.obj -c D:\market-data-feed-handler\src\data\replay\multi_stream_merger.cpp
+
+CMakeFiles/run_tests.dir/src/data/replay/multi_stream_merger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/data/replay/multi_stream_merger.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\data\replay\multi_stream_merger.cpp > CMakeFiles\run_tests.dir\src\data\replay\multi_stream_merger.cpp.i
+
+CMakeFiles/run_tests.dir/src/data/replay/multi_stream_merger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/data/replay/multi_stream_merger.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\data\replay\multi_stream_merger.cpp -o CMakeFiles\run_tests.dir\src\data\replay\multi_stream_merger.cpp.s
+
+CMakeFiles/run_tests.dir/src/data/replay/replay_publisher.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/data/replay/replay_publisher.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/data/replay/replay_publisher.cpp.obj: D:/market-data-feed-handler/src/data/replay/replay_publisher.cpp
+CMakeFiles/run_tests.dir/src/data/replay/replay_publisher.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/run_tests.dir/src/data/replay/replay_publisher.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/data/replay/replay_publisher.cpp.obj -MF CMakeFiles\run_tests.dir\src\data\replay\replay_publisher.cpp.obj.d -o CMakeFiles\run_tests.dir\src\data\replay\replay_publisher.cpp.obj -c D:\market-data-feed-handler\src\data\replay\replay_publisher.cpp
+
+CMakeFiles/run_tests.dir/src/data/replay/replay_publisher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/data/replay/replay_publisher.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\data\replay\replay_publisher.cpp > CMakeFiles\run_tests.dir\src\data\replay\replay_publisher.cpp.i
+
+CMakeFiles/run_tests.dir/src/data/replay/replay_publisher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/data/replay/replay_publisher.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\data\replay\replay_publisher.cpp -o CMakeFiles\run_tests.dir\src\data\replay\replay_publisher.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_circuit_breaker.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_circuit_breaker.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_circuit_breaker.cpp.obj: D:/market-data-feed-handler/tests/test_circuit_breaker.cpp
+CMakeFiles/run_tests.dir/tests/test_circuit_breaker.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/run_tests.dir/tests/test_circuit_breaker.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_circuit_breaker.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_circuit_breaker.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_circuit_breaker.cpp.obj -c D:\market-data-feed-handler\tests\test_circuit_breaker.cpp
+
+CMakeFiles/run_tests.dir/tests/test_circuit_breaker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_circuit_breaker.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_circuit_breaker.cpp > CMakeFiles\run_tests.dir\tests\test_circuit_breaker.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_circuit_breaker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_circuit_breaker.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_circuit_breaker.cpp -o CMakeFiles\run_tests.dir\tests\test_circuit_breaker.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_position_limit.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_position_limit.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_position_limit.cpp.obj: D:/market-data-feed-handler/tests/test_position_limit.cpp
+CMakeFiles/run_tests.dir/tests/test_position_limit.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/run_tests.dir/tests/test_position_limit.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_position_limit.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_position_limit.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_position_limit.cpp.obj -c D:\market-data-feed-handler\tests\test_position_limit.cpp
+
+CMakeFiles/run_tests.dir/tests/test_position_limit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_position_limit.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_position_limit.cpp > CMakeFiles\run_tests.dir\tests\test_position_limit.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_position_limit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_position_limit.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_position_limit.cpp -o CMakeFiles\run_tests.dir\tests\test_position_limit.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_loss_limit.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_loss_limit.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_loss_limit.cpp.obj: D:/market-data-feed-handler/tests/test_loss_limit.cpp
+CMakeFiles/run_tests.dir/tests/test_loss_limit.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/run_tests.dir/tests/test_loss_limit.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_loss_limit.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_loss_limit.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_loss_limit.cpp.obj -c D:\market-data-feed-handler\tests\test_loss_limit.cpp
+
+CMakeFiles/run_tests.dir/tests/test_loss_limit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_loss_limit.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_loss_limit.cpp > CMakeFiles\run_tests.dir\tests\test_loss_limit.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_loss_limit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_loss_limit.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_loss_limit.cpp -o CMakeFiles\run_tests.dir\tests\test_loss_limit.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_var_calculator.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_var_calculator.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_var_calculator.cpp.obj: D:/market-data-feed-handler/tests/test_var_calculator.cpp
+CMakeFiles/run_tests.dir/tests/test_var_calculator.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/run_tests.dir/tests/test_var_calculator.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_var_calculator.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_var_calculator.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_var_calculator.cpp.obj -c D:\market-data-feed-handler\tests\test_var_calculator.cpp
+
+CMakeFiles/run_tests.dir/tests/test_var_calculator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_var_calculator.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_var_calculator.cpp > CMakeFiles\run_tests.dir\tests\test_var_calculator.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_var_calculator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_var_calculator.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_var_calculator.cpp -o CMakeFiles\run_tests.dir\tests\test_var_calculator.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_state_machine.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_state_machine.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_state_machine.cpp.obj: D:/market-data-feed-handler/tests/test_state_machine.cpp
+CMakeFiles/run_tests.dir/tests/test_state_machine.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/run_tests.dir/tests/test_state_machine.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_state_machine.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_state_machine.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_state_machine.cpp.obj -c D:\market-data-feed-handler\tests\test_state_machine.cpp
+
+CMakeFiles/run_tests.dir/tests/test_state_machine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_state_machine.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_state_machine.cpp > CMakeFiles\run_tests.dir\tests\test_state_machine.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_state_machine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_state_machine.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_state_machine.cpp -o CMakeFiles\run_tests.dir\tests\test_state_machine.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_order_manager.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_order_manager.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_order_manager.cpp.obj: D:/market-data-feed-handler/tests/test_order_manager.cpp
+CMakeFiles/run_tests.dir/tests/test_order_manager.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/run_tests.dir/tests/test_order_manager.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_order_manager.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_order_manager.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_order_manager.cpp.obj -c D:\market-data-feed-handler\tests\test_order_manager.cpp
+
+CMakeFiles/run_tests.dir/tests/test_order_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_order_manager.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_order_manager.cpp > CMakeFiles\run_tests.dir\tests\test_order_manager.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_order_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_order_manager.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_order_manager.cpp -o CMakeFiles\run_tests.dir\tests\test_order_manager.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_sim_exchange.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_sim_exchange.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_sim_exchange.cpp.obj: D:/market-data-feed-handler/tests/test_sim_exchange.cpp
+CMakeFiles/run_tests.dir/tests/test_sim_exchange.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/run_tests.dir/tests/test_sim_exchange.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_sim_exchange.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_sim_exchange.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_sim_exchange.cpp.obj -c D:\market-data-feed-handler\tests\test_sim_exchange.cpp
+
+CMakeFiles/run_tests.dir/tests/test_sim_exchange.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_sim_exchange.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_sim_exchange.cpp > CMakeFiles\run_tests.dir\tests\test_sim_exchange.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_sim_exchange.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_sim_exchange.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_sim_exchange.cpp -o CMakeFiles\run_tests.dir\tests\test_sim_exchange.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_tick_recorder.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_tick_recorder.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_tick_recorder.cpp.obj: D:/market-data-feed-handler/tests/test_tick_recorder.cpp
+CMakeFiles/run_tests.dir/tests/test_tick_recorder.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/run_tests.dir/tests/test_tick_recorder.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_tick_recorder.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_tick_recorder.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_tick_recorder.cpp.obj -c D:\market-data-feed-handler\tests\test_tick_recorder.cpp
+
+CMakeFiles/run_tests.dir/tests/test_tick_recorder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_tick_recorder.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_tick_recorder.cpp > CMakeFiles\run_tests.dir\tests\test_tick_recorder.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_tick_recorder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_tick_recorder.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_tick_recorder.cpp -o CMakeFiles\run_tests.dir\tests\test_tick_recorder.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_bar_aggregator.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_bar_aggregator.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_bar_aggregator.cpp.obj: D:/market-data-feed-handler/tests/test_bar_aggregator.cpp
+CMakeFiles/run_tests.dir/tests/test_bar_aggregator.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/run_tests.dir/tests/test_bar_aggregator.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_bar_aggregator.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_bar_aggregator.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_bar_aggregator.cpp.obj -c D:\market-data-feed-handler\tests\test_bar_aggregator.cpp
+
+CMakeFiles/run_tests.dir/tests/test_bar_aggregator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_bar_aggregator.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_bar_aggregator.cpp > CMakeFiles\run_tests.dir\tests\test_bar_aggregator.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_bar_aggregator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_bar_aggregator.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_bar_aggregator.cpp -o CMakeFiles\run_tests.dir\tests\test_bar_aggregator.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_replay_engine.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_replay_engine.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_replay_engine.cpp.obj: D:/market-data-feed-handler/tests/test_replay_engine.cpp
+CMakeFiles/run_tests.dir/tests/test_replay_engine.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/run_tests.dir/tests/test_replay_engine.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_replay_engine.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_replay_engine.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_replay_engine.cpp.obj -c D:\market-data-feed-handler\tests\test_replay_engine.cpp
+
+CMakeFiles/run_tests.dir/tests/test_replay_engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_replay_engine.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_replay_engine.cpp > CMakeFiles\run_tests.dir\tests\test_replay_engine.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_replay_engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_replay_engine.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_replay_engine.cpp -o CMakeFiles\run_tests.dir\tests\test_replay_engine.cpp.s
+
+CMakeFiles/run_tests.dir/tests/test_compression.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/tests/test_compression.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/tests/test_compression.cpp.obj: D:/market-data-feed-handler/tests/test_compression.cpp
+CMakeFiles/run_tests.dir/tests/test_compression.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/run_tests.dir/tests/test_compression.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/tests/test_compression.cpp.obj -MF CMakeFiles\run_tests.dir\tests\test_compression.cpp.obj.d -o CMakeFiles\run_tests.dir\tests\test_compression.cpp.obj -c D:\market-data-feed-handler\tests\test_compression.cpp
+
+CMakeFiles/run_tests.dir/tests/test_compression.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/tests/test_compression.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\tests\test_compression.cpp > CMakeFiles\run_tests.dir\tests\test_compression.cpp.i
+
+CMakeFiles/run_tests.dir/tests/test_compression.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/tests/test_compression.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\tests\test_compression.cpp -o CMakeFiles\run_tests.dir\tests\test_compression.cpp.s
+
+CMakeFiles/run_tests.dir/src/infra/config.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/infra/config.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/infra/config.cpp.obj: D:/market-data-feed-handler/src/infra/config.cpp
+CMakeFiles/run_tests.dir/src/infra/config.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/run_tests.dir/src/infra/config.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/infra/config.cpp.obj -MF CMakeFiles\run_tests.dir\src\infra\config.cpp.obj.d -o CMakeFiles\run_tests.dir\src\infra\config.cpp.obj -c D:\market-data-feed-handler\src\infra\config.cpp
+
+CMakeFiles/run_tests.dir/src/infra/config.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/infra/config.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\infra\config.cpp > CMakeFiles\run_tests.dir\src\infra\config.cpp.i
+
+CMakeFiles/run_tests.dir/src/infra/config.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/infra/config.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\infra\config.cpp -o CMakeFiles\run_tests.dir\src\infra\config.cpp.s
+
+CMakeFiles/run_tests.dir/src/infra/logging.cpp.obj: CMakeFiles/run_tests.dir/flags.make
+CMakeFiles/run_tests.dir/src/infra/logging.cpp.obj: CMakeFiles/run_tests.dir/includes_CXX.rsp
+CMakeFiles/run_tests.dir/src/infra/logging.cpp.obj: D:/market-data-feed-handler/src/infra/logging.cpp
+CMakeFiles/run_tests.dir/src/infra/logging.cpp.obj: CMakeFiles/run_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/run_tests.dir/src/infra/logging.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/run_tests.dir/src/infra/logging.cpp.obj -MF CMakeFiles\run_tests.dir\src\infra\logging.cpp.obj.d -o CMakeFiles\run_tests.dir\src\infra\logging.cpp.obj -c D:\market-data-feed-handler\src\infra\logging.cpp
+
+CMakeFiles/run_tests.dir/src/infra/logging.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/run_tests.dir/src/infra/logging.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\market-data-feed-handler\src\infra\logging.cpp > CMakeFiles\run_tests.dir\src\infra\logging.cpp.i
+
+CMakeFiles/run_tests.dir/src/infra/logging.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/run_tests.dir/src/infra/logging.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\market-data-feed-handler\src\infra\logging.cpp -o CMakeFiles\run_tests.dir\src\infra\logging.cpp.s
+
 # Object files for target run_tests
 run_tests_OBJECTS = \
-"CMakeFiles/run_tests.dir/tests/test_stub.cpp.obj"
+"CMakeFiles/run_tests.dir/tests/test_stub.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_feature_store.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_vwap.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_twap.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_microprice.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_ema.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_bollinger.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_rsi.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_macd.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_zscore.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_order_flow_imbalance.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_alpha_combiner.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_feature_normalizer.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_signal_engine.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_market_making.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_position_tracker.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_pnl_calculator.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_order_sizer.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/core/test_order_store.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/core/test_order_book.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/simulator/test_price_walk.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/simulator/test_scenario_loader.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/simulator/test_order_generator.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/simulator/test_sim_matching_engine.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/core/order_store.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/core/order_book.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/core/book_manager.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/simulator/price_walk.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/simulator/scenario_loader.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/simulator/order_generator.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/simulator/sim_order_book.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/simulator/sim_matching_engine.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/features/vwap.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/features/twap.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/features/microprice.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/features/order_flow_imbalance.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/features/book_depth_ratio.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/features/spread_tracker.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/features/trade_flow.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/features/volatility_estimator.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/features/momentum.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/features/mean_reversion.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/features/tick_intensity.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/indicators/ema.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/indicators/bollinger.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/indicators/rsi.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/indicators/macd.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/indicators/zscore.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/composite/alpha_combiner.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/composite/signal_decay.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/composite/regime_detector.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/ml/feature_store.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/ml/feature_normalizer.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/ml/linear_model.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/ml/model_loader.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/ml/prediction_cache.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/signal_registry.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/signals/signal_engine.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/strategy/strategy_registry.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/strategy/strategy_engine.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/strategy/position/position_tracker.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/strategy/position/fill_tracker.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/strategy/position/pnl_calculator.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/strategy/position/portfolio.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/strategy/execution/order_sizer.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/strategy/execution/slippage_model.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/strategy/execution/execution_algo.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/strategy/strategies/market_making.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/strategy/strategies/momentum_follower.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/strategy/strategies/mean_reversion_strat.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/strategy/strategies/stat_arb.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/strategy/strategies/signal_threshold.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/oms/state_machine/state_transitions.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/oms/state_machine/order_journal.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/oms/order_manager.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/oms/order_validator.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/oms/order_router.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/oms/fill_manager.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/oms/order_id_generator.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_fill_model.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange_connector.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/risk/limits/position_limit.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/risk/limits/notional_limit.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/risk/limits/loss_limit.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/risk/limits/order_rate_limit.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/risk/limits/concentration_limit.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/risk/pre_trade_risk.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/risk/post_trade_risk.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/risk/monitors/pnl_monitor.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/risk/monitors/exposure_monitor.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/risk/monitors/var_calculator.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/risk/monitors/circuit_breaker.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/risk/reporting/risk_report.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/risk/reporting/risk_logger.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/data/recorder/binary_writer.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/data/recorder/tick_recorder.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/data/recorder/csv_writer.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/data/recorder/compression.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/data/recorder/rotation.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/data/storage/tick_store.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/data/storage/time_index.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/data/storage/bar_aggregator.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/data/storage/symbol_catalog.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/data/replay/replay_clock.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/data/replay/replay_engine.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/data/replay/multi_stream_merger.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/data/replay/replay_publisher.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_circuit_breaker.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_position_limit.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_loss_limit.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_var_calculator.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_state_machine.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_order_manager.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_sim_exchange.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_tick_recorder.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_bar_aggregator.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_replay_engine.cpp.obj" \
+"CMakeFiles/run_tests.dir/tests/test_compression.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/infra/config.cpp.obj" \
+"CMakeFiles/run_tests.dir/src/infra/logging.cpp.obj"
 
 # External object files for target run_tests
 run_tests_EXTERNAL_OBJECTS =
 
 run_tests.exe: CMakeFiles/run_tests.dir/tests/test_stub.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_feature_store.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_vwap.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_twap.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_microprice.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_ema.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_bollinger.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_rsi.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_macd.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_zscore.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_order_flow_imbalance.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_alpha_combiner.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_feature_normalizer.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_signal_engine.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_market_making.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_position_tracker.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_pnl_calculator.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_order_sizer.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/core/test_order_store.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/core/test_order_book.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/simulator/test_price_walk.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/simulator/test_scenario_loader.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/simulator/test_order_generator.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/simulator/test_sim_matching_engine.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/core/order_store.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/core/order_book.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/core/book_manager.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/simulator/price_walk.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/simulator/scenario_loader.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/simulator/order_generator.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/simulator/sim_order_book.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/simulator/sim_matching_engine.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/features/vwap.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/features/twap.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/features/microprice.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/features/order_flow_imbalance.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/features/book_depth_ratio.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/features/spread_tracker.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/features/trade_flow.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/features/volatility_estimator.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/features/momentum.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/features/mean_reversion.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/features/tick_intensity.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/indicators/ema.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/indicators/bollinger.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/indicators/rsi.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/indicators/macd.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/indicators/zscore.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/composite/alpha_combiner.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/composite/signal_decay.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/composite/regime_detector.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/ml/feature_store.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/ml/feature_normalizer.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/ml/linear_model.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/ml/model_loader.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/ml/prediction_cache.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/signal_registry.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/signals/signal_engine.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/strategy/strategy_registry.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/strategy/strategy_engine.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/strategy/position/position_tracker.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/strategy/position/fill_tracker.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/strategy/position/pnl_calculator.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/strategy/position/portfolio.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/strategy/execution/order_sizer.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/strategy/execution/slippage_model.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/strategy/execution/execution_algo.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/strategy/strategies/market_making.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/strategy/strategies/momentum_follower.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/strategy/strategies/mean_reversion_strat.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/strategy/strategies/stat_arb.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/strategy/strategies/signal_threshold.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/oms/state_machine/state_transitions.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/oms/state_machine/order_journal.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/oms/order_manager.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/oms/order_validator.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/oms/order_router.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/oms/fill_manager.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/oms/order_id_generator.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_fill_model.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/oms/sim_exchange/sim_exchange_connector.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/risk/limits/position_limit.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/risk/limits/notional_limit.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/risk/limits/loss_limit.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/risk/limits/order_rate_limit.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/risk/limits/concentration_limit.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/risk/pre_trade_risk.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/risk/post_trade_risk.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/risk/monitors/pnl_monitor.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/risk/monitors/exposure_monitor.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/risk/monitors/var_calculator.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/risk/monitors/circuit_breaker.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/risk/reporting/risk_report.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/risk/reporting/risk_logger.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/data/recorder/binary_writer.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/data/recorder/tick_recorder.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/data/recorder/csv_writer.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/data/recorder/compression.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/data/recorder/rotation.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/data/storage/tick_store.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/data/storage/time_index.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/data/storage/bar_aggregator.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/data/storage/symbol_catalog.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/data/replay/replay_clock.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/data/replay/replay_engine.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/data/replay/multi_stream_merger.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/data/replay/replay_publisher.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_circuit_breaker.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_position_limit.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_loss_limit.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_var_calculator.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_state_machine.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_order_manager.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_sim_exchange.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_tick_recorder.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_bar_aggregator.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_replay_engine.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/tests/test_compression.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/infra/config.cpp.obj
+run_tests.exe: CMakeFiles/run_tests.dir/src/infra/logging.cpp.obj
 run_tests.exe: CMakeFiles/run_tests.dir/build.make
 run_tests.exe: lib/libgtest.a
 run_tests.exe: lib/libgtest_main.a
+run_tests.exe: _deps/yaml-cpp-build/libyaml-cpp.a
+run_tests.exe: _deps/spdlog-build/libspdlog.a
+run_tests.exe: liblz4_lib.a
 run_tests.exe: lib/libgtest.a
 run_tests.exe: CMakeFiles/run_tests.dir/linkLibs.rsp
 run_tests.exe: CMakeFiles/run_tests.dir/objects1.rsp
 run_tests.exe: CMakeFiles/run_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable run_tests.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\market-data-feed-handler\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Linking CXX executable run_tests.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\run_tests.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

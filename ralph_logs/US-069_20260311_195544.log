@@ -1,0 +1,19 @@
+All 309 tests pass (including the 37 new ones). Build and all tests pass.
+
+## Acceptance Criteria
+
+- **`SimExchangeConnector` implements the exchange interface that OrderRouter requires** ΓÇö PASS. `SimExchangeConnector` extends `ExchangeConnector` with `venue_name()` and `send_order()`, tested through the base class pointer and with `OrderRouter`.
+
+- **`send_order(OmsOrder)` ΓåÆ queues to SimExchange ΓåÆ receives fill asynchronously** ΓÇö PASS. `send_order()` forwards to `SimExchange::submit_order()` which generates fills via the callback.
+
+- **Callback-based: fill arrives ΓåÆ FillManager::on_fill** ΓÇö PASS. The `SimExchangeIntegration.SubmitThroughFullLoop` test wires `SimExchange`'s `FillCallback` ΓåÆ `FillManager::on_fill` and verifies the complete flow.
+
+- **Test: submit order ΓåÆ transitions through New ΓåÆ Sent ΓåÆ Acked ΓåÆ Filled** ΓÇö PASS. `OrderManager.FullLifecycleNewSentAckedFilled` and `SimExchangeIntegration.SubmitThroughFullLoop` verify the full state progression with journal entries.
+
+- **Test: invalid transition (e.g., New ΓåÆ Filled directly) is rejected** ΓÇö PASS. `StateMachine.NewToFilledIsInvalid`, `OrderManager.InvalidTransitionNewToFilledRejected`, and multiple terminal-state tests verify rejection.
+
+- **Test: SimExchange fills market order at best price** ΓÇö PASS. `SimExchange.MarketOrderFillsAtBestPrice` (buy at ask) and `SimExchange.SellMarketOrderFillsAtBid` (sell at bid) verify correct fill prices.
+
+- **All tests pass** ΓÇö PASS. 309/309 tests pass.
+
+- **Build passes** ΓÇö PASS. Clean build with no errors.

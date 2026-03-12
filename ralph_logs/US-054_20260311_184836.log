@@ -1,0 +1,15 @@
+All 218 tests pass. Build and tests are green.
+
+**Acceptance Criteria:**
+
+- [x] **`PnLCalculator` computes realized PnL (from closed trades) and unrealized PnL (from open positions at mark price)** ΓÇö PASS. `realized_pnl()`, `unrealized_pnl()`, `total_realized_pnl()`, `total_unrealized_pnl()`, `total_pnl()` all implemented.
+
+- [x] **`on_fill(fill)` updates realized PnL using FIFO accounting** ΓÇö PASS. Buy fills close short lots FIFO-first, sell fills close long lots FIFO-first, computing realized PnL on each match. Remaining quantity opens new lots.
+
+- [x] **`mark_to_market(symbol, current_price)` updates unrealized PnL** ΓÇö PASS. Iterates all open long and short lots for the symbol, computing unrealized PnL against the mark price.
+
+- [x] **`Portfolio` aggregates: PositionTracker + FillTracker + PnLCalculator** ΓÇö PASS. All three are private members, updated via `on_fill()` and `mark_to_market()`.
+
+- [x] **`Portfolio::snapshot()` returns complete state: positions, fills, realized PnL, unrealized PnL, total PnL** ΓÇö PASS. `PortfolioSnapshot` struct contains all fields; `snapshot()` populates them from all three components.
+
+- [x] **Build passes** ΓÇö PASS. Clean build, 218 tests pass.

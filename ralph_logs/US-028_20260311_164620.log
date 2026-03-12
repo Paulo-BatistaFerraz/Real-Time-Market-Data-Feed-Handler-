@@ -1,0 +1,10 @@
+All 89 tests pass. Here's the acceptance criteria status:
+
+- **Test ScenarioLoader parses valid JSON correctly** ΓÇö PASS (4 tests: `ParsesValidJsonWithAllFields`, `ParsesMinimalValidJson`, `InitialPricesMapPopulated`, `SymbolConfigHasDefaults`)
+- **Test ScenarioLoader throws on missing required fields** ΓÇö PASS (7 tests: missing symbols, empty symbols, missing initial_prices, symbol without price, invalid JSON, symbols not array, initial_prices not object)
+- **Test PriceWalk produces deterministic sequence given same seed** ΓÇö PASS (`DeterministicWithSeed`, `DifferentSeedsDiffer`)
+- **Test PriceWalk prices stay positive and within bounds** ΓÇö PASS (`StaysWithinBounds` runs 10,000 steps)
+- **Test OrderGenerator produces correct distribution (within tolerance)** ΓÇö PASS (`ProducesCorrectDistribution` with 10% tolerance over 10,000 samples)
+- **Test SimMatchingEngine detects crosses correctly** ΓÇö PASS (9 tests: no cross, exact cross, bid>ask cross, partial fill, multiple crosses, empty book, one-sided books, symbol correctness)
+- **All tests pass** ΓÇö PASS (89/89)
+- **Build passes** ΓÇö PASS

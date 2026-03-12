@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include "mdfh/protocol/validator.hpp"
+#include "qf/protocol/validator.hpp"
 
-using namespace mdfh::protocol;
+using namespace qf::protocol;
 
 // TODO: Validator edge case tests
 
